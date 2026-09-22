@@ -1,0 +1,116 @@
+{
+  "_id": {
+    "$oid": "6a1db744807566adcec8517f"
+  },
+  "courseId": "12ad4ab6-ca13-4b21-a0ad-ede5c4a0c77d",
+  "status": "IN_PROGRESS",
+  "goal": "SMART Goal\nBy the end of this one-week course, I will be able to explain each stage of the buyer decision process model, identify the psychological, social, and cultural factors that influence purchase decisions, and apply behavioral frameworks to analyze a real marketing scenario — demonstrating this through a written case analysis of a product launch that examines how the brand targets consumers at each stage of the decision journey.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "The student is a business undergraduate with basic marketing exposure but no prior coursework in consumer psychology. We agreed the course should anchor everything to the five-stage buyer decision model (need recognition, information search, evaluation of alternatives, purchase decision, post-purchase behavior) and treat all other concepts as forces acting on that model. Key psychological concepts to cover: motivation hierarchy, perception and selective attention, attitude formation, and cognitive dissonance after purchase. Social and cultural factors — reference groups, family roles, subculture — should be taught as layers that shape the same decision process rather than as a separate topic. I told the student that the real skill here is learning to ask \"why did the consumer do that?\" rather than memorizing frameworks. Every lesson should use a concrete brand example; Thai consumer behavior examples are preferred where available to maintain relevance. The course should end with a synthesis lesson connecting behavioral theory to actual marketing strategy decisions — segmentation, messaging, and channel selection. Keep abstract theory to a minimum; prioritize application.",
+  "outline": {
+    "summary": "This one-week curriculum sequences learning to manage intrinsic cognitive load by first anchoring the student in the foundational five-stage buyer decision process. Subsequent sections layer on psychological, social, and cultural forces to explain 'why' consumers act at each stage. The course concludes by synthesizing these theories into practical marketing strategies (segmentation, messaging, channel selection), culminating in a written case analysis. Concrete Thai brand examples are used throughout to ensure relevance and prioritize practical application.",
+    "total_lessons": 17,
+    "lessons": [
+      {
+        "title": "1.1 Introduction to Consumer Behavior & The 5-Stage Model",
+        "main_content": "Overview of consumer behavior prioritizing the fundamental question: 'Why did the consumer do that?' Introduction to the five-stage buyer decision process as the anchor framework for the course. High-level exploration using a Thai beverage brand (e.g., Oishi) to illustrate the end-to-end journey.",
+        "objective": "Students can list and describe the five stages of the buyer decision process in order."
+      },
+      {
+        "title": "1.2 Stage 1: Need Recognition & Triggers",
+        "main_content": "Deep dive into the first stage: Need Recognition. Exploration of internal stimuli (e.g., hunger) versus external stimuli (e.g., advertising). Case example: How GrabFood Thailand uses timely notifications as external triggers to spark immediate need recognition.",
+        "objective": "Students can identify internal and external triggers that initiate need recognition in a given marketing scenario."
+      },
+      {
+        "title": "1.3 Stage 2: Information Search",
+        "main_content": "Examining how consumers seek information once a need is recognized. Differentiation between personal, commercial, public, and experiential sources. Case example: The search journey for a Thai cosmetic brand (e.g., Mistine) and the role of online reviews.",
+        "objective": "Students can categorize the different information sources a consumer relies on during the search stage."
+      },
+      {
+        "title": "1.4 Stage 3: Evaluation of Alternatives",
+        "main_content": "Understanding the 'evoked set', evaluation criteria, and decision weights. How consumers compare products based on attributes. Case example: A consumer comparing Thai telecom providers (AIS, True, Dtac) based on price, coverage, and perks.",
+        "objective": "Students can explain how consumers weigh specific product attributes to evaluate and rank alternative brands."
+      },
+      {
+        "title": "1.5 Stage 4: The Purchase Decision",
+        "main_content": "Analyzing the gap between purchase intent and the actual purchase action. Discussion of situational factors, unexpected events, and purchase friction. Case example: Analyzing cart abandonment and checkout friction on e-commerce platforms like Shopee Thailand.",
+        "objective": "Students can identify situational factors that can either disrupt or facilitate a consumer's final purchase decision."
+      },
+      {
+        "title": "1.6 Stage 5: Post-Purchase Behavior & Cognitive Dissonance",
+        "main_content": "Exploring customer satisfaction, buyer's remorse, and the concept of cognitive dissonance. Strategies marketers use to reassure buyers post-purchase. Case example: Reassurance strategies used after purchasing a high-end condo in Bangkok (e.g., Sansiri).",
+        "objective": "Students can explain cognitive dissonance and recommend post-purchase communication strategies to mitigate buyer's remorse."
+      },
+      {
+        "title": "2.1 Psychological Forces: Motivation Hierarchy",
+        "main_content": "Introducing psychological forces as an inner layer acting on the decision process. Application of Maslow's Hierarchy of Needs to consumer behavior, specifically influencing Stage 1 (Need Recognition). Case example: Motivation behind Thai health and wellness trends (e.g., premium fitness clubs).",
+        "objective": "Students can map a product's value proposition to specific levels of consumer motivation."
+      },
+      {
+        "title": "2.2 Psychological Forces: Perception & Selective Attention",
+        "main_content": "How consumers process marketing stimuli through selective attention, distortion, and retention. Linking perception to Stage 2 (Search) and Stage 3 (Evaluation). Case example: Overcoming selective attention with distinctive packaging for Thai snacks (e.g., Tao Kae Noi).",
+        "objective": "Students can analyze how selective attention and perception affect a consumer's processing of marketing messages."
+      },
+      {
+        "title": "2.3 Psychological Forces: Attitude Formation",
+        "main_content": "Breaking down attitude into cognitive, affective, and behavioral components. Understanding how attitudes shape brand evaluation and how difficult they are to change. Case example: The shift in consumer attitudes toward plant-based meats in Thailand (e.g., Meat Avatar).",
+        "objective": "Students can deconstruct a consumer's attitude toward a brand into its cognitive, affective, and behavioral components."
+      },
+      {
+        "title": "3.1 Social Forces: Reference Groups",
+        "main_content": "Introducing external sociological layers. The impact of membership, aspirational, and dissociative reference groups on consumer choices. The power of word-of-mouth. Case example: The role of local influencers and idol endorsements in Thai consumer culture.",
+        "objective": "Students can assess the impact of different reference groups on consumer evaluation and purchase decisions."
+      },
+      {
+        "title": "3.2 Social Forces: Family Roles",
+        "main_content": "Understanding joint decision-making and specific family roles: initiator, influencer, decider, buyer, and user. How these roles interact within the 5-stage process. Case example: The family dynamics involved in purchasing a family SUV (e.g., Toyota Fortuner) in Thailand.",
+        "objective": "Students can differentiate and label the various decision-making roles within a family unit for a specific purchase."
+      },
+      {
+        "title": "3.3 Cultural Forces: Culture & Subculture",
+        "main_content": "Culture and subculture as the broadest layers shaping the decision process. Examining cultural values, social classes, and regional differences. Case example: Contrasting consumer habits and evaluation criteria between Isan and Bangkok subcultures.",
+        "objective": "Students can explain how regional subcultures and broader cultural values shape product preferences and evaluation criteria."
+      },
+      {
+        "title": "4.1 Strategy Synthesis: Behavioral Segmentation",
+        "main_content": "Transitioning from behavioral theory to marketing strategy. How to group consumers based on their psychological drivers, attitudes, or stage in the decision journey rather than just demographics. Case example: Segmenting the Thai banking market (e.g., KBank) by financial motivation.",
+        "objective": "Students can design a consumer segment profile based on psychological and behavioral variables."
+      },
+      {
+        "title": "4.2 Strategy Synthesis: Messaging Across the Journey",
+        "main_content": "Aligning marketing messages with specific stages of the 5-stage model. Crafting copy that appeals to motivations and cuts through selective attention. Case example: Stage-specific messaging used in campaigns by Thai FMCG brands like Roza.",
+        "objective": "Students can draft targeted marketing messages tailored to specific stages of the consumer decision journey."
+      },
+      {
+        "title": "4.3 Strategy Synthesis: Channel Selection",
+        "main_content": "Matching distribution and communication channels to consumer behavior during the information search and purchase stages. Case example: The omnichannel retail strategy of Central Group bridging the physical and digital purchase journey.",
+        "objective": "Students can select and justify appropriate marketing channels based on consumer information search and purchase behaviors."
+      },
+      {
+        "title": "4.4 Case Study Briefing: Product Launch Analysis",
+        "main_content": "Introduction to the final assessment. Review of the prompt: conducting a written case analysis of a recent product launch. Establishing expectations for analyzing how the brand targets consumers at each stage of the journey, driven by psychological and social layers.",
+        "objective": "Students can outline an analytical framework combining the 5-stage model with psychological and social factors to evaluate a product launch."
+      },
+      {
+        "title": "4.5 Final Assessment: Written Case Analysis",
+        "main_content": "Independent application session. Students synthesize all course concepts to complete their written case analysis of a real marketing scenario, continually asking and answering 'why did the consumer do that?' throughout the decision journey.",
+        "objective": "Students can synthesize behavioral frameworks to evaluate a real-world product launch in a comprehensive written case analysis."
+      }
+    ]
+  },
+  "lessonIds": [
+    "9f48b1c5-7d1c-49e2-afc1-060aad3cf432"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval 1: Consumer Behavior & the Buyer Decision Process",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 17,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "2026-06-01T16:45:55.950Z",
+  "updatedAt": "Mon Jun 01 2026 16:47:18 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

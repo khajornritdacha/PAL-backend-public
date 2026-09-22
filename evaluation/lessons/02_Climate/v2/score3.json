@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Weather vs. Climate: Distinguishing Short-Term Events from Long-Term Trends",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The majority of slides include functional graphics—temperature anomaly maps, data charts, weather app screenshots, and illustrative analogical images—that directly correspond to narrated concepts. Slides 4, 11, and 16 are text-only, penalizing criterion c, and several analogy images (mood/personality illustrations) carry limited reciprocal informational dependency with the verbal channel."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen text is consistently limited to short bullet phrases scannable within five seconds, satisfying criteria a and e. However, the narration frequently restates on-screen bullet content with minimal elaboration (e.g., slides 1, 9, 13), and on several slides the bullets rather than the graphic carry the primary definitional weight, partially violating criteria b, c, and d."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex explanations—such as the statistical logic of climate baselines and the Cold Day Fallacy reasoning—are consistently delivered through narration rather than dense on-screen prose, and the visual channel is used primarily for graphics rather than extended text. On a small number of slides (e.g., slides 1, 9) the narration adds limited information beyond what the bullets already state, partially weakening criterion c."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                2,
+                2
+            ],
+            "score": 8,
+            "evidence": "Backgrounds are uniformly clean and typography is consistent throughout the deck. The analogy-illustration images on slide 3 (frustrated woman, calm painter) and the AI-generated storm on slide 13 function more as decorative reinforcement than as information-bearing graphics, and the narration on slides 4 and 8 revisits the cold-day misconception concept already treated on prior slides, introducing mild redundancy relative to the learning objective."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "A consistent visual hierarchy of blue bold titles, horizontal rules, and bullet structure organizes every slide, and the narration employs verbal signaling phrases throughout (e.g., 'let's apply,' 'the fundamental rule,' 'a crucial non-example'). Explicit graphical cues such as arrows, highlights, or callouts pointing to specific chart features are largely absent, and a clearly foregrounded single takeaway per slide is inconsistently executed—several slides present three co-equal bullets without emphasis differentiation."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are consistently placed directly beneath their respective graphics, and paired image–caption units are treated as cohesive groups throughout the deck. On multi-graphic slides using a side-by-side layout (slides 2, 8, 10, 14, 15), the bullet text block occupies the full left column while both images appear below center, creating a moderate spatial separation between the verbal labels in the bullets and their corresponding visual referents; no leader lines or color-matching bridge this gap."
+        }
+    ],
+    "raw_total": 47,
+    "unweighted_average": 7.83
+}

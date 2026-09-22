@@ -1,0 +1,440 @@
+{
+    "_id": {
+        "$oid": "6a1db9d3807566adcec85187"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# The \"Medical Chart\" of a Business\n\n* Doctors use charts to check physical health.\n* Investors use statements to check business health.\n* Standardizes complex information for easy reading.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/1.png\" alt=\"Doctors rely on medical charts to evaluate a patient's physical health.\" />\n    </div>\n    <span><strong>Doctors rely on medical charts to evaluate a patient's physical health.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/2.png\" alt=\"Decision-makers rely on financial statements to evaluate a company's financial health.\" />\n    </div>\n    <span><strong>Decision-makers rely on financial statements to evaluate a company's financial health.</strong></span>\n  </div>\n</div>\n\n---\n# Translating Business Activities\n\n* Daily operations are chaotic and diverse.\n* Statements convert actions into a universal language.\n* Enables objective, data-driven decisions.\n* Not just a random pile of daily receipts.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/3.png\" alt=\"Financial statements act as a translator, turning everyday business chaos into structured, readable data.\" />\n  </div>\n  <p class=\"hero-caption\">Financial statements act as a translator, turning everyday business chaos into structured, readable data.</p>\n</div>\n\n---\n# The Three Core Financial Statements\n\n* Income Statement: Measures profitability.\n* Balance Sheet: Snapshots financial position.\n* Cash Flow Statement: Tracks real money movement.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/4.png\" alt=\"Income Statement: Tracks performance over a period of time.\" />\n    </div>\n    <span><strong>Income Statement: Tracks performance over a period of time.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/5.png\" alt=\"Balance Sheet: A snapshot of current financial standing.\" />\n    </div>\n    <span><strong>Balance Sheet: A snapshot of current financial standing.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/6.png\" alt=\"Cash Flow Statement: Tracks actual cash movement.\" />\n    </div>\n    <span><strong>Cash Flow Statement: Tracks actual cash movement.</strong></span>\n  </div>\n</div>\n\n---\n# Evaluating Business Health\n\n* Businesses require standard health checks.\n* Financial statements act as a medical chart.\n* Daily activities are translated into standardized numbers.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/7.png\" alt=\"Financial statements act as a comprehensive medical chart for a business.\" />\n  </div>\n  <p class=\"hero-caption\">Financial statements act as a comprehensive medical chart for a business.</p>\n</div>\n\n---\n# The Three Core Statements\n\n* Income Statement: Tracks profitability over a period.\n* Balance Sheet: Snapshot of what is owned and owed.\n* Cash Flow Statement: Monitors actual cash movement.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/8.png\" alt=\"Income Statement: Tracks profitability over time.\" />\n    </div>\n    <span><strong>Income Statement: Tracks profitability over time.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/9.png\" alt=\"Balance Sheet: A snapshot of current financial position.\" />\n    </div>\n    <span><strong>Balance Sheet: A snapshot of current financial position.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/10.png\" alt=\"Cash Flow Statement: Monitors real cash moving in and out.\" />\n    </div>\n    <span><strong>Cash Flow Statement: Monitors real cash moving in and out.</strong></span>\n  </div>\n</div>\n\n---\n# Understanding the Timeframe\n\n* Balance Sheet = A static point in time (Snapshot).\n* Income & Cash Flow = A period of time (Video recording).\n* A snapshot alone cannot show the full operational story.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/11.png\" alt=\"Balance Sheet: A static snapshot frozen at a specific date.\" />\n    </div>\n    <span><strong>Balance Sheet: A static snapshot frozen at a specific date.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/12.png\" alt=\"Income & Cash Flow: A video capturing motion over a period.\" />\n    </div>\n    <span><strong>Income & Cash Flow: A video capturing motion over a period.</strong></span>\n  </div>\n</div>\n\n---\n# What Financial Statements Are NOT\n\n* Not all business information is financial data.\n* Separate subjective claims from financial reality.\n* Focus strictly on standardized monetary metrics.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/13.png\" alt=\"Distinguishing between marketing hype and standardized financial data.\" />\n  </div>\n  <p class=\"hero-caption\">Distinguishing between marketing hype and standardized financial data.</p>\n</div>\n\n---\n# Common Non-Examples\n\n* Subjective marketing materials.\n* Daily diaries of employee tasks.\n* Brand popularity and social media metrics.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/14.png\" alt=\"Marketing materials focus on persuasion, not financial health.\" />\n    </div>\n    <span><strong>Marketing materials focus on persuasion, not financial health.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/15.png\" alt=\"Daily task logs do not show company-wide financial performance.\" />\n    </div>\n    <span><strong>Daily task logs do not show company-wide financial performance.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/16.png\" alt=\"Social media popularity does not equal financial profitability.\" />\n    </div>\n    <span><strong>Social media popularity does not equal financial profitability.</strong></span>\n  </div>\n</div>\n\n---\n# Subjective Hype vs. Standardized Reality\n\n* Subjective: Opinions, predictions, and PR campaigns.\n* Objective: Hard numbers and verifiable reporting.\n* Financial statements rely on strict accounting rules.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/17.png\" alt=\"Subjective claims and PR campaigns.\" />\n    </div>\n    <span><strong>Subjective claims and PR campaigns.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/18.png\" alt=\"Objective, standardized financial reporting.\" />\n    </div>\n    <span><strong>Objective, standardized financial reporting.</strong></span>\n  </div>\n</div>\n\n---\n# The Bottom Line on Financial Statements\n\n* They are not a measure of overall brand sentiment.\n* They do not track day-to-day employee operations.\n* They strictly document standardized financial events.\n* Purpose: Objective evaluation, not marketing.\n\n---\n# Business Translation: Real-World Scenario\n\n* Action 1: Buy a new delivery truck\n* Action 2: Sell 1,000 units of product\n* Action 3: Secure a bank loan\n* Challenge: Translate actions to financial data\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/19.png\" alt=\"Everyday business activities ready to be translated into a standardized financial language.\" />\n  </div>\n  <p class=\"hero-caption\">Everyday business activities ready to be translated into a standardized financial language.</p>\n</div>\n\n---\n# Translating Actions to Statements\n\n* Income Statement: Records units sold\n* Cash Flow: Tracks money moving in and out\n* Balance Sheet: Captures new truck and debt\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/20.png\" alt=\"Income Statement tracks the sales performance.\" />\n    </div>\n    <span><strong>Income Statement tracks the sales performance.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/21.png\" alt=\"Cash Flow Statement tracks the money movement.\" />\n    </div>\n    <span><strong>Cash Flow Statement tracks the money movement.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/22.png\" alt=\"Balance Sheet tracks what the business owns and owes.\" />\n    </div>\n    <span><strong>Balance Sheet tracks what the business owns and owes.</strong></span>\n  </div>\n</div>\n\n---\n# Knowledge Check: The \"Snapshot\"\n\n* Recall the 'medical chart' analogy\n* Which statement acts as a snapshot of today?\n* Where do the new truck and loan belong?\n* Focus on what is owned vs. what is owed\n\n---\n# Answer: The Balance Sheet\n\n* The Balance Sheet is the financial snapshot\n* Truck = New Asset (What we own)\n* Bank Loan = New Liability (What we owe)\n* Shows exact position at a specific time\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/23.png\" alt=\"The Balance Sheet translates the truck into an asset and the loan into a liability.\" />\n  </div>\n  <p class=\"hero-caption\">The Balance Sheet translates the truck into an asset and the loan into a liability.</p>\n</div>\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "The \"Medical Chart\" of a Business",
+            "transcript": "Welcome, everyone. Imagine going to a doctor; they don't just guess how you feel, they look at your medical chart to see your vitals. In the business world, financial statements serve the exact same purpose. They are the essential health check for any company, allowing managers, investors, and lenders to clearly see how the business is truly performing.",
+            "thai_transcript": "ยินดีต้อนรับทุกคนครับ ลองจินตนาการถึงเวลาเราไปหาหมอ หมอไม่ได้แค่เดาว่าเราเป็นอะไร แต่พวกเขาดูจากประวัติการรักษาเพื่อตรวจสอบสัญญาณชีพ ในโลกของธุรกิจ งบการเงินก็ทำหน้าที่แบบเดียวกันเลยครับ มันคือการตรวจสุขภาพที่สำคัญสำหรับทุกบริษัท ทำให้ผู้บริหาร นักลงทุน และผู้ให้กู้สามารถมองเห็นประสิทธิภาพที่แท้จริงของธุรกิจได้อย่างชัดเจน"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Translating Business Activities",
+            "transcript": "Every day, a business engages in hundreds of activities like selling goods, paying staff, and buying equipment. If you just looked at a giant pile of receipts, it would be impossible to understand what's happening. Financial statements translate all of that chaotic daily activity into a standardized, universal language of numbers. This translation is what empowers leaders to make smart, data-driven decisions rather than guessing.",
+            "thai_transcript": "ในแต่ละวัน ธุรกิจมีกิจกรรมเกิดขึ้นมากมายนับร้อย เช่น การขายสินค้า การจ่ายเงินเดือนพนักงาน และการซื้ออุปกรณ์ หากเราดูแค่กองใบเสร็จรับเงิน เราคงไม่สามารถเข้าใจได้เลยว่าเกิดอะไรขึ้น งบการเงินจะทำหน้าที่แปลกิจกรรมประจำวันที่วุ่นวายเหล่านั้นให้กลายเป็นภาษาตัวเลขที่เป็นมาตรฐานสากล การแปลข้อมูลนี้เองที่ช่วยให้ผู้นำสามารถตัดสินใจได้อย่างชาญฉลาดโดยอิงจากข้อมูลครับ"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "The Three Core Financial Statements",
+            "transcript": "To get a complete picture of a company's health, we rely on three core statements working together. The Income Statement shows us if the company is actually making a profit over a specific period. The Balance Sheet acts as a snapshot, showing what the company owns and owes at a single exact moment. Finally, the Cash Flow Statement strips away the accounting rules to show us exactly how real cash is moving in and out of the business.",
+            "thai_transcript": "เพื่อให้เห็นภาพรวมสุขภาพของบริษัทอย่างสมบูรณ์ เราจะพึ่งพางบการเงินหลักสามงบที่ทำงานร่วมกันครับ งบกำไรขาดทุนจะแสดงให้เราเห็นว่าบริษัททำกำไรได้จริงหรือไม่ในช่วงเวลาหนึ่ง งบแสดงฐานะการเงินทำหน้าที่เหมือนภาพถ่ายที่แสดงให้เห็นว่าบริษัทมีทรัพย์สินและหนี้สินอะไรบ้าง ณ เวลาใดเวลาหนึ่ง และสุดท้าย งบกระแสเงินสดจะตัดกฎเกณฑ์ทางบัญชีออกไป เพื่อแสดงให้เราเห็นว่ามีเงินสดจริงไหลเข้าและออกจากธุรกิจอย่างไรบ้างครับ"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Evaluating Business Health",
+            "transcript": "Welcome to our first look at the core financial statements. Just like a doctor uses a medical chart to evaluate a patient's health, investors and managers use financial statements to check a company's vitality. They are standardized reports that translate complex, everyday business activities into a universal language of numbers. Without them, we would just be guessing at how well a company is truly performing.",
+            "thai_transcript": "ยินดีต้อนรับเข้าสู่การทำความรู้จักกับงบการเงินหลักครับ เช่นเดียวกับที่แพทย์ใช้แฟ้มประวัติเพื่อประเมินสุขภาพของผู้ป่วย นักลงทุนและผู้บริหารก็ใช้งบการเงินเพื่อตรวจสอบความแข็งแกร่งของบริษัท งบเหล่านี้คือรายงานมาตรฐานที่แปลกิจกรรมทางธุรกิจในแต่ละวันให้กลายเป็นภาษาสากลที่เป็นตัวเลข หากไม่มีงบเหล่านี้ เราก็คงได้แต่เดาว่าบริษัทมีผลประกอบการที่แท้จริงเป็นอย่างไร"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "The Three Core Statements",
+            "transcript": "There are three primary tools in our financial toolkit. First is the Income Statement, which measures how profitable a company is over a specific period, like a quarter or a year. Second is the Balance Sheet, which gives us a snapshot of exactly what the business owns and owes at a single moment in time. Finally, the Cash Flow Statement strips away the accounting rules to show us the actual cash flowing in and out of the business, because accounting profit does not always equal cash on hand.",
+            "thai_transcript": "ในเครื่องมือทางการเงินของเรามี 3 เครื่องมือหลักครับ เริ่มจากงบกำไรขาดทุน ซึ่งใช้วัดว่าบริษัททำกำไรได้เท่าใดในช่วงเวลาหนึ่งๆ เช่น หนึ่งไตรมาสหรือหนึ่งปี ต่อมาคืองบแสดงฐานะการเงิน ซึ่งให้ภาพรวม ณ จุดเวลาใดเวลาหนึ่งว่าธุรกิจมีทรัพย์สินและหนี้สินอะไรบ้าง สุดท้ายคืองบกระแสเงินสด ที่ตัดกฎเกณฑ์ทางบัญชีออกไปเพื่อแสดงให้เห็นถึงเงินสดที่ไหลเข้าและออกจากธุรกิจจริงๆ เพราะกำไรทางบัญชีไม่ได้แปลว่ามีเงินสดในมือเสมอไปครับ"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Understanding the Timeframe",
+            "transcript": "It is critical to understand the timeframes these statements cover to interpret them correctly. The Balance Sheet is exactly like taking a photograph; it freezes the company at one specific date, showing its exact financial position on that singular day. Conversely, the Income Statement and Cash Flow Statement act like video recordings. They capture what happened continuously over a whole month, quarter, or year, showing the motion and flow of business activities.",
+            "thai_transcript": "สิ่งสำคัญคือต้องเข้าใจกรอบเวลาที่งบการเงินเหล่านี้ครอบคลุมเพื่อให้ตีความได้อย่างถูกต้องครับ งบแสดงฐานะการเงินนั้นเปรียบเสมือนการถ่ายภาพ ที่หยุดภาพบริษัทไว้ ณ วันใดวันหนึ่ง เพื่อแสดงฐานะทางการเงินที่แท้จริงในวันนั้นเพียงวันเดียว ในทางกลับกัน งบกำไรขาดทุนและงบกระแสเงินสดจะทำหน้าที่เหมือนการบันทึกวิดีโอ งบทั้งสองจะบันทึกสิ่งที่เกิดขึ้นอย่างต่อเนื่องตลอดทั้งเดือน ไตรมาส หรือปี ซึ่งแสดงให้เห็นถึงการเคลื่อนไหวและกระแสของกิจกรรมทางธุรกิจตลอดช่วงเวลาดังกล่าว"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "What Financial Statements Are NOT",
+            "transcript": "Welcome to this section. Before we dive into what financial statements are, it's crucial to understand what they are not. In the business world, there is a lot of noise, from marketing campaigns to brand popularity metrics. Financial statements cut through this noise to provide a standardized, objective view of financial reality.",
+            "thai_transcript": "ยินดีต้อนรับเข้าสู่บทเรียนนี้ครับ ก่อนที่เราจะเจาะลึกว่างบการเงินคืออะไร สิ่งสำคัญคือต้องเข้าใจก่อนว่ามัน 'ไม่ใช่' อะไร ในโลกธุรกิจมีข้อมูลมากมาย ตั้งแต่แคมเปญการตลาดไปจนถึงตัวชี้วัดความนิยมของแบรนด์ งบการเงินจะตัดข้อมูลที่ไม่เกี่ยวข้องเหล่านี้ออกไป เพื่อนำเสนอภาพรวมของความเป็นจริงทางการเงินที่เป็นมาตรฐานและเป็นกลางครับ"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Common Non-Examples",
+            "transcript": "Let's look at three clear non-examples to build our mental model. First, a CEO's motivational newsletter or marketing brochure is highly subjective and designed to persuade. Second, a daily diary of what employees are doing is operational, not financial. Finally, having millions of social media followers might be great for the brand, but it doesn't automatically translate to standardized financial health.",
+            "thai_transcript": "ลองมาดูตัวอย่าง 3 ข้อที่ไม่ใช่งบการเงินเพื่อสร้างความเข้าใจที่ชัดเจนกันครับ อย่างแรก จดหมายข่าวสร้างแรงบันดาลใจจากซีอีโอหรือโบรชัวร์การตลาดเป็นสิ่งที่มีความเป็นอัตวิสัยและออกแบบมาเพื่อโน้มน้าวใจ อย่างที่สอง บันทึกประจำวันว่าพนักงานทำอะไรบ้างนั้นเป็นข้อมูลการปฏิบัติงาน ไม่ใช่ข้อมูลทางการเงิน และสุดท้าย การมีผู้ติดตามบนโซเชียลมีเดียหลายล้านคนอาจส่งผลดีต่อแบรนด์ แต่มันไม่ได้แปลว่าจะสะท้อนถึงสุขภาพทางการเงินที่เป็นมาตรฐานเสมอไปครับ"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "Subjective Hype vs. Standardized Reality",
+            "transcript": "The core distinction here is between subjective business information and objective financial reality. Marketing materials and PR campaigns can paint a rosy picture based on opinions or future hopes. In contrast, financial statements are grounded in strict, standardized accounting rules that require verifiable numbers. This is why investors rely on statements, not just newsletters.",
+            "thai_transcript": "ข้อแตกต่างที่สำคัญในเรื่องนี้คือระหว่างข้อมูลธุรกิจที่มีความเป็นอัตวิสัยและความเป็นจริงทางการเงินที่มีความเป็นปรนัยครับ สื่อการตลาดและแคมเปญพีอาร์มักจะวาดภาพที่สวยหรูซึ่งอิงจากความคิดเห็นหรือความหวังในอนาคต ในทางตรงกันข้าม งบการเงินตั้งอยู่บนกฎเกณฑ์ทางบัญชีที่เป็นมาตรฐานและเข้มงวด ซึ่งต้องการตัวเลขที่ตรวจสอบได้ นี่คือเหตุผลที่นักลงทุนพึ่งพางบการเงิน ไม่ใช่แค่จดหมายข่าวครับ"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "The Bottom Line on Financial Statements",
+            "transcript": "To summarize, when we read an income statement or a balance sheet, we must remember its exact purpose. It is not there to tell us if customers love the brand, or if employees are happy. It strictly documents standardized financial events. Keeping this boundary in mind ensures you don't look to financial statements for answers they were never designed to provide.",
+            "thai_transcript": "โดยสรุปแล้ว เมื่อเราอ่านงบกำไรขาดทุนหรืองบดุล เราต้องจำวัตถุประสงค์ที่แท้จริงของมันให้ได้ครับ มันไม่ได้มีไว้เพื่อบอกเราว่าลูกค้ารักแบรนด์หรือไม่ หรือพนักงานมีความสุขหรือเปล่า แต่มันมีหน้าที่บันทึกเหตุการณ์ทางการเงินที่เป็นมาตรฐานอย่างเคร่งครัด การระลึกถึงขอบเขตนี้จะช่วยให้คุณไม่คาดหวังคำตอบจากงบการเงินในสิ่งที่มันไม่ได้ถูกออกแบบมาให้ตอบครับ"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "Business Translation: Real-World Scenario",
+            "transcript": "Let's put the concept of business translation to the test with a real-world scenario. Imagine your company just had a very busy day: you bought a brand new delivery truck, sold one thousand units of your main product, and secured a new bank loan. In the real world, these are physical actions and interactions. But in finance, we must translate these exact events into our standardized financial language to see how they impact the business.",
+            "thai_transcript": "ลองนำแนวคิดเรื่องการแปลภาษาธุรกิจมาใช้กับสถานการณ์จริงดูนะครับ สมมติว่าบริษัทของคุณเพิ่งมีวันที่ยุ่งมาก คุณซื้อรถบรรทุกส่งของคันใหม่ ขายสินค้าหลักได้หนึ่งพันชิ้น และเพิ่งกู้เงินจากธนาคารมาได้สำเร็จ ในโลกความเป็นจริง สิ่งเหล่านี้คือการกระทำและการโต้ตอบทางกายภาพ แต่ในทางเศรษฐศาสตร์ เราต้องแปลเหตุการณ์เหล่านี้ให้เป็นภาษาทางการเงินที่เป็นมาตรฐาน เพื่อดูว่ามันส่งผลกระทบต่อธุรกิจอย่างไร"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Translating Actions to Statements",
+            "transcript": "To evaluate our business health, we must sort these three activities into our three core statements. The sale of the one thousand units is a performance metric, so it translates into revenue on the Income Statement. The actual cash coming in from the bank and leaving to pay for the truck is tracked on the Cash Flow Statement. Finally, the new truck we now own and the bank debt we now owe must be recorded as well.",
+            "thai_transcript": "เพื่อประเมินสุขภาพธุรกิจของเรา เราต้องแยกกิจกรรมทั้งสามนี้ลงในงบการเงินหลักทั้งสามประเภท การขายสินค้าหนึ่งพันชิ้นเป็นตัวชี้วัดผลการดำเนินงาน ดังนั้นจึงแปลเป็นรายได้ในงบกำไรขาดทุน เงินสดจริงที่เข้ามาจากธนาคารและจ่ายออกไปเพื่อซื้อรถบรรทุกจะถูกบันทึกในงบกระแสเงินสด สุดท้าย รถบรรทุกคันใหม่ที่เราเป็นเจ้าของและหนี้ธนาคารที่เราต้องจ่ายก็ต้องถูกบันทึกไว้เช่นกัน"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Knowledge Check: The \"Snapshot\"",
+            "transcript": "Now, let's focus specifically on the new delivery truck and the bank loan. Think back to the 'medical chart' analogy we used earlier to describe financial statements. If a doctor wants a snapshot of your current physical condition at this exact moment, they look at your current vitals. In our business scenario, which of the three financial statements provides this exact 'snapshot' of the truck we just bought and the loan we just secured today?",
+            "thai_transcript": "ตอนนี้เรามาเจาะจงที่รถบรรทุกส่งของคันใหม่และเงินกู้ธนาคารกันครับ ลองนึกย้อนไปถึงเปรียบเทียบ 'แฟ้มประวัติคนไข้' ที่เราเคยใช้ก่อนหน้านี้ หากหมอต้องการภาพรวมของสภาพร่างกายของคุณ ณ วินาทีนี้ พวกเขาจะดูสัญญาณชีพปัจจุบันของคุณ ในสถานการณ์ธุรกิจของเรา งบการเงินใดในสามประเภทที่ให้ 'ภาพถ่าย' ณ ปัจจุบันของรถบรรทุกที่เราเพิ่งซื้อและเงินกู้ที่เราเพิ่งได้รับมาในวันนี้"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Answer: The Balance Sheet",
+            "transcript": "The correct answer is the Balance Sheet. Just like a medical chart shows your weight and blood pressure at a specific moment, the balance sheet takes a snapshot of the company's financial position today. It translates the delivery truck into an 'Asset' because it is something of value the business now owns. Simultaneously, it translates the bank loan into a 'Liability' because it is an obligation the business now owes.",
+            "thai_transcript": "คำตอบที่ถูกต้องคืองบดุลครับ เช่นเดียวกับที่แฟ้มประวัติคนไข้แสดงน้ำหนักและความดันโลหิตของคุณในเวลาใดเวลาหนึ่ง งบดุลจะถ่ายภาพฐานะทางการเงินของบริษัท ณ วันนี้ มันแปลรถบรรทุกส่งของเป็น 'สินทรัพย์' เพราะเป็นสิ่งที่มีมูลค่าที่ธุรกิจเป็นเจ้าของ ในขณะเดียวกันก็แปลเงินกู้ธนาคารเป็น 'หนี้สิน' เพราะเป็นภาระผูกพันที่ธุรกิจต้องชำระคืน"
+        }
+    ],
+    "sections": [
+        {
+            "title": "The Purpose of Financial Statements",
+            "slides": [
+                {
+                    "title": "The \"Medical Chart\" of a Business",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Doctors use charts to check physical health.",
+                        "Investors use statements to check business health.",
+                        "Standardizes complex information for easy reading."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/1.png",
+                            "caption": "Doctors rely on medical charts to evaluate a patient's physical health.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/2.png",
+                            "caption": "Decision-makers rely on financial statements to evaluate a company's financial health.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Welcome, everyone. Imagine going to a doctor; they don't just guess how you feel, they look at your medical chart to see your vitals. In the business world, financial statements serve the exact same purpose. They are the essential health check for any company, allowing managers, investors, and lenders to clearly see how the business is truly performing.",
+                    "thai_transcript": "ยินดีต้อนรับทุกคนครับ ลองจินตนาการถึงเวลาเราไปหาหมอ หมอไม่ได้แค่เดาว่าเราเป็นอะไร แต่พวกเขาดูจากประวัติการรักษาเพื่อตรวจสอบสัญญาณชีพ ในโลกของธุรกิจ งบการเงินก็ทำหน้าที่แบบเดียวกันเลยครับ มันคือการตรวจสุขภาพที่สำคัญสำหรับทุกบริษัท ทำให้ผู้บริหาร นักลงทุน และผู้ให้กู้สามารถมองเห็นประสิทธิภาพที่แท้จริงของธุรกิจได้อย่างชัดเจน"
+                },
+                {
+                    "title": "Translating Business Activities",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Daily operations are chaotic and diverse.",
+                        "Statements convert actions into a universal language.",
+                        "Enables objective, data-driven decisions.",
+                        "Not just a random pile of daily receipts."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/3.png",
+                            "caption": "Financial statements act as a translator, turning everyday business chaos into structured, readable data.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Every day, a business engages in hundreds of activities like selling goods, paying staff, and buying equipment. If you just looked at a giant pile of receipts, it would be impossible to understand what's happening. Financial statements translate all of that chaotic daily activity into a standardized, universal language of numbers. This translation is what empowers leaders to make smart, data-driven decisions rather than guessing.",
+                    "thai_transcript": "ในแต่ละวัน ธุรกิจมีกิจกรรมเกิดขึ้นมากมายนับร้อย เช่น การขายสินค้า การจ่ายเงินเดือนพนักงาน และการซื้ออุปกรณ์ หากเราดูแค่กองใบเสร็จรับเงิน เราคงไม่สามารถเข้าใจได้เลยว่าเกิดอะไรขึ้น งบการเงินจะทำหน้าที่แปลกิจกรรมประจำวันที่วุ่นวายเหล่านั้นให้กลายเป็นภาษาตัวเลขที่เป็นมาตรฐานสากล การแปลข้อมูลนี้เองที่ช่วยให้ผู้นำสามารถตัดสินใจได้อย่างชาญฉลาดโดยอิงจากข้อมูลครับ"
+                },
+                {
+                    "title": "The Three Core Financial Statements",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Income Statement: Measures profitability.",
+                        "Balance Sheet: Snapshots financial position.",
+                        "Cash Flow Statement: Tracks real money movement."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/4.png",
+                            "caption": "Income Statement: Tracks performance over a period of time.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/5.png",
+                            "caption": "Balance Sheet: A snapshot of current financial standing.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/6.png",
+                            "caption": "Cash Flow Statement: Tracks actual cash movement.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "To get a complete picture of a company's health, we rely on three core statements working together. The Income Statement shows us if the company is actually making a profit over a specific period. The Balance Sheet acts as a snapshot, showing what the company owns and owes at a single exact moment. Finally, the Cash Flow Statement strips away the accounting rules to show us exactly how real cash is moving in and out of the business.",
+                    "thai_transcript": "เพื่อให้เห็นภาพรวมสุขภาพของบริษัทอย่างสมบูรณ์ เราจะพึ่งพางบการเงินหลักสามงบที่ทำงานร่วมกันครับ งบกำไรขาดทุนจะแสดงให้เราเห็นว่าบริษัททำกำไรได้จริงหรือไม่ในช่วงเวลาหนึ่ง งบแสดงฐานะการเงินทำหน้าที่เหมือนภาพถ่ายที่แสดงให้เห็นว่าบริษัทมีทรัพย์สินและหนี้สินอะไรบ้าง ณ เวลาใดเวลาหนึ่ง และสุดท้าย งบกระแสเงินสดจะตัดกฎเกณฑ์ทางบัญชีออกไป เพื่อแสดงให้เราเห็นว่ามีเงินสดจริงไหลเข้าและออกจากธุรกิจอย่างไรบ้างครับ"
+                }
+            ]
+        },
+        {
+            "title": "The Three Core Statements (Examples)",
+            "slides": [
+                {
+                    "title": "Evaluating Business Health",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Businesses require standard health checks.",
+                        "Financial statements act as a medical chart.",
+                        "Daily activities are translated into standardized numbers."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/7.png",
+                            "caption": "Financial statements act as a comprehensive medical chart for a business.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to our first look at the core financial statements. Just like a doctor uses a medical chart to evaluate a patient's health, investors and managers use financial statements to check a company's vitality. They are standardized reports that translate complex, everyday business activities into a universal language of numbers. Without them, we would just be guessing at how well a company is truly performing.",
+                    "thai_transcript": "ยินดีต้อนรับเข้าสู่การทำความรู้จักกับงบการเงินหลักครับ เช่นเดียวกับที่แพทย์ใช้แฟ้มประวัติเพื่อประเมินสุขภาพของผู้ป่วย นักลงทุนและผู้บริหารก็ใช้งบการเงินเพื่อตรวจสอบความแข็งแกร่งของบริษัท งบเหล่านี้คือรายงานมาตรฐานที่แปลกิจกรรมทางธุรกิจในแต่ละวันให้กลายเป็นภาษาสากลที่เป็นตัวเลข หากไม่มีงบเหล่านี้ เราก็คงได้แต่เดาว่าบริษัทมีผลประกอบการที่แท้จริงเป็นอย่างไร"
+                },
+                {
+                    "title": "The Three Core Statements",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Income Statement: Tracks profitability over a period.",
+                        "Balance Sheet: Snapshot of what is owned and owed.",
+                        "Cash Flow Statement: Monitors actual cash movement."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/8.png",
+                            "caption": "Income Statement: Tracks profitability over time.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/9.png",
+                            "caption": "Balance Sheet: A snapshot of current financial position.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/10.png",
+                            "caption": "Cash Flow Statement: Monitors real cash moving in and out.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "There are three primary tools in our financial toolkit. First is the Income Statement, which measures how profitable a company is over a specific period, like a quarter or a year. Second is the Balance Sheet, which gives us a snapshot of exactly what the business owns and owes at a single moment in time. Finally, the Cash Flow Statement strips away the accounting rules to show us the actual cash flowing in and out of the business, because accounting profit does not always equal cash on hand.",
+                    "thai_transcript": "ในเครื่องมือทางการเงินของเรามี 3 เครื่องมือหลักครับ เริ่มจากงบกำไรขาดทุน ซึ่งใช้วัดว่าบริษัททำกำไรได้เท่าใดในช่วงเวลาหนึ่งๆ เช่น หนึ่งไตรมาสหรือหนึ่งปี ต่อมาคืองบแสดงฐานะการเงิน ซึ่งให้ภาพรวม ณ จุดเวลาใดเวลาหนึ่งว่าธุรกิจมีทรัพย์สินและหนี้สินอะไรบ้าง สุดท้ายคืองบกระแสเงินสด ที่ตัดกฎเกณฑ์ทางบัญชีออกไปเพื่อแสดงให้เห็นถึงเงินสดที่ไหลเข้าและออกจากธุรกิจจริงๆ เพราะกำไรทางบัญชีไม่ได้แปลว่ามีเงินสดในมือเสมอไปครับ"
+                },
+                {
+                    "title": "Understanding the Timeframe",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Balance Sheet = A static point in time (Snapshot).",
+                        "Income & Cash Flow = A period of time (Video recording).",
+                        "A snapshot alone cannot show the full operational story."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/11.png",
+                            "caption": "Balance Sheet: A static snapshot frozen at a specific date.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/12.png",
+                            "caption": "Income & Cash Flow: A video capturing motion over a period.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "It is critical to understand the timeframes these statements cover to interpret them correctly. The Balance Sheet is exactly like taking a photograph; it freezes the company at one specific date, showing its exact financial position on that singular day. Conversely, the Income Statement and Cash Flow Statement act like video recordings. They capture what happened continuously over a whole month, quarter, or year, showing the motion and flow of business activities.",
+                    "thai_transcript": "สิ่งสำคัญคือต้องเข้าใจกรอบเวลาที่งบการเงินเหล่านี้ครอบคลุมเพื่อให้ตีความได้อย่างถูกต้องครับ งบแสดงฐานะการเงินนั้นเปรียบเสมือนการถ่ายภาพ ที่หยุดภาพบริษัทไว้ ณ วันใดวันหนึ่ง เพื่อแสดงฐานะทางการเงินที่แท้จริงในวันนั้นเพียงวันเดียว ในทางกลับกัน งบกำไรขาดทุนและงบกระแสเงินสดจะทำหน้าที่เหมือนการบันทึกวิดีโอ งบทั้งสองจะบันทึกสิ่งที่เกิดขึ้นอย่างต่อเนื่องตลอดทั้งเดือน ไตรมาส หรือปี ซึ่งแสดงให้เห็นถึงการเคลื่อนไหวและกระแสของกิจกรรมทางธุรกิจตลอดช่วงเวลาดังกล่าว"
+                }
+            ]
+        },
+        {
+            "title": "What Financial Statements Are NOT (Non-Examples)",
+            "slides": [
+                {
+                    "title": "What Financial Statements Are NOT",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Not all business information is financial data.",
+                        "Separate subjective claims from financial reality.",
+                        "Focus strictly on standardized monetary metrics."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/13.png",
+                            "caption": "Distinguishing between marketing hype and standardized financial data.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to this section. Before we dive into what financial statements are, it's crucial to understand what they are not. In the business world, there is a lot of noise, from marketing campaigns to brand popularity metrics. Financial statements cut through this noise to provide a standardized, objective view of financial reality.",
+                    "thai_transcript": "ยินดีต้อนรับเข้าสู่บทเรียนนี้ครับ ก่อนที่เราจะเจาะลึกว่างบการเงินคืออะไร สิ่งสำคัญคือต้องเข้าใจก่อนว่ามัน 'ไม่ใช่' อะไร ในโลกธุรกิจมีข้อมูลมากมาย ตั้งแต่แคมเปญการตลาดไปจนถึงตัวชี้วัดความนิยมของแบรนด์ งบการเงินจะตัดข้อมูลที่ไม่เกี่ยวข้องเหล่านี้ออกไป เพื่อนำเสนอภาพรวมของความเป็นจริงทางการเงินที่เป็นมาตรฐานและเป็นกลางครับ"
+                },
+                {
+                    "title": "Common Non-Examples",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Subjective marketing materials.",
+                        "Daily diaries of employee tasks.",
+                        "Brand popularity and social media metrics."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/14.png",
+                            "caption": "Marketing materials focus on persuasion, not financial health.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/15.png",
+                            "caption": "Daily task logs do not show company-wide financial performance.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/16.png",
+                            "caption": "Social media popularity does not equal financial profitability.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "Let's look at three clear non-examples to build our mental model. First, a CEO's motivational newsletter or marketing brochure is highly subjective and designed to persuade. Second, a daily diary of what employees are doing is operational, not financial. Finally, having millions of social media followers might be great for the brand, but it doesn't automatically translate to standardized financial health.",
+                    "thai_transcript": "ลองมาดูตัวอย่าง 3 ข้อที่ไม่ใช่งบการเงินเพื่อสร้างความเข้าใจที่ชัดเจนกันครับ อย่างแรก จดหมายข่าวสร้างแรงบันดาลใจจากซีอีโอหรือโบรชัวร์การตลาดเป็นสิ่งที่มีความเป็นอัตวิสัยและออกแบบมาเพื่อโน้มน้าวใจ อย่างที่สอง บันทึกประจำวันว่าพนักงานทำอะไรบ้างนั้นเป็นข้อมูลการปฏิบัติงาน ไม่ใช่ข้อมูลทางการเงิน และสุดท้าย การมีผู้ติดตามบนโซเชียลมีเดียหลายล้านคนอาจส่งผลดีต่อแบรนด์ แต่มันไม่ได้แปลว่าจะสะท้อนถึงสุขภาพทางการเงินที่เป็นมาตรฐานเสมอไปครับ"
+                },
+                {
+                    "title": "Subjective Hype vs. Standardized Reality",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Subjective: Opinions, predictions, and PR campaigns.",
+                        "Objective: Hard numbers and verifiable reporting.",
+                        "Financial statements rely on strict accounting rules."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/17.png",
+                            "caption": "Subjective claims and PR campaigns.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/18.png",
+                            "caption": "Objective, standardized financial reporting.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The core distinction here is between subjective business information and objective financial reality. Marketing materials and PR campaigns can paint a rosy picture based on opinions or future hopes. In contrast, financial statements are grounded in strict, standardized accounting rules that require verifiable numbers. This is why investors rely on statements, not just newsletters.",
+                    "thai_transcript": "ข้อแตกต่างที่สำคัญในเรื่องนี้คือระหว่างข้อมูลธุรกิจที่มีความเป็นอัตวิสัยและความเป็นจริงทางการเงินที่มีความเป็นปรนัยครับ สื่อการตลาดและแคมเปญพีอาร์มักจะวาดภาพที่สวยหรูซึ่งอิงจากความคิดเห็นหรือความหวังในอนาคต ในทางตรงกันข้าม งบการเงินตั้งอยู่บนกฎเกณฑ์ทางบัญชีที่เป็นมาตรฐานและเข้มงวด ซึ่งต้องการตัวเลขที่ตรวจสอบได้ นี่คือเหตุผลที่นักลงทุนพึ่งพางบการเงิน ไม่ใช่แค่จดหมายข่าวครับ"
+                },
+                {
+                    "title": "The Bottom Line on Financial Statements",
+                    "layout": "text_only",
+                    "key_points": [
+                        "They are not a measure of overall brand sentiment.",
+                        "They do not track day-to-day employee operations.",
+                        "They strictly document standardized financial events.",
+                        "Purpose: Objective evaluation, not marketing."
+                    ],
+                    "images": null,
+                    "transcript": "To summarize, when we read an income statement or a balance sheet, we must remember its exact purpose. It is not there to tell us if customers love the brand, or if employees are happy. It strictly documents standardized financial events. Keeping this boundary in mind ensures you don't look to financial statements for answers they were never designed to provide.",
+                    "thai_transcript": "โดยสรุปแล้ว เมื่อเราอ่านงบกำไรขาดทุนหรืองบดุล เราต้องจำวัตถุประสงค์ที่แท้จริงของมันให้ได้ครับ มันไม่ได้มีไว้เพื่อบอกเราว่าลูกค้ารักแบรนด์หรือไม่ หรือพนักงานมีความสุขหรือเปล่า แต่มันมีหน้าที่บันทึกเหตุการณ์ทางการเงินที่เป็นมาตรฐานอย่างเคร่งครัด การระลึกถึงขอบเขตนี้จะช่วยให้คุณไม่คาดหวังคำตอบจากงบการเงินในสิ่งที่มันไม่ได้ถูกออกแบบมาให้ตอบครับ"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Check: Business Translation",
+            "slides": [
+                {
+                    "title": "Business Translation: Real-World Scenario",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Action 1: Buy a new delivery truck",
+                        "Action 2: Sell 1,000 units of product",
+                        "Action 3: Secure a bank loan",
+                        "Challenge: Translate actions to financial data"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/19.png",
+                            "caption": "Everyday business activities ready to be translated into a standardized financial language.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's put the concept of business translation to the test with a real-world scenario. Imagine your company just had a very busy day: you bought a brand new delivery truck, sold one thousand units of your main product, and secured a new bank loan. In the real world, these are physical actions and interactions. But in finance, we must translate these exact events into our standardized financial language to see how they impact the business.",
+                    "thai_transcript": "ลองนำแนวคิดเรื่องการแปลภาษาธุรกิจมาใช้กับสถานการณ์จริงดูนะครับ สมมติว่าบริษัทของคุณเพิ่งมีวันที่ยุ่งมาก คุณซื้อรถบรรทุกส่งของคันใหม่ ขายสินค้าหลักได้หนึ่งพันชิ้น และเพิ่งกู้เงินจากธนาคารมาได้สำเร็จ ในโลกความเป็นจริง สิ่งเหล่านี้คือการกระทำและการโต้ตอบทางกายภาพ แต่ในทางเศรษฐศาสตร์ เราต้องแปลเหตุการณ์เหล่านี้ให้เป็นภาษาทางการเงินที่เป็นมาตรฐาน เพื่อดูว่ามันส่งผลกระทบต่อธุรกิจอย่างไร"
+                },
+                {
+                    "title": "Translating Actions to Statements",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Income Statement: Records units sold",
+                        "Cash Flow: Tracks money moving in and out",
+                        "Balance Sheet: Captures new truck and debt"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/20.png",
+                            "caption": "Income Statement tracks the sales performance.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/21.png",
+                            "caption": "Cash Flow Statement tracks the money movement.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/22.png",
+                            "caption": "Balance Sheet tracks what the business owns and owes.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "To evaluate our business health, we must sort these three activities into our three core statements. The sale of the one thousand units is a performance metric, so it translates into revenue on the Income Statement. The actual cash coming in from the bank and leaving to pay for the truck is tracked on the Cash Flow Statement. Finally, the new truck we now own and the bank debt we now owe must be recorded as well.",
+                    "thai_transcript": "เพื่อประเมินสุขภาพธุรกิจของเรา เราต้องแยกกิจกรรมทั้งสามนี้ลงในงบการเงินหลักทั้งสามประเภท การขายสินค้าหนึ่งพันชิ้นเป็นตัวชี้วัดผลการดำเนินงาน ดังนั้นจึงแปลเป็นรายได้ในงบกำไรขาดทุน เงินสดจริงที่เข้ามาจากธนาคารและจ่ายออกไปเพื่อซื้อรถบรรทุกจะถูกบันทึกในงบกระแสเงินสด สุดท้าย รถบรรทุกคันใหม่ที่เราเป็นเจ้าของและหนี้ธนาคารที่เราต้องจ่ายก็ต้องถูกบันทึกไว้เช่นกัน"
+                },
+                {
+                    "title": "Knowledge Check: The \"Snapshot\"",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Recall the 'medical chart' analogy",
+                        "Which statement acts as a snapshot of today?",
+                        "Where do the new truck and loan belong?",
+                        "Focus on what is owned vs. what is owed"
+                    ],
+                    "images": null,
+                    "transcript": "Now, let's focus specifically on the new delivery truck and the bank loan. Think back to the 'medical chart' analogy we used earlier to describe financial statements. If a doctor wants a snapshot of your current physical condition at this exact moment, they look at your current vitals. In our business scenario, which of the three financial statements provides this exact 'snapshot' of the truck we just bought and the loan we just secured today?",
+                    "thai_transcript": "ตอนนี้เรามาเจาะจงที่รถบรรทุกส่งของคันใหม่และเงินกู้ธนาคารกันครับ ลองนึกย้อนไปถึงเปรียบเทียบ 'แฟ้มประวัติคนไข้' ที่เราเคยใช้ก่อนหน้านี้ หากหมอต้องการภาพรวมของสภาพร่างกายของคุณ ณ วินาทีนี้ พวกเขาจะดูสัญญาณชีพปัจจุบันของคุณ ในสถานการณ์ธุรกิจของเรา งบการเงินใดในสามประเภทที่ให้ 'ภาพถ่าย' ณ ปัจจุบันของรถบรรทุกที่เราเพิ่งซื้อและเงินกู้ที่เราเพิ่งได้รับมาในวันนี้"
+                },
+                {
+                    "title": "Answer: The Balance Sheet",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "The Balance Sheet is the financial snapshot",
+                        "Truck = New Asset (What we own)",
+                        "Bank Loan = New Liability (What we owe)",
+                        "Shows exact position at a specific time"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/199c8531-a1ee-44f6-ad82-61cd182c4f69/slides_images/23.png",
+                            "caption": "The Balance Sheet translates the truck into an asset and the loan into a liability.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "The correct answer is the Balance Sheet. Just like a medical chart shows your weight and blood pressure at a specific moment, the balance sheet takes a snapshot of the company's financial position today. It translates the delivery truck into an 'Asset' because it is something of value the business now owns. Simultaneously, it translates the bank loan into a 'Liability' because it is an obligation the business now owes.",
+                    "thai_transcript": "คำตอบที่ถูกต้องคืองบดุลครับ เช่นเดียวกับที่แฟ้มประวัติคนไข้แสดงน้ำหนักและความดันโลหิตของคุณในเวลาใดเวลาหนึ่ง งบดุลจะถ่ายภาพฐานะทางการเงินของบริษัท ณ วันนี้ มันแปลรถบรรทุกส่งของเป็น 'สินทรัพย์' เพราะเป็นสิ่งที่มีมูลค่าที่ธุรกิจเป็นเจ้าของ ในขณะเดียวกันก็แปลเงินกู้ธนาคารเป็น 'หนี้สิน' เพราะเป็นภาระผูกพันที่ธุรกิจต้องชำระคืน"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "199c8531-a1ee-44f6-ad82-61cd182c4f69",
+    "course_id": "fdd6b94c-c243-403e-b90d-b43b1aa4ab62"
+}

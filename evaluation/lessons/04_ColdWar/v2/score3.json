@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "The Cold War — Origins: Capitalism vs. Communism (Ideological Divide)",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The majority of slides contain paired illustrative graphics (split-world diagrams, market vs. collective farm scenes, command economy infographics) that directly depict the ideological concepts named in both on-screen text and narration. Four slides (4, 7, 11, 12, 14, 17) are text-only, which penalizes criterion c; however, the concept on those slides (alliance collapse, absolute divide) could have warranted a visual such as a timeline or map."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "On-screen bullets are short phrases rather than paragraphs, satisfying the keyword standard on most slides, but several slide captions (e.g., slides 6, 10, 13, 16) reproduce near-complete sentences that mirror narration content closely. The narration does elaborate beyond the bullets on a number of slides, but on text-only slides the narration tracks the on-screen content with minimal elaboration, reducing substantive differentiation."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "On slides with visuals, complex explanations (e.g., why cooperation failed, the command economy structure) are delivered through narration while the visual channel carries the representational load, consistent with the modality principle. On the several text-only slides (4, 7, 11, 12, 14, 17), the narration essentially voices the on-screen bullets with minimal additive content, reducing scores for criteria c and d on those slides."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "All graphics are functionally tied to the ideological contrast being taught; no decorative stock imagery or unrelated clipart is present across the 17 slides. Styling is consistent throughout — blue bold titles, clean white backgrounds, uniform bullet typography — and the narration remains on-topic with no observable digressions or filler passages."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy is maintained via bold blue slide titles and a horizontal rule separator on every slide, satisfying criterion b. However, explicit cues such as arrows, highlights, or circles directing attention within graphics are largely absent, and the narration infrequently uses explicit verbal signaling phrases (e.g., 'notice,' 'the key point is') to orient the learner to specific graphic elements; captions describe rather than point to specific zones of the visual."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are placed directly beneath their corresponding graphic on every illustrated slide, and paired images are each given their own caption in close physical proximity, preventing split-attention effects. Criterion e receives a partial score because, on the more complex multi-label diagrams (slides 5, 8, 15), small embedded labels within the graphic lack explicit leader lines or color-matching connecting them to the bullet text above, reducing the directness of the term-to-visual referent link."
+        }
+    ],
+    "raw_total": 48,
+    "unweighted_average": 8.00
+}

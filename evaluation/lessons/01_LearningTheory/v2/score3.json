@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Learning Theories (Behaviorism, Cognitivism, Constructivism)",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every substantive slide carries at least one non-decorative image — illustrations, diagrams, or scenario photographs that directly represent the narrated concept. Three slides (4, 12, 16) present concepts without imagery, lowering criteria c and d; all visible graphics are legible and watermark-free."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "On-screen text is consistently limited to three short bullet phrases per slide, comfortably within a five-second scan, and the narration elaborates with examples and non-examples absent from the slides. Paired-image caption blocks on slides 13–14 partially echo bullet wording, creating mild redundancy between the text and graphic channels."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "score": 9,
+            "evidence": "All complex description — theory definitions, classroom examples, non-examples, and design rationale — is delivered exclusively through narration while the visual channel is occupied by illustrative imagery. One partial violation occurs on slide 7 where the dense step-by-step algebra diagram contains on-screen mathematical text the narration references directly, approaching a read-aloud condition."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "Backgrounds are clean and typography is consistent, but several photographs (mechanic on slide 2, construction worker on slide 11) function as analogical filler rather than informationally necessary visuals. The narration revisits the toolkit/lens metaphor across multiple distinct sections, creating low-level thematic repetition that marginally exceeds coherence requirements."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "The narration employs consistent verbal signaling markers ('first,' 'next,' 'finally') and a clear title-bullet-image visual hierarchy is maintained across all slides. No arrows, callouts, or highlight overlays direct the learner to specific image regions, and the single most important takeaway per slide is not visually differentiated beyond the title."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are uniformly placed directly beneath their respective images, and paired images share a horizontal row with captions below, maintaining physical proximity throughout. On three-column layouts (slides 3, 9, 14), captions lack visual connectors (leader lines or color matching) to the bullet text above, creating a mild split-attention condition between the upper text tier and the lower visual tier."
+        }
+    ],
+    "raw_total": 47,
+    "unweighted_average": 7.83
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Learning Theories — Complementary Lenses: Unifying Learning Paradigms",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; all slides consist exclusively of text. The visual channel carries no informational graphics, making reciprocity between verbal and visual content impossible to achieve."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "score": 1,
+            "evidence": "On-screen text consists of full paragraph-length sentences across all slides, far exceeding the keyword/short-phrase standard. The transcript narration is verbatim or near-verbatim to the on-screen text on every slide, providing no substantive elaboration beyond what is already displayed."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "Complex, multi-sentence descriptions are delivered as dense on-screen text rather than via narration over graphics, inverting the modality principle on every slide. The narration functions as a direct read-aloud of the on-screen text rather than as a complementary auditory channel, and slides are fully self-sufficient as text alone."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "No decorative clipart or extraneous imagery is present, and the narration remains on-topic and free of tangential digressions throughout. Fonts, colors, and slide styling appear consistent and clean; backgrounds are plain and non-distracting across all five slides."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                1,
+                0,
+                1
+            ],
+            "score": 3,
+            "evidence": "Slide titles establish a basic visual hierarchy and the narration employs light verbal signaling (e.g., framing phrases), but no visual cues such as arrows, highlights, bold, or callouts are used to direct attention to key elements. No captions or leader lines exist because no graphics are present to annotate."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "The absence of any graphics eliminates the possibility of label-to-visual proximity, integrated text, or visual connections between terms and referents. Text is laid out as isolated prose paragraphs with no graphic units to co-locate, so split-attention cannot be mitigated through layout."
+        }
+    ],
+    "raw_total": 14,
+    "unweighted_average": 2.33
+}

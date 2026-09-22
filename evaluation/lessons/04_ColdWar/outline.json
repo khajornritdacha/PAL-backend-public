@@ -1,0 +1,121 @@
+{
+  "_id": {
+    "$oid": "6a1db259807566adcec85175"
+  },
+  "courseId": "492b8a43-efc5-47eb-a712-293bff39de33",
+  "status": "IN_PROGRESS",
+  "goal": "By the end of this one-week course, I will be able to explain the ideological and geopolitical origins of the Cold War, identify and analyze at least four major proxy conflicts (Korean War, Vietnam War, Cuban Missile Crisis, and Afghanistan), and evaluate the Cold War's lasting legacy on current international relations — demonstrating this through a written comparative analysis of two proxy conflicts and a short reflection on a post-Cold War geopolitical issue.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "The student has a basic understanding of 20th-century history but limited exposure to Cold War specifics. We agreed the course should follow a chronological structure in three phases: origins (1945–1950), escalation and proxy conflicts (1950–1979), and decline and legacy (1980–present). I emphasized that the student should not treat this as a list of events — the focus is on cause-and-effect logic: why did each superpower act as it did, and what were the structural outcomes. Key concepts to anchor each lesson: containment doctrine, the domino theory, détente, and the arms race. Visuals should include maps showing spheres of influence and timelines linking events. The student is particularly interested in how Cold War dynamics explain present-day US-Russia and US-China tensions, so each section should connect backward to contemporary relevance. Avoid excessive detail on military tactics; prioritize political decision-making and ideological framing.",
+  "outline": {
+    "summary": "A one-week, 18-lesson curriculum divided into three chronological phases: Origins (1945-1950), Escalation and Proxy Conflicts (1950-1979), and Decline and Legacy (1980-Present). The sequence is scaffolded to manage cognitive load by establishing foundational ideologies and doctrines before applying them to complex proxy wars. The course prioritizes cause-and-effect logic, political decision-making, and structural outcomes, culminating in an analysis of how Cold War dynamics shape modern US-Russia and US-China relations.",
+    "total_lessons": 18,
+    "lessons": [
+      {
+        "title": "1.1 Ideological Foundations: Capitalism vs. Communism",
+        "main_content": "Introduction to the fundamental ideological differences between the United States and the Soviet Union. Focus on the contrast between democratic capitalism (free markets, individual rights) and authoritarian communism (state control, collective equality). Students will review a baseline timeline of US-Soviet alliance during WWII to understand the sudden ideological pivot post-1945.",
+        "objective": "Students will be able to define and contrast the core ideological tenets of the US and the USSR, explaining why these differences made post-WWII cooperation inherently difficult."
+      },
+      {
+        "title": "1.2 Geopolitical Shifts Post-WWII: Yalta, Potsdam, and the Iron Curtain",
+        "main_content": "Exploration of the power vacuums left after WWII. Analysis of the Yalta and Potsdam conferences and how they led to the division of Europe. Visual aid: A map illustrating the 'Iron Curtain' and the early establishment of Eastern Bloc satellite states by the USSR.",
+        "objective": "Students will be able to identify how post-WWII treaties divided Europe into distinct spheres of influence, using maps to trace the physical boundaries of the Iron Curtain."
+      },
+      {
+        "title": "1.3 The Containment Doctrine and the Truman Doctrine",
+        "main_content": "Deep dive into George Kennan's 'Long Telegram' and the formulation of the Containment Doctrine. Examination of the Truman Doctrine in action, specifically political decisions regarding Greece and Turkey, marking a definitive shift from American isolationism to global interventionism.",
+        "objective": "Students will be able to explain the logic of the Containment Doctrine and analyze how the Truman Doctrine applied this concept to early geopolitical crises."
+      },
+      {
+        "title": "1.4 The Marshall Plan and Economic Spheres of Influence",
+        "main_content": "Study of the Marshall Plan not just as economic relief, but as a strategic political tool to prevent the spread of communism in Western Europe. Discussion of Stalin's rejection of the plan for the Eastern Bloc, solidifying two distinct economic spheres. Visual aid: Map showing the distribution of Marshall Plan aid.",
+        "objective": "Students will be able to evaluate how economic aid was utilized as a primary geopolitical weapon to build alliances and counter Soviet expansion."
+      },
+      {
+        "title": "1.5 The First Crises: Berlin Blockade and Military Alliances",
+        "main_content": "Analysis of the Berlin Blockade as the first major direct confrontation, and the logistical triumph of the Berlin Airlift. The lesson will transition to the structural outcome of this crisis: the formal creation of NATO and, subsequently, the Warsaw Pact.",
+        "objective": "Students will be able to analyze the cause-and-effect relationship between the Berlin Blockade and the formalization of Cold War military alliances (NATO and Warsaw Pact)."
+      },
+      {
+        "title": "2.1 The Arms Race and Mutually Assured Destruction (MAD)",
+        "main_content": "Transition into Phase 2 by examining the nuclear arms race. Focus on the shift from atomic to hydrogen weapons and the political theory of Mutually Assured Destruction (MAD). Discussion on how the fear of direct nuclear war necessitated the use of 'proxy conflicts'.",
+        "objective": "Students will be able to describe the logic of nuclear deterrence and explain how MAD forced superpowers to engage in indirect proxy conflicts rather than direct warfare."
+      },
+      {
+        "title": "2.2 The Domino Theory and the Outbreak of the Korean War",
+        "main_content": "Introduction to the 'Domino Theory' regarding Asian geopolitics. Examination of the division of Korea at the 38th parallel and the political decision-making that led to Kim Il-sung's invasion of the South, triggering US and UN involvement.",
+        "objective": "Students will be able to define the Domino Theory and explain its role as the primary political justification for American intervention in Korea."
+      },
+      {
+        "title": "2.3 Analyzing the Korean War: Decisions and Outcomes",
+        "main_content": "Focus on the geopolitical mechanics of the Korean War (Proxy Conflict #1). Analysis of Chinese intervention, Truman's conflict with MacArthur over expanding the war, and the eventual armistice. Visual aid: Timeline of shifting borders during the conflict.",
+        "objective": "Students will be able to analyze the Korean War as a proxy conflict, evaluating the political decisions of the US, USSR, and China, and defining its structural outcome."
+      },
+      {
+        "title": "2.4 The Cuban Missile Crisis: Brinkmanship and Communication",
+        "main_content": "Examination of the Cuban Missile Crisis (Proxy Conflict #2). Focus on the discovery of Soviet missiles, JFK's decision to quarantine rather than strike, and the secret backdoor diplomacy between the US and USSR. Emphasis on crisis management over military tactics.",
+        "objective": "Students will be able to evaluate the political brinkmanship of the Cuban Missile Crisis and explain how secret diplomacy prevented a nuclear exchange."
+      },
+      {
+        "title": "2.5 The Vietnam War: Ideology and Escalation",
+        "main_content": "Study of the Vietnam War (Proxy Conflict #3) through the lens of containment and the Domino Theory. Tracing the escalation from French colonial defeat to the Gulf of Tonkin resolution, focusing on ideological framing and flawed political assumptions.",
+        "objective": "Students will be able to trace the ideological origins and gradual political escalation of US involvement in Vietnam."
+      },
+      {
+        "title": "2.6 Analyzing the Vietnam War: Structural Outcomes",
+        "main_content": "Assessment of the Vietnam War's conclusion and geopolitical consequences. Discussion of domestic US opposition, the eventual withdrawal, and the unification of Vietnam under a communist government. Analysis of how this failure shifted American foreign policy.",
+        "objective": "Students will be able to assess the structural and geopolitical outcomes of the Vietnam War, identifying how it challenged the prevailing logic of the Containment Doctrine."
+      },
+      {
+        "title": "2.7 Détente: Thawing Relations in the 1970s",
+        "main_content": "Exploration of 'Détente' as a period of relaxed tensions. Focus on the political motivations of Nixon and Brezhnev to reduce economic strain, leading to the SALT treaties and normalized relations with China. Visual aid: Timeline showing the dip in tensions during the 1970s.",
+        "objective": "Students will be able to explain the causes of Détente and identify key diplomatic agreements that temporarily slowed the arms race."
+      },
+      {
+        "title": "3.1 The Soviet-Afghan War: The End of Détente",
+        "main_content": "Analysis of the Soviet invasion of Afghanistan (Proxy Conflict #4). Examination of Soviet political motives, US funding of the Mujahideen (Operation Cyclone), and how this proxy war became the 'Soviet Vietnam', effectively ending Détente.",
+        "objective": "Students will be able to analyze the Soviet-Afghan War as a critical proxy conflict, explaining its role in draining Soviet resources and ending the era of Détente."
+      },
+      {
+        "title": "3.2 The 1980s Escalation: Reagan, Gorbachev, and Economic Pressures",
+        "main_content": "Study of the renewed Cold War tensions in the 1980s. Focus on Reagan's massive military buildup (SDI) and the intense economic pressure it placed on a stagnating Soviet economy. Introduction to Gorbachev's reform policies: Glasnost (openness) and Perestroika (restructuring).",
+        "objective": "Students will be able to evaluate how US economic pressure and internal Soviet structural flaws forced Gorbachev to implement radical political reforms."
+      },
+      {
+        "title": "3.3 The Collapse of the Soviet Union",
+        "main_content": "Tracing the rapid sequence of events from 1989 to 1991. Analysis of the fall of the Berlin Wall, the largely peaceful democratic revolutions in the Eastern Bloc, and the ultimate dissolution of the USSR. Discussion of the resulting unipolar world order.",
+        "objective": "Students will be able to outline the structural and political causes that led to the collapse of the Soviet Union and the formal end of the Cold War."
+      },
+      {
+        "title": "3.4 Post-Cold War Legacy: Modern US-Russia Tensions",
+        "main_content": "Connecting Cold War history to the present day. Examination of NATO's eastward expansion, Russian geopolitical insecurity, and the re-emergence of 'spheres of influence' mentality in conflicts like Ukraine. Application of Cold War concepts to current events.",
+        "objective": "Students will be able to utilize Cold War historical context to explain the root causes of contemporary geopolitical tensions between the US and Russia."
+      },
+      {
+        "title": "3.5 The New Dynamics: Cold War Concepts in Modern US-China Relations",
+        "main_content": "Application of Cold War terminology (containment, arms race, spheres of influence) to the modern US-China relationship. Discussion on how economic interdependence makes this rivalry different from the US-Soviet dynamic, while geopolitical competition (e.g., South China Sea, Taiwan) remains similar.",
+        "objective": "Students will be able to compare and contrast the historical US-Soviet Cold War with contemporary US-China competition, evaluating the applicability of Cold War doctrines today."
+      },
+      {
+        "title": "3.6 Course Synthesis and Assessment Preparation",
+        "main_content": "Final review of the cause-and-effect timeline. Workshop focusing on structuring the required final deliverables: drafting the comparative analysis of two proxy conflicts (Korea, Vietnam, Cuba, or Afghanistan) and outlining the reflection on a post-Cold War geopolitical issue.",
+        "objective": "Students will be able to synthesize historical evidence to outline a comparative essay on proxy conflicts and articulate a well-reasoned reflection on modern geopolitics."
+      }
+    ]
+  },
+  "lessonIds": [
+    "884bbec8-fecd-4e47-bb09-28e77d3972f4"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval 1: The Cold War — Origins, Proxy Conflicts & Legacy",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 18,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "2026-06-01T16:24:56.524Z",
+  "updatedAt": "Mon Jun 01 2026 16:26:32 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

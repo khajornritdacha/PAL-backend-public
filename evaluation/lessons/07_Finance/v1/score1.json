@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Financial Statements & Ratio Analysis — Introduction: Translating Business Activities",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present across any of the five slides; all slides are text-only. The absence of visuals means no reciprocal relationship between visual and verbal channels can exist, and the deck cannot meet criteria a–d."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide displays full paragraph-length sentences that are reproduced verbatim in the transcript narration, constituting complete redundancy between the auditory and visual text channels. On-screen word counts per slide range from approximately 40–60 words, far exceeding a five-second scan threshold."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All complex descriptions are delivered as dense on-screen prose rather than through narration alone, placing the full cognitive load on both channels simultaneously with identical content. The narration does not add any information beyond what is displayed on screen, rendering the visual channel entirely a text medium with no graphic component."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative imagery, tangential anecdotes, or off-topic content is present, and the narration stays on-topic across all slides. Slide backgrounds appear clean and uncluttered, and typography is consistent, though the absence of any visuals limits the full assessment of styling coherence."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No visual cues such as arrows, highlights, color contrast, or callouts are present on any slide, and no captions direct attention to specific visual elements. The narration contains no verbal signaling phrases (e.g., 'notice,' 'the key idea is') to orient the learner's attention to priority information."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "Because no graphics are present, criteria requiring label-to-graphic proximity, integrated text, leader lines, or visual connections between terms and referents cannot be observed or scored positively. The layout avoids split attention by default only because the deck is entirely text-based, precluding any graphic-text pairing."
+        }
+    ],
+    "raw_total": 9,
+    "unweighted_average": 1.50
+}

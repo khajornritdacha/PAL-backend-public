@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Learning Theories: Behaviorism, Cognitivism, and Constructivism as Complementary Instructional Design Tools",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Non-decorative graphics are present on 13 of 16 slides, with illustrations, diagrams, and analogical images that directly depict concepts referenced in both the bullets and narration (e.g., the maze/cheese for Behaviorism, the stepped algebra diagram for Cognitivism, the collaborative model-build for Constructivism). Three slides (4, 12, 16) are text-only despite their narrations introducing substantive concepts, and on most slides the verbal and visual channels are complementary but not strictly mutually dependent — the narration is largely self-sufficient without the image."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen text is consistently limited to short bullet phrases scannable in under five seconds, and the narration substantively elaborates beyond the bullets on most slides. However, on slides such as Slide 3, the captions below each graphic restate the same propositions already carried by the bullets, and on several slides the graphic functions as illustration rather than primary information carrier — the bullets bear comparable informational weight."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Complex elaborations (e.g., worked-example scaffolding rationale, AI tutor design logic, the obsolescence myth argument) are delivered entirely through narration while the visual channel holds diagrams and illustrative imagery, consistent with the modality principle. The narration reads as natural spoken prose on most slides, though sporadic phrasing such as 'First... Next... Finally' on Slide 13 mirrors a transcribed list structure rather than fully listenable speech."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "Backgrounds are uniformly clean and white with consistent blue title typography and neutral body text. However, the deck contains substantial content repetition across slides (the toolkit analogy appears on slides 1, 10, and 11; 'theories as complementary lenses' is re-stated across at least six slides), constituting thematic redundancy that does not serve progressive elaboration of the learning objective and introduces extraneous cognitive processing of already-established propositions."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "A consistent visual hierarchy is present across all slides — bold blue title, horizontal rule, bulleted phrases, image row, caption — and the narration employs verbal signaling markers ('First,' 'Next,' 'Finally,' 'To summarize,' 'the key is') throughout. Explicit within-graphic cues (arrows, highlights, color callouts directing attention to specific elements) are present only on Slide 7's algebra diagram and Slide 11's labeled toolbox; the majority of graphics lack callout or annotation pointing the learner to the specific element being discussed in narration."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed directly below their corresponding images throughout, and paired example/non-example images are grouped as unified units with matching caption typography. On slides with three-column image layouts (slides 3, 9, 14), captions are positioned beneath each respective column graphic; however, the bullets at the top of the slide are spatially separated from the images they correspond to, creating a moderate split-attention condition between the text zone and the visual zone."
+        }
+    ],
+    "raw_total": 46,
+    "unweighted_average": 7.67
+}

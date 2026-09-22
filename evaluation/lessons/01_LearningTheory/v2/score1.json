@@ -1,0 +1,85 @@
+{
+  "lesson_topic": "Learning Theories: Behaviorism, Cognitivism, and Constructivism as Complementary Instructional Design Frameworks",
+  "principles": [
+    {
+      "principle": "Multimedia",
+      "d_weight": 1.35,
+      "criteria_scores": [
+        2,
+        2,
+        1,
+        1,
+        2
+      ],
+      "score": 8,
+      "evidence": "The majority of slides pair on-screen bullet text with at least one non-decorative graphic (toolkit photograph, maze/brain/collaboration triptych, step-by-step algebra worked example, puzzle-piece diagram), and each graphic directly depicts the concept named in the corresponding bullets or narration. Two slides (4 and 16) are text-only, reducing reciprocity scores slightly, as the concepts on those slides (blending approaches, adaptive sequencing) warranted a visual but received none."
+    },
+    {
+      "principle": "Redundancy",
+      "d_weight": 0.72,
+      "criteria_scores": [
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "score": 7,
+      "evidence": "On-screen text is consistently limited to three to four short bullet phrases per slide, satisfying the scannable word-count criterion, and the narration regularly elaborates beyond the bullets with concrete examples and analogies not present on-screen. However, on several slides (e.g., slide 3, slide 14) the captions below the graphics restate or closely paraphrase the bullet text, causing the graphic to share informational weight with redundant on-screen labels rather than carrying it independently."
+    },
+    {
+      "principle": "Modality",
+      "d_weight": 1.00,
+      "criteria_scores": [
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "score": 9,
+      "evidence": "Complex elaborations (e.g., language-learning analogy for Behaviorism, Socratic AI example for Constructivism, cognitive overload rationale for Cognitivism) are delivered exclusively through narration while visuals occupy the screen, correctly offloading verbal processing to the auditory channel. On slide 7, the narration does reference the step-by-step algebra diagram shown on screen while describing it briefly, representing a minor instance of narration mirroring a complex on-screen visual, though the narration adds interpretive framing rather than merely reading the steps aloud."
+    },
+    {
+      "principle": "Coherence",
+      "d_weight": 0.86,
+      "criteria_scores": [
+        2,
+        1,
+        2,
+        1,
+        2
+      ],
+      "score": 8,
+      "evidence": "All images are functionally tied to the slide concept (no decorative clipart or unrelated stock filler), and the background is uniformly clean white with a consistent blue-title, dark-body-text typographic scheme throughout. The narration on slides 0, 4, 9, and 12 recycles the toolkit/lens/paradigm framing without adding new propositional content, representing minor digressive repetition across the deck, and the narration on slide 15 briefly introduces the term 'gamification' without connecting it to a new learning objective."
+    },
+    {
+      "principle": "Signaling",
+      "d_weight": 0.70,
+      "criteria_scores": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "score": 6,
+      "evidence": "Visual hierarchy is consistently applied across all slides through a large blue bold title, horizontal rule, and subordinate bullet text, providing clear organizational scaffolding. However, explicit visual cues such as arrows, highlights, or circles marking key graphic elements are absent from most slides (slide 11's labeled toolkit and slide 7's step-annotated algebra diagram are partial exceptions), and the narration infrequently uses explicit verbal signaling phrases such as 'notice' or 'the key point is' to direct learner attention to specific on-screen elements."
+    },
+    {
+      "principle": "Spatial Contiguity",
+      "d_weight": 1.10,
+      "criteria_scores": [
+        2,
+        1,
+        2,
+        2,
+        1
+      ],
+      "score": 8,
+      "evidence": "Captions are placed immediately below their corresponding images in every slide that uses them, and image-caption pairs are visually grouped as single units with no intervening white space that would create split attention. However, on slides using a three-column layout (slides 3, 9, 14), the captions appear centered beneath each column image but are not integrated into the graphic itself, and no leader lines or color-matching connect the caption text to specific regions within the visuals, reducing the visual-verbal connection for more complex multi-part graphics."
+    }
+  ],
+  "raw_total": 46,
+  "unweighted_average": 7.67
+}

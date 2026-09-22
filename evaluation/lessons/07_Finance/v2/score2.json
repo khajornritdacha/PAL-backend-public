@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Financial Statements & Ratio Analysis — Introduction to the Three Core Financial Statements",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slide 10 and slide 13 contains at least one non-decorative graphic (illustrations, diagrams, split-panel comparisons) that directly depicts the concept named in the bullet text and narration. Slide 10 is fully text-only and slide 13 presents a knowledge-check prompt without a supporting visual, reducing reciprocity on those slides; all other graphics are clean, legible, and free of watermarks or distortion."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen text is consistently limited to short keyword bullets (3–8 words each) that can be scanned in under five seconds, and captions beneath images partially restate those bullets rather than extend them. The narration elaborates meaningfully beyond the bullet text on most slides, but on slides 3 and 5 the narration closely mirrors the three-part list structure already visible on screen, reducing the net redundancy advantage."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex explanations — such as the photograph-vs.-video-recording distinction for statement timeframes and the asset/liability translation of the truck and loan — are delivered entirely through narration while the visual channel shows the corresponding illustration, correctly offloading verbal load to the auditory channel. On slides 3 and 5 the narration does partially re-read the three labeled icons aloud, constituting a mild instance of reading on-screen labels rather than adding independent explanation."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "Slides 4 and 9 use stock-style photographic images (a businesswoman with a tablet, a hype-presenter on stage) that are thematically related but function as atmospheric filler rather than as diagrams carrying instructional information; the funnel diagram on slide 2 and the assets-vs-liabilities scale on slide 14 are genuinely functional. The narration contains mild redundancy across slides 0, 3, and 4, which rehearse the medical-chart analogy three separate times with only incremental addition, introducing some extraneous repetition relative to the stated learning objective."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy is present throughout — bold blue titles, a thin rule separator, and uniform bullet formatting establish clear slide structure — however, within-graphic cues such as arrows, highlights, or circles directing attention to specific elements are absent on most slides, and the narration rarely uses explicit verbal signals ('notice,' 'the key point is') to focus the learner on a single takeaway per slide. Caption text beneath images restates the graphic label rather than pointing to a specific sub-element being discussed in the narration."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed immediately below their corresponding images on every slide that contains them, and the three-column icon layouts on slides 3, 5, 8, and 12 group each figure with its label as a unified visual unit, avoiding split attention. Text is not integrated inside the graphics themselves (labels appear below rather than within or adjacent to diagram elements), and no leader lines or color-matching connect bullet-point terms to their visual referents, reducing the strength of the spatial bond between on-screen text and graphic content."
+        }
+    ],
+    "raw_total": 45,
+    "unweighted_average": 7.50
+}

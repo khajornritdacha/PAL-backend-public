@@ -1,0 +1,126 @@
+{
+  "_id": {
+    "$oid": "6a1dabd0807566adcec85158"
+  },
+  "courseId": "318e6ff4-1a01-46ce-babc-37d5add23f6e",
+  "status": "IN_PROGRESS",
+  "goal": "SMART Goal 1 — Foundational Concepts\nBy the end of this module, I will be able to define intellectual property,\ndistinguish between copyright, patents, trademarks, and trade secrets, and\ncorrectly identify which category applies to a given real-world example\nwithout referencing notes.\n\nSMART Goal 2 — Copyright\nBy the end of this module, I will be able to explain what copyright protects,\nhow it arises automatically, its duration under the Berne Convention, the\nscope of fair use, and identify two landmark copyright cases and their\nsignificance.\n\nSMART Goal 3 — Patents\nBy the end of this module, I will be able to describe patentability\nrequirements (novelty, inventive step, industrial applicability), outline the\napplication process from filing to grant, and articulate the core patent\nbargain — disclosure in exchange for time-limited exclusivity.\n\nSMART Goal 4 — Trademarks\nBy the end of this module, I will be able to define what trademarks protect,\nexplain the registration process, and illustrate trademark dilution and\ngenericide with real-world examples.\n\nSMART Goal 5 — Enforcement & International Framework\nBy the end of this module, I will be able to identify infringement elements\nfor each IP type, describe key enforcement mechanisms, and outline the major\ninternational agreements (Berne, TRIPS, Paris Convention, WIPO) and their\nrole in setting minimum protection standards across member states.\n\nPrior Knowledge: No formal legal background. Familiar with IP concepts at a\nlay level but has no understanding of legal mechanisms, duration, enforcement,\nor international frameworks.\n\nMotivation: Understand how IP law affects creators and businesses in practice;\nidentify IP risks in a startup or creative project context.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "Student has strong practical motivation but zero legal training. Key gaps:\nconflation of copyright and trademark, no understanding of patent procedure,\nand no awareness that IP protection is territorial.\n\nMENTOR GUIDANCE FOR CONTENT GENERATION:\n\n1. Anchor Concept: Open with the \"bundle of rights\" mental model before any\n   specific IP type. Use a concrete example — buying a book does not transfer\n   its copyright — to separate physical ownership from IP ownership.\n\n2. Copyright: Emphasize automatic protection as the key surprise for most\n   students. Use a flowchart covering creation → protection → expiry. Give\n   fair use its own slide with the four-factor test and one real case\n   (Campbell v. Acuff-Rose).\n\n3. Patents: Build a step-by-step procedural flowchart: invention → prior art\n   search → filing → examination → grant → expiry. Lead with the patent\n   bargain concept — it makes the procedure meaningful. Avoid claim-drafting\n   technicality.\n\n4. Trademarks: Open with instantly recognizable brand examples. Contrast\n   trademarks from copyright clearly — trademarks protect commercial origin\n   signals, not creative expression. Include genericide examples (Escalator,\n   Thermos) as a memorable teaching anchor.\n\n5. Comparison Table (Critical): A dedicated summary slide comparing all three\n   IP types across: what is protected, how it arises, duration, registration\n   required, and renewal. This is likely the single most useful takeaway.\n\n6. Enforcement: Use a decision-tree flowchart: detect infringement → cease\n   and desist → negotiation → litigation → remedies. Include DMCA takedowns\n   as a contemporary, relevant example.\n\n7. International Framework: Frame as \"why your protection stops at the\n   border\" then introduce Berne, Paris Convention, TRIPS, and WIPO. Close\n   with the pharmaceutical patents vs. generic medicines tension as a\n   compelling real-world stakes example.\n\n8. Visual Priority: Flowcharts for copyright lifecycle and patent process;\n   decision tree for enforcement; comparison table for all three IP types;\n   world map of treaty membership; landmark case timeline.\n\nKEY LEARNING OUTCOME (for course outline generation):\n   By the end of this module, the student should be able to identify which\n   IP protection applies to a given work, invention, or brand asset; explain\n   key requirements and duration for each type; describe main enforcement\n   options; and assess basic IP risk in a startup or creative project scenario.\n",
+  "outline": {
+    "summary": "This curriculum provides a foundational, non-technical introduction to Intellectual Property (IP) law tailored for creators and entrepreneurs. Scaffolding from basic conceptual models like the 'bundle of rights' to specific IP categories (Copyright, Patents, Trademarks), the course focuses heavily on practical mechanisms, critical comparisons, and territoriality. It concludes with actionable enforcement strategies and an overview of international frameworks to help students accurately assess IP risks in real-world startup scenarios.",
+    "total_lessons": 19,
+    "lessons": [
+      {
+        "title": "1.1 Introduction to Intellectual Property & The Bundle of Rights",
+        "main_content": "Open the course with the 'bundle of rights' mental model. Explain that IP is not a single right, but a collection of distinct, separable legal rights that owners can hold, license, or sell. Briefly introduce the overarching purpose of IP law in society.",
+        "objective": "Define intellectual property using the 'bundle of rights' mental model without referencing notes."
+      },
+      {
+        "title": "1.2 Physical Ownership vs. IP Ownership",
+        "main_content": "Use a highly concrete example: buying a physical book versus owning the rights to the story inside. Explain that transferring physical ownership does not automatically transfer intellectual property rights, effectively separating the tangible from the intangible.",
+        "objective": "Distinguish between owning a physical asset and owning the underlying intellectual property."
+      },
+      {
+        "title": "1.3 Overview of the Four IP Categories",
+        "main_content": "Provide a high-level definition of the four main categories: Copyright, Patents, Trademarks, and Trade Secrets. Focus strictly on what broad category of human creation each protects to resolve early lay-level conflation.",
+        "objective": "Correctly identify whether copyright, patent, trademark, or trade secret applies to a given real-world example."
+      },
+      {
+        "title": "2.1 What Copyright Protects & Automatic Arising",
+        "main_content": "Detail the scope of copyright (original works of authorship fixed in a tangible medium). Emphasize the 'key surprise': copyright arises automatically upon creation and fixation, requiring no formal registration to exist.",
+        "objective": "Explain what copyright protects and describe the automatic nature of its creation."
+      },
+      {
+        "title": "2.2 The Copyright Lifecycle",
+        "main_content": "Utilize a flowchart detailing the lifecycle: creation -> automatic protection -> duration under the Berne Convention (life of author + 50/70 years) -> expiry into the public domain.",
+        "objective": "Trace the lifecycle of a copyrighted work and state its standard duration under the Berne Convention."
+      },
+      {
+        "title": "2.3 Fair Use and the Four-Factor Test",
+        "main_content": "Dedicate this lesson to the scope of fair use. Break down the four-factor test (purpose, nature, amount, market effect). Apply the test to common creative scenarios to demonstrate its balancing nature.",
+        "objective": "Apply the four-factor fair use test to evaluate whether a specific use of copyrighted material is likely permissible."
+      },
+      {
+        "title": "2.4 Landmark Copyright Cases",
+        "main_content": "Analyze landmark copyright cases to ground the theory. Focus on Campbell v. Acuff-Rose (parody and transformative use) and one additional case to demonstrate how fair use operates in actual legal practice.",
+        "objective": "Identify two landmark copyright cases and articulate their significance in shaping fair use doctrine."
+      },
+      {
+        "title": "3.1 The Core Patent Bargain",
+        "main_content": "Introduce patents by starting with the 'patent bargain': the inventor discloses the invention to the public in exchange for a time-limited monopoly. Explain how this bargain fuels innovation rather than just restricting use.",
+        "objective": "Articulate the core patent bargain of disclosure in exchange for time-limited exclusivity."
+      },
+      {
+        "title": "3.2 Patentability Requirements",
+        "main_content": "Break down the three primary requirements for a patent: Novelty, Inventive Step (non-obviousness), and Industrial Applicability. Use clear, non-technical examples to illustrate what fails and passes each requirement.",
+        "objective": "Describe the three main patentability requirements and evaluate if a hypothetical invention meets them."
+      },
+      {
+        "title": "3.3 The Patent Application Process",
+        "main_content": "Present a step-by-step procedural flowchart avoiding claim-drafting technicalities: invention -> prior art search -> filing -> examination -> grant -> expiry. Highlight where the process is most vulnerable to rejection.",
+        "objective": "Outline the procedural flowchart of a patent application from initial invention to grant or expiry."
+      },
+      {
+        "title": "4.1 What Trademarks Protect vs. Copyright",
+        "main_content": "Open with instantly recognizable brand examples. Clearly contrast trademarks from copyright: trademarks protect commercial origin signals (logos, names, slogans) to prevent consumer confusion, not creative expression.",
+        "objective": "Define what trademarks protect and clearly distinguish their purpose from that of copyright."
+      },
+      {
+        "title": "4.2 The Trademark Registration Process",
+        "main_content": "Explain the requirement of distinctiveness for trademarks. Walk through the basic registration process, including the concept of use in commerce and the ongoing requirement to renew.",
+        "objective": "Explain the trademark registration process and the necessity of commercial distinctiveness."
+      },
+      {
+        "title": "4.3 Trademark Dilution and Genericide",
+        "main_content": "Introduce how trademarks can be lost. Use memorable teaching anchors like 'Escalator' and 'Thermos' to explain genericide. Discuss trademark dilution when famous marks are blurred or tarnished.",
+        "objective": "Illustrate trademark dilution and genericide using real-world examples."
+      },
+      {
+        "title": "4.4 Master IP Comparison Table",
+        "main_content": "Present a comprehensive, dedicated summary slide comparing Copyright, Patents, and Trademarks across five axes: what is protected, how it arises, duration, registration requirements, and renewal rules.",
+        "objective": "Compare and contrast the three major IP types across protection scope, creation, duration, registration, and renewal."
+      },
+      {
+        "title": "5.1 Elements of IP Infringement",
+        "main_content": "Define the basic elements that constitute infringement for each IP type. Teach students how to identify unauthorized use, copying, or consumer confusion in a practical context.",
+        "objective": "Identify the core elements required to prove infringement for copyright, patents, and trademarks."
+      },
+      {
+        "title": "5.2 The Enforcement Decision Tree & DMCA",
+        "main_content": "Walk through an enforcement decision-tree flowchart: detect infringement -> cease and desist -> negotiation -> litigation -> remedies. Highlight the DMCA takedown process as a highly relevant, contemporary enforcement tool.",
+        "objective": "Describe key enforcement mechanisms and navigate a basic decision tree for responding to IP infringement."
+      },
+      {
+        "title": "5.3 Territorial Limits & International Treaties",
+        "main_content": "Address a major student gap: explain 'why your protection stops at the border.' Introduce the territorial nature of IP and how treaties (Berne, Paris Convention, TRIPS, WIPO) set minimum protection standards across member states.",
+        "objective": "Explain the territorial nature of IP and outline the roles of major international agreements in setting global standards."
+      },
+      {
+        "title": "5.4 Real-World Stakes: Pharma Patents vs. Generics",
+        "main_content": "Use the tension between pharmaceutical patents and generic medicines as a compelling real-world example to illustrate the global stakes of international IP frameworks like TRIPS.",
+        "objective": "Analyze the real-world impact of international IP treaties using the pharmaceutical patent versus generic medicine debate."
+      },
+      {
+        "title": "5.5 Practical Application: IP Risk in Startups",
+        "main_content": "Synthesize the course by presenting a mock startup scenario. Students will identify assets, determine which IP protection applies, spot potential infringement risks, and suggest basic enforcement or protection strategies.",
+        "objective": "Assess basic IP risk in a startup or creative project scenario by identifying applicable protections and potential infringements."
+      }
+    ]
+  },
+  "lessonIds": [
+    "323a21a2-fc6b-4c77-82b7-b20d95898325"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval 1: Intellectual Property Law — Copyright, Patents & Trademarks",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 19,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "2026-06-01T15:57:03.901Z",
+  "updatedAt": "Mon Jun 01 2026 16:12:34 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

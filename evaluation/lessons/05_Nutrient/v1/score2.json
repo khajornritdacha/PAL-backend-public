@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Energy Balance and Basal Metabolic Rate",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present across any of the five slides; all slides are composed exclusively of text. The absence of any visual representations means no reciprocal relationship between visual and verbal channels exists, and no graphic is available to depict concepts such as energy balance, BMR determinants, or the Mifflin-St Jeor equation."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide presents full, multi-sentence paragraphs of prose that constitute the primary informational channel, and the narration transcript is near-verbatim reproduction of those on-screen paragraphs across all five slides. No graphic carries informational weight, and on-screen text far exceeds a five-second scan threshold on every slide."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "score": 2,
+            "evidence": "Complex descriptions — including the BMR definition, sarcopenia, and the Mifflin-St Jeor formula — are delivered as dense on-screen prose rather than through narration elaborating a visual. The narration is written in natural spoken language and does not add information beyond what is already present verbatim on-screen, rendering each slide fully self-sufficient as text alone."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "No decorative imagery, tangential anecdotes, or off-topic narration content is present; every sentence is topically relevant to energy balance and BMR. Background styling appears clean based on available PDF text extraction, though font and color consistency cannot be fully verified from the text-only render."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "Slide titles provide a minimal visual hierarchy, but no arrows, highlights, color contrast, callouts, or bold markers are present to direct learner attention to key elements within any slide. The narration contains no explicit verbal signaling phrases such as 'notice,' 'the key idea is,' or enumeration cues to orient the learner."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No graphics, captions, labels, or visual referents are present on any slide, making spatial contiguity between text and image inapplicable for criteria a, b, d, and e. Text items are co-located within each slide as a single block, satisfying proximity within the text column alone, but no term-to-diagram spatial relationship exists anywhere in the deck."
+        }
+    ],
+    "raw_total": 13,
+    "unweighted_average": 2.17
+}

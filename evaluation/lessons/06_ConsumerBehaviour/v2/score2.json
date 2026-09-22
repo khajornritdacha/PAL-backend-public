@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Consumer Behavior & the Buyer Decision Process",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slide 12 (text-only) includes at least one photographic or illustrative image that corresponds to the narrated concept, satisfying criteria a, b, and e consistently. Reciprocity (d) is partial: most images are contextual scene-setters rather than diagrams that require the narration to decode, so verbal and visual channels are complementary but not mutually dependent."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet text is consistently short-phrase format, yet caption text beneath images often restates the same proposition already carried by the bullet and the narration, creating a three-channel redundancy on slides such as 6, 7, 14, and 15. The narration elaborates meaningfully beyond the bullets in most slides, but the dual on-screen text layers (bullets plus bold captions) undermine the redundancy principle across the deck."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Complex process descriptions—such as the internal-stimulus to search transition on slide 6 and the habit-loop mechanism on slide 8—are delivered exclusively through narration, keeping the visual channel free for imagery. However, slides with two images each carry dual bold captions that duplicate sentence-length narration content (e.g., slides 7 and 15), partially violating criterion d by placing extended explanatory text alongside the graphic."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "All images are functionally tied to the instructional scenario being narrated, and the narration contains no tangential anecdotes or off-topic content across all 16 slides. The sole coherence deduction is slide 5's generic iced-tea lifestyle photograph, which depicts a non-branded product in an outdoor Tuscan setting that is contextually inconsistent with the Bangkok/Thai-market framing established elsewhere in the lesson."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "Visual hierarchy is clear and consistent—blue title, horizontal rule, bulleted body, captioned image—across all slides, but no arrows, highlights, callouts, or color overlays are used to direct attention to specific elements within any graphic. Verbal signaling in the narration is present but irregular; explicit cues such as 'notice' or 'the key point is' appear only on a minority of slides, and captions describe images generally rather than pointing to a specific region."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed directly beneath their respective images on every slide, and paired dual-image layouts consistently assign each caption under its own graphic, satisfying proximity and grouping criteria. However, on single-image slides (1, 4, 5, 8, 9, 13, 16) the image and its caption sit in the lower half of the slide while the related bullet text occupies the upper half, creating a moderate split-attention distance between the verbal label and its visual referent."
+        }
+    ],
+    "raw_total": 43,
+    "unweighted_average": 7.17
+}

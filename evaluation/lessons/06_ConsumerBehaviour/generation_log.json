@@ -1,0 +1,473 @@
+{
+    "_id": {
+        "$oid": "6a1db876807566adcec85182"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# Demystifying Consumer Behavior\n\n* Focuses on the core question: 'Why did they do that?'\n* Moves beyond demographics to understand underlying motivations\n* Traces the complete path to purchase\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/1.png\" alt=\"Marketers must act like detectives to uncover the hidden 'why' behind every purchase on the receipt.\" />\n  </div>\n  <p class=\"hero-caption\">Marketers must act like detectives to uncover the hidden 'why' behind every purchase on the receipt.</p>\n</div>\n\n---\n# Mapping the Consumer Journey\n\n* The purchase is just the final destination\n* The journey maps out every thought, turn, and stop\n* Non-example: Buying is rarely a random, instant reflex\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/2.png\" alt=\"A GPS maps out every turn and stop long before you reach the destination.\" />\n    </div>\n    <span><strong>A GPS maps out every turn and stop long before you reach the destination.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/3.png\" alt=\"Similarly, the buyer decision process maps every thought leading up to the final transaction.\" />\n    </div>\n    <span><strong>Similarly, the buyer decision process maps every thought leading up to the final transaction.</strong></span>\n  </div>\n</div>\n\n---\n# The 5-Stage Decision Framework\n\n* 1. Need Recognition (Identifying a problem)\n* 2. Information Search (Gathering data)\n* 3. Evaluation of Alternatives (Comparing options)\n* 4. Purchase & 5. Post-Purchase Behavior\n\n---\n# The Framework in Action: Oishi\n\n* Need Recognition: Feeling thirsty in the heat\n* Search & Evaluation: Scanning convenience store shelves\n* Purchase & Post-Purchase: Buying and feeling refreshed\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/4.png\" alt=\"Evaluating alternatives in real-time: choosing between different green tea brands based on flavor, price, and brand perception.\" />\n  </div>\n  <p class=\"hero-caption\">Evaluating alternatives in real-time: choosing between different green tea brands based on flavor, price, and brand perception.</p>\n</div>\n\n---\n# The 5-Stage Journey in Action\n\n* Theoretical frameworks require practical application.\n* Everyday habits follow structured psychological paths.\n* Case scenario: The journey of purchasing a cold beverage.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/5.png\" alt=\"A common, everyday product like green tea serves as the perfect case study to visualize the entire buyer decision process.\" />\n  </div>\n  <p class=\"hero-caption\">A common, everyday product like green tea serves as the perfect case study to visualize the entire buyer decision process.</p>\n</div>\n\n---\n# Stages 1 & 2: Need and Search\n\n* Stage 1 (Need): Initiated by internal physiological stimuli.\n* Stage 2 (Search): Active seeking of solutions in the environment.\n* Shifts from feeling a physical sensation to visual scanning.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/6.png\" alt=\"Stage 1: Internal physiological triggers, such as heat and thirst, spark immediate need recognition.\" />\n    </div>\n    <span><strong>Stage 1: Internal physiological triggers, such as heat and thirst, spark immediate need recognition.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/7.png\" alt=\"Stage 2: Information search begins immediately by scanning available physical inventory rather than deep research.\" />\n    </div>\n    <span><strong>Stage 2: Information search begins immediately by scanning available physical inventory rather than deep research.</strong></span>\n  </div>\n</div>\n\n---\n# Stages 3 & 4: Evaluation and Purchase\n\n* Stage 3 (Evaluate): Weighing specific criteria like flavor vs. price.\n* Narrowing the 'evoked set' to a final choice (e.g., Tea vs. Cola).\n* Stage 4 (Purchase): The physical transaction bridging intent to action.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/8.png\" alt=\"Stage 3: The consumer evaluates alternatives in their evoked set based on specific criteria like health benefits and immediate refreshment.\" />\n    </div>\n    <span><strong>Stage 3: The consumer evaluates alternatives in their evoked set based on specific criteria like health benefits and immediate refreshment.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/9.png\" alt=\"Stage 4: The purchase decision is finalized through the actual transaction, committing to the evaluated choice.\" />\n    </div>\n    <span><strong>Stage 4: The purchase decision is finalized through the actual transaction, committing to the evaluated choice.</strong></span>\n  </div>\n</div>\n\n---\n# Stage 5: Post-Purchase Behavior\n\n* Assessing satisfaction immediately after consumption.\n* Positive experiences prevent buyer's remorse or cognitive dissonance.\n* Satisfaction reinforces future habitual purchase loops.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/10.png\" alt=\"Stage 5: Post-purchase satisfaction ensures the consumer will repeat this specific behavioral loop in the future.\" />\n  </div>\n  <p class=\"hero-caption\">Stage 5: Post-purchase satisfaction ensures the consumer will repeat this specific behavioral loop in the future.</p>\n</div>\n\n---\n# The Great Misconception\n\n* Focusing only on the final transaction\n* Treating the purchase as the entire story\n* Missing the \"Why\" behind the action\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/11.png\" alt=\"A receipt shows what was bought, not why the customer bought it.\" />\n  </div>\n  <p class=\"hero-caption\">A receipt shows what was bought, not why the customer bought it.</p>\n</div>\n\n---\n# Transaction vs. The Full Journey\n\n* Receipts capture only Stage 4 (Purchase)\n* True behavior spans 5 full stages\n* Pre-purchase journey is ignored\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/12.png\" alt=\"A receipt only represents Stage 4: The Purchase.\" />\n    </div>\n    <span><strong>A receipt only represents Stage 4: The Purchase.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/13.png\" alt=\"True consumer behavior encompasses the entire five-stage journey.\" />\n    </div>\n    <span><strong>True consumer behavior encompasses the entire five-stage journey.</strong></span>\n  </div>\n</div>\n\n---\n# What the Transaction Misses\n\n* Why did they enter the store? (Need)\n* What information was sought? (Search)\n* Which alternatives were rejected? (Evaluation)\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/14.png\" alt=\"Stage 1: The initial trigger or need recognition.\" />\n    </div>\n    <span><strong>Stage 1: The initial trigger or need recognition.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/15.png\" alt=\"Stage 2: Searching for information and options.\" />\n    </div>\n    <span><strong>Stage 2: Searching for information and options.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/16.png\" alt=\"Stage 3: Evaluating different alternatives.\" />\n    </div>\n    <span><strong>Stage 3: Evaluating different alternatives.</strong></span>\n  </div>\n</div>\n\n---\n# Redefining Consumer Behavior\n\n* Behavior is an end-to-end process\n* Starts long before the store visit\n* Continues after product usage\n* Answers the crucial question: \"Why?\"\n\n---\n# Knowledge Check: The Sneaker Scenario\n\n* Review the 5-stage buyer decision process.\n* Analyze a real-world shopping scenario.\n* Trace the consumer's exact steps.\n* Identify the missing stage in the sequence.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/17.png\" alt=\"A consumer beginning their journey to replace worn-out shoes, initiating the decision process.\" />\n  </div>\n  <p class=\"hero-caption\">A consumer beginning their journey to replace worn-out shoes, initiating the decision process.</p>\n</div>\n\n---\n# Mapping the Actions: Need & Search\n\n* Stage 1: Realizing shoes are worn out.\n* Trigger: Internal recognition of a problem.\n* Stage 2: Asking friends for recommendations.\n* Source: Relying on a personal network.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/18.png\" alt=\"Stage 1: Need Recognition triggered by a broken, unusable product.\" />\n    </div>\n    <span><strong>Stage 1: Need Recognition triggered by a broken, unusable product.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/19.png\" alt=\"Stage 2: Information Search leveraging personal sources like friends for recommendations.\" />\n    </div>\n    <span><strong>Stage 2: Information Search leveraging personal sources like friends for recommendations.</strong></span>\n  </div>\n</div>\n\n---\n# The Jump: Purchase & Review\n\n* Action jumps to an immediate online payment.\n* Stage 4: Executing the transaction.\n* Customer leaves a glowing 5-star review.\n* Stage 5: Displaying post-purchase satisfaction.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/20.png\" alt=\"Stage 4: The Purchase Decision is executed immediately online.\" />\n    </div>\n    <span><strong>Stage 4: The Purchase Decision is executed immediately online.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/21.png\" alt=\"Stage 5: Post-Purchase Behavior expressed via a highly positive review.\" />\n    </div>\n    <span><strong>Stage 5: Post-Purchase Behavior expressed via a highly positive review.</strong></span>\n  </div>\n</div>\n\n---\n# Spotting the Gap: The Missing Stage\n\n* Missing link: Stage 3 (Evaluation of Alternatives).\n* Skipped weighing the pros and cons.\n* No comparison of price, style, or features.\n* Customer did not analyze their 'evoked set'.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/22.png\" alt=\"Stage 3: Evaluation of Alternatives involves weighing different options before committing to a purchase.\" />\n  </div>\n  <p class=\"hero-caption\">Stage 3: Evaluation of Alternatives involves weighing different options before committing to a purchase.</p>\n</div>\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "Demystifying Consumer Behavior",
+            "transcript": "Welcome to Consumer Behavior. Today, we start with the most important question in marketing: 'Why did the consumer do that?' It is not enough to simply know who our customer is; we need to deeply understand the psychological and behavioral drivers behind their actions. This course will turn you into a behavioral detective, tracing the exact steps a consumer takes before they ever open their wallet.",
+            "thai_transcript": "ยินดีต้อนรับเข้าสู่วิชาพฤติกรรมผู้บริโภคครับ วันนี้เราจะเริ่มต้นด้วยคำถามที่สำคัญที่สุดในการตลาด นั่นคือ 'ทำไมผู้บริโภคถึงทำแบบนั้น?' การรู้แค่ว่าลูกค้าของเราคือใครนั้นไม่พอครับ เราจำเป็นต้องเข้าใจถึงแรงจูงใจทางจิตวิทยาและพฤติกรรมที่อยู่เบื้องหลังการกระทำของพวกเขา หลักสูตรนี้จะเปลี่ยนคุณให้เป็นนักสืบพฤติกรรม เพื่อตามรอยทุกขั้นตอนที่ผู้บริโภคตัดสินใจก่อนที่พวกเขาจะควักกระเป๋าจ่ายเงิน"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Mapping the Consumer Journey",
+            "transcript": "Think of the buying process like a GPS for a road trip. The final purchase is simply your destination, but it doesn't happen by teleporting there. The GPS maps out every single thought, turn, and stop you make from the moment you decide to travel until you unpack your bags at home. By understanding this journey, we realize that purchasing is almost never a random, immediate reflex.",
+            "thai_transcript": "ลองนึกถึงกระบวนการซื้อสินค้าว่าเหมือนกับระบบ GPS สำหรับการขับรถเที่ยวดูสิครับ การซื้อขั้นสุดท้ายก็คือจุดหมายปลายทาง แต่เราไม่ได้วาร์ปไปถึงที่นั่นในพริบตา GPS จะคอยวางแผนที่ทุกๆ ความคิด การเลี้ยว และการหยุดพัก ตั้งแต่วินาทีที่คุณตัดสินใจจะเดินทางไปจนถึงตอนที่คุณจัดของออกจากกระเป๋าที่บ้าน การเข้าใจการเดินทางนี้จะทำให้เราตระหนักว่า การซื้อนั้นแทบจะไม่ใช่การตอบสนองแบบสุ่มหรือเกิดขึ้นทันทีทันใดเลย"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "The 5-Stage Decision Framework",
+            "transcript": "Here is our anchor framework for the entire course: the 5-Stage Buyer Decision Process. It starts with Need Recognition, where an internal or external trigger highlights a problem. Next is the Information Search, followed closely by the Evaluation of Alternatives where consumers actively weigh their options. Then comes the actual Purchase Decision, and finally, Post-Purchase Behavior, where the consumer evaluates if they made the right choice. We will use this exact model to diagnose consumer actions in every future lesson.",
+            "thai_transcript": "นี่คือกรอบแนวคิดหลักสำหรับเนื้อหาทั้งหมดในรายวิชานี้ครับ กระบวนการตัดสินใจซื้อ 5 ขั้นตอน มันเริ่มต้นที่การตระหนักถึงความต้องการ เมื่อผู้บริโภคพบปัญหา ต่อมาคือการค้นหาข้อมูล ตามด้วยการประเมินทางเลือกที่ผู้บริโภคจะเปรียบเทียบตัวเลือกต่างๆ จากนั้นจึงเป็นการตัดสินใจซื้อ และสุดท้ายคือพฤติกรรมหลังการซื้อ ซึ่งผู้บริโภคจะประเมินว่าตนเองเลือกถูกหรือไม่ เราจะใช้โมเดลนี้เพื่อวิเคราะห์พฤติกรรมผู้บริโภคในทุกๆ บทเรียนต่อจากนี้ครับ"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "The Framework in Action: Oishi",
+            "transcript": "Let's apply this to a real scenario using a Thai beverage brand like Oishi. The journey doesn't start at the cash register; it starts with feeling incredibly thirsty in the Bangkok heat, which represents Need Recognition. Walking into a convenience store and scanning the shelves covers the search and evaluation phases. Finally, buying the Oishi and feeling instantly refreshed represents the purchase and post-purchase stages. This simple example proves that the 5-stage model is operating constantly in our everyday lives.",
+            "thai_transcript": "ลองนำสิ่งนี้มาประยุกต์ใช้กับสถานการณ์จริงผ่านแบรนด์เครื่องดื่มไทยอย่าง Oishi ดูนะครับ การเดินทางไม่ได้เริ่มต้นที่หน้าเคาน์เตอร์คิดเงิน แต่มันเริ่มจากความรู้สึกกระหายน้ำในวันที่อากาศร้อนของกรุงเทพฯ ซึ่งนั่นคือการตระหนักถึงความต้องการ การเดินเข้าไปในร้านสะดวกซื้อแล้วมองกวาดไปที่ชั้นวางสินค้าคือช่วงของการค้นหาและประเมินทางเลือก ท้ายที่สุด การซื้อ Oishi และรู้สึกสดชื่นทันทีก็คือขั้นตอนการซื้อและพฤติกรรมหลังการซื้อ ตัวอย่างง่ายๆ นี้พิสูจน์ให้เห็นว่าโมเดล 5 ขั้นตอนทำงานอยู่ตลอดในชีวิตประจำวันของเราครับ"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "The 5-Stage Journey in Action",
+            "transcript": "To truly understand the 5-stage buyer decision process, we must see it in action. Let's step away from the abstract theory and look at an incredibly common scenario: buying a cold beverage on a hot day. Even something as simple and low-involvement as purchasing an Oishi Green Tea follows this exact psychological sequence. By mapping this everyday habit to our framework, you'll see how consumer behavior happens constantly around us.",
+            "thai_transcript": "เพื่อให้เข้าใจกระบวนการตัดสินใจซื้อทั้ง 5 ขั้นตอนอย่างแท้จริง เราต้องดูจากสถานการณ์จริงครับ ลองพักจากทฤษฎีแล้วมาดูเหตุการณ์ที่พบได้บ่อยมาก เช่น การซื้อเครื่องดื่มเย็นๆ ในวันที่อากาศร้อน แม้แต่การซื้อชาเขียวซึ่งเป็นการตัดสินใจที่ง่ายดาย ก็ยังมีลำดับทางจิตวิทยาที่ชัดเจน เมื่อเรานำพฤติกรรมในชีวิตประจำวันมาจับคู่กับโครงสร้างนี้ คุณจะเห็นเลยว่าพฤติกรรมผู้บริโภคเกิดขึ้นรอบตัวเราตลอดเวลา"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Stages 1 & 2: Need and Search",
+            "transcript": "The journey begins with Need Recognition. Imagine walking down a street; you feel hot and thirsty—this is a powerful internal stimulus triggering a physiological need. Almost immediately, you transition into Stage 2, Information Search. For a low-involvement purchase, this doesn't mean Googling extensive reviews; it simply means walking into a nearby convenience store and visually scanning the drinks fridge. The recognized need has immediately initiated the active search for a solution.",
+            "thai_transcript": "การเดินทางเริ่มต้นที่การรับรู้ถึงความต้องการครับ ลองจินตนาการว่าคุณกำลังเดินอยู่บนถนนแล้วรู้สึกร้อนและกระหายน้ำ นี่คือสิ่งเร้าภายในที่กระตุ้นความต้องการทางร่างกาย แทบจะในทันที คุณจะเข้าสู่ขั้นที่ 2 คือการค้นหาข้อมูล สำหรับสินค้าที่ใช้ความพยายามในการตัดสินใจต่ำ ไม่ได้หมายความว่าต้องค้นหารีวิวในอินเทอร์เน็ต แต่หมายถึงการเดินเข้าร้านสะดวกซื้อแล้วมองตู้แช่เครื่องดื่ม ความต้องการได้เริ่มต้นการค้นหาทางออกแล้วครับ"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Stages 3 & 4: Evaluation and Purchase",
+            "transcript": "Next, we hit Stage 3: Evaluation of Alternatives. As you stare at the fridge, you mentally compare a green tea against a cola. You are unconsciously weighing evaluation criteria: the cola might be cheaper, but the green tea feels healthier and more refreshing for this specific moment. Once the green tea wins this mental calculation, you proceed to Stage 4: The Purchase Decision. You bring the bottle to the counter and pay, overcoming any remaining friction to finally acquire the product.",
+            "thai_transcript": "ถัดมาคือขั้นที่ 3 การประเมินทางเลือกครับ ขณะที่คุณมองตู้แช่ คุณกำลังเปรียบเทียบชาเขียวกับน้ำอัดลมในใจ คุณกำลังชั่งน้ำหนักเกณฑ์ต่างๆ โดยไม่รู้ตัว เช่น น้ำอัดลมอาจจะถูกกว่า แต่ชาเขียวดูดีต่อสุขภาพและสดชื่นกว่าในตอนนั้น เมื่อชาเขียวชนะการคำนวณในหัว คุณจะไปสู่ขั้นที่ 4 คือการตัดสินใจซื้อ คุณนำขวดไปจ่ายเงินที่เคาน์เตอร์ ซึ่งเป็นการเปลี่ยนจากแค่ความต้องการไปสู่การครอบครองสินค้าจริงๆ"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Stage 5: Post-Purchase Behavior",
+            "transcript": "The final stage occurs after the money has changed hands. In Stage 5, Post-Purchase Behavior, you drink the tea and assess whether it actually met your expectations. Since it successfully quenches your thirst and tastes great, you feel highly satisfied, completely avoiding buyer's remorse. This positive post-purchase evaluation is crucial for marketers because it reinforces a habit loop: the next time you are hot and thirsty, you will likely bypass the evaluation stage entirely and reach straight for that brand.",
+            "thai_transcript": "ขั้นตอนสุดท้ายเกิดขึ้นหลังจากที่คุณจ่ายเงินไปแล้วครับ ในขั้นที่ 5 พฤติกรรมหลังการซื้อ คุณดื่มชาและประเมินว่ามันตรงกับที่คาดหวังไว้หรือไม่ เนื่องจากมันช่วยแก้กระหายและรสชาติอร่อย คุณจึงรู้สึกพึงพอใจและไม่เกิดความรู้สึกเสียดายหลังการซื้อ การประเมินผลเชิงบวกนี้สำคัญมากสำหรับนักการตลาด เพราะมันช่วยตอกย้ำพฤติกรรมเดิม ในครั้งต่อไปที่คุณรู้สึกร้อนและกระหายน้ำ คุณมีแนวโน้มที่จะข้ามขั้นตอนการประเมินแล้วหยิบสินค้าแบรนด์เดิมทันทีครับ"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "The Great Misconception",
+            "transcript": "Welcome to a crucial concept in consumer behavior: understanding what it is NOT. Often, businesses make the mistake of looking only at the final transaction. They think that analyzing a cash register receipt is enough to understand their customer. However, this is a dangerous misconception because it completely misses the underlying psychological and social reasons behind the purchase.",
+            "thai_transcript": "ยินดีต้อนรับสู่แนวคิดสำคัญในพฤติกรรมผู้บริโภค นั่นคือการทำความเข้าใจว่าสิ่งนี้ 'ไม่ใช่' อะไร บ่อยครั้งที่ธุรกิจทำผิดพลาดโดยดูแค่การทำธุรกรรมขั้นสุดท้าย พวกเขาคิดว่าการวิเคราะห์ใบเสร็จรับเงินก็เพียงพอแล้วที่จะเข้าใจลูกค้า อย่างไรก็ตาม นี่เป็นความเข้าใจผิดที่อันตรายมากเพราะมันละเลยเหตุผลทางจิตวิทยาและสังคมที่แท้จริงเบื้องหลังการซื้อไปอย่างสิ้นเชิง"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "Transaction vs. The Full Journey",
+            "transcript": "Let's compare the receipt to the actual consumer journey to see why this non-example is so limiting. A receipt is merely a snapshot of Stage 4, which is the purchase decision itself. It tells us the price paid and the specific item chosen at that exact moment. But consumer behavior is the entire five-stage journey, encompassing everything that happened before they reached the checkout counter.",
+            "thai_transcript": "ลองเปรียบเทียบใบเสร็จกับเส้นทางของผู้บริโภคที่แท้จริงเพื่อดูว่าทำไมตัวอย่างที่ไม่ถูกต้องนี้ถึงมีข้อจำกัดมาก ใบเสร็จเป็นเพียงภาพถ่ายของขั้นตอนที่ 4 ซึ่งก็คือการตัดสินใจซื้อเท่านั้น มันบอกเราแค่ราคาที่จ่ายและสินค้าที่เลือก ณ วินาทีนั้น แต่พฤติกรรมผู้บริโภคคือเส้นทางทั้งห้าขั้นตอน ซึ่งครอบคลุมทุกสิ่งที่เกิดขึ้นก่อนที่พวกเขาจะมาถึงจุดชำระเงิน"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "What the Transaction Misses",
+            "transcript": "When we only look at the final transaction, we miss a massive amount of critical data. We don't see why the customer walked into the store in the first place, which is the initial need recognition. We miss what information they searched for online beforehand. Most importantly, we have no idea which competing alternatives they considered and ultimately rejected before choosing our product.",
+            "thai_transcript": "เมื่อเราดูแค่การทำธุรกรรมขั้นสุดท้าย เราจะพลาดข้อมูลที่สำคัญไปอย่างมหาศาล เราจะไม่เห็นว่าทำไมลูกค้าถึงเดินเข้ามาในร้านตั้งแต่แรก ซึ่งก็คือการตระหนักถึงความต้องการ เราพลาดข้อมูลที่พวกเขาค้นหาทางออนไลน์ก่อนหน้านี้ และที่สำคัญที่สุด เราจะไม่รู้เลยว่าพวกเขากำลังพิจารณาและปฏิเสธทางเลือกคู่แข่งใดบ้างก่อนที่จะเลือกผลิตภัณฑ์ของเรา"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Redefining Consumer Behavior",
+            "transcript": "To summarize, consumer behavior is not a single action; it is a continuous, dynamic process. It begins long before the customer interacts with your business and continues long after they consume your product. By studying all five stages, we shift our focus from simply knowing 'what' was bought to deeply understanding 'why' the consumer did that.",
+            "thai_transcript": "โดยสรุปแล้ว พฤติกรรมผู้บริโภคไม่ใช่แค่การกระทำเพียงครั้งเดียว แต่มันคือกระบวนการที่ต่อเนื่องและมีพลวัต มันเริ่มต้นขึ้นนานก่อนที่ลูกค้าจะมีปฏิสัมพันธ์กับธุรกิจของคุณ และดำเนินต่อไปอีกนานหลังจากที่พวกเขาใช้งานผลิตภัณฑ์ของคุณ ด้วยการศึกษาทั้งห้าขั้นตอน เราจะเปลี่ยนจุดสนใจจากการรู้แค่ว่าลูกค้าซื้อ 'อะไร' ไปสู่การเข้าใจอย่างลึกซึ้งว่า 'ทำไม' ผู้บริโภคถึงตัดสินใจเช่นนั้น"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Knowledge Check: The Sneaker Scenario",
+            "transcript": "Let's test your understanding of the buyer decision process with a quick scenario. Imagine a customer realizes their current running shoes are completely worn out. They decide they need a new pair to keep up with their workouts. We will trace their steps and see if you can identify which crucial stage they skipped in the standard consumer journey.",
+            "thai_transcript": "มาทดสอบความเข้าใจเกี่ยวกับกระบวนการตัดสินใจซื้อของผู้บริโภคด้วยสถานการณ์สมมติกันครับ ลองจินตนาการถึงลูกค้าที่เพิ่งรู้ตัวว่ารองเท้าวิ่งคู่เก่านั้นพังจนใส่ไม่ได้แล้ว พวกเขาตัดสินใจว่าต้องซื้อรองเท้าคู่ใหม่เพื่อใช้ออกกำลังกาย เราจะมาติดตามขั้นตอนของพวกเขากัน และดูว่าคุณจะสามารถระบุได้หรือไม่ว่าขั้นตอนสำคัญใดที่หายไปในเส้นทางของผู้บริโภค"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Mapping the Actions: Need & Search",
+            "transcript": "The journey begins logically. First, the consumer experiences Need Recognition when they see their torn shoe. This is an internal trigger driving them to act. Immediately after, they move into Information Search by texting friends for brand recommendations, leveraging their trusted personal network to gather data.",
+            "thai_transcript": "การเดินทางเริ่มต้นอย่างสมเหตุสมผลครับ อย่างแรก ผู้บริโภคเกิดการรับรู้ความต้องการเมื่อเห็นรองเท้าที่ขาด ซึ่งเป็นตัวกระตุ้นภายในที่ผลักดันให้เกิดการกระทำ ทันทีหลังจากนั้น พวกเขาเข้าสู่ขั้นตอนการค้นหาข้อมูลโดยการส่งข้อความหาเพื่อนเพื่อขอคำแนะนำเรื่องแบรนด์ ซึ่งเป็นการใช้เครือข่ายส่วนตัวที่เชื่อถือได้ในการรวบรวมข้อมูล"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "The Jump: Purchase & Review",
+            "transcript": "The story then jumps forward abruptly. The customer immediately pays for a pair of sneakers online, which represents Stage 4, the Purchase Decision. Later, they wear the shoes, love them, and leave a 5-star review, clearly demonstrating Stage 5, Post-Purchase Behavior. Look closely at this entire sequence—did you catch what behavior was skipped?",
+            "thai_transcript": "จากนั้นเรื่องราวก็ข้ามไปข้างหน้าอย่างรวดเร็วครับ ลูกค้าจ่ายเงินซื้อรองเท้าผ้าใบออนไลน์ทันที ซึ่งแสดงถึงขั้นที่ 4 คือการตัดสินใจซื้อ ต่อมาพวกเขาก็สวมรองเท้า รู้สึกประทับใจ และให้คะแนนรีวิว 5 ดาว ซึ่งแสดงให้เห็นถึงขั้นที่ 5 คือพฤติกรรมหลังการซื้ออย่างชัดเจน ลองพิจารณาลำดับเหตุการณ์ทั้งหมดนี้ให้ดีๆ นะครับ คุณสังเกตเห็นไหมว่าพฤติกรรมใดถูกข้ามไป?"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Spotting the Gap: The Missing Stage",
+            "transcript": "The missing critical step is Stage 3: Evaluation of Alternatives. In our scenario, the customer went straight from asking for recommendations to instantly buying a pair. They completely skipped weighing the pros and cons, comparing prices, or evaluating different brands against one another. Recognizing these gaps helps marketers understand if a consumer is making an impulse buy or if they bypassed normal logical steps.",
+            "thai_transcript": "ขั้นตอนสำคัญที่หายไปคือ ขั้นที่ 3: การประเมินทางเลือก ครับ ในสถานการณ์ของเรา ลูกค้าข้ามจากการขอคำแนะนำไปสู่การซื้อทันที พวกเขาข้ามการชั่งน้ำหนักข้อดีข้อเสีย การเปรียบเทียบราคา หรือการประเมินแบรนด์ต่างๆ เทียบกันไปโดยสิ้นเชิง การตระหนักถึงช่องโหว่เหล่านี้จะช่วยให้นักการตลาดเข้าใจว่าผู้บริโภคกำลังตัดสินใจซื้อด้วยอารมณ์ชั่ววูบ หรือข้ามขั้นตอนตามหลักเหตุผลปกติไปหรือไม่"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Understanding Consumer Behavior & The 5-Stage Model",
+            "slides": [
+                {
+                    "title": "Demystifying Consumer Behavior",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Focuses on the core question: 'Why did they do that?'",
+                        "Moves beyond demographics to understand underlying motivations",
+                        "Traces the complete path to purchase"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/1.png",
+                            "caption": "Marketers must act like detectives to uncover the hidden 'why' behind every purchase on the receipt.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to Consumer Behavior. Today, we start with the most important question in marketing: 'Why did the consumer do that?' It is not enough to simply know who our customer is; we need to deeply understand the psychological and behavioral drivers behind their actions. This course will turn you into a behavioral detective, tracing the exact steps a consumer takes before they ever open their wallet.",
+                    "thai_transcript": "ยินดีต้อนรับเข้าสู่วิชาพฤติกรรมผู้บริโภคครับ วันนี้เราจะเริ่มต้นด้วยคำถามที่สำคัญที่สุดในการตลาด นั่นคือ 'ทำไมผู้บริโภคถึงทำแบบนั้น?' การรู้แค่ว่าลูกค้าของเราคือใครนั้นไม่พอครับ เราจำเป็นต้องเข้าใจถึงแรงจูงใจทางจิตวิทยาและพฤติกรรมที่อยู่เบื้องหลังการกระทำของพวกเขา หลักสูตรนี้จะเปลี่ยนคุณให้เป็นนักสืบพฤติกรรม เพื่อตามรอยทุกขั้นตอนที่ผู้บริโภคตัดสินใจก่อนที่พวกเขาจะควักกระเป๋าจ่ายเงิน"
+                },
+                {
+                    "title": "Mapping the Consumer Journey",
+                    "layout": "two_column",
+                    "key_points": [
+                        "The purchase is just the final destination",
+                        "The journey maps out every thought, turn, and stop",
+                        "Non-example: Buying is rarely a random, instant reflex"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/2.png",
+                            "caption": "A GPS maps out every turn and stop long before you reach the destination.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/3.png",
+                            "caption": "Similarly, the buyer decision process maps every thought leading up to the final transaction.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Think of the buying process like a GPS for a road trip. The final purchase is simply your destination, but it doesn't happen by teleporting there. The GPS maps out every single thought, turn, and stop you make from the moment you decide to travel until you unpack your bags at home. By understanding this journey, we realize that purchasing is almost never a random, immediate reflex.",
+                    "thai_transcript": "ลองนึกถึงกระบวนการซื้อสินค้าว่าเหมือนกับระบบ GPS สำหรับการขับรถเที่ยวดูสิครับ การซื้อขั้นสุดท้ายก็คือจุดหมายปลายทาง แต่เราไม่ได้วาร์ปไปถึงที่นั่นในพริบตา GPS จะคอยวางแผนที่ทุกๆ ความคิด การเลี้ยว และการหยุดพัก ตั้งแต่วินาทีที่คุณตัดสินใจจะเดินทางไปจนถึงตอนที่คุณจัดของออกจากกระเป๋าที่บ้าน การเข้าใจการเดินทางนี้จะทำให้เราตระหนักว่า การซื้อนั้นแทบจะไม่ใช่การตอบสนองแบบสุ่มหรือเกิดขึ้นทันทีทันใดเลย"
+                },
+                {
+                    "title": "The 5-Stage Decision Framework",
+                    "layout": "text_only",
+                    "key_points": [
+                        "1. Need Recognition (Identifying a problem)",
+                        "2. Information Search (Gathering data)",
+                        "3. Evaluation of Alternatives (Comparing options)",
+                        "4. Purchase & 5. Post-Purchase Behavior"
+                    ],
+                    "images": null,
+                    "transcript": "Here is our anchor framework for the entire course: the 5-Stage Buyer Decision Process. It starts with Need Recognition, where an internal or external trigger highlights a problem. Next is the Information Search, followed closely by the Evaluation of Alternatives where consumers actively weigh their options. Then comes the actual Purchase Decision, and finally, Post-Purchase Behavior, where the consumer evaluates if they made the right choice. We will use this exact model to diagnose consumer actions in every future lesson.",
+                    "thai_transcript": "นี่คือกรอบแนวคิดหลักสำหรับเนื้อหาทั้งหมดในรายวิชานี้ครับ กระบวนการตัดสินใจซื้อ 5 ขั้นตอน มันเริ่มต้นที่การตระหนักถึงความต้องการ เมื่อผู้บริโภคพบปัญหา ต่อมาคือการค้นหาข้อมูล ตามด้วยการประเมินทางเลือกที่ผู้บริโภคจะเปรียบเทียบตัวเลือกต่างๆ จากนั้นจึงเป็นการตัดสินใจซื้อ และสุดท้ายคือพฤติกรรมหลังการซื้อ ซึ่งผู้บริโภคจะประเมินว่าตนเองเลือกถูกหรือไม่ เราจะใช้โมเดลนี้เพื่อวิเคราะห์พฤติกรรมผู้บริโภคในทุกๆ บทเรียนต่อจากนี้ครับ"
+                },
+                {
+                    "title": "The Framework in Action: Oishi",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Need Recognition: Feeling thirsty in the heat",
+                        "Search & Evaluation: Scanning convenience store shelves",
+                        "Purchase & Post-Purchase: Buying and feeling refreshed"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/4.png",
+                            "caption": "Evaluating alternatives in real-time: choosing between different green tea brands based on flavor, price, and brand perception.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's apply this to a real scenario using a Thai beverage brand like Oishi. The journey doesn't start at the cash register; it starts with feeling incredibly thirsty in the Bangkok heat, which represents Need Recognition. Walking into a convenience store and scanning the shelves covers the search and evaluation phases. Finally, buying the Oishi and feeling instantly refreshed represents the purchase and post-purchase stages. This simple example proves that the 5-stage model is operating constantly in our everyday lives.",
+                    "thai_transcript": "ลองนำสิ่งนี้มาประยุกต์ใช้กับสถานการณ์จริงผ่านแบรนด์เครื่องดื่มไทยอย่าง Oishi ดูนะครับ การเดินทางไม่ได้เริ่มต้นที่หน้าเคาน์เตอร์คิดเงิน แต่มันเริ่มจากความรู้สึกกระหายน้ำในวันที่อากาศร้อนของกรุงเทพฯ ซึ่งนั่นคือการตระหนักถึงความต้องการ การเดินเข้าไปในร้านสะดวกซื้อแล้วมองกวาดไปที่ชั้นวางสินค้าคือช่วงของการค้นหาและประเมินทางเลือก ท้ายที่สุด การซื้อ Oishi และรู้สึกสดชื่นทันทีก็คือขั้นตอนการซื้อและพฤติกรรมหลังการซื้อ ตัวอย่างง่ายๆ นี้พิสูจน์ให้เห็นว่าโมเดล 5 ขั้นตอนทำงานอยู่ตลอดในชีวิตประจำวันของเราครับ"
+                }
+            ]
+        },
+        {
+            "title": "Example: The Journey of Buying an Oishi Green Tea",
+            "slides": [
+                {
+                    "title": "The 5-Stage Journey in Action",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Theoretical frameworks require practical application.",
+                        "Everyday habits follow structured psychological paths.",
+                        "Case scenario: The journey of purchasing a cold beverage."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/5.png",
+                            "caption": "A common, everyday product like green tea serves as the perfect case study to visualize the entire buyer decision process.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "To truly understand the 5-stage buyer decision process, we must see it in action. Let's step away from the abstract theory and look at an incredibly common scenario: buying a cold beverage on a hot day. Even something as simple and low-involvement as purchasing an Oishi Green Tea follows this exact psychological sequence. By mapping this everyday habit to our framework, you'll see how consumer behavior happens constantly around us.",
+                    "thai_transcript": "เพื่อให้เข้าใจกระบวนการตัดสินใจซื้อทั้ง 5 ขั้นตอนอย่างแท้จริง เราต้องดูจากสถานการณ์จริงครับ ลองพักจากทฤษฎีแล้วมาดูเหตุการณ์ที่พบได้บ่อยมาก เช่น การซื้อเครื่องดื่มเย็นๆ ในวันที่อากาศร้อน แม้แต่การซื้อชาเขียวซึ่งเป็นการตัดสินใจที่ง่ายดาย ก็ยังมีลำดับทางจิตวิทยาที่ชัดเจน เมื่อเรานำพฤติกรรมในชีวิตประจำวันมาจับคู่กับโครงสร้างนี้ คุณจะเห็นเลยว่าพฤติกรรมผู้บริโภคเกิดขึ้นรอบตัวเราตลอดเวลา"
+                },
+                {
+                    "title": "Stages 1 & 2: Need and Search",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Stage 1 (Need): Initiated by internal physiological stimuli.",
+                        "Stage 2 (Search): Active seeking of solutions in the environment.",
+                        "Shifts from feeling a physical sensation to visual scanning."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/6.png",
+                            "caption": "Stage 1: Internal physiological triggers, such as heat and thirst, spark immediate need recognition.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/7.png",
+                            "caption": "Stage 2: Information search begins immediately by scanning available physical inventory rather than deep research.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The journey begins with Need Recognition. Imagine walking down a street; you feel hot and thirsty—this is a powerful internal stimulus triggering a physiological need. Almost immediately, you transition into Stage 2, Information Search. For a low-involvement purchase, this doesn't mean Googling extensive reviews; it simply means walking into a nearby convenience store and visually scanning the drinks fridge. The recognized need has immediately initiated the active search for a solution.",
+                    "thai_transcript": "การเดินทางเริ่มต้นที่การรับรู้ถึงความต้องการครับ ลองจินตนาการว่าคุณกำลังเดินอยู่บนถนนแล้วรู้สึกร้อนและกระหายน้ำ นี่คือสิ่งเร้าภายในที่กระตุ้นความต้องการทางร่างกาย แทบจะในทันที คุณจะเข้าสู่ขั้นที่ 2 คือการค้นหาข้อมูล สำหรับสินค้าที่ใช้ความพยายามในการตัดสินใจต่ำ ไม่ได้หมายความว่าต้องค้นหารีวิวในอินเทอร์เน็ต แต่หมายถึงการเดินเข้าร้านสะดวกซื้อแล้วมองตู้แช่เครื่องดื่ม ความต้องการได้เริ่มต้นการค้นหาทางออกแล้วครับ"
+                },
+                {
+                    "title": "Stages 3 & 4: Evaluation and Purchase",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Stage 3 (Evaluate): Weighing specific criteria like flavor vs. price.",
+                        "Narrowing the 'evoked set' to a final choice (e.g., Tea vs. Cola).",
+                        "Stage 4 (Purchase): The physical transaction bridging intent to action."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/8.png",
+                            "caption": "Stage 3: The consumer evaluates alternatives in their evoked set based on specific criteria like health benefits and immediate refreshment.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/9.png",
+                            "caption": "Stage 4: The purchase decision is finalized through the actual transaction, committing to the evaluated choice.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Next, we hit Stage 3: Evaluation of Alternatives. As you stare at the fridge, you mentally compare a green tea against a cola. You are unconsciously weighing evaluation criteria: the cola might be cheaper, but the green tea feels healthier and more refreshing for this specific moment. Once the green tea wins this mental calculation, you proceed to Stage 4: The Purchase Decision. You bring the bottle to the counter and pay, overcoming any remaining friction to finally acquire the product.",
+                    "thai_transcript": "ถัดมาคือขั้นที่ 3 การประเมินทางเลือกครับ ขณะที่คุณมองตู้แช่ คุณกำลังเปรียบเทียบชาเขียวกับน้ำอัดลมในใจ คุณกำลังชั่งน้ำหนักเกณฑ์ต่างๆ โดยไม่รู้ตัว เช่น น้ำอัดลมอาจจะถูกกว่า แต่ชาเขียวดูดีต่อสุขภาพและสดชื่นกว่าในตอนนั้น เมื่อชาเขียวชนะการคำนวณในหัว คุณจะไปสู่ขั้นที่ 4 คือการตัดสินใจซื้อ คุณนำขวดไปจ่ายเงินที่เคาน์เตอร์ ซึ่งเป็นการเปลี่ยนจากแค่ความต้องการไปสู่การครอบครองสินค้าจริงๆ"
+                },
+                {
+                    "title": "Stage 5: Post-Purchase Behavior",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Assessing satisfaction immediately after consumption.",
+                        "Positive experiences prevent buyer's remorse or cognitive dissonance.",
+                        "Satisfaction reinforces future habitual purchase loops."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/10.png",
+                            "caption": "Stage 5: Post-purchase satisfaction ensures the consumer will repeat this specific behavioral loop in the future.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "The final stage occurs after the money has changed hands. In Stage 5, Post-Purchase Behavior, you drink the tea and assess whether it actually met your expectations. Since it successfully quenches your thirst and tastes great, you feel highly satisfied, completely avoiding buyer's remorse. This positive post-purchase evaluation is crucial for marketers because it reinforces a habit loop: the next time you are hot and thirsty, you will likely bypass the evaluation stage entirely and reach straight for that brand.",
+                    "thai_transcript": "ขั้นตอนสุดท้ายเกิดขึ้นหลังจากที่คุณจ่ายเงินไปแล้วครับ ในขั้นที่ 5 พฤติกรรมหลังการซื้อ คุณดื่มชาและประเมินว่ามันตรงกับที่คาดหวังไว้หรือไม่ เนื่องจากมันช่วยแก้กระหายและรสชาติอร่อย คุณจึงรู้สึกพึงพอใจและไม่เกิดความรู้สึกเสียดายหลังการซื้อ การประเมินผลเชิงบวกนี้สำคัญมากสำหรับนักการตลาด เพราะมันช่วยตอกย้ำพฤติกรรมเดิม ในครั้งต่อไปที่คุณรู้สึกร้อนและกระหายน้ำ คุณมีแนวโน้มที่จะข้ามขั้นตอนการประเมินแล้วหยิบสินค้าแบรนด์เดิมทันทีครับ"
+                }
+            ]
+        },
+        {
+            "title": "Non-Example: What Consumer Behavior is NOT",
+            "slides": [
+                {
+                    "title": "The Great Misconception",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Focusing only on the final transaction",
+                        "Treating the purchase as the entire story",
+                        "Missing the \"Why\" behind the action"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/11.png",
+                            "caption": "A receipt shows what was bought, not why the customer bought it.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to a crucial concept in consumer behavior: understanding what it is NOT. Often, businesses make the mistake of looking only at the final transaction. They think that analyzing a cash register receipt is enough to understand their customer. However, this is a dangerous misconception because it completely misses the underlying psychological and social reasons behind the purchase.",
+                    "thai_transcript": "ยินดีต้อนรับสู่แนวคิดสำคัญในพฤติกรรมผู้บริโภค นั่นคือการทำความเข้าใจว่าสิ่งนี้ 'ไม่ใช่' อะไร บ่อยครั้งที่ธุรกิจทำผิดพลาดโดยดูแค่การทำธุรกรรมขั้นสุดท้าย พวกเขาคิดว่าการวิเคราะห์ใบเสร็จรับเงินก็เพียงพอแล้วที่จะเข้าใจลูกค้า อย่างไรก็ตาม นี่เป็นความเข้าใจผิดที่อันตรายมากเพราะมันละเลยเหตุผลทางจิตวิทยาและสังคมที่แท้จริงเบื้องหลังการซื้อไปอย่างสิ้นเชิง"
+                },
+                {
+                    "title": "Transaction vs. The Full Journey",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Receipts capture only Stage 4 (Purchase)",
+                        "True behavior spans 5 full stages",
+                        "Pre-purchase journey is ignored"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/12.png",
+                            "caption": "A receipt only represents Stage 4: The Purchase.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/13.png",
+                            "caption": "True consumer behavior encompasses the entire five-stage journey.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's compare the receipt to the actual consumer journey to see why this non-example is so limiting. A receipt is merely a snapshot of Stage 4, which is the purchase decision itself. It tells us the price paid and the specific item chosen at that exact moment. But consumer behavior is the entire five-stage journey, encompassing everything that happened before they reached the checkout counter.",
+                    "thai_transcript": "ลองเปรียบเทียบใบเสร็จกับเส้นทางของผู้บริโภคที่แท้จริงเพื่อดูว่าทำไมตัวอย่างที่ไม่ถูกต้องนี้ถึงมีข้อจำกัดมาก ใบเสร็จเป็นเพียงภาพถ่ายของขั้นตอนที่ 4 ซึ่งก็คือการตัดสินใจซื้อเท่านั้น มันบอกเราแค่ราคาที่จ่ายและสินค้าที่เลือก ณ วินาทีนั้น แต่พฤติกรรมผู้บริโภคคือเส้นทางทั้งห้าขั้นตอน ซึ่งครอบคลุมทุกสิ่งที่เกิดขึ้นก่อนที่พวกเขาจะมาถึงจุดชำระเงิน"
+                },
+                {
+                    "title": "What the Transaction Misses",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Why did they enter the store? (Need)",
+                        "What information was sought? (Search)",
+                        "Which alternatives were rejected? (Evaluation)"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/14.png",
+                            "caption": "Stage 1: The initial trigger or need recognition.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/15.png",
+                            "caption": "Stage 2: Searching for information and options.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/16.png",
+                            "caption": "Stage 3: Evaluating different alternatives.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "When we only look at the final transaction, we miss a massive amount of critical data. We don't see why the customer walked into the store in the first place, which is the initial need recognition. We miss what information they searched for online beforehand. Most importantly, we have no idea which competing alternatives they considered and ultimately rejected before choosing our product.",
+                    "thai_transcript": "เมื่อเราดูแค่การทำธุรกรรมขั้นสุดท้าย เราจะพลาดข้อมูลที่สำคัญไปอย่างมหาศาล เราจะไม่เห็นว่าทำไมลูกค้าถึงเดินเข้ามาในร้านตั้งแต่แรก ซึ่งก็คือการตระหนักถึงความต้องการ เราพลาดข้อมูลที่พวกเขาค้นหาทางออนไลน์ก่อนหน้านี้ และที่สำคัญที่สุด เราจะไม่รู้เลยว่าพวกเขากำลังพิจารณาและปฏิเสธทางเลือกคู่แข่งใดบ้างก่อนที่จะเลือกผลิตภัณฑ์ของเรา"
+                },
+                {
+                    "title": "Redefining Consumer Behavior",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Behavior is an end-to-end process",
+                        "Starts long before the store visit",
+                        "Continues after product usage",
+                        "Answers the crucial question: \"Why?\""
+                    ],
+                    "images": null,
+                    "transcript": "To summarize, consumer behavior is not a single action; it is a continuous, dynamic process. It begins long before the customer interacts with your business and continues long after they consume your product. By studying all five stages, we shift our focus from simply knowing 'what' was bought to deeply understanding 'why' the consumer did that.",
+                    "thai_transcript": "โดยสรุปแล้ว พฤติกรรมผู้บริโภคไม่ใช่แค่การกระทำเพียงครั้งเดียว แต่มันคือกระบวนการที่ต่อเนื่องและมีพลวัต มันเริ่มต้นขึ้นนานก่อนที่ลูกค้าจะมีปฏิสัมพันธ์กับธุรกิจของคุณ และดำเนินต่อไปอีกนานหลังจากที่พวกเขาใช้งานผลิตภัณฑ์ของคุณ ด้วยการศึกษาทั้งห้าขั้นตอน เราจะเปลี่ยนจุดสนใจจากการรู้แค่ว่าลูกค้าซื้อ 'อะไร' ไปสู่การเข้าใจอย่างลึกซึ้งว่า 'ทำไม' ผู้บริโภคถึงตัดสินใจเช่นนั้น"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Check: Spot the Missing Stage",
+            "slides": [
+                {
+                    "title": "Knowledge Check: The Sneaker Scenario",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Review the 5-stage buyer decision process.",
+                        "Analyze a real-world shopping scenario.",
+                        "Trace the consumer's exact steps.",
+                        "Identify the missing stage in the sequence."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/17.png",
+                            "caption": "A consumer beginning their journey to replace worn-out shoes, initiating the decision process.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's test your understanding of the buyer decision process with a quick scenario. Imagine a customer realizes their current running shoes are completely worn out. They decide they need a new pair to keep up with their workouts. We will trace their steps and see if you can identify which crucial stage they skipped in the standard consumer journey.",
+                    "thai_transcript": "มาทดสอบความเข้าใจเกี่ยวกับกระบวนการตัดสินใจซื้อของผู้บริโภคด้วยสถานการณ์สมมติกันครับ ลองจินตนาการถึงลูกค้าที่เพิ่งรู้ตัวว่ารองเท้าวิ่งคู่เก่านั้นพังจนใส่ไม่ได้แล้ว พวกเขาตัดสินใจว่าต้องซื้อรองเท้าคู่ใหม่เพื่อใช้ออกกำลังกาย เราจะมาติดตามขั้นตอนของพวกเขากัน และดูว่าคุณจะสามารถระบุได้หรือไม่ว่าขั้นตอนสำคัญใดที่หายไปในเส้นทางของผู้บริโภค"
+                },
+                {
+                    "title": "Mapping the Actions: Need & Search",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Stage 1: Realizing shoes are worn out.",
+                        "Trigger: Internal recognition of a problem.",
+                        "Stage 2: Asking friends for recommendations.",
+                        "Source: Relying on a personal network."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/18.png",
+                            "caption": "Stage 1: Need Recognition triggered by a broken, unusable product.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/19.png",
+                            "caption": "Stage 2: Information Search leveraging personal sources like friends for recommendations.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The journey begins logically. First, the consumer experiences Need Recognition when they see their torn shoe. This is an internal trigger driving them to act. Immediately after, they move into Information Search by texting friends for brand recommendations, leveraging their trusted personal network to gather data.",
+                    "thai_transcript": "การเดินทางเริ่มต้นอย่างสมเหตุสมผลครับ อย่างแรก ผู้บริโภคเกิดการรับรู้ความต้องการเมื่อเห็นรองเท้าที่ขาด ซึ่งเป็นตัวกระตุ้นภายในที่ผลักดันให้เกิดการกระทำ ทันทีหลังจากนั้น พวกเขาเข้าสู่ขั้นตอนการค้นหาข้อมูลโดยการส่งข้อความหาเพื่อนเพื่อขอคำแนะนำเรื่องแบรนด์ ซึ่งเป็นการใช้เครือข่ายส่วนตัวที่เชื่อถือได้ในการรวบรวมข้อมูล"
+                },
+                {
+                    "title": "The Jump: Purchase & Review",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Action jumps to an immediate online payment.",
+                        "Stage 4: Executing the transaction.",
+                        "Customer leaves a glowing 5-star review.",
+                        "Stage 5: Displaying post-purchase satisfaction."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/20.png",
+                            "caption": "Stage 4: The Purchase Decision is executed immediately online.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/21.png",
+                            "caption": "Stage 5: Post-Purchase Behavior expressed via a highly positive review.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The story then jumps forward abruptly. The customer immediately pays for a pair of sneakers online, which represents Stage 4, the Purchase Decision. Later, they wear the shoes, love them, and leave a 5-star review, clearly demonstrating Stage 5, Post-Purchase Behavior. Look closely at this entire sequence—did you catch what behavior was skipped?",
+                    "thai_transcript": "จากนั้นเรื่องราวก็ข้ามไปข้างหน้าอย่างรวดเร็วครับ ลูกค้าจ่ายเงินซื้อรองเท้าผ้าใบออนไลน์ทันที ซึ่งแสดงถึงขั้นที่ 4 คือการตัดสินใจซื้อ ต่อมาพวกเขาก็สวมรองเท้า รู้สึกประทับใจ และให้คะแนนรีวิว 5 ดาว ซึ่งแสดงให้เห็นถึงขั้นที่ 5 คือพฤติกรรมหลังการซื้ออย่างชัดเจน ลองพิจารณาลำดับเหตุการณ์ทั้งหมดนี้ให้ดีๆ นะครับ คุณสังเกตเห็นไหมว่าพฤติกรรมใดถูกข้ามไป?"
+                },
+                {
+                    "title": "Spotting the Gap: The Missing Stage",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Missing link: Stage 3 (Evaluation of Alternatives).",
+                        "Skipped weighing the pros and cons.",
+                        "No comparison of price, style, or features.",
+                        "Customer did not analyze their 'evoked set'."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/9f48b1c5-7d1c-49e2-afc1-060aad3cf432/slides_images/22.png",
+                            "caption": "Stage 3: Evaluation of Alternatives involves weighing different options before committing to a purchase.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "The missing critical step is Stage 3: Evaluation of Alternatives. In our scenario, the customer went straight from asking for recommendations to instantly buying a pair. They completely skipped weighing the pros and cons, comparing prices, or evaluating different brands against one another. Recognizing these gaps helps marketers understand if a consumer is making an impulse buy or if they bypassed normal logical steps.",
+                    "thai_transcript": "ขั้นตอนสำคัญที่หายไปคือ ขั้นที่ 3: การประเมินทางเลือก ครับ ในสถานการณ์ของเรา ลูกค้าข้ามจากการขอคำแนะนำไปสู่การซื้อทันที พวกเขาข้ามการชั่งน้ำหนักข้อดีข้อเสีย การเปรียบเทียบราคา หรือการประเมินแบรนด์ต่างๆ เทียบกันไปโดยสิ้นเชิง การตระหนักถึงช่องโหว่เหล่านี้จะช่วยให้นักการตลาดเข้าใจว่าผู้บริโภคกำลังตัดสินใจซื้อด้วยอารมณ์ชั่ววูบ หรือข้ามขั้นตอนตามหลักเหตุผลปกติไปหรือไม่"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "9f48b1c5-7d1c-49e2-afc1-060aad3cf432",
+    "course_id": "12ad4ab6-ca13-4b21-a0ad-ede5c4a0c77d"
+}

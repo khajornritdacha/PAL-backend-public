@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Climate Change — Weather vs. Climate: Fundamental Differences",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or data figures are present across any of the five slides; every slide is text-only. The absence of any visual channel means verbal and visual content cannot achieve reciprocity, and no graphics are available to assess legibility beyond the rendered text itself."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide presents full paragraph-length sentences as on-screen text, exceeding a five-second scan threshold by a wide margin. The transcript is verbatim or near-verbatim reproduction of the on-screen text, with no substantive elaboration or differentiation between the two channels."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All explanatory content is delivered as dense on-screen text blocks, with the visual channel carrying no graphics or diagrams whatsoever; the narration effectively reads the slides aloud verbatim. The narration is written in complete sentences and is listenable in register, but it adds no information beyond what is already displayed on screen."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative clipart or stock imagery is present, and the narration and on-screen text remain topically focused on the weather-versus-climate distinction without tangential digressions. Slide 5 contains a rendering artifact where numbers are stripped ('the hottest in over years'), introducing a minor presentation inconsistency, but overall styling appears clean and consistent."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "score": 2,
+            "evidence": "No visual cues such as arrows, highlights, bold text, or color contrast are used to mark key elements, and no captions or callouts are present since there are no graphics. Slide titles provide a minimal visual hierarchy, and the narration employs transitional language ('Therefore,' 'Conversely') that offers weak directional signaling, but no single key takeaway is explicitly emphasized per slide."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "With no graphics present, all criteria requiring label-to-graphic proximity, text integration into visuals, or visual connections between terms and referents are inapplicable and scored zero by default. Text and titles are co-located on each slide, satisfying basic layout proximity, but the absence of any visual elements renders the principle largely undemonstrable."
+        }
+    ],
+    "raw_total": 10,
+    "unweighted_average": 1.67
+}

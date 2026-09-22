@@ -1,0 +1,456 @@
+{
+    "_id": {
+        "$oid": "6a1dac36807566adcec85159"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# Is Global Warming Fake if it Snows?\n\n* Local snow doesn't negate global warming.\n* A single event isn't a long-term trend.\n* Proxy data shows 2023 was the hottest year.\n* The baseline spans over 125,000 years.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/1.png\" alt=\"Global temperature anomalies show a long-term warming trend despite isolated cold weather events.\" />\n  </div>\n  <p class=\"hero-caption\">Global temperature anomalies show a long-term warming trend despite isolated cold weather events.</p>\n</div>\n\n---\n# Defining Weather and Climate\n\n* Weather = short-term, local conditions.\n* Examples: Today's rain, tomorrow's wind.\n* Climate = long-term statistical averages.\n* Climate requires decades of data collection.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/2.png\" alt=\"Weather describes the short-term, day-to-day atmospheric conditions in a specific location.\" />\n    </div>\n    <span><strong>Weather describes the short-term, day-to-day atmospheric conditions in a specific location.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/3.png\" alt=\"Climate represents the statistical average of weather data collected over thirty years or more.\" />\n    </div>\n    <span><strong>Climate represents the statistical average of weather data collected over thirty years or more.</strong></span>\n  </div>\n</div>\n\n---\n# Analogy: Mood vs. Personality\n\n* Weather is your current mood.\n* Moods change rapidly from day to day.\n* Climate is your overall personality.\n* Personality remains stable and predictable.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/4.png\" alt=\"Your mood changes rapidly based on daily events, just like the weather.\" />\n    </div>\n    <span><strong>Your mood changes rapidly based on daily events, just like the weather.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/5.png\" alt=\"Your personality is your stable, long-term baseline, just like the climate.\" />\n    </div>\n    <span><strong>Your personality is your stable, long-term baseline, just like the climate.</strong></span>\n  </div>\n</div>\n\n---\n# Evaluating Long-Term Trends\n\n* Do not conflate single data points with trends.\n* Climate relies on mathematical means: $\\mu = \\frac{1}{n}\\sum_{i=1}^{n} x_i$\n* Cold outliers don't erase a warming baseline.\n* Always focus on decadal shifts, not daily events.\n\n---\n# Identifying the Difference\n\n* Distinguish between short-term events and long-term trends\n* Avoid confusing localized conditions with global averages\n* Use clear analogies to build a strong mental model\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/6.png\" alt=\"Weather represents the daily pages, while climate is the hourglass measuring decades.\" />\n  </div>\n  <p class=\"hero-caption\">Weather represents the daily pages, while climate is the hourglass measuring decades.</p>\n</div>\n\n---\n# Weather: Short-Term Events\n\n* Sudden, highly localized atmospheric conditions\n* Changes rapidly over minutes, days, or weeks\n* Example: A sudden thunderstorm or a freezing weekend\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/7.png\" alt=\"A sudden thunderstorm is a classic example of weather: short-term and localized.\" />\n  </div>\n  <p class=\"hero-caption\">A sudden thunderstorm is a classic example of weather: short-term and localized.</p>\n</div>\n\n---\n# Climate: Long-Term Patterns\n\n* Statistical average of weather over decades\n* Establishes the baseline expectations of a region\n* Example: The Sahara Desert averaging $< 3$ inches of rain annually\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/8.png\" alt=\"The Sahara's century-long dry streak is an example of climate, not just daily weather.\" />\n  </div>\n  <p class=\"hero-caption\">The Sahara's century-long dry streak is an example of climate, not just daily weather.</p>\n</div>\n\n---\n# Weather vs. Climate in Action\n\n* Weather = A freezing weekend anomaly in Texas\n* Climate = A century of drought in the Sahara\n* Non-example: A single hot day does NOT prove climate change\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/9.png\" alt=\"Weather: A localized, short-term temperature anomaly.\" />\n    </div>\n    <span><strong>Weather: A localized, short-term temperature anomaly.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/10.png\" alt=\"Climate: A century-long historical average establishing a trend.\" />\n    </div>\n    <span><strong>Climate: A century-long historical average establishing a trend.</strong></span>\n  </div>\n</div>\n\n---\n# The Cold Day Fallacy\n\n* Does snow today mean global warming is fake?\n* A very common climate misconception\n* Confuses a local event with a global trend\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/11.png\" alt=\"A local snowstorm is a short-term weather event, not an indicator of overall global climate trends.\" />\n  </div>\n  <p class=\"hero-caption\">A local snowstorm is a short-term weather event, not an indicator of overall global climate trends.</p>\n</div>\n\n---\n# Weather vs. Climate\n\n* Weather: Short-term, local conditions\n* Climate: Long-term statistical averages\n* Analogy: Mood vs. Personality\n* Weather changes daily; climate shifts over decades\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/12.png\" alt=\"Weather represents your temporary daily 'mood' and changes rapidly.\" />\n    </div>\n    <span><strong>Weather represents your temporary daily 'mood' and changes rapidly.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/13.png\" alt=\"Climate represents your long-term 'personality' or historical baseline average.\" />\n    </div>\n    <span><strong>Climate represents your long-term 'personality' or historical baseline average.</strong></span>\n  </div>\n</div>\n\n---\n# The Snowstorm (A Non-Example)\n\n* A single snowstorm is a strict non-example of climate\n* It represents an isolated, local anomaly\n* Cannot invalidate decades-long global warming trends\n* Statistical averages outweigh single data points\n\n---\n# The Baseline Reality\n\n* Proxy data reveals long-term historical context\n* Short-term weather obscures global reality\n* 2023: The hottest year in over 125,000 years\n* Global warming is a measured statistical trend\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/14.png\" alt=\"Historical proxy data demonstrates that 2023 broke global temperature records spanning millennia.\" />\n  </div>\n  <p class=\"hero-caption\">Historical proxy data demonstrates that 2023 broke global temperature records spanning millennia.</p>\n</div>\n\n---\n# Classifying Meteorological Events\n\n* Analyze real-world observations.\n* Identify the underlying timeframe.\n* Distinguish between isolated events and trends.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/15.png\" alt=\"Weather represents immediate, chaotic conditions, while climate represents smooth, long-term statistical trends.\" />\n  </div>\n  <p class=\"hero-caption\">Weather represents immediate, chaotic conditions, while climate represents smooth, long-term statistical trends.</p>\n</div>\n\n---\n# The Timeline Test\n\n* Weather = Short-term conditions.\n* Climate = Long-term statistical averages.\n* Standard climate baseline is 30 years.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/16.png\" alt=\"Weather tracks daily or weekly fluctuations in the atmosphere.\" />\n    </div>\n    <span><strong>Weather tracks daily or weekly fluctuations in the atmosphere.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/17.png\" alt=\"Climate tracks statistical averages over minimum 30-year periods.\" />\n    </div>\n    <span><strong>Climate tracks statistical averages over minimum 30-year periods.</strong></span>\n  </div>\n</div>\n\n---\n# Application: Analyzing a Trend\n\n* Observation: Progressively wetter winters.\n* Identify the timeframe: 30 years.\n* Conclusion: This is a climate observation.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/18.png\" alt=\"A single severe winter storm is classified as a weather event.\" />\n    </div>\n    <span><strong>A single severe winter storm is classified as a weather event.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/19.png\" alt=\"A 30-year trend of increasing precipitation is classified as a climate shift.\" />\n    </div>\n    <span><strong>A 30-year trend of increasing precipitation is classified as a climate shift.</strong></span>\n  </div>\n</div>\n\n---\n# Non-Example: Misinterpreting Extremes\n\n* Extreme events do not instantly redefine climate.\n* A 100-year blizzard is still just weather.\n* Isolated cold snaps do not disprove global warming.\n* Always look for long-term statistical significance.\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "Is Global Warming Fake if it Snows?",
+            "transcript": "If you walk outside and it's snowing, you might hear someone joke, 'So much for global warming!' But this represents a fundamental misunderstanding of how the Earth works. A single snowstorm in one city doesn't invalidate a global trend. To put things in perspective, despite any local cold snaps, proxy data shows that 2023 was the hottest year on Earth in over one hundred and twenty-five thousand years.",
+            "thai_transcript": "ถ้าคุณเดินออกไปข้างนอกแล้วหิมะตก คุณอาจได้ยินคนพูดติดตลกว่า 'ไหนล่ะภาวะโลกร้อน!' แต่นี่คือความเข้าใจผิดอย่างใหญ่หลวงเกี่ยวกับระบบการทำงานของโลก พายุหิมะเพียงครั้งเดียวในเมืองๆ หนึ่ง ไม่สามารถหักล้างแนวโน้มที่เกิดขึ้นทั่วโลกได้ เพื่อให้เห็นภาพชัดเจนขึ้น แม้จะมีอากาศหนาวเย็นในบางพื้นที่ แต่ข้อมูลตัวแทนชี้ให้เห็นว่าปี 2023 เป็นปีที่ร้อนที่สุดบนโลกในรอบกว่า 125,000 ปี"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Defining Weather and Climate",
+            "transcript": "Let's formally separate these two ideas. Weather describes the short-term, local atmospheric conditions—what you see when you look out the window right now, like rain or sunshine. Climate, on the other hand, is the long-term statistical average of those conditions over a specific region. While weather changes minute by minute, climate is typically measured in trends spanning thirty years or more.",
+            "thai_transcript": "เรามาแยกสองแนวคิดนี้ออกจากกันอย่างเป็นทางการ สภาพอากาศ (Weather) คือสภาวะของชั้นบรรยากาศในระยะสั้นและในระดับท้องถิ่น หรือสิ่งที่คุณเห็นเมื่อมองออกไปนอกหน้าต่างในตอนนี้ เช่น ฝนตกหรือแดดออก ในทางกลับกัน ภูมิอากาศ (Climate) คือค่าเฉลี่ยทางสถิติระยะยาวของสภาวะเหล่านั้นในพื้นที่ใดพื้นที่หนึ่ง แม้ว่าสภาพอากาศจะเปลี่ยนแปลงได้ทุกนาที แต่โดยทั่วไปแล้วภูมิอากาศจะถูกวัดจากแนวโน้มที่กินเวลาตั้งแต่ 30 ปีขึ้นไป"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "Analogy: Mood vs. Personality",
+            "transcript": "To lock this in your memory, let's use a relatable analogy. Think of weather as your current mood. You might wake up grumpy one day and be ecstatic the next; it changes rapidly. Climate is your overall personality. Even if a generally optimistic person has one bad day, their baseline personality remains positive. Similarly, a cold day doesn't mean the climate isn't warming.",
+            "thai_transcript": "เพื่อให้จดจำได้ง่ายขึ้น เรามาใช้การเปรียบเทียบที่เข้าใจง่ายกัน ลองนึกว่าสภาพอากาศเหมือนอารมณ์ในปัจจุบันของคุณ วันหนึ่งคุณอาจตื่นมาแล้วอารมณ์บูด แต่รุ่งขึ้นอาจจะอารมณ์ดีสุดๆ มันเปลี่ยนไปมาอย่างรวดเร็ว ส่วนภูมิอากาศก็เหมือนบุคลิกภาพโดยรวมของคุณ แม้ว่าคนมองโลกในแง่ดีอาจจะมีวันที่แย่ไปบ้าง แต่พื้นฐานบุคลิกของพวกเขาก็ยังคงเป็นคนคิดบวกอยู่ดี ในทำนองเดียวกัน วันที่อากาศหนาวเย็นเพียงวันเดียว ไม่ได้หมายความว่าภูมิอากาศไม่ได้กำลังร้อนขึ้น"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Evaluating Long-Term Trends",
+            "transcript": "A common trap—and our non-example for today—is using a single cold temperature reading to claim the climate is cooling. In science, climate relies on statistical averages, represented mathematically as the mean of many years of data. When the baseline average shifts upwards, you can still have individual days that are below average. The existence of an outlier does not erase the mathematical reality of a shifting, warming baseline.",
+            "thai_transcript": "หลุมพรางที่พบบ่อยและเป็นตัวอย่างที่ผิดในวันนี้ คือการใช้อุณหภูมิที่หนาวเย็นเพียงครั้งเดียวมาอ้างว่าโลกกำลังเย็นลง ในทางวิทยาศาสตร์ ภูมิอากาศต้องอาศัยค่าเฉลี่ยทางสถิติ ซึ่งในทางคณิตศาสตร์คือค่าเฉลี่ยของข้อมูลหลายๆ ปี เมื่อค่าเฉลี่ยพื้นฐานสูงขึ้น คุณก็ยังสามารถพบเจอบางวันที่อุณหภูมิต่ำกว่าค่าเฉลี่ยได้ การมีอยู่ของข้อมูลที่ผิดปกติเพียงจุดเดียว ไม่สามารถลบล้างความจริงทางคณิตศาสตร์ที่ว่าฐานอุณหภูมิกำลังขยับสูงขึ้นและร้อนขึ้นได้"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "Identifying the Difference",
+            "transcript": "To truly understand global warming, we have to recognize the fundamental difference between weather and climate. People often confuse the two, mistakenly assuming that a remarkably cold day means the Earth isn't warming. In this section, we will look at clear, real-world examples to help you instantly identify whether you are looking at a short-term weather event or a long-term climate pattern.",
+            "thai_transcript": "เพื่อทำความเข้าใจภาวะโลกร้อนอย่างแท้จริง เราต้องแยกแยะความแตกต่างพื้นฐานระหว่างสภาพอากาศและภูมิอากาศให้ได้ ผู้คนมักสับสนระหว่างสองสิ่งนี้ โดยเข้าใจผิดคิดว่าวันที่มีอากาศหนาวจัดแปลว่าโลกไม่ได้กำลังร้อนขึ้น ในส่วนนี้ เราจะมาดูตัวอย่างที่ชัดเจนในโลกแห่งความเป็นจริง เพื่อช่วยให้คุณระบุได้ทันทีว่าสิ่งที่คุณเห็นคือเหตุการณ์สภาพอากาศในระยะสั้น หรือรูปแบบภูมิอากาศในระยะยาว"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Weather: Short-Term Events",
+            "transcript": "Let's start by looking at weather. A sudden thunderstorm rolling in on a Tuesday afternoon, or a freezing weekend in Texas, are perfect examples of weather. These are short-term, highly localized conditions that can change rapidly from one day to the next. They tell us exactly what is happening outside right now, but they do not define the baseline normal of a region.",
+            "thai_transcript": "มาเริ่มกันที่สภาพอากาศ พายุฝนฟ้าคะนองที่พัดเข้ามาอย่างกะทันหันในบ่ายวันอังคาร หรือวันหยุดสุดสัปดาห์ที่หนาวจัดในเท็กซัส เป็นตัวอย่างที่สมบูรณ์แบบของสภาพอากาศ สิ่งเหล่านี้คือสภาวะระยะสั้นที่เกิดขึ้นเฉพาะที่และสามารถเปลี่ยนแปลงอย่างรวดเร็วจากวันหนึ่งไปสู่อีกวันหนึ่ง มันบอกเราอย่างชัดเจนว่าตอนนี้ข้างนอกเกิดอะไรขึ้น แต่ไม่ได้เป็นตัวกำหนดสภาวะปกติของภูมิภาคนั้นๆ"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Climate: Long-Term Patterns",
+            "transcript": "In contrast, climate is the statistical average of weather over a long period, usually at least $30$ years. For instance, the Sahara Desert receives less than $3$ inches of rain per year on average over the last century. That consistency over decades is what defines a climate. Even if it happens to rain one afternoon in the Sahara—which is weather—its overall climate remains profoundly dry.",
+            "thai_transcript": "ในทางกลับกัน ภูมิอากาศคือค่าเฉลี่ยทางสถิติของสภาพอากาศในช่วงเวลาที่ยาวนาน ซึ่งโดยปกติจะใช้เวลาอย่างน้อย $30$ ปี ตัวอย่างเช่น ทะเลทรายซาฮารามีปริมาณน้ำฝนเฉลี่ยน้อยกว่า $3$ นิ้วต่อปีในช่วงศตวรรษที่ผ่านมา ความสม่ำเสมอในระดับหลายทศวรรษนี้คือสิ่งที่กำหนดภูมิอากาศ แม้ว่าวันหนึ่งจะมีฝนตกในซาฮารา ซึ่งนั่นคือสภาพอากาศ แต่ภูมิอากาศโดยรวมของมันก็ยังคงแห้งแล้งอย่างมาก"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Weather vs. Climate in Action",
+            "transcript": "Let's compare these side-by-side to solidify this mental model. A freezing weekend in Texas is a localized weather anomaly; it is an isolated event, not a trend. A century of drought in the Sahara is a climate reality based on statistical data. A crucial non-example to remember is that a single unusually hot summer day does not, by itself, prove global warming. We must always look at decades of data to make accurate claims about the climate.",
+            "thai_transcript": "ลองนำสองสิ่งนี้มาเปรียบเทียบกันเพื่อสร้างภาพจำที่ชัดเจน วันหยุดสุดสัปดาห์ที่หนาวจัดในเท็กซัสเป็นความผิดปกติของสภาพอากาศเฉพาะที่ มันเป็นเพียงเหตุการณ์เดี่ยวๆ ไม่ใช่แนวโน้ม ในขณะที่ความแห้งแล้งนับศตวรรษในซาฮาราคือความเป็นจริงของภูมิอากาศที่อิงตามข้อมูลสถิติ สิ่งสำคัญที่ต้องจำไว้คือ วันในฤดูร้อนที่ร้อนผิดปกติเพียงวันเดียว ไม่สามารถใช้เป็นข้อพิสูจน์ถึงภาวะโลกร้อนได้ เราต้องพิจารณาข้อมูลที่เก็บรวบรวมมาหลายสิบปีเสมอ เพื่อสรุปเกี่ยวกับการเปลี่ยนแปลงของภูมิอากาศได้อย่างถูกต้อง"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "The Cold Day Fallacy",
+            "transcript": "If it snowed today, does that mean global warming is a hoax? This is what we call the Cold Day Fallacy. It happens when people confuse what is happening right now outside their window with long-term global trends. A local cold snap tells us nothing about the Earth's overall rising temperature.",
+            "thai_transcript": "ถ้าวันนี้หิมะตก แปลว่าภาวะโลกร้อนเป็นเรื่องหลอกลวงหรือเปล่า? นี่คือสิ่งที่เราเรียกว่า ตรรกะวิบัติของวันอากาศหนาว (Cold Day Fallacy) มันเกิดขึ้นเมื่อคนสับสนระหว่างสิ่งที่เกิดขึ้นหน้าบ้านตอนนี้กับแนวโน้มระดับโลกในระยะยาว อากาศหนาวจัดในพื้นที่ใดพื้นที่หนึ่งไม่ได้บอกอะไรเราเลยเกี่ยวกับอุณหภูมิโดยรวมของโลกที่กำลังสูงขึ้น"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "Weather vs. Climate",
+            "transcript": "To break this down, we must clearly define weather versus climate. Weather is short-term and local, like the rain or snow you see on a given Tuesday. Climate, however, is the long-term statistical average of these conditions over decades. Think of it this way: weather is your current mood, while climate is your overall personality. You might have a sad day, but generally still be a happy person.",
+            "thai_transcript": "เพื่อทำความเข้าใจเรื่องนี้ เราต้องแยกแยะระหว่างสภาพอากาศ (Weather) กับภูมิอากาศ (Climate) อย่างชัดเจน สภาพอากาศคือสภาวะระยะสั้นในพื้นที่หนึ่งๆ เช่น ฝนตกหรือหิมะตกในวันอังคาร ส่วนภูมิอากาศคือค่าเฉลี่ยทางสถิติของสภาวะเหล่านี้ในระยะยาวเป็นทศวรรษ ลองคิดแบบนี้ครับ สภาพอากาศก็เหมือนอารมณ์ของคุณในตอนนั้น ส่วนภูมิอากาศคือบุคลิกภาพโดยรวมของคุณ คุณอาจจะมีวันที่เศร้าบ้าง แต่โดยรวมแล้วคุณอาจเป็นคนร่าเริง"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "The Snowstorm (A Non-Example)",
+            "transcript": "Let's look at a strict non-example of climate: a severe winter snowstorm. A snowstorm is simply weather. You cannot use one isolated cold day to invalidate a decades-long global warming trend. In science, a single local data point never overrides the statistical average of thousands of data points collected worldwide.",
+            "thai_transcript": "ลองมาดูตัวอย่างที่ชัดเจนของสิ่งที่ไม่ใช่ภูมิอากาศกันครับ นั่นคือพายุหิมะที่รุนแรงในฤดูหนาว พายุหิมะเป็นเพียงสภาพอากาศเท่านั้น คุณไม่สามารถใช้วันที่อากาศหนาวเหน็บเพียงวันเดียวมาลบล้างแนวโน้มภาวะโลกร้อนที่เกิดขึ้นมาหลายทศวรรษได้ ในทางวิทยาศาสตร์ ข้อมูลในพื้นที่เพียงจุดเดียวไม่สามารถหักล้างค่าเฉลี่ยทางสถิติของข้อมูลหลายพันจุดที่เก็บรวบรวมจากทั่วโลกได้"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "The Baseline Reality",
+            "transcript": "When we zoom out and look at the actual climate, the baseline reality becomes undeniable. Despite occasional cold snaps or snowstorms, the overarching global trend is rapidly warming. In fact, historical proxy data reveals that 2023 was the hottest year in over 125,000 years. We must always rely on these long-term statistical trends, rather than our daily weather, to truly understand global climate change.",
+            "thai_transcript": "เมื่อเราถอยออกมาดูภูมิอากาศที่แท้จริง ความเป็นจริงของเส้นฐาน (Baseline) ก็ชัดเจนจนปฏิเสธไม่ได้ แม้จะมีอากาศหนาวเย็นหรือพายุหิมะเกิดขึ้นเป็นครั้งคราว แต่แนวโน้มหลักของโลกคือการร้อนขึ้นอย่างรวดเร็ว ในความเป็นจริง ข้อมูลตัวแทนทางประวัติศาสตร์เผยให้เห็นว่าปี 2023 เป็นปีที่ร้อนที่สุดในรอบกว่า 125,000 ปี เราต้องพึ่งพาแนวโน้มทางสถิติระยะยาวเหล่านี้เสมอ เพื่อทำความเข้าใจการเปลี่ยนแปลงสภาพภูมิอากาศของโลกอย่างแท้จริง ไม่ใช่พิจารณาจากสภาพอากาศรายวัน"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Classifying Meteorological Events",
+            "transcript": "When we look at the world around us, we constantly experience meteorological events, from sudden rainstorms to long-term droughts. The challenge is correctly classifying these observations so we can make sense of what is actually happening to our planet. To do this accurately, we must focus on the time scale of the event rather than just its intensity. Let's learn how to apply the 'timeline test' to categorize these events.",
+            "thai_transcript": "เมื่อเรามองโลกรอบตัว เราจะพบกับปรากฏการณ์ทางอุตุนิยมวิทยาอยู่เสมอ ตั้งแต่พายุฝนที่ตกกระทันหันไปจนถึงภัยแล้งที่ยาวนาน ความท้าทายคือการแยกแยะและจัดหมวดหมู่ปรากฏการณ์เหล่านี้ให้ถูกต้องเพื่อทำความเข้าใจสิ่งที่เกิดขึ้นกับโลกของเรา ในการจะทำเช่นนี้ได้อย่างแม่นยำ เราต้องให้ความสำคัญกับกรอบเวลาของเหตุการณ์มากกว่าแค่ความรุนแรงของมัน มาดูกันว่าเราจะใช้ 'การทดสอบกรอบเวลา' เพื่อแยกแยะเหตุการณ์เหล่านี้ได้อย่างไร"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "The Timeline Test",
+            "transcript": "The fundamental rule for categorizing meteorological data is the timeline test. If an observation spans a period of hours, days, or even a few weeks, you are looking at weather. However, in atmospheric science, the standard period to determine a climate baseline is 30 years of data. If your observation involves analyzing a statistical trend over decades, you are evaluating climate.",
+            "thai_transcript": "กฎพื้นฐานในการจัดหมวดหมู่ข้อมูลทางอุตุนิยมวิทยาคือการพิจารณากรอบเวลา หากสิ่งที่คุณสังเกตเห็นกินเวลาเพียงไม่กี่ชั่วโมง ไม่กี่วัน หรือไม่กี่สัปดาห์ นั่นคือสภาพอากาศ (Weather) อย่างไรก็ตาม ในทางวิทยาศาสตร์บรรยากาศ ระยะเวลามาตรฐานในการกำหนดเกณฑ์สภาพภูมิอากาศคือข้อมูล 30 ปี หากการสังเกตของคุณเกี่ยวข้องกับการวิเคราะห์แนวโน้มทางสถิติในช่วงหลายทศวรรษ แสดงว่าคุณกำลังประเมินสภาพภูมิอากาศ (Climate)"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "Application: Analyzing a Trend",
+            "transcript": "Let's apply this concept to a specific real-world example. Consider the statement: 'The Pacific Northwest has experienced progressively wetter winters over the past 30 years.' Ask yourself what the timeline is here. Because this statement tracks a statistical trend over a long, multi-decade period, it is firmly an observation of climate. We are not looking at a single stormy winter, but a sustained shift in the region's long-term baseline.",
+            "thai_transcript": "ลองนำแนวคิดนี้มาประยุกต์ใช้กับตัวอย่างจริงในโลกของเรา พิจารณาประโยคที่ว่า: 'พื้นที่แปซิฟิกตะวันตกเฉียงเหนือมีฤดูหนาวที่เปียกชื้นขึ้นเรื่อยๆ ในช่วง 30 ปีที่ผ่านมา' ลองถามตัวเองว่ากรอบเวลาในที่นี้คืออะไร เนื่องจากประโยคนี้ติดตามแนวโน้มทางสถิติในช่วงเวลาหลายทศวรรษที่ยาวนาน จึงถือเป็นการสังเกตสภาพภูมิอากาศอย่างแน่นอน เราไม่ได้กำลังพิจารณาแค่ฤดูหนาวที่มีพายุรุนแรงเพียงปีเดียว แต่กำลังดูการเปลี่ยนแปลงที่ต่อเนื่องของค่ามาตรฐานระยะยาวในภูมิภาคนี้"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Non-Example: Misinterpreting Extremes",
+            "transcript": "It is crucial to build a strong mental model of what climate is NOT. For instance, experiencing a massive, record-breaking blizzard today does not mean global warming has stopped. That blizzard is a single weather event, highly localized in time. While climate change might make extreme weather events more frequent or severe, the isolated event itself is just weather. Always zoom out and look for the statistical trend to accurately assess the climate.",
+            "thai_transcript": "สิ่งสำคัญคือการสร้างความเข้าใจที่ถูกต้องว่าสภาพภูมิอากาศ 'ไม่ใช่' อะไร ตัวอย่างเช่น การเผชิญกับพายุหิมะครั้งใหญ่ที่ทำลายสถิติในวันนี้ไม่ได้หมายความว่าภาวะโลกร้อนได้หยุดลง พายุหิมะลูกนั้นเป็นเพียงเหตุการณ์สภาพอากาศที่เกิดขึ้นในระยะเวลาสั้นๆ เท่านั้น แม้ว่าการเปลี่ยนแปลงสภาพภูมิอากาศอาจทำให้เหตุการณ์สภาพอากาศรุนแรงเกิดขึ้นบ่อยหรือรุนแรงขึ้น แต่ตัวเหตุการณ์เดี่ยวๆ นั้นยังคงเป็นเพียงสภาพอากาศเสมอ คุณต้องมองภาพกว้างและพิจารณาแนวโน้มทางสถิติเสมอเพื่อประเมินสภาพภูมิอากาศได้อย่างแม่นยำ"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Core Concept: Weather vs. Climate",
+            "slides": [
+                {
+                    "title": "Is Global Warming Fake if it Snows?",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Local snow doesn't negate global warming.",
+                        "A single event isn't a long-term trend.",
+                        "Proxy data shows 2023 was the hottest year.",
+                        "The baseline spans over 125,000 years."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/1.png",
+                            "caption": "Global temperature anomalies show a long-term warming trend despite isolated cold weather events.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "If you walk outside and it's snowing, you might hear someone joke, 'So much for global warming!' But this represents a fundamental misunderstanding of how the Earth works. A single snowstorm in one city doesn't invalidate a global trend. To put things in perspective, despite any local cold snaps, proxy data shows that 2023 was the hottest year on Earth in over one hundred and twenty-five thousand years.",
+                    "thai_transcript": "ถ้าคุณเดินออกไปข้างนอกแล้วหิมะตก คุณอาจได้ยินคนพูดติดตลกว่า 'ไหนล่ะภาวะโลกร้อน!' แต่นี่คือความเข้าใจผิดอย่างใหญ่หลวงเกี่ยวกับระบบการทำงานของโลก พายุหิมะเพียงครั้งเดียวในเมืองๆ หนึ่ง ไม่สามารถหักล้างแนวโน้มที่เกิดขึ้นทั่วโลกได้ เพื่อให้เห็นภาพชัดเจนขึ้น แม้จะมีอากาศหนาวเย็นในบางพื้นที่ แต่ข้อมูลตัวแทนชี้ให้เห็นว่าปี 2023 เป็นปีที่ร้อนที่สุดบนโลกในรอบกว่า 125,000 ปี"
+                },
+                {
+                    "title": "Defining Weather and Climate",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Weather = short-term, local conditions.",
+                        "Examples: Today's rain, tomorrow's wind.",
+                        "Climate = long-term statistical averages.",
+                        "Climate requires decades of data collection."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/2.png",
+                            "caption": "Weather describes the short-term, day-to-day atmospheric conditions in a specific location.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/3.png",
+                            "caption": "Climate represents the statistical average of weather data collected over thirty years or more.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's formally separate these two ideas. Weather describes the short-term, local atmospheric conditions—what you see when you look out the window right now, like rain or sunshine. Climate, on the other hand, is the long-term statistical average of those conditions over a specific region. While weather changes minute by minute, climate is typically measured in trends spanning thirty years or more.",
+                    "thai_transcript": "เรามาแยกสองแนวคิดนี้ออกจากกันอย่างเป็นทางการ สภาพอากาศ (Weather) คือสภาวะของชั้นบรรยากาศในระยะสั้นและในระดับท้องถิ่น หรือสิ่งที่คุณเห็นเมื่อมองออกไปนอกหน้าต่างในตอนนี้ เช่น ฝนตกหรือแดดออก ในทางกลับกัน ภูมิอากาศ (Climate) คือค่าเฉลี่ยทางสถิติระยะยาวของสภาวะเหล่านั้นในพื้นที่ใดพื้นที่หนึ่ง แม้ว่าสภาพอากาศจะเปลี่ยนแปลงได้ทุกนาที แต่โดยทั่วไปแล้วภูมิอากาศจะถูกวัดจากแนวโน้มที่กินเวลาตั้งแต่ 30 ปีขึ้นไป"
+                },
+                {
+                    "title": "Analogy: Mood vs. Personality",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Weather is your current mood.",
+                        "Moods change rapidly from day to day.",
+                        "Climate is your overall personality.",
+                        "Personality remains stable and predictable."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/4.png",
+                            "caption": "Your mood changes rapidly based on daily events, just like the weather.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/5.png",
+                            "caption": "Your personality is your stable, long-term baseline, just like the climate.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "To lock this in your memory, let's use a relatable analogy. Think of weather as your current mood. You might wake up grumpy one day and be ecstatic the next; it changes rapidly. Climate is your overall personality. Even if a generally optimistic person has one bad day, their baseline personality remains positive. Similarly, a cold day doesn't mean the climate isn't warming.",
+                    "thai_transcript": "เพื่อให้จดจำได้ง่ายขึ้น เรามาใช้การเปรียบเทียบที่เข้าใจง่ายกัน ลองนึกว่าสภาพอากาศเหมือนอารมณ์ในปัจจุบันของคุณ วันหนึ่งคุณอาจตื่นมาแล้วอารมณ์บูด แต่รุ่งขึ้นอาจจะอารมณ์ดีสุดๆ มันเปลี่ยนไปมาอย่างรวดเร็ว ส่วนภูมิอากาศก็เหมือนบุคลิกภาพโดยรวมของคุณ แม้ว่าคนมองโลกในแง่ดีอาจจะมีวันที่แย่ไปบ้าง แต่พื้นฐานบุคลิกของพวกเขาก็ยังคงเป็นคนคิดบวกอยู่ดี ในทำนองเดียวกัน วันที่อากาศหนาวเย็นเพียงวันเดียว ไม่ได้หมายความว่าภูมิอากาศไม่ได้กำลังร้อนขึ้น"
+                },
+                {
+                    "title": "Evaluating Long-Term Trends",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Do not conflate single data points with trends.",
+                        "Climate relies on mathematical means: $\\mu = \\frac{1}{n}\\sum_{i=1}^{n} x_i$",
+                        "Cold outliers don't erase a warming baseline.",
+                        "Always focus on decadal shifts, not daily events."
+                    ],
+                    "images": null,
+                    "transcript": "A common trap—and our non-example for today—is using a single cold temperature reading to claim the climate is cooling. In science, climate relies on statistical averages, represented mathematically as the mean of many years of data. When the baseline average shifts upwards, you can still have individual days that are below average. The existence of an outlier does not erase the mathematical reality of a shifting, warming baseline.",
+                    "thai_transcript": "หลุมพรางที่พบบ่อยและเป็นตัวอย่างที่ผิดในวันนี้ คือการใช้อุณหภูมิที่หนาวเย็นเพียงครั้งเดียวมาอ้างว่าโลกกำลังเย็นลง ในทางวิทยาศาสตร์ ภูมิอากาศต้องอาศัยค่าเฉลี่ยทางสถิติ ซึ่งในทางคณิตศาสตร์คือค่าเฉลี่ยของข้อมูลหลายๆ ปี เมื่อค่าเฉลี่ยพื้นฐานสูงขึ้น คุณก็ยังสามารถพบเจอบางวันที่อุณหภูมิต่ำกว่าค่าเฉลี่ยได้ การมีอยู่ของข้อมูลที่ผิดปกติเพียงจุดเดียว ไม่สามารถลบล้างความจริงทางคณิตศาสตร์ที่ว่าฐานอุณหภูมิกำลังขยับสูงขึ้นและร้อนขึ้นได้"
+                }
+            ]
+        },
+        {
+            "title": "Clear Examples: Identifying the Difference",
+            "slides": [
+                {
+                    "title": "Identifying the Difference",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Distinguish between short-term events and long-term trends",
+                        "Avoid confusing localized conditions with global averages",
+                        "Use clear analogies to build a strong mental model"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/6.png",
+                            "caption": "Weather represents the daily pages, while climate is the hourglass measuring decades.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "To truly understand global warming, we have to recognize the fundamental difference between weather and climate. People often confuse the two, mistakenly assuming that a remarkably cold day means the Earth isn't warming. In this section, we will look at clear, real-world examples to help you instantly identify whether you are looking at a short-term weather event or a long-term climate pattern.",
+                    "thai_transcript": "เพื่อทำความเข้าใจภาวะโลกร้อนอย่างแท้จริง เราต้องแยกแยะความแตกต่างพื้นฐานระหว่างสภาพอากาศและภูมิอากาศให้ได้ ผู้คนมักสับสนระหว่างสองสิ่งนี้ โดยเข้าใจผิดคิดว่าวันที่มีอากาศหนาวจัดแปลว่าโลกไม่ได้กำลังร้อนขึ้น ในส่วนนี้ เราจะมาดูตัวอย่างที่ชัดเจนในโลกแห่งความเป็นจริง เพื่อช่วยให้คุณระบุได้ทันทีว่าสิ่งที่คุณเห็นคือเหตุการณ์สภาพอากาศในระยะสั้น หรือรูปแบบภูมิอากาศในระยะยาว"
+                },
+                {
+                    "title": "Weather: Short-Term Events",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Sudden, highly localized atmospheric conditions",
+                        "Changes rapidly over minutes, days, or weeks",
+                        "Example: A sudden thunderstorm or a freezing weekend"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/7.png",
+                            "caption": "A sudden thunderstorm is a classic example of weather: short-term and localized.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's start by looking at weather. A sudden thunderstorm rolling in on a Tuesday afternoon, or a freezing weekend in Texas, are perfect examples of weather. These are short-term, highly localized conditions that can change rapidly from one day to the next. They tell us exactly what is happening outside right now, but they do not define the baseline normal of a region.",
+                    "thai_transcript": "มาเริ่มกันที่สภาพอากาศ พายุฝนฟ้าคะนองที่พัดเข้ามาอย่างกะทันหันในบ่ายวันอังคาร หรือวันหยุดสุดสัปดาห์ที่หนาวจัดในเท็กซัส เป็นตัวอย่างที่สมบูรณ์แบบของสภาพอากาศ สิ่งเหล่านี้คือสภาวะระยะสั้นที่เกิดขึ้นเฉพาะที่และสามารถเปลี่ยนแปลงอย่างรวดเร็วจากวันหนึ่งไปสู่อีกวันหนึ่ง มันบอกเราอย่างชัดเจนว่าตอนนี้ข้างนอกเกิดอะไรขึ้น แต่ไม่ได้เป็นตัวกำหนดสภาวะปกติของภูมิภาคนั้นๆ"
+                },
+                {
+                    "title": "Climate: Long-Term Patterns",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Statistical average of weather over decades",
+                        "Establishes the baseline expectations of a region",
+                        "Example: The Sahara Desert averaging $< 3$ inches of rain annually"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/8.png",
+                            "caption": "The Sahara's century-long dry streak is an example of climate, not just daily weather.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "In contrast, climate is the statistical average of weather over a long period, usually at least $30$ years. For instance, the Sahara Desert receives less than $3$ inches of rain per year on average over the last century. That consistency over decades is what defines a climate. Even if it happens to rain one afternoon in the Sahara—which is weather—its overall climate remains profoundly dry.",
+                    "thai_transcript": "ในทางกลับกัน ภูมิอากาศคือค่าเฉลี่ยทางสถิติของสภาพอากาศในช่วงเวลาที่ยาวนาน ซึ่งโดยปกติจะใช้เวลาอย่างน้อย $30$ ปี ตัวอย่างเช่น ทะเลทรายซาฮารามีปริมาณน้ำฝนเฉลี่ยน้อยกว่า $3$ นิ้วต่อปีในช่วงศตวรรษที่ผ่านมา ความสม่ำเสมอในระดับหลายทศวรรษนี้คือสิ่งที่กำหนดภูมิอากาศ แม้ว่าวันหนึ่งจะมีฝนตกในซาฮารา ซึ่งนั่นคือสภาพอากาศ แต่ภูมิอากาศโดยรวมของมันก็ยังคงแห้งแล้งอย่างมาก"
+                },
+                {
+                    "title": "Weather vs. Climate in Action",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Weather = A freezing weekend anomaly in Texas",
+                        "Climate = A century of drought in the Sahara",
+                        "Non-example: A single hot day does NOT prove climate change"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/9.png",
+                            "caption": "Weather: A localized, short-term temperature anomaly.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/10.png",
+                            "caption": "Climate: A century-long historical average establishing a trend.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's compare these side-by-side to solidify this mental model. A freezing weekend in Texas is a localized weather anomaly; it is an isolated event, not a trend. A century of drought in the Sahara is a climate reality based on statistical data. A crucial non-example to remember is that a single unusually hot summer day does not, by itself, prove global warming. We must always look at decades of data to make accurate claims about the climate.",
+                    "thai_transcript": "ลองนำสองสิ่งนี้มาเปรียบเทียบกันเพื่อสร้างภาพจำที่ชัดเจน วันหยุดสุดสัปดาห์ที่หนาวจัดในเท็กซัสเป็นความผิดปกติของสภาพอากาศเฉพาะที่ มันเป็นเพียงเหตุการณ์เดี่ยวๆ ไม่ใช่แนวโน้ม ในขณะที่ความแห้งแล้งนับศตวรรษในซาฮาราคือความเป็นจริงของภูมิอากาศที่อิงตามข้อมูลสถิติ สิ่งสำคัญที่ต้องจำไว้คือ วันในฤดูร้อนที่ร้อนผิดปกติเพียงวันเดียว ไม่สามารถใช้เป็นข้อพิสูจน์ถึงภาวะโลกร้อนได้ เราต้องพิจารณาข้อมูลที่เก็บรวบรวมมาหลายสิบปีเสมอ เพื่อสรุปเกี่ยวกับการเปลี่ยนแปลงของภูมิอากาศได้อย่างถูกต้อง"
+                }
+            ]
+        },
+        {
+            "title": "Non-Example: The Cold Day Fallacy",
+            "slides": [
+                {
+                    "title": "The Cold Day Fallacy",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Does snow today mean global warming is fake?",
+                        "A very common climate misconception",
+                        "Confuses a local event with a global trend"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/11.png",
+                            "caption": "A local snowstorm is a short-term weather event, not an indicator of overall global climate trends.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "If it snowed today, does that mean global warming is a hoax? This is what we call the Cold Day Fallacy. It happens when people confuse what is happening right now outside their window with long-term global trends. A local cold snap tells us nothing about the Earth's overall rising temperature.",
+                    "thai_transcript": "ถ้าวันนี้หิมะตก แปลว่าภาวะโลกร้อนเป็นเรื่องหลอกลวงหรือเปล่า? นี่คือสิ่งที่เราเรียกว่า ตรรกะวิบัติของวันอากาศหนาว (Cold Day Fallacy) มันเกิดขึ้นเมื่อคนสับสนระหว่างสิ่งที่เกิดขึ้นหน้าบ้านตอนนี้กับแนวโน้มระดับโลกในระยะยาว อากาศหนาวจัดในพื้นที่ใดพื้นที่หนึ่งไม่ได้บอกอะไรเราเลยเกี่ยวกับอุณหภูมิโดยรวมของโลกที่กำลังสูงขึ้น"
+                },
+                {
+                    "title": "Weather vs. Climate",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Weather: Short-term, local conditions",
+                        "Climate: Long-term statistical averages",
+                        "Analogy: Mood vs. Personality",
+                        "Weather changes daily; climate shifts over decades"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/12.png",
+                            "caption": "Weather represents your temporary daily 'mood' and changes rapidly.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/13.png",
+                            "caption": "Climate represents your long-term 'personality' or historical baseline average.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "To break this down, we must clearly define weather versus climate. Weather is short-term and local, like the rain or snow you see on a given Tuesday. Climate, however, is the long-term statistical average of these conditions over decades. Think of it this way: weather is your current mood, while climate is your overall personality. You might have a sad day, but generally still be a happy person.",
+                    "thai_transcript": "เพื่อทำความเข้าใจเรื่องนี้ เราต้องแยกแยะระหว่างสภาพอากาศ (Weather) กับภูมิอากาศ (Climate) อย่างชัดเจน สภาพอากาศคือสภาวะระยะสั้นในพื้นที่หนึ่งๆ เช่น ฝนตกหรือหิมะตกในวันอังคาร ส่วนภูมิอากาศคือค่าเฉลี่ยทางสถิติของสภาวะเหล่านี้ในระยะยาวเป็นทศวรรษ ลองคิดแบบนี้ครับ สภาพอากาศก็เหมือนอารมณ์ของคุณในตอนนั้น ส่วนภูมิอากาศคือบุคลิกภาพโดยรวมของคุณ คุณอาจจะมีวันที่เศร้าบ้าง แต่โดยรวมแล้วคุณอาจเป็นคนร่าเริง"
+                },
+                {
+                    "title": "The Snowstorm (A Non-Example)",
+                    "layout": "text_only",
+                    "key_points": [
+                        "A single snowstorm is a strict non-example of climate",
+                        "It represents an isolated, local anomaly",
+                        "Cannot invalidate decades-long global warming trends",
+                        "Statistical averages outweigh single data points"
+                    ],
+                    "images": null,
+                    "transcript": "Let's look at a strict non-example of climate: a severe winter snowstorm. A snowstorm is simply weather. You cannot use one isolated cold day to invalidate a decades-long global warming trend. In science, a single local data point never overrides the statistical average of thousands of data points collected worldwide.",
+                    "thai_transcript": "ลองมาดูตัวอย่างที่ชัดเจนของสิ่งที่ไม่ใช่ภูมิอากาศกันครับ นั่นคือพายุหิมะที่รุนแรงในฤดูหนาว พายุหิมะเป็นเพียงสภาพอากาศเท่านั้น คุณไม่สามารถใช้วันที่อากาศหนาวเหน็บเพียงวันเดียวมาลบล้างแนวโน้มภาวะโลกร้อนที่เกิดขึ้นมาหลายทศวรรษได้ ในทางวิทยาศาสตร์ ข้อมูลในพื้นที่เพียงจุดเดียวไม่สามารถหักล้างค่าเฉลี่ยทางสถิติของข้อมูลหลายพันจุดที่เก็บรวบรวมจากทั่วโลกได้"
+                },
+                {
+                    "title": "The Baseline Reality",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Proxy data reveals long-term historical context",
+                        "Short-term weather obscures global reality",
+                        "2023: The hottest year in over 125,000 years",
+                        "Global warming is a measured statistical trend"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/14.png",
+                            "caption": "Historical proxy data demonstrates that 2023 broke global temperature records spanning millennia.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "When we zoom out and look at the actual climate, the baseline reality becomes undeniable. Despite occasional cold snaps or snowstorms, the overarching global trend is rapidly warming. In fact, historical proxy data reveals that 2023 was the hottest year in over 125,000 years. We must always rely on these long-term statistical trends, rather than our daily weather, to truly understand global climate change.",
+                    "thai_transcript": "เมื่อเราถอยออกมาดูภูมิอากาศที่แท้จริง ความเป็นจริงของเส้นฐาน (Baseline) ก็ชัดเจนจนปฏิเสธไม่ได้ แม้จะมีอากาศหนาวเย็นหรือพายุหิมะเกิดขึ้นเป็นครั้งคราว แต่แนวโน้มหลักของโลกคือการร้อนขึ้นอย่างรวดเร็ว ในความเป็นจริง ข้อมูลตัวแทนทางประวัติศาสตร์เผยให้เห็นว่าปี 2023 เป็นปีที่ร้อนที่สุดในรอบกว่า 125,000 ปี เราต้องพึ่งพาแนวโน้มทางสถิติระยะยาวเหล่านี้เสมอ เพื่อทำความเข้าใจการเปลี่ยนแปลงสภาพภูมิอากาศของโลกอย่างแท้จริง ไม่ใช่พิจารณาจากสภาพอากาศรายวัน"
+                }
+            ]
+        },
+        {
+            "title": "Application: Classifying Meteorological Events",
+            "slides": [
+                {
+                    "title": "Classifying Meteorological Events",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Analyze real-world observations.",
+                        "Identify the underlying timeframe.",
+                        "Distinguish between isolated events and trends."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/15.png",
+                            "caption": "Weather represents immediate, chaotic conditions, while climate represents smooth, long-term statistical trends.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "When we look at the world around us, we constantly experience meteorological events, from sudden rainstorms to long-term droughts. The challenge is correctly classifying these observations so we can make sense of what is actually happening to our planet. To do this accurately, we must focus on the time scale of the event rather than just its intensity. Let's learn how to apply the 'timeline test' to categorize these events.",
+                    "thai_transcript": "เมื่อเรามองโลกรอบตัว เราจะพบกับปรากฏการณ์ทางอุตุนิยมวิทยาอยู่เสมอ ตั้งแต่พายุฝนที่ตกกระทันหันไปจนถึงภัยแล้งที่ยาวนาน ความท้าทายคือการแยกแยะและจัดหมวดหมู่ปรากฏการณ์เหล่านี้ให้ถูกต้องเพื่อทำความเข้าใจสิ่งที่เกิดขึ้นกับโลกของเรา ในการจะทำเช่นนี้ได้อย่างแม่นยำ เราต้องให้ความสำคัญกับกรอบเวลาของเหตุการณ์มากกว่าแค่ความรุนแรงของมัน มาดูกันว่าเราจะใช้ 'การทดสอบกรอบเวลา' เพื่อแยกแยะเหตุการณ์เหล่านี้ได้อย่างไร"
+                },
+                {
+                    "title": "The Timeline Test",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Weather = Short-term conditions.",
+                        "Climate = Long-term statistical averages.",
+                        "Standard climate baseline is 30 years."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/16.png",
+                            "caption": "Weather tracks daily or weekly fluctuations in the atmosphere.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/17.png",
+                            "caption": "Climate tracks statistical averages over minimum 30-year periods.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The fundamental rule for categorizing meteorological data is the timeline test. If an observation spans a period of hours, days, or even a few weeks, you are looking at weather. However, in atmospheric science, the standard period to determine a climate baseline is 30 years of data. If your observation involves analyzing a statistical trend over decades, you are evaluating climate.",
+                    "thai_transcript": "กฎพื้นฐานในการจัดหมวดหมู่ข้อมูลทางอุตุนิยมวิทยาคือการพิจารณากรอบเวลา หากสิ่งที่คุณสังเกตเห็นกินเวลาเพียงไม่กี่ชั่วโมง ไม่กี่วัน หรือไม่กี่สัปดาห์ นั่นคือสภาพอากาศ (Weather) อย่างไรก็ตาม ในทางวิทยาศาสตร์บรรยากาศ ระยะเวลามาตรฐานในการกำหนดเกณฑ์สภาพภูมิอากาศคือข้อมูล 30 ปี หากการสังเกตของคุณเกี่ยวข้องกับการวิเคราะห์แนวโน้มทางสถิติในช่วงหลายทศวรรษ แสดงว่าคุณกำลังประเมินสภาพภูมิอากาศ (Climate)"
+                },
+                {
+                    "title": "Application: Analyzing a Trend",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Observation: Progressively wetter winters.",
+                        "Identify the timeframe: 30 years.",
+                        "Conclusion: This is a climate observation."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/18.png",
+                            "caption": "A single severe winter storm is classified as a weather event.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/085de5d2-144d-4f3e-954e-e5222b094237/slides_images/19.png",
+                            "caption": "A 30-year trend of increasing precipitation is classified as a climate shift.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's apply this concept to a specific real-world example. Consider the statement: 'The Pacific Northwest has experienced progressively wetter winters over the past 30 years.' Ask yourself what the timeline is here. Because this statement tracks a statistical trend over a long, multi-decade period, it is firmly an observation of climate. We are not looking at a single stormy winter, but a sustained shift in the region's long-term baseline.",
+                    "thai_transcript": "ลองนำแนวคิดนี้มาประยุกต์ใช้กับตัวอย่างจริงในโลกของเรา พิจารณาประโยคที่ว่า: 'พื้นที่แปซิฟิกตะวันตกเฉียงเหนือมีฤดูหนาวที่เปียกชื้นขึ้นเรื่อยๆ ในช่วง 30 ปีที่ผ่านมา' ลองถามตัวเองว่ากรอบเวลาในที่นี้คืออะไร เนื่องจากประโยคนี้ติดตามแนวโน้มทางสถิติในช่วงเวลาหลายทศวรรษที่ยาวนาน จึงถือเป็นการสังเกตสภาพภูมิอากาศอย่างแน่นอน เราไม่ได้กำลังพิจารณาแค่ฤดูหนาวที่มีพายุรุนแรงเพียงปีเดียว แต่กำลังดูการเปลี่ยนแปลงที่ต่อเนื่องของค่ามาตรฐานระยะยาวในภูมิภาคนี้"
+                },
+                {
+                    "title": "Non-Example: Misinterpreting Extremes",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Extreme events do not instantly redefine climate.",
+                        "A 100-year blizzard is still just weather.",
+                        "Isolated cold snaps do not disprove global warming.",
+                        "Always look for long-term statistical significance."
+                    ],
+                    "images": null,
+                    "transcript": "It is crucial to build a strong mental model of what climate is NOT. For instance, experiencing a massive, record-breaking blizzard today does not mean global warming has stopped. That blizzard is a single weather event, highly localized in time. While climate change might make extreme weather events more frequent or severe, the isolated event itself is just weather. Always zoom out and look for the statistical trend to accurately assess the climate.",
+                    "thai_transcript": "สิ่งสำคัญคือการสร้างความเข้าใจที่ถูกต้องว่าสภาพภูมิอากาศ 'ไม่ใช่' อะไร ตัวอย่างเช่น การเผชิญกับพายุหิมะครั้งใหญ่ที่ทำลายสถิติในวันนี้ไม่ได้หมายความว่าภาวะโลกร้อนได้หยุดลง พายุหิมะลูกนั้นเป็นเพียงเหตุการณ์สภาพอากาศที่เกิดขึ้นในระยะเวลาสั้นๆ เท่านั้น แม้ว่าการเปลี่ยนแปลงสภาพภูมิอากาศอาจทำให้เหตุการณ์สภาพอากาศรุนแรงเกิดขึ้นบ่อยหรือรุนแรงขึ้น แต่ตัวเหตุการณ์เดี่ยวๆ นั้นยังคงเป็นเพียงสภาพอากาศเสมอ คุณต้องมองภาพกว้างและพิจารณาแนวโน้มทางสถิติเสมอเพื่อประเมินสภาพภูมิอากาศได้อย่างแม่นยำ"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "085de5d2-144d-4f3e-954e-e5222b094237",
+    "course_id": "f0cdf2d2-5467-4fc4-b6f1-cbcf89f33d21"
+}

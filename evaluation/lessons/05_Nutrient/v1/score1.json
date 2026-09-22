@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Energy Balance and Basal Metabolic Rate",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No diagrams, charts, illustrations, or data figures are present across any of the five slides; all slides are composed exclusively of text. The absence of any visual representation of energy balance, metabolic processes, or the BMR formula means the visual channel carries no informational content beyond typography."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide contains full, multi-sentence paragraphs that are reproduced nearly verbatim in the narration transcript, constituting maximal redundancy between channels. On-screen word counts far exceed the five-second scan threshold on all slides, and no graphic exists to carry informational weight in place of text."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "score": 2,
+            "evidence": "Complex descriptions — including the full Mifflin-St Jeor equations and multi-factor BMR determinants — are presented as dense on-screen prose rather than being offloaded to narration, violating the core modality principle. The narration is written in natural spoken register and does not merely read bullet points, but this benefit is negated by the absence of any visual channel content to complement it."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "Slide content is thematically focused on BMR and energy balance with no observable tangential anecdotes or decorative imagery; narration similarly stays on-topic without filler or digression. Slide backgrounds appear clean and typography is consistent across slides, though the uniform text-only format limits the assessment of visual coherence."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "Slides have consistent title headers providing a basic visual hierarchy, but no arrows, highlights, color contrast, bold text, or callouts are used to emphasize key elements such as the BMR formula or the 60–70% expenditure figure. The narration lacks verbal signaling phrases (e.g., 'the key point is,' 'notice that') to direct learner attention to critical information."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No graphics, labels, or captions are present, making spatial contiguity between visual and textual elements impossible to observe or evaluate. Text-only layout places no demands on contiguity design, but the formula variables on slide 5 are described in a separate trailing sentence rather than integrated inline with the equations."
+        }
+    ],
+    "raw_total": 10,
+    "unweighted_average": 1.67
+}

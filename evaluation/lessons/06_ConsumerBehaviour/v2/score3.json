@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Consumer Behavior & the Buyer Decision Process",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slide 12 (Redefining Consumer Behavior) contains at least one photograph or illustration directly tied to the narrated concept, satisfying criteria a and b consistently. Reciprocity is partial: most images illustrate the scenario but do not carry information that would be lost without them, as the bullet text and narration together remain self-sufficient on several slides."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 6,
+            "evidence": "On-screen bullet points are short phrases rather than paragraphs and can be scanned in roughly five seconds, satisfying criterion e; however, the narration frequently elaborates on the same phrases rather than meaningfully departing from them (e.g., slide 6 bullets 'Stage 1: Internal physiological stimuli' are restated almost verbatim in the narration). The graphic carries supporting weight but the bullet text—not the graphic—remains the primary information channel on most slides."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Complex explanations such as the habit-loop reinforcement mechanism and the evoked-set concept are delivered orally rather than as dense on-screen text, and narration is written in natural spoken language throughout. However, on several slides (e.g., slides 6 and 14) the narration closely mirrors the bullet language while a relevant photo is displayed, constituting partial instances of narration reading on-screen text alongside a visual rather than adding independent information."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Backgrounds are uniformly clean white, typography is consistent blue-and-dark-gray throughout, and narration is free of digressions or filler content. A subset of photographs—particularly the AI-generated receipt image on slide 1 and the generic iced-tea lifestyle shot on slide 5—function more as atmospheric illustration than as direct conceptual depictions, partially compromising functional relevance."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent title-plus-bullets visual hierarchy is present on every slide, providing clear structural organization; however, explicit visual cues such as arrows, highlights, or color contrast marking key elements within graphics are absent across the deck. The narration uses some verbal signaling ('the key idea,' 'notice,' 'look closely') on a minority of slides but does not employ it systematically, and captions identify graphic content without directing learner attention to a specific part of the image."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "On dual-image slides (e.g., slides 6, 7, 11, 14, 15) captions are placed directly beneath their respective photographs and stage labels are integrated into or adjacent to the images, minimizing split attention. Text is not integrated into the graphic bodies themselves—it sits in a separate bullet zone above—so the term-to-diagram connection relies on proximity and sequential layout rather than leader lines or matching color, partially limiting criterion b and e."
+        }
+    ],
+    "raw_total": 45,
+    "unweighted_average": 7.50
+}

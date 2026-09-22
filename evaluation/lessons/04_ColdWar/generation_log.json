@@ -1,0 +1,478 @@
+{
+    "_id": {
+        "$oid": "6a1db3b1807566adcec85178"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# The Core Divide: Capitalism vs. Communism\n\n* Two opposing blueprints for society emerged post-WWII.\n* United States championed Democratic Capitalism.\n* Soviet Union enforced Authoritarian Communism.\n* Ideological clash replaced a fragile wartime alliance.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/1.png\" alt=\"The post-WWII world fractured into two distinct ideological blueprints: individual enterprise versus state-directed collective action.\" />\n  </div>\n  <p class=\"hero-caption\">The post-WWII world fractured into two distinct ideological blueprints: individual enterprise versus state-directed collective action.</p>\n</div>\n\n---\n# Defining the Systems: Individual vs. State\n\n* Capitalism: Free markets and individual property rights.\n* Communism: State control and collective ownership.\n* Democracy emphasizes personal liberty and voting.\n* Authoritarianism mandates strict obedience to the state.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/2.png\" alt=\"Capitalism relies on private ownership, competition, and individual choice.\" />\n    </div>\n    <span><strong>Capitalism relies on private ownership, competition, and individual choice.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/3.png\" alt=\"Communism relies on total state control to enforce collective equality and resource distribution.\" />\n    </div>\n    <span><strong>Communism relies on total state control to enforce collective equality and resource distribution.</strong></span>\n  </div>\n</div>\n\n---\n# Mental Model: The Group Project Analogy\n\n* System A (Capitalism): Choose roles, earn individual grades.\n* System B (Communism): Assigned roles, earn shared grades.\n* Non-example: Neither system is a chaotic free-for-all.\n* Both aim for societal success using opposite motivations.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/4.png\" alt=\"System A: Individual effort leads to distinct, individualized rewards.\" />\n    </div>\n    <span><strong>System A: Individual effort leads to distinct, individualized rewards.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/5.png\" alt=\"System B: Assigned roles result in an equal, collective reward regardless of individual effort.\" />\n    </div>\n    <span><strong>System B: Assigned roles result in an equal, collective reward regardless of individual effort.</strong></span>\n  </div>\n</div>\n\n---\n# The Inevitable Clash Post-WWII\n\n* WWII alliance was purely strategic against a common enemy.\n* Post-war rebuilding goals were inherently incompatible.\n* US sought open global markets for economic growth.\n* USSR sought secure buffer zones and ideological conformity.\n\n---\n# The Post-WWII Ideological Divide\n\n* WWII alliance between US and USSR ends\n* Two rival global superpowers emerge\n* Fundamentally incompatible societal models\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/6.png\" alt=\"The post-WWII world was immediately split into two fundamentally opposing ideological spheres.\" />\n  </div>\n  <p class=\"hero-caption\">The post-WWII world was immediately split into two fundamentally opposing ideological spheres.</p>\n</div>\n\n---\n# Contrasting Systems: US vs. USSR\n\n* US: Free markets and private ownership\n* US: Multi-party elections and individual rights\n* USSR: State-owned economy and agriculture\n* USSR: Single-party rule for collective equality\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/7.png\" alt=\"Democratic Capitalism: Emphasizing private ownership, free markets, and individual rights.\" />\n    </div>\n    <span><strong>Democratic Capitalism: Emphasizing private ownership, free markets, and individual rights.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/8.png\" alt=\"Authoritarian Communism: Emphasizing state control, collective labor, and strict political uniformity.\" />\n    </div>\n    <span><strong>Authoritarian Communism: Emphasizing state control, collective labor, and strict political uniformity.</strong></span>\n  </div>\n</div>\n\n---\n# Why Cooperation Failed\n\n* Capitalism does NOT guarantee equal wealth\n* Communism does NOT value individual consumer choice\n* Core values were exact opposites\n* Post-war diplomatic partnership became impossible\n\n---\n# Not Just a War for Territory\n\n* Traditional wars fight for land or resources\n* The Cold War was a clash of absolute worldviews\n* A fundamental struggle between two incompatible systems\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/9.png\" alt=\"The Cold War was an ideological struggle for the future of global society, not just a fight over physical borders.\" />\n  </div>\n  <p class=\"hero-caption\">The Cold War was an ideological struggle for the future of global society, not just a fight over physical borders.</p>\n</div>\n\n---\n# Clearing Misconceptions: What Communism is NOT\n\n* Basic public services $\\neq$ Communism\n* Roads, schools, and fire departments exist in capitalism\n* Public goods are funded by taxes, not total state control\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/10.png\" alt=\"Public services like schools are standard functions of government, not 'communism'.\" />\n    </div>\n    <span><strong>Public services like schools are standard functions of government, not 'communism'.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/11.png\" alt=\"Soviet communism requires state ownership of all production, not just basic public goods.\" />\n    </div>\n    <span><strong>Soviet communism requires state ownership of all production, not just basic public goods.</strong></span>\n  </div>\n</div>\n\n---\n# The Core Traits of Soviet Communism\n\n* Elimination of private property\n* Abolition of free market economics\n* Eradication of opposing political parties\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/12.png\" alt=\"Private ownership was abolished and replaced by collective state ownership.\" />\n    </div>\n    <span><strong>Private ownership was abolished and replaced by collective state ownership.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/13.png\" alt=\"Prices and production were dictated by the government, not supply and demand.\" />\n    </div>\n    <span><strong>Prices and production were dictated by the government, not supply and demand.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/14.png\" alt=\"Political opposition was banned, ensuring a single-party authoritarian rule.\" />\n    </div>\n    <span><strong>Political opposition was banned, ensuring a single-party authoritarian rule.</strong></span>\n  </div>\n</div>\n\n---\n# An Absolute Divide\n\n* Worldviews were structurally incompatible\n* Ideology drove global geopolitical strategy\n* A zero-sum game: one side's gain is the other's loss\n\n---\n# The WWII Alliance: A Temporary Truce\n\n* Allied from 1941 to 1945 against Nazi Germany\n* United strictly by a shared enemy, not shared values\n* Functioned as a strategic 'marriage of convenience'\n\n---\n# The Sudden Pivot (1945)\n\n* Defeat of Germany removed the shared threat\n* Alliance instantly collapsed without a common enemy\n* Clashing visions for post-war reconstruction emerged\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/16.png\" alt=\"The US vision prioritized free markets and individual rights for rebuilding Europe.\" />\n    </div>\n    <span><strong>The US vision prioritized free markets and individual rights for rebuilding Europe.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/17.png\" alt=\"The Soviet vision prioritized state control and collective equality.\" />\n    </div>\n    <span><strong>The Soviet vision prioritized state control and collective equality.</strong></span>\n  </div>\n</div>\n\n---\n# Why Cooperation Failed\n\n* Non-example: The WWII alliance was never a true friendship\n* Fundamentally incompatible visions for society and economy\n* Democratic capitalism vs. authoritarian communism\n* Ideological differences made the Cold War inevitable\n\n---\n# Knowledge Check: Identifying the Ideology\n\n* A post-WWII nation seeks to prevent poverty.\n* Government takes ownership of all private banks.\n* The state dictates the prices of all goods.\n* Citizens are directly assigned jobs by the government.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/18.png\" alt=\"Visualizing a state-controlled economy where the central government manages all resources and infrastructure.\" />\n  </div>\n  <p class=\"hero-caption\">Visualizing a state-controlled economy where the central government manages all resources and infrastructure.</p>\n</div>\n\n---\n# Which Ideology Is It?\n\n* Option A: Democratic Capitalism (United States)\n* Option B: Authoritarian Communism (Soviet Union)\n* Consider who controls the means of production and distribution.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/19.png\" alt=\"Capitalism emphasizes free markets, supply and demand, and private ownership.\" />\n    </div>\n    <span><strong>Capitalism emphasizes free markets, supply and demand, and private ownership.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/20.png\" alt=\"Communism relies on strict state control and the collective distribution of goods.\" />\n    </div>\n    <span><strong>Communism relies on strict state control and the collective distribution of goods.</strong></span>\n  </div>\n</div>\n\n---\n# The Answer: Authoritarian Communism\n\n* Correct Answer: The Soviet Union.\n* Defining Trait: Absolute state control over the economy.\n* Non-Example: Free-market capitalism (prices fluctuate based on supply and demand).\n* Conclusion: This fundamental incompatibility made post-WWII cooperation impossible.\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "The Core Divide: Capitalism vs. Communism",
+            "transcript": "Welcome to the origins of the Cold War. Following World War II, the fragile alliance between the United States and the Soviet Union quickly dissolved, replaced by a deep ideological divide. We will explore how these two superpowers offered completely opposite blueprints for how society, economics, and government should function. This wasn't merely a political disagreement; it was a fundamental clash over human freedom and collective responsibility.",
+            "thai_transcript": "ยินดีต้อนรับสู่จุดเริ่มต้นของสงครามเย็น หลังสงครามโลกครั้งที่สอง พันธมิตรที่เปราะบางระหว่างสหรัฐอเมริกาและสหภาพโซเวียตได้ล่มสลายลงอย่างรวดเร็ว และถูกแทนที่ด้วยความแตกแยกทางอุดมการณ์ เราจะมาสำรวจกันว่ามหาอำนาจทั้งสองนี้เสนอรูปแบบการทำงานของสังคม เศรษฐกิจ และรัฐบาลที่ตรงข้ามกันอย่างสิ้นเชิงได้อย่างไร นี่ไม่ใช่แค่ความขัดแย้งทางการเมือง แต่เป็นการปะทะกันในระดับรากฐานเรื่องเสรีภาพของมนุษย์และความรับผิดชอบส่วนรวม"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Defining the Systems: Individual vs. State",
+            "transcript": "To truly understand the Cold War, we must define the two competing systems at its core. Democratic capitalism, championed by the US, emphasizes free markets, private property, and individual rights. In stark contrast, authoritarian communism, pushed by the USSR, relies on complete state control of the economy to enforce collective equality. One system prioritizes individual liberty and opportunity, while the other prioritizes collective outcome under strict government direction.",
+            "thai_transcript": "เพื่อทำความเข้าใจสงครามเย็นอย่างแท้จริง เราต้องนิยามระบบการแข่งขันหลักทั้งสองนี้ก่อน ทุนนิยมประชาธิปไตยซึ่งนำโดยสหรัฐฯ ให้ความสำคัญกับตลาดเสรี ทรัพย์สินส่วนบุคคล และสิทธิปัจเจกชน ในทางตรงกันข้าม คอมมิวนิสต์แบบเผด็จการที่ผลักดันโดยโซเวียต พึ่งพาการควบคุมเศรษฐกิจเบ็ดเสร็จโดยรัฐเพื่อบังคับใช้ความเท่าเทียมกัน ระบบหนึ่งให้ความสำคัญกับเสรีภาพและโอกาสส่วนบุคคล ในขณะที่อีกระบบหนึ่งเน้นผลลัพธ์ส่วนรวมภายใต้การสั่งการของรัฐ"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "Mental Model: The Group Project Analogy",
+            "transcript": "Let's use a mental model to simplify this: imagine a massive classroom group project. In System A, representing capitalism, you choose your own role, work independently, and get a grade based entirely on your personal effort. In System B, representing communism, the teacher assigns your role based on the group's needs, and everyone receives the exact same shared grade. Note what these are NOT: neither system is absolute anarchy; they just use fundamentally opposite incentive structures to motivate people.",
+            "thai_transcript": "ลองใช้แบบจำลองความคิดเพื่อทำให้เรื่องนี้เข้าใจง่ายขึ้นครับ จินตนาการถึงโครงงานกลุ่มใหญ่ในห้องเรียน ในระบบ A ซึ่งแทนทุนนิยม คุณเลือกหน้าที่เอง ทำงานอิสระ และได้คะแนนตามความพยายามส่วนตัวของคุณ ในระบบ B ซึ่งแทนคอมมิวนิสต์ ครูจะกำหนดหน้าที่ให้ตามความจำเป็นของกลุ่ม และทุกคนจะได้คะแนนร่วมกันเท่ากันเป๊ะ โปรดสังเกตว่าสิ่งที่ไม่ใช่คือ: ไม่มีระบบไหนที่ไร้ระเบียบโดยสมบูรณ์ พวกเขาแค่ใช้โครงสร้างแรงจูงใจที่ตรงข้ามกันอย่างสิ้นเชิงเพื่อกระตุ้นผู้คน"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "The Inevitable Clash Post-WWII",
+            "transcript": "With these deeply opposed ideological blueprints, you can begin to see why their post-WWII cooperation was doomed to fail. Their alliance during the war was purely a marriage of convenience to defeat Nazi Germany. Once that common enemy was eliminated, their respective visions for rebuilding the world could not coexist. The United States needed open global markets to fuel its capitalist economy, while the Soviet Union demanded secure borders and ideological conformity to protect its vulnerable state.",
+            "thai_transcript": "ด้วยพิมพ์เขียวทางอุดมการณ์ที่ขัดแย้งกันอย่างลึกซึ้งนี้ คุณจะเริ่มเห็นได้ว่าทำไมความร่วมมือหลังสงครามโลกครั้งที่สองของพวกเขาจึงต้องล้มเหลว พันธมิตรในช่วงสงครามเป็นเพียงความร่วมมือชั่วคราวเพื่อเอาชนะนาซีเยอรมนีเท่านั้น เมื่อศัตรูร่วมนั้นหมดไป วิสัยทัศน์ในการสร้างโลกใหม่ของพวกเขาจึงไม่สามารถอยู่ร่วมกันได้ สหรัฐฯ ต้องการตลาดโลกที่เปิดกว้างเพื่อขับเคลื่อนเศรษฐกิจทุนนิยม ในขณะที่สหภาพโซเวียตต้องการพรมแดนที่ปลอดภัยและความเป็นหนึ่งเดียวกันทางอุดมการณ์เพื่อปกป้องรัฐที่เปราะบางของตน"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "The Post-WWII Ideological Divide",
+            "transcript": "Welcome to our exploration of the Cold War's foundational conflict. Following the end of World War II, the temporary alliance of convenience between the United States and the Soviet Union quickly dissolved. In its place emerged a fierce global rivalry driven by two entirely incompatible visions for how society should function. This stark ideological divide would dictate global politics, economics, and warfare for nearly half a century.",
+            "thai_transcript": "ยินดีต้อนรับเข้าสู่การสำรวจความขัดแย้งอันเป็นรากฐานของสงครามเย็นครับ หลังจากสงครามโลกครั้งที่สองสิ้นสุดลง ความเป็นพันธมิตรชั่วคราวระหว่างสหรัฐอเมริกาและสหภาพโซเวียตก็ยุติลงอย่างรวดเร็ว สิ่งที่เกิดขึ้นตามมาคือการแข่งขันระดับโลกที่ขับเคลื่อนโดยวิสัยทัศน์สองรูปแบบที่แตกต่างกันอย่างสิ้นเชิงเกี่ยวกับวิธีการทำงานของสังคม ความแตกแยกทางอุดมการณ์ที่ชัดเจนนี้จะเป็นตัวกำหนดการเมือง เศรษฐกิจ และการทหารของโลกไปอีกเกือบครึ่งศตวรรษ"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Contrasting Systems: US vs. USSR",
+            "transcript": "Let's break down these two opposing structural models. On one side, the United States championed democratic capitalism, where private citizens owned businesses and individuals voted in multi-party elections. On the other side, the Soviet Union operated under authoritarian communism, where the government owned all factories and farms to enforce collective equality. This meant a multi-party democracy was pitted directly against single-party rule, and a free market against a state-commanded economy.",
+            "thai_transcript": "มาทำความเข้าใจโครงสร้างของสองระบบที่ตรงข้ามกันนี้กันครับ ในด้านหนึ่ง สหรัฐอเมริกาสนับสนุนประชาธิปไตยแบบทุนนิยม ซึ่งประชาชนเป็นเจ้าของธุรกิจและสามารถลงคะแนนเสียงในการเลือกตั้งแบบหลายพรรคได้ ในทางกลับกัน สหภาพโซเวียตดำเนินการภายใต้ระบบคอมมิวนิสต์แบบเผด็จการ ซึ่งรัฐบาลเป็นเจ้าของโรงงานและฟาร์มทั้งหมดเพื่อบังคับใช้ความเท่าเทียมกันของส่วนรวม ซึ่งหมายความว่าประชาธิปไตยแบบหลายพรรคถูกนำมาเผชิญหน้ากับการปกครองแบบพรรคเดียว และตลาดเสรีต้องปะทะกับเศรษฐกิจที่ควบคุมโดยรัฐ"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Why Cooperation Failed",
+            "transcript": "To truly understand these systems, it helps to identify what they are not. Democratic capitalism does not guarantee equal wealth for everyone; it focuses heavily on providing the opportunity to compete. Conversely, authoritarian communism is not concerned with individual consumer choices or personal liberty; it strictly prioritizes the survival and economic equality of the collective state. Because their foundational definitions of freedom and justice were exact opposites, maintaining any kind of post-war partnership became virtually impossible.",
+            "thai_transcript": "เพื่อให้เข้าใจระบบเหล่านี้อย่างแท้จริง การรู้ว่าสิ่งเหล่านี้ไม่ใช่สิ่งใดนั้นมีประโยชน์มากครับ ประชาธิปไตยแบบทุนนิยมไม่ได้รับประกันความมั่งคั่งที่เท่าเทียมกันสำหรับทุกคน แต่มุ่งเน้นไปที่การให้โอกาสในการแข่งขัน ในทางกลับกัน คอมมิวนิสต์แบบเผด็จการไม่ได้สนใจทางเลือกของผู้บริโภคแต่ละรายหรือเสรีภาพส่วนบุคคล แต่มุ่งเน้นไปที่ความอยู่รอดและความเท่าเทียมกันทางเศรษฐกิจของรัฐส่วนรวม เนื่องจากคำจำกัดความพื้นฐานของคำว่าเสรีภาพและความยุติธรรมของทั้งสองฝ่ายนั้นตรงกันข้ามกันอย่างสิ้นเชิง การรักษาความเป็นพันธมิตรใดๆ หลังสงครามจึงแทบจะเป็นไปไม่ได้เลย"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Not Just a War for Territory",
+            "transcript": "When we think of war, we usually picture armies fighting over land, resources, or borders. The Cold War was fundamentally different. It was a total clash of worldviews between democratic capitalism and authoritarian communism. Understanding this ideological divide is crucial to seeing why the conflict lasted for decades without direct military confrontation between the superpowers.",
+            "thai_transcript": "เมื่อเรานึกถึงสงคราม เรามักจะนึกภาพกองทัพที่ต่อสู้เพื่อแย่งชิงดินแดน ทรัพยากร หรือพรมแดน สงครามเย็นมีความแตกต่างอย่างสิ้นเชิง มันเป็นการปะทะกันของมุมมองต่อโลกทั้งหมดระหว่างทุนนิยมประชาธิปไตยและคอมมิวนิสต์เผด็จการ การทำความเข้าใจความแตกแยกทางอุดมการณ์นี้เป็นสิ่งสำคัญที่จะทำให้เห็นว่าทำไมความขัดแย้งจึงยืดเยื้อมานานหลายทศวรรษโดยไม่มีการเผชิญหน้าทางทหารโดยตรงระหว่างมหาอำนาจ"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "Clearing Misconceptions: What Communism is NOT",
+            "transcript": "A common misconception is that any government program, like building roads or funding public schools, is a form of communism. This is entirely false. Democracies and capitalist economies rely heavily on public services funded by taxes. We must separate standard government functions from the total ideological control demanded by the Soviet system.",
+            "thai_transcript": "ความเข้าใจผิดที่พบบ่อยคือการคิดว่าโครงการใดๆ ของรัฐบาล เช่น การสร้างถนนหรือการให้ทุนสนับสนุนโรงเรียนรัฐบาล เป็นรูปแบบหนึ่งของคอมมิวนิสต์ ซึ่งไม่เป็นความจริงเลย ประชาธิปไตยและระบบเศรษฐกิจแบบทุนนิยมก็พึ่งพาบริการสาธารณะที่ได้รับทุนจากภาษีอย่างมาก เราต้องแยกหน้าที่มาตรฐานของรัฐบาลออกจากการควบคุมทางอุดมการณ์เบ็ดเสร็จที่ระบบโซเวียตเรียกร้อง"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "The Core Traits of Soviet Communism",
+            "transcript": "To truly define Soviet communism, we have to look at its absolute requirements. It demanded the complete elimination of private property, meaning individuals could not own businesses or land. It eradicated free markets, replacing them with a centrally planned economy where the state dictated all production. Finally, it required strict authoritarianism by outlawing any opposing political parties.",
+            "thai_transcript": "ในการให้คำจำกัดความของคอมมิวนิสต์โซเวียตอย่างแท้จริง เราต้องดูที่ข้อกำหนดที่เด็ดขาดของมัน ระบบนี้ต้องการให้ยกเลิกทรัพย์สินส่วนบุคคลโดยสิ้นเชิง ซึ่งหมายความว่าบุคคลไม่สามารถเป็นเจ้าของธุรกิจหรือที่ดินได้ มันกำจัดตลาดเสรีและแทนที่ด้วยระบบเศรษฐกิจที่มีการวางแผนจากส่วนกลางซึ่งรัฐเป็นผู้กำหนดการผลิตทั้งหมด ท้ายที่สุด มันบังคับใช้ระบบเผด็จการอย่างเข้มงวดโดยการประกาศให้พรรคการเมืองฝ่ายค้านทั้งหมดเป็นสิ่งผิดกฎหมาย"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "An Absolute Divide",
+            "transcript": "Because the core tenets of the US and USSR were exact opposites, there was no middle ground. The survival of one system was perceived as an existential threat to the other. This absolute divide is what turned regional disputes into global crises, as every geopolitical move was filtered through this zero-sum ideological lens.",
+            "thai_transcript": "เนื่องจากหลักการสำคัญของสหรัฐอเมริกาและสหภาพโซเวียตนั้นตรงกันข้ามอย่างสิ้นเชิง จึงไม่มีทางประนีประนอมได้ การอยู่รอดของระบบหนึ่งถูกมองว่าเป็นภัยคุกคามต่อความอยู่รอดของอีกระบบหนึ่ง ความแตกต่างอย่างสุดขั้วนี้คือสิ่งที่เปลี่ยนข้อพิพาทระดับภูมิภาคให้กลายเป็นวิกฤตระดับโลก เนื่องจากทุกความเคลื่อนไหวทางภูมิรัฐศาสตร์จะถูกกรองผ่านมุมมองทางอุดมการณ์ที่ฝ่ายหนึ่งได้ฝ่ายหนึ่งเสียนี้"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "The WWII Alliance: A Temporary Truce",
+            "transcript": "Between 1941 and 1945, the United States and the Soviet Union formed a crucial alliance to defeat Nazi Germany. However, this was purely a marriage of convenience, not a partnership built on shared values. They were united by a shared, existential threat, proving that sometimes 'the enemy of my enemy is my friend.'",
+            "thai_transcript": "ระหว่างปี 1941 ถึง 1945 สหรัฐอเมริกาและสหภาพโซเวียตได้ร่วมเป็นพันธมิตรสำคัญเพื่อเอาชนะนาซีเยอรมนี อย่างไรก็ตาม นี่เป็นเพียงการจับคู่เพื่อผลประโยชน์ ไม่ใช่การเป็นพันธมิตรที่สร้างขึ้นจากค่านิยมร่วมกัน พวกเขารวมตัวกันเพราะมีภัยคุกคามร่วมกัน ซึ่งพิสูจน์ให้เห็นว่าในบางครั้ง 'ศัตรูของศัตรูคือมิตรของเรา'"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "The Sudden Pivot (1945)",
+            "transcript": "Once World War II ended in 1945, the glue holding the US-Soviet alliance together dissolved. Without a common enemy to unite them, the strategic partnership instantly collapsed. They were left facing each other in a power vacuum, with radically different plans for how to rebuild a devastated Europe.",
+            "thai_transcript": "เมื่อสงครามโลกครั้งที่สองสิ้นสุดลงในปี 1945 กาวใจที่ยึดเหนี่ยวพันธมิตรสหรัฐฯ-โซเวียตก็ละลายหายไป เมื่อไม่มีศัตรูร่วมกัน ความร่วมมือทางยุทธศาสตร์ก็พังทลายลงในทันที พวกเขาต้องเผชิญหน้ากันเองในสุญญากาศทางอำนาจ พร้อมกับแผนการที่แตกต่างกันอย่างสิ้นเชิงในการฟื้นฟูยุโรปที่ถูกทำลายจากสงคราม"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Why Cooperation Failed",
+            "transcript": "It is important to remember what this alliance was not: it was never a sign of long-term friendship or mutual trust. The foundational ideologies of democratic capitalism and authoritarian communism were completely incompatible in their goals for human society. Without a shared enemy to force them to the same table, these deep ideological differences made peaceful cooperation impossible and the Cold War inevitable.",
+            "thai_transcript": "สิ่งสำคัญที่ต้องจำไว้คือพันธมิตรนี้ไม่ใช่ความสัมพันธ์ระยะยาวหรือความไว้วางใจซึ่งกันและกัน อุดมการณ์พื้นฐานของทุนนิยมประชาธิปไตยและคอมมิวนิสต์เผด็จการนั้นไม่สามารถเข้ากันได้เลยในเป้าหมายที่มีต่อสังคมมนุษย์ เมื่อปราศจากศัตรูร่วมกันที่บังคับให้พวกเขาต้องร่วมมือ ความแตกต่างทางอุดมการณ์ที่ฝังลึกเหล่านี้ทำให้การร่วมมืออย่างสันติเป็นไปไม่ได้ และทำให้สงครามเย็นกลายเป็นสิ่งที่หลีกเลี่ยงไม่ได้"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "Knowledge Check: Identifying the Ideology",
+            "transcript": "Let's test our understanding of the two major ideologies we just discussed. Imagine a newly formed nation right after World War II. To eliminate poverty, this nation's leaders decide the government must own all banks, set all prices, and assign jobs to every citizen. Read through these actions carefully and think about the core principles driving them.",
+            "thai_transcript": "มาทดสอบความเข้าใจเกี่ยวกับอุดมการณ์หลักสองขั้วที่เราเพิ่งพูดถึงกันครับ ลองจินตนาการถึงประเทศที่เพิ่งก่อตั้งขึ้นใหม่หลังสงครามโลกครั้งที่สอง เพื่อขจัดความยากจน ผู้นำของประเทศนี้ตัดสินใจว่ารัฐบาลจะต้องเป็นเจ้าของธนาคารทั้งหมด กำหนดราคาสินค้า และจัดสรรงานให้ประชาชนทุกคน ลองอ่านการกระทำเหล่านี้อย่างละเอียดและคิดถึงหลักการสำคัญที่อยู่เบื้องหลังดูนะครับ"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Which Ideology Is It?",
+            "transcript": "Now, ask yourself: does this scenario align more closely with the ideology of the United States or the Soviet Union? Remember, the United States championed democratic capitalism, focusing on free markets, private property, and individual liberty. In contrast, the Soviet Union operated under authoritarian communism, where the state controlled all resources to enforce collective equality. Which of these systems matches a government completely taking over banks and dictating prices?",
+            "thai_transcript": "ทีนี้ลองถามตัวเองดูนะครับว่า สถานการณ์นี้สอดคล้องกับอุดมการณ์ของสหรัฐอเมริกาหรือสหภาพโซเวียตมากกว่ากัน จำไว้ว่าสหรัฐอเมริกาสนับสนุนทุนนิยมประชาธิปไตย โดยเน้นที่ตลาดเสรี ทรัพย์สินส่วนบุคคล และเสรีภาพส่วนบุคคล ในทางตรงกันข้าม สหภาพโซเวียตดำเนินการภายใต้ระบอบคอมมิวนิสต์แบบเผด็จการ ซึ่งรัฐควบคุมทรัพยากรทั้งหมดเพื่อบังคับใช้ความเท่าเทียมกันแบบรวมหมู่ ระบบไหนที่ตรงกับแนวคิดที่รัฐบาลเข้ายึดครองธนาคารและกำหนดราคาสินค้าครับ"
+        },
+        {
+            "slide_index": 16,
+            "slide_title": "The Answer: Authoritarian Communism",
+            "transcript": "The correct answer is the Soviet Union, representing authoritarian communism. When a government completely takes over private banks, sets prices, and assigns jobs, it is exercising absolute state control over the economy. A strict non-example of this would be free-market capitalism, where prices naturally fluctuate based on supply and demand without heavy government interference. This fundamental ideological difference in economic control is exactly what made post-WWII cooperation between the US and USSR virtually impossible.",
+            "thai_transcript": "คำตอบที่ถูกต้องคือสหภาพโซเวียต ซึ่งเป็นตัวแทนของระบอบคอมมิวนิสต์แบบเผด็จการครับ เมื่อรัฐบาลเข้ายึดครองธนาคารเอกชน กำหนดราคา และจัดสรรงาน นั่นหมายถึงการที่รัฐเข้ามาควบคุมเศรษฐกิจอย่างเบ็ดเสร็จ ตัวอย่างที่ตรงกันข้ามอย่างชัดเจนก็คือทุนนิยมตลาดเสรี ซึ่งราคาสินค้าจะขึ้นลงตามอุปสงค์และอุปทานโดยปราศจากการแทรกแซงอย่างหนักจากรัฐบาล ความแตกต่างขั้นพื้นฐานทางอุดมการณ์ในการควบคุมเศรษฐกิจนี้นี่เอง ที่ทำให้ความร่วมมือระหว่างสหรัฐฯ และโซเวียตหลังสงครามโลกครั้งที่สองแทบจะเป็นไปไม่ได้เลย"
+        }
+    ],
+    "sections": [
+        {
+            "title": "The Core Divide: Capitalism vs. Communism",
+            "slides": [
+                {
+                    "title": "The Core Divide: Capitalism vs. Communism",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Two opposing blueprints for society emerged post-WWII.",
+                        "United States championed Democratic Capitalism.",
+                        "Soviet Union enforced Authoritarian Communism.",
+                        "Ideological clash replaced a fragile wartime alliance."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/1.png",
+                            "caption": "The post-WWII world fractured into two distinct ideological blueprints: individual enterprise versus state-directed collective action.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to the origins of the Cold War. Following World War II, the fragile alliance between the United States and the Soviet Union quickly dissolved, replaced by a deep ideological divide. We will explore how these two superpowers offered completely opposite blueprints for how society, economics, and government should function. This wasn't merely a political disagreement; it was a fundamental clash over human freedom and collective responsibility.",
+                    "thai_transcript": "ยินดีต้อนรับสู่จุดเริ่มต้นของสงครามเย็น หลังสงครามโลกครั้งที่สอง พันธมิตรที่เปราะบางระหว่างสหรัฐอเมริกาและสหภาพโซเวียตได้ล่มสลายลงอย่างรวดเร็ว และถูกแทนที่ด้วยความแตกแยกทางอุดมการณ์ เราจะมาสำรวจกันว่ามหาอำนาจทั้งสองนี้เสนอรูปแบบการทำงานของสังคม เศรษฐกิจ และรัฐบาลที่ตรงข้ามกันอย่างสิ้นเชิงได้อย่างไร นี่ไม่ใช่แค่ความขัดแย้งทางการเมือง แต่เป็นการปะทะกันในระดับรากฐานเรื่องเสรีภาพของมนุษย์และความรับผิดชอบส่วนรวม"
+                },
+                {
+                    "title": "Defining the Systems: Individual vs. State",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Capitalism: Free markets and individual property rights.",
+                        "Communism: State control and collective ownership.",
+                        "Democracy emphasizes personal liberty and voting.",
+                        "Authoritarianism mandates strict obedience to the state."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/2.png",
+                            "caption": "Capitalism relies on private ownership, competition, and individual choice.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/3.png",
+                            "caption": "Communism relies on total state control to enforce collective equality and resource distribution.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "To truly understand the Cold War, we must define the two competing systems at its core. Democratic capitalism, championed by the US, emphasizes free markets, private property, and individual rights. In stark contrast, authoritarian communism, pushed by the USSR, relies on complete state control of the economy to enforce collective equality. One system prioritizes individual liberty and opportunity, while the other prioritizes collective outcome under strict government direction.",
+                    "thai_transcript": "เพื่อทำความเข้าใจสงครามเย็นอย่างแท้จริง เราต้องนิยามระบบการแข่งขันหลักทั้งสองนี้ก่อน ทุนนิยมประชาธิปไตยซึ่งนำโดยสหรัฐฯ ให้ความสำคัญกับตลาดเสรี ทรัพย์สินส่วนบุคคล และสิทธิปัจเจกชน ในทางตรงกันข้าม คอมมิวนิสต์แบบเผด็จการที่ผลักดันโดยโซเวียต พึ่งพาการควบคุมเศรษฐกิจเบ็ดเสร็จโดยรัฐเพื่อบังคับใช้ความเท่าเทียมกัน ระบบหนึ่งให้ความสำคัญกับเสรีภาพและโอกาสส่วนบุคคล ในขณะที่อีกระบบหนึ่งเน้นผลลัพธ์ส่วนรวมภายใต้การสั่งการของรัฐ"
+                },
+                {
+                    "title": "Mental Model: The Group Project Analogy",
+                    "layout": "two_column",
+                    "key_points": [
+                        "System A (Capitalism): Choose roles, earn individual grades.",
+                        "System B (Communism): Assigned roles, earn shared grades.",
+                        "Non-example: Neither system is a chaotic free-for-all.",
+                        "Both aim for societal success using opposite motivations."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/4.png",
+                            "caption": "System A: Individual effort leads to distinct, individualized rewards.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/5.png",
+                            "caption": "System B: Assigned roles result in an equal, collective reward regardless of individual effort.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's use a mental model to simplify this: imagine a massive classroom group project. In System A, representing capitalism, you choose your own role, work independently, and get a grade based entirely on your personal effort. In System B, representing communism, the teacher assigns your role based on the group's needs, and everyone receives the exact same shared grade. Note what these are NOT: neither system is absolute anarchy; they just use fundamentally opposite incentive structures to motivate people.",
+                    "thai_transcript": "ลองใช้แบบจำลองความคิดเพื่อทำให้เรื่องนี้เข้าใจง่ายขึ้นครับ จินตนาการถึงโครงงานกลุ่มใหญ่ในห้องเรียน ในระบบ A ซึ่งแทนทุนนิยม คุณเลือกหน้าที่เอง ทำงานอิสระ และได้คะแนนตามความพยายามส่วนตัวของคุณ ในระบบ B ซึ่งแทนคอมมิวนิสต์ ครูจะกำหนดหน้าที่ให้ตามความจำเป็นของกลุ่ม และทุกคนจะได้คะแนนร่วมกันเท่ากันเป๊ะ โปรดสังเกตว่าสิ่งที่ไม่ใช่คือ: ไม่มีระบบไหนที่ไร้ระเบียบโดยสมบูรณ์ พวกเขาแค่ใช้โครงสร้างแรงจูงใจที่ตรงข้ามกันอย่างสิ้นเชิงเพื่อกระตุ้นผู้คน"
+                },
+                {
+                    "title": "The Inevitable Clash Post-WWII",
+                    "layout": "text_only",
+                    "key_points": [
+                        "WWII alliance was purely strategic against a common enemy.",
+                        "Post-war rebuilding goals were inherently incompatible.",
+                        "US sought open global markets for economic growth.",
+                        "USSR sought secure buffer zones and ideological conformity."
+                    ],
+                    "images": null,
+                    "transcript": "With these deeply opposed ideological blueprints, you can begin to see why their post-WWII cooperation was doomed to fail. Their alliance during the war was purely a marriage of convenience to defeat Nazi Germany. Once that common enemy was eliminated, their respective visions for rebuilding the world could not coexist. The United States needed open global markets to fuel its capitalist economy, while the Soviet Union demanded secure borders and ideological conformity to protect its vulnerable state.",
+                    "thai_transcript": "ด้วยพิมพ์เขียวทางอุดมการณ์ที่ขัดแย้งกันอย่างลึกซึ้งนี้ คุณจะเริ่มเห็นได้ว่าทำไมความร่วมมือหลังสงครามโลกครั้งที่สองของพวกเขาจึงต้องล้มเหลว พันธมิตรในช่วงสงครามเป็นเพียงความร่วมมือชั่วคราวเพื่อเอาชนะนาซีเยอรมนีเท่านั้น เมื่อศัตรูร่วมนั้นหมดไป วิสัยทัศน์ในการสร้างโลกใหม่ของพวกเขาจึงไม่สามารถอยู่ร่วมกันได้ สหรัฐฯ ต้องการตลาดโลกที่เปิดกว้างเพื่อขับเคลื่อนเศรษฐกิจทุนนิยม ในขณะที่สหภาพโซเวียตต้องการพรมแดนที่ปลอดภัยและความเป็นหนึ่งเดียวกันทางอุดมการณ์เพื่อปกป้องรัฐที่เปราะบางของตน"
+                }
+            ]
+        },
+        {
+            "title": "Real-World Examples: The US and the USSR",
+            "slides": [
+                {
+                    "title": "The Post-WWII Ideological Divide",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "WWII alliance between US and USSR ends",
+                        "Two rival global superpowers emerge",
+                        "Fundamentally incompatible societal models"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/6.png",
+                            "caption": "The post-WWII world was immediately split into two fundamentally opposing ideological spheres.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to our exploration of the Cold War's foundational conflict. Following the end of World War II, the temporary alliance of convenience between the United States and the Soviet Union quickly dissolved. In its place emerged a fierce global rivalry driven by two entirely incompatible visions for how society should function. This stark ideological divide would dictate global politics, economics, and warfare for nearly half a century.",
+                    "thai_transcript": "ยินดีต้อนรับเข้าสู่การสำรวจความขัดแย้งอันเป็นรากฐานของสงครามเย็นครับ หลังจากสงครามโลกครั้งที่สองสิ้นสุดลง ความเป็นพันธมิตรชั่วคราวระหว่างสหรัฐอเมริกาและสหภาพโซเวียตก็ยุติลงอย่างรวดเร็ว สิ่งที่เกิดขึ้นตามมาคือการแข่งขันระดับโลกที่ขับเคลื่อนโดยวิสัยทัศน์สองรูปแบบที่แตกต่างกันอย่างสิ้นเชิงเกี่ยวกับวิธีการทำงานของสังคม ความแตกแยกทางอุดมการณ์ที่ชัดเจนนี้จะเป็นตัวกำหนดการเมือง เศรษฐกิจ และการทหารของโลกไปอีกเกือบครึ่งศตวรรษ"
+                },
+                {
+                    "title": "Contrasting Systems: US vs. USSR",
+                    "layout": "two_column",
+                    "key_points": [
+                        "US: Free markets and private ownership",
+                        "US: Multi-party elections and individual rights",
+                        "USSR: State-owned economy and agriculture",
+                        "USSR: Single-party rule for collective equality"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/7.png",
+                            "caption": "Democratic Capitalism: Emphasizing private ownership, free markets, and individual rights.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/8.png",
+                            "caption": "Authoritarian Communism: Emphasizing state control, collective labor, and strict political uniformity.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's break down these two opposing structural models. On one side, the United States championed democratic capitalism, where private citizens owned businesses and individuals voted in multi-party elections. On the other side, the Soviet Union operated under authoritarian communism, where the government owned all factories and farms to enforce collective equality. This meant a multi-party democracy was pitted directly against single-party rule, and a free market against a state-commanded economy.",
+                    "thai_transcript": "มาทำความเข้าใจโครงสร้างของสองระบบที่ตรงข้ามกันนี้กันครับ ในด้านหนึ่ง สหรัฐอเมริกาสนับสนุนประชาธิปไตยแบบทุนนิยม ซึ่งประชาชนเป็นเจ้าของธุรกิจและสามารถลงคะแนนเสียงในการเลือกตั้งแบบหลายพรรคได้ ในทางกลับกัน สหภาพโซเวียตดำเนินการภายใต้ระบบคอมมิวนิสต์แบบเผด็จการ ซึ่งรัฐบาลเป็นเจ้าของโรงงานและฟาร์มทั้งหมดเพื่อบังคับใช้ความเท่าเทียมกันของส่วนรวม ซึ่งหมายความว่าประชาธิปไตยแบบหลายพรรคถูกนำมาเผชิญหน้ากับการปกครองแบบพรรคเดียว และตลาดเสรีต้องปะทะกับเศรษฐกิจที่ควบคุมโดยรัฐ"
+                },
+                {
+                    "title": "Why Cooperation Failed",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Capitalism does NOT guarantee equal wealth",
+                        "Communism does NOT value individual consumer choice",
+                        "Core values were exact opposites",
+                        "Post-war diplomatic partnership became impossible"
+                    ],
+                    "images": null,
+                    "transcript": "To truly understand these systems, it helps to identify what they are not. Democratic capitalism does not guarantee equal wealth for everyone; it focuses heavily on providing the opportunity to compete. Conversely, authoritarian communism is not concerned with individual consumer choices or personal liberty; it strictly prioritizes the survival and economic equality of the collective state. Because their foundational definitions of freedom and justice were exact opposites, maintaining any kind of post-war partnership became virtually impossible.",
+                    "thai_transcript": "เพื่อให้เข้าใจระบบเหล่านี้อย่างแท้จริง การรู้ว่าสิ่งเหล่านี้ไม่ใช่สิ่งใดนั้นมีประโยชน์มากครับ ประชาธิปไตยแบบทุนนิยมไม่ได้รับประกันความมั่งคั่งที่เท่าเทียมกันสำหรับทุกคน แต่มุ่งเน้นไปที่การให้โอกาสในการแข่งขัน ในทางกลับกัน คอมมิวนิสต์แบบเผด็จการไม่ได้สนใจทางเลือกของผู้บริโภคแต่ละรายหรือเสรีภาพส่วนบุคคล แต่มุ่งเน้นไปที่ความอยู่รอดและความเท่าเทียมกันทางเศรษฐกิจของรัฐส่วนรวม เนื่องจากคำจำกัดความพื้นฐานของคำว่าเสรีภาพและความยุติธรรมของทั้งสองฝ่ายนั้นตรงกันข้ามกันอย่างสิ้นเชิง การรักษาความเป็นพันธมิตรใดๆ หลังสงครามจึงแทบจะเป็นไปไม่ได้เลย"
+                }
+            ]
+        },
+        {
+            "title": "What It Is NOT: Clearing Misconceptions",
+            "slides": [
+                {
+                    "title": "Not Just a War for Territory",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Traditional wars fight for land or resources",
+                        "The Cold War was a clash of absolute worldviews",
+                        "A fundamental struggle between two incompatible systems"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/9.png",
+                            "caption": "The Cold War was an ideological struggle for the future of global society, not just a fight over physical borders.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "When we think of war, we usually picture armies fighting over land, resources, or borders. The Cold War was fundamentally different. It was a total clash of worldviews between democratic capitalism and authoritarian communism. Understanding this ideological divide is crucial to seeing why the conflict lasted for decades without direct military confrontation between the superpowers.",
+                    "thai_transcript": "เมื่อเรานึกถึงสงคราม เรามักจะนึกภาพกองทัพที่ต่อสู้เพื่อแย่งชิงดินแดน ทรัพยากร หรือพรมแดน สงครามเย็นมีความแตกต่างอย่างสิ้นเชิง มันเป็นการปะทะกันของมุมมองต่อโลกทั้งหมดระหว่างทุนนิยมประชาธิปไตยและคอมมิวนิสต์เผด็จการ การทำความเข้าใจความแตกแยกทางอุดมการณ์นี้เป็นสิ่งสำคัญที่จะทำให้เห็นว่าทำไมความขัดแย้งจึงยืดเยื้อมานานหลายทศวรรษโดยไม่มีการเผชิญหน้าทางทหารโดยตรงระหว่างมหาอำนาจ"
+                },
+                {
+                    "title": "Clearing Misconceptions: What Communism is NOT",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Basic public services $\\neq$ Communism",
+                        "Roads, schools, and fire departments exist in capitalism",
+                        "Public goods are funded by taxes, not total state control"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/10.png",
+                            "caption": "Public services like schools are standard functions of government, not 'communism'.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/11.png",
+                            "caption": "Soviet communism requires state ownership of all production, not just basic public goods.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "A common misconception is that any government program, like building roads or funding public schools, is a form of communism. This is entirely false. Democracies and capitalist economies rely heavily on public services funded by taxes. We must separate standard government functions from the total ideological control demanded by the Soviet system.",
+                    "thai_transcript": "ความเข้าใจผิดที่พบบ่อยคือการคิดว่าโครงการใดๆ ของรัฐบาล เช่น การสร้างถนนหรือการให้ทุนสนับสนุนโรงเรียนรัฐบาล เป็นรูปแบบหนึ่งของคอมมิวนิสต์ ซึ่งไม่เป็นความจริงเลย ประชาธิปไตยและระบบเศรษฐกิจแบบทุนนิยมก็พึ่งพาบริการสาธารณะที่ได้รับทุนจากภาษีอย่างมาก เราต้องแยกหน้าที่มาตรฐานของรัฐบาลออกจากการควบคุมทางอุดมการณ์เบ็ดเสร็จที่ระบบโซเวียตเรียกร้อง"
+                },
+                {
+                    "title": "The Core Traits of Soviet Communism",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Elimination of private property",
+                        "Abolition of free market economics",
+                        "Eradication of opposing political parties"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/12.png",
+                            "caption": "Private ownership was abolished and replaced by collective state ownership.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/13.png",
+                            "caption": "Prices and production were dictated by the government, not supply and demand.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/14.png",
+                            "caption": "Political opposition was banned, ensuring a single-party authoritarian rule.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "To truly define Soviet communism, we have to look at its absolute requirements. It demanded the complete elimination of private property, meaning individuals could not own businesses or land. It eradicated free markets, replacing them with a centrally planned economy where the state dictated all production. Finally, it required strict authoritarianism by outlawing any opposing political parties.",
+                    "thai_transcript": "ในการให้คำจำกัดความของคอมมิวนิสต์โซเวียตอย่างแท้จริง เราต้องดูที่ข้อกำหนดที่เด็ดขาดของมัน ระบบนี้ต้องการให้ยกเลิกทรัพย์สินส่วนบุคคลโดยสิ้นเชิง ซึ่งหมายความว่าบุคคลไม่สามารถเป็นเจ้าของธุรกิจหรือที่ดินได้ มันกำจัดตลาดเสรีและแทนที่ด้วยระบบเศรษฐกิจที่มีการวางแผนจากส่วนกลางซึ่งรัฐเป็นผู้กำหนดการผลิตทั้งหมด ท้ายที่สุด มันบังคับใช้ระบบเผด็จการอย่างเข้มงวดโดยการประกาศให้พรรคการเมืองฝ่ายค้านทั้งหมดเป็นสิ่งผิดกฎหมาย"
+                },
+                {
+                    "title": "An Absolute Divide",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Worldviews were structurally incompatible",
+                        "Ideology drove global geopolitical strategy",
+                        "A zero-sum game: one side's gain is the other's loss"
+                    ],
+                    "images": null,
+                    "transcript": "Because the core tenets of the US and USSR were exact opposites, there was no middle ground. The survival of one system was perceived as an existential threat to the other. This absolute divide is what turned regional disputes into global crises, as every geopolitical move was filtered through this zero-sum ideological lens.",
+                    "thai_transcript": "เนื่องจากหลักการสำคัญของสหรัฐอเมริกาและสหภาพโซเวียตนั้นตรงกันข้ามอย่างสิ้นเชิง จึงไม่มีทางประนีประนอมได้ การอยู่รอดของระบบหนึ่งถูกมองว่าเป็นภัยคุกคามต่อความอยู่รอดของอีกระบบหนึ่ง ความแตกต่างอย่างสุดขั้วนี้คือสิ่งที่เปลี่ยนข้อพิพาทระดับภูมิภาคให้กลายเป็นวิกฤตระดับโลก เนื่องจากทุกความเคลื่อนไหวทางภูมิรัฐศาสตร์จะถูกกรองผ่านมุมมองทางอุดมการณ์ที่ฝ่ายหนึ่งได้ฝ่ายหนึ่งเสียนี้"
+                }
+            ]
+        },
+        {
+            "title": "Application: The WWII Alliance Pivot",
+            "slides": [
+                {
+                    "title": "The WWII Alliance: A Temporary Truce",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Allied from 1941 to 1945 against Nazi Germany",
+                        "United strictly by a shared enemy, not shared values",
+                        "Functioned as a strategic 'marriage of convenience'"
+                    ],
+                    "images": null,
+                    "transcript": "Between 1941 and 1945, the United States and the Soviet Union formed a crucial alliance to defeat Nazi Germany. However, this was purely a marriage of convenience, not a partnership built on shared values. They were united by a shared, existential threat, proving that sometimes 'the enemy of my enemy is my friend.'",
+                    "thai_transcript": "ระหว่างปี 1941 ถึง 1945 สหรัฐอเมริกาและสหภาพโซเวียตได้ร่วมเป็นพันธมิตรสำคัญเพื่อเอาชนะนาซีเยอรมนี อย่างไรก็ตาม นี่เป็นเพียงการจับคู่เพื่อผลประโยชน์ ไม่ใช่การเป็นพันธมิตรที่สร้างขึ้นจากค่านิยมร่วมกัน พวกเขารวมตัวกันเพราะมีภัยคุกคามร่วมกัน ซึ่งพิสูจน์ให้เห็นว่าในบางครั้ง 'ศัตรูของศัตรูคือมิตรของเรา'"
+                },
+                {
+                    "title": "The Sudden Pivot (1945)",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Defeat of Germany removed the shared threat",
+                        "Alliance instantly collapsed without a common enemy",
+                        "Clashing visions for post-war reconstruction emerged"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/16.png",
+                            "caption": "The US vision prioritized free markets and individual rights for rebuilding Europe.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/17.png",
+                            "caption": "The Soviet vision prioritized state control and collective equality.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Once World War II ended in 1945, the glue holding the US-Soviet alliance together dissolved. Without a common enemy to unite them, the strategic partnership instantly collapsed. They were left facing each other in a power vacuum, with radically different plans for how to rebuild a devastated Europe.",
+                    "thai_transcript": "เมื่อสงครามโลกครั้งที่สองสิ้นสุดลงในปี 1945 กาวใจที่ยึดเหนี่ยวพันธมิตรสหรัฐฯ-โซเวียตก็ละลายหายไป เมื่อไม่มีศัตรูร่วมกัน ความร่วมมือทางยุทธศาสตร์ก็พังทลายลงในทันที พวกเขาต้องเผชิญหน้ากันเองในสุญญากาศทางอำนาจ พร้อมกับแผนการที่แตกต่างกันอย่างสิ้นเชิงในการฟื้นฟูยุโรปที่ถูกทำลายจากสงคราม"
+                },
+                {
+                    "title": "Why Cooperation Failed",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Non-example: The WWII alliance was never a true friendship",
+                        "Fundamentally incompatible visions for society and economy",
+                        "Democratic capitalism vs. authoritarian communism",
+                        "Ideological differences made the Cold War inevitable"
+                    ],
+                    "images": null,
+                    "transcript": "It is important to remember what this alliance was not: it was never a sign of long-term friendship or mutual trust. The foundational ideologies of democratic capitalism and authoritarian communism were completely incompatible in their goals for human society. Without a shared enemy to force them to the same table, these deep ideological differences made peaceful cooperation impossible and the Cold War inevitable.",
+                    "thai_transcript": "สิ่งสำคัญที่ต้องจำไว้คือพันธมิตรนี้ไม่ใช่ความสัมพันธ์ระยะยาวหรือความไว้วางใจซึ่งกันและกัน อุดมการณ์พื้นฐานของทุนนิยมประชาธิปไตยและคอมมิวนิสต์เผด็จการนั้นไม่สามารถเข้ากันได้เลยในเป้าหมายที่มีต่อสังคมมนุษย์ เมื่อปราศจากศัตรูร่วมกันที่บังคับให้พวกเขาต้องร่วมมือ ความแตกต่างทางอุดมการณ์ที่ฝังลึกเหล่านี้ทำให้การร่วมมืออย่างสันติเป็นไปไม่ได้ และทำให้สงครามเย็นกลายเป็นสิ่งที่หลีกเลี่ยงไม่ได้"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Check: Identifying the Ideology",
+            "slides": [
+                {
+                    "title": "Knowledge Check: Identifying the Ideology",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "A post-WWII nation seeks to prevent poverty.",
+                        "Government takes ownership of all private banks.",
+                        "The state dictates the prices of all goods.",
+                        "Citizens are directly assigned jobs by the government."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/18.png",
+                            "caption": "Visualizing a state-controlled economy where the central government manages all resources and infrastructure.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's test our understanding of the two major ideologies we just discussed. Imagine a newly formed nation right after World War II. To eliminate poverty, this nation's leaders decide the government must own all banks, set all prices, and assign jobs to every citizen. Read through these actions carefully and think about the core principles driving them.",
+                    "thai_transcript": "มาทดสอบความเข้าใจเกี่ยวกับอุดมการณ์หลักสองขั้วที่เราเพิ่งพูดถึงกันครับ ลองจินตนาการถึงประเทศที่เพิ่งก่อตั้งขึ้นใหม่หลังสงครามโลกครั้งที่สอง เพื่อขจัดความยากจน ผู้นำของประเทศนี้ตัดสินใจว่ารัฐบาลจะต้องเป็นเจ้าของธนาคารทั้งหมด กำหนดราคาสินค้า และจัดสรรงานให้ประชาชนทุกคน ลองอ่านการกระทำเหล่านี้อย่างละเอียดและคิดถึงหลักการสำคัญที่อยู่เบื้องหลังดูนะครับ"
+                },
+                {
+                    "title": "Which Ideology Is It?",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Option A: Democratic Capitalism (United States)",
+                        "Option B: Authoritarian Communism (Soviet Union)",
+                        "Consider who controls the means of production and distribution."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/19.png",
+                            "caption": "Capitalism emphasizes free markets, supply and demand, and private ownership.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/884bbec8-fecd-4e47-bb09-28e77d3972f4/slides_images/20.png",
+                            "caption": "Communism relies on strict state control and the collective distribution of goods.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Now, ask yourself: does this scenario align more closely with the ideology of the United States or the Soviet Union? Remember, the United States championed democratic capitalism, focusing on free markets, private property, and individual liberty. In contrast, the Soviet Union operated under authoritarian communism, where the state controlled all resources to enforce collective equality. Which of these systems matches a government completely taking over banks and dictating prices?",
+                    "thai_transcript": "ทีนี้ลองถามตัวเองดูนะครับว่า สถานการณ์นี้สอดคล้องกับอุดมการณ์ของสหรัฐอเมริกาหรือสหภาพโซเวียตมากกว่ากัน จำไว้ว่าสหรัฐอเมริกาสนับสนุนทุนนิยมประชาธิปไตย โดยเน้นที่ตลาดเสรี ทรัพย์สินส่วนบุคคล และเสรีภาพส่วนบุคคล ในทางตรงกันข้าม สหภาพโซเวียตดำเนินการภายใต้ระบอบคอมมิวนิสต์แบบเผด็จการ ซึ่งรัฐควบคุมทรัพยากรทั้งหมดเพื่อบังคับใช้ความเท่าเทียมกันแบบรวมหมู่ ระบบไหนที่ตรงกับแนวคิดที่รัฐบาลเข้ายึดครองธนาคารและกำหนดราคาสินค้าครับ"
+                },
+                {
+                    "title": "The Answer: Authoritarian Communism",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Correct Answer: The Soviet Union.",
+                        "Defining Trait: Absolute state control over the economy.",
+                        "Non-Example: Free-market capitalism (prices fluctuate based on supply and demand).",
+                        "Conclusion: This fundamental incompatibility made post-WWII cooperation impossible."
+                    ],
+                    "images": null,
+                    "transcript": "The correct answer is the Soviet Union, representing authoritarian communism. When a government completely takes over private banks, sets prices, and assigns jobs, it is exercising absolute state control over the economy. A strict non-example of this would be free-market capitalism, where prices naturally fluctuate based on supply and demand without heavy government interference. This fundamental ideological difference in economic control is exactly what made post-WWII cooperation between the US and USSR virtually impossible.",
+                    "thai_transcript": "คำตอบที่ถูกต้องคือสหภาพโซเวียต ซึ่งเป็นตัวแทนของระบอบคอมมิวนิสต์แบบเผด็จการครับ เมื่อรัฐบาลเข้ายึดครองธนาคารเอกชน กำหนดราคา และจัดสรรงาน นั่นหมายถึงการที่รัฐเข้ามาควบคุมเศรษฐกิจอย่างเบ็ดเสร็จ ตัวอย่างที่ตรงกันข้ามอย่างชัดเจนก็คือทุนนิยมตลาดเสรี ซึ่งราคาสินค้าจะขึ้นลงตามอุปสงค์และอุปทานโดยปราศจากการแทรกแซงอย่างหนักจากรัฐบาล ความแตกต่างขั้นพื้นฐานทางอุดมการณ์ในการควบคุมเศรษฐกิจนี้นี่เอง ที่ทำให้ความร่วมมือระหว่างสหรัฐฯ และโซเวียตหลังสงครามโลกครั้งที่สองแทบจะเป็นไปไม่ได้เลย"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "884bbec8-fecd-4e47-bb09-28e77d3972f4",
+    "course_id": "492b8a43-efc5-47eb-a712-293bff39de33"
+}

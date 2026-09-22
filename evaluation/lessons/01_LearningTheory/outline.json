@@ -1,0 +1,121 @@
+{
+  "_id": {
+    "$oid": "6a1d48ff807566adcec8512c"
+  },
+  "courseId": "fcf9cafe-5c9e-4149-b6fa-7da471108d59",
+  "status": "IN_PROGRESS",
+  "goal": "Specific\nI want to understand the three foundational learning theories — Behaviorism, Cognitivism, and Constructivism — including their core assumptions, key theorists, and practical classroom applications. I also want to connect these theories to multimedia learning frameworks I have encountered, specifically Mayer's Cognitive Theory of Multimedia Learning (CTML) and Sweller's Cognitive Load Theory (CLT).\nMeasurable\nBy the end of this lesson, I should be able to:\n\nDefine and distinguish all three theories using my own words without referencing notes\nMatch at least 5 key theorists (e.g. Skinner, Piaget, Vygotsky, Mayer, Sweller) to their respective frameworks and contributions\nConstruct a comparison table covering assumptions, instructional strategies, strengths, and limitations for each theory\nExplain how CTML and CLT are rooted in Cognitivism and justify this classification with at least two supporting arguments\nEvaluate a given instructional design scenario and recommend which theory best applies, with written justification\n\nAchievable\nI have a basic background in psychology from a general education course and have recently read about Mayer's principles in the context of an AI-assisted learning project. I am comfortable with academic reading and can dedicate a full 3-hour focused session to this topic.\nRelevant\nThis topic directly supports my work on AI-driven instructional design. Understanding the theoretical foundations of learning will help me justify design decisions in my system, interpret evaluation results more rigorously, and ground future iterations in established pedagogy rather than intuition alone.\nTime-bound\nI will complete this lesson in one focused 3-hour session, covering all three theories sequentially, finishing with an integrative activity that connects them to my existing knowledge of CTML and CLT.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "On scope and depth\nThe mentor advised covering all three theories but with unequal depth. Behaviorism should be treated as foundational background — enough for the student to understand its historical dominance and why it was later challenged, but not so deep as to dwell on classical conditioning mechanics. The majority of time should be weighted toward Cognitivism and Constructivism, as these are more directly applicable to instructional design work. The mentor specifically noted: ",
+  "outline": {
+    "summary": "This 3-hour focused curriculum sequentially guides the learner through Behaviorism, Cognitivism, and Constructivism, managing intrinsic cognitive load by building from foundational paradigms to complex instructional design applications. It intentionally emphasizes Cognitivism to explicitly bridge the learner's existing knowledge of Mayer's CTML and Sweller's CLT to their theoretical roots. The curriculum directly addresses common misconceptions and culminates in an integrative assessment where the learner evaluates real-world instructional design scenarios.",
+    "total_lessons": 18,
+    "lessons": [
+      {
+        "title": "1.1 Introduction to Learning Theories: Complementary Lenses",
+        "main_content": "Welcome to the foundational map of instructional design. We begin by addressing a common misconception: learning theories (Behaviorism, Cognitivism, Constructivism) are not mutually exclusive paradigms where one supersedes the others. Instead, they are complementary lenses. Think of them as different tools in a toolkit. Each theory explains learning from a different angle and is useful for different instructional goals. By the end of this course, you will understand how to select the right lens for specific AI-driven instructional design challenges.",
+        "objective": "Explain how learning theories act as complementary lenses rather than competing, mutually exclusive paradigms."
+      },
+      {
+        "title": "2.1 Behaviorism Foundations: Stimulus and Response",
+        "main_content": "Behaviorism dominated early 20th-century educational psychology. Its core assumption is that learning is a change in observable behavior caused by external stimuli in the environment. Behaviorists treat the mind as a 'black box'—they argue that internal mental states cannot be objectively measured, so instruction should focus entirely on designing the right environmental stimuli (prompts) to elicit the desired response (behavior), followed by reinforcement.",
+        "objective": "Define the core assumptions of Behaviorism using your own words, focusing on observable behaviors and external stimuli."
+      },
+      {
+        "title": "2.2 Key Theorists of Behaviorism: Pavlov and Skinner",
+        "main_content": "To understand Behaviorism, we look at two foundational figures. Ivan Pavlov originated the concept with 'Classical Conditioning' (associating an involuntary response with a stimulus, like a dog salivating at a bell). B.F. Skinner expanded this into 'Operant Conditioning,' focusing on voluntary behavior modified by reinforcement schedules (rewards and punishments). In instructional design, Skinner's work is crucial for understanding how immediate feedback shapes learner behavior.",
+        "objective": "Distinguish between Pavlov's classical conditioning and Skinner's operant conditioning, identifying their roles in shaping observable behavior."
+      },
+      {
+        "title": "2.3 Applied Behaviorism in Instructional Design",
+        "main_content": "While less dominant in complex cognitive tasks today, Behaviorism is highly effective for foundational memorization and habit-building. A classic classroom example is flashcard drilling. In digital and AI-driven instructional design, behaviorist principles are evident in rote memorization apps, immediate corrective feedback after a quiz answer, and gamification points (operant conditioning). Behaviorism gives us the contrast needed to understand why later theories emerged.",
+        "objective": "Identify at least two instructional strategies rooted in Behaviorism and explain how they utilize stimulus and response."
+      },
+      {
+        "title": "3.1 Cognitivism Foundations: Opening the Black Box",
+        "main_content": "Cognitivism emerged as a direct response to the limitations of Behaviorism. If Behaviorism ignored the 'black box' of the mind, Cognitivism opened it. The core assumption here is that the mind acts like a computer—an active processor of information. Learning is not just an observable response, but an internal change in mental structures. This is the theoretical space where your most critical instructional design decisions will live.",
+        "objective": "Explain the shift from Behaviorism to Cognitivism, defining learning as an internal information-processing event."
+      },
+      {
+        "title": "3.2 The Information-Processing Model",
+        "main_content": "To map the mind's computer, Richard Atkinson and Richard Shiffrin introduced the Information-Processing Model. It charts how information travels through three stages: Sensory Memory (briefly holding raw environmental input), Working Memory (where active processing occurs), and Long-Term Memory (where knowledge is permanently stored in schemas). Moving information successfully through these stages is the primary goal of cognitive instructional design.",
+        "objective": "Describe the three stages of the Atkinson & Shiffrin Information-Processing Model without referencing notes."
+      },
+      {
+        "title": "3.3 Working Memory Limits and Bloom's Taxonomy",
+        "main_content": "The central bottleneck in the Information-Processing Model is Working Memory, which can only hold a few pieces of information at a time. To help instructors design around this limit, tools like Bloom's Taxonomy were developed. Bloom's provides a hierarchy of cognitive skills (from remembering up to creating). As an instructional designer, you use Bloom's to align the complexity of a task with the learner's cognitive capacity.",
+        "objective": "Explain the concept of working memory limits and how Bloom's Taxonomy helps structure cognitive tasks appropriately."
+      },
+      {
+        "title": "4.1 Bridging to Cognitive Load Theory (CLT)",
+        "main_content": "Because working memory is severely limited, instructional designers must carefully manage how much mental effort a task requires. This brings us to John Sweller, who built directly on the Information-Processing Model to create Cognitive Load Theory (CLT). Sweller argued that instructional design must be explicitly aligned with human cognitive architecture. CLT is not a standalone framework; it is an applied branch of Cognitivism.",
+        "objective": "Summarize Sweller's Cognitive Load Theory and explicitly trace its theoretical lineage back to Cognitivist assumptions."
+      },
+      {
+        "title": "4.2 Types of Cognitive Load: Intrinsic, Extraneous, Germane",
+        "main_content": "Sweller identified three types of cognitive load. Intrinsic Load is the inherent difficulty of the material (managed by sequencing). Extraneous Load is generated by poor instructional design (e.g., confusing navigation, which must be minimized). Germane Load is the mental effort put into creating schemas (which should be maximized). Your AI-driven system must balance these three to prevent working memory overload.",
+        "objective": "Differentiate between intrinsic, extraneous, and germane cognitive load, explaining how each impacts instructional design."
+      },
+      {
+        "title": "4.3 Cognitive Theory of Multimedia Learning (CTML)",
+        "main_content": "Just as Sweller built on working memory limits, Richard Mayer developed the Cognitive Theory of Multimedia Learning (CTML). Mayer's framework is deeply rooted in Cognitivism, specifically the assumption that the brain has dual channels (visual and auditory) for processing information, both with limited capacity. Mayer's principles (like the Coherence Principle and Modality Principle) are practical rules for optimizing these dual channels.",
+        "objective": "Explain how Mayer's CTML is rooted in the Cognitivist information-processing model using at least two supporting arguments."
+      },
+      {
+        "title": "4.4 Applied Cognitivism: Worked Examples and Dual-Coding",
+        "main_content": "Abstract theory needs concrete application. In a Cognitivist classroom, a teacher might use 'worked examples'—showing a step-by-step solution to a math problem to reduce extraneous cognitive load (Sweller). Another example is 'dual-coding'—pairing an infographic with a brief verbal explanation to maximize Mayer's dual channels. These strategies actively support the internal processing of information.",
+        "objective": "Recommend practical instructional strategies that leverage the principles of CLT and CTML for a digital learning environment."
+      },
+      {
+        "title": "5.1 Constructivism Foundations: Active Meaning-Making",
+        "main_content": "While Cognitivism views the learner as an information processor, Constructivism views the learner as an active creator of knowledge. The core assumption is that learning is an active, contextual process of constructing meaning based on prior experiences. Knowledge isn't just passively received and stored; it is built. This theory is highly applicable to discursive, reflective, and experiential learning.",
+        "objective": "Define the core assumption of Constructivism and contrast its view of the learner with that of Cognitivism."
+      },
+      {
+        "title": "5.2 Cognitive Constructivism: Piaget and Schemas",
+        "main_content": "There are two main branches of Constructivism. We start with Jean Piaget, who focused on Individual (or Cognitive) Constructivism. Piaget argued that individuals build knowledge through 'schemas' (mental frameworks). When a learner encounters new information, they either assimilate it into existing schemas or accommodate (change) their schemas to fit the new reality. Piaget's focus is fundamentally on the individual's internal process of meaning-making.",
+        "objective": "Describe Piaget's theory of individual knowledge construction, specifically explaining the role of assimilation and accommodation."
+      },
+      {
+        "title": "5.3 Social Constructivism: Vygotsky and the ZPD",
+        "main_content": "A common misconception is conflating Piaget and Vygotsky. While Piaget focused on the individual, Lev Vygotsky pioneered Social Constructivism. Vygotsky argued that learning is fundamentally a social and cultural activity. His key contribution is the Zone of Proximal Development (ZPD)—the gap between what a learner can do independently and what they can do with guidance from a 'More Knowledgeable Other' (MKO), which could be a teacher, peer, or AI.",
+        "objective": "Distinguish Vygotsky's Social Constructivism from Piaget's Cognitive Constructivism, defining the Zone of Proximal Development (ZPD)."
+      },
+      {
+        "title": "5.4 Applied Constructivism: Project-Based Learning",
+        "main_content": "In practice, Constructivism looks vastly different from Behaviorist drill-and-practice. A prime classroom example is Project-Based Learning (PBL), where students collaborate to solve complex, open-ended problems. Peer learning scenarios, where students act as MKOs for one another, also heavily rely on Vygotsky's theories. In an AI context, an AI acting as a Socratic tutor—guiding a student to discover an answer rather than just giving it—is a constructivist application.",
+        "objective": "Identify classroom and digital instructional strategies that reflect the principles of both cognitive and social constructivism."
+      },
+      {
+        "title": "6.1 Synthesizing the Frameworks: Comparison Table",
+        "main_content": "Now that we have covered the three foundational theories, it is time to consolidate. Think of Behaviorism (Pavlov, Skinner) as observable response shaping. Think of Cognitivism (Atkinson & Shiffrin) as internal information processing. Think of Constructivism (Piaget, Vygotsky) as experiential meaning-making. Reviewing these assumptions, alongside their respective instructional strategies, strengths, and limitations, creates a comprehensive map of instructional design.",
+        "objective": "Construct a comparison table covering assumptions, instructional strategies, strengths, limitations, and at least 5 key theorists across the three theories."
+      },
+      {
+        "title": "6.2 Tracing the Lineage: Where Mayer and Sweller Fit",
+        "main_content": "As advised by your mentor, the most critical takeaway is understanding exactly where Mayer and Sweller fit on this theoretical map. They do not exist in a vacuum. Both Sweller's Cognitive Load Theory and Mayer's Cognitive Theory of Multimedia Learning are advanced branches of Cognitivism. They rely entirely on Atkinson & Shiffrin's premise of a limited working memory bottleneck to justify their design principles.",
+        "objective": "Explicitly map Mayer and Sweller to the Cognitivist framework, articulating how working memory limits serve as the foundation for both CTML and CLT."
+      },
+      {
+        "title": "6.3 Final Assessment: Evaluating ID Scenarios",
+        "main_content": "To conclude this 3-hour session, you will apply your knowledge to real instructional design scenarios. If a system provides immediate points for rapid click responses, which theory is at play? If an AI analyzes a student's current skill and provides hints just challenging enough to require effort but ensure success, which theorist's concept is being used? You must now justify design decisions based on established pedagogy rather than intuition.",
+        "objective": "Evaluate varied instructional design scenarios, recommend which theory best applies to each, and provide a written pedagogical justification."
+      }
+    ]
+  },
+  "lessonIds": [
+    "744fe741-22fd-4208-b755-634ba8ddba20"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval3: Learning Theories: Behaviorism, Cognitivism & Constructivism",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 18,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "Mon Jun 01 2026 08:55:26 GMT+0000 (Coordinated Universal Time)",
+  "updatedAt": "Mon Jun 01 2026 09:00:08 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Financial Statements & Ratio Analysis — Introduction: Translating Business Activities",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No diagrams, charts, illustrations, or data figures are present across any of the five slides; all slides are composed exclusively of text. The absence of any visual representation means verbal and visual channels cannot achieve reciprocity, and the deck fails the foundational multimedia criterion."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "The transcript narration is verbatim identical to the on-screen text on every slide, constituting a complete violation of the redundancy principle. On-screen text consists of full multi-sentence paragraphs rather than keywords or short labels, and word counts per slide far exceed a five-second scan threshold."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All detailed descriptions are delivered through dense on-screen prose rather than narration supplementing a visual, inverting the intended modality split. The narration is word-for-word identical to the slide text, meaning it adds no information beyond what is already read on screen and the visual channel carries no graphics."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "No decorative clipart or stock imagery is present, and the narration is free of tangential anecdotes; content stays on topic throughout. Slide backgrounds appear clean and text styling is consistent, though the heavy paragraph density itself introduces visual clutter that marginally reduces cognitive coherence."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                1,
+                0,
+                1
+            ],
+            "score": 3,
+            "evidence": "Slide titles provide a minimal visual hierarchy, and the narration occasionally uses light verbal signaling (e.g., sequencing cues in slide 5), but no arrows, highlights, callouts, or color contrast are used to direct learner attention to key elements. No single takeaway per slide is explicitly emphasized through visual treatment."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "Because no graphics are present, the spatial contiguity principle cannot be evaluated for label-to-graphic proximity, integration, or leader lines. The principle is structurally unmet by default; the only observable layout feature is that title text is placed above body text on each slide."
+        }
+    ],
+    "raw_total": 12,
+    "unweighted_average": 2.00
+}

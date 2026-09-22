@@ -1,0 +1,99 @@
+{
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "The Core of Energy Balance",
+            "transcript": "Welcome to our first lesson on human energy balance. Simply put, this balance is the dynamic relationship between the calories you take in from food and the calories your body uses. It is important to realize that energy balance is not just about how much you exercise. In fact, most of the energy you burn happens when you are completely at rest, a concept we will explore next."
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Basal Metabolic Rate (BMR)",
+            "transcript": "Your Basal Metabolic Rate, or BMR, is the absolute minimum amount of energy your body needs to survive while completely at rest. Think of it like a smartphone left on a desk. Even when you aren't actively opening apps, the battery still drains just to keep the internal operating system running. BMR accounts for baseline functions like breathing and circulating blood, but it completely excludes the energy used for digesting food or moving around."
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "What Influences BMR?",
+            "transcript": "BMR is not a one-size-fits-all number; it fluctuates based on several core personal factors. As we age, our cellular processes naturally slow down, which gradually decreases our BMR over the decades. Biological sex also plays a crucial role due to differing hormonal profiles and baseline muscle mass. Speaking of muscle, body composition is arguably the most controllable driver: muscle tissue is metabolically expensive, meaning it requires significantly more calories to maintain at rest compared to fat tissue."
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Calculating Your BMR",
+            "transcript": "To bring this concept out of theory and into application, we can estimate our BMR using standardized mathematical formulas. The Mifflin-St Jeor equation is currently considered one of the most accurate baseline methods in nutrition science. In these equations, the variable '$m$' stands for mass in kilograms, '$h$' is height in centimeters, and '$a$' represents age in years. By plugging in your personal metrics, you can discover the estimated number of calories your body needs simply to exist for 24 hours."
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "Factors Influencing BMR",
+            "transcript": "Your Basal Metabolic Rate is not a single, universal number that applies to everyone. Instead, it is highly personalized and influenced by who you are biologically. We can think of BMR as a function of three main variables: your age, your biological sex, and your body composition. Because these factors differ vastly from person to person, your baseline energy needs are entirely unique."
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Body Composition: Muscle vs. Fat",
+            "transcript": "Body composition is the most significant factor you can control when it comes to your BMR. Muscle is a highly metabolically active tissue, which means it acts like a running engine, constantly burning calories just to exist. In contrast, fat tissue is primarily for storage and requires very little baseline energy to maintain. Therefore, having a higher proportion of muscle mass directly increases your resting energy expenditure."
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Comparing BMR Profiles",
+            "transcript": "Let us look at a real-world comparison to understand how these variables compound. A 25-year-old male typically has naturally higher muscle density due to hormone profiles, resulting in a high BMR. Compare this to a 65-year-old female; as we age, we naturally lose muscle mass, which slows down the metabolic rate. These biological differences explain why two people can eat the exact same amount of food but experience totally different weight outcomes."
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Misconception: BMR is Fixed",
+            "transcript": "A very common non-example in nutrition is the belief that you are born with a 'fast' or 'slow' metabolism and are stuck with it for life. This is fundamentally untrue. While you cannot change your age or biological sex, your body composition is highly adaptable. By engaging in resistance training and building muscle, you can actively shift your body's energy demands and permanently raise your basal metabolic rate."
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "What BMR is NOT",
+            "transcript": "Let's clarify a very common misconception about metabolism. Basal Metabolic Rate is strictly the baseline energy your body needs just to stay alive at complete rest. It is absolutely critical to separate BMR from your total daily energy expenditure. Any extra calories burned from moving, eating, or exercising are not part of this baseline number."
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "Three Things Excluded from BMR",
+            "transcript": "To build a strong mental model, let's look at three clear non-examples of BMR. First, the energy your body uses to digest that sandwich you just ate is separate. Second, incidental daily movements like walking to your car or washing dishes are not included. Finally, intentional workouts, such as a thirty-minute jog, are entirely active calories and fall completely outside your baseline BMR."
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "Baseline vs. Active Energy",
+            "transcript": "Let's compare these two states directly. If you were to stay in bed and sleep all day, your body would still burn its BMR just to keep your heart beating and lungs breathing. However, if you step on a treadmill and burn 400 calories, that represents active energy expenditure. Those 400 active calories do not change your BMR; they are simply added on top of your daily baseline."
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Calculating Total Energy Expenditure",
+            "transcript": "To bring it all together, we use the concept of Total Daily Energy Expenditure, or TDEE. Your total energy is a simple equation: $TDEE = BMR + Active Energy + Digestion$. By keeping these concepts mathematically and conceptually separate, you avoid the common pitfall of overestimating your baseline metabolic needs."
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Standard Formulas for Estimating $BMR$",
+            "transcript": "To calculate Basal Metabolic Rate in the real world, nutritionists cannot always use complex laboratory equipment. Instead, they rely on standard mathematical formulas. The most widely used tool is the Mifflin-St Jeor equation. This formula allows us to estimate the absolute minimum energy your body needs to survive based on your unique physical traits."
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Variables of the Mifflin-St Jeor Equation",
+            "transcript": "The Mifflin-St Jeor equation relies on four main variables to predict energy needs. Your weight and height determine your overall body mass and surface area, which heavily dictate your baseline energy demand. Furthermore, age and sex are included to account for natural biological shifts, such as changes in muscle mass and hormone profiles over time."
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "A Real-World Calculation",
+            "transcript": "Let us look at a specific example using these variables. Consider a 30-year-old male who weighs 70 kilograms and is 170 centimeters tall. When we plug these exact physical parameters into the standard Mifflin-St Jeor equation, the math yields a very specific result. We discover that his estimated Basal Metabolic Rate is approximately 1,650 calories per day."
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Visualizing the Baseline",
+            "transcript": "What does that 1,650 calories actually represent in reality? Imagine our subject lying completely still in bed for a full 24 hours. He is not walking, talking, or even digesting a meal. Those 1,650 calories are burned strictly by his brain, heart, lungs, and other organs simply to keep him alive."
+        },
+        {
+            "slide_index": 16,
+            "slide_title": "Scenario: Identical Stats, Different Lifestyles",
+            "transcript": "Let's look at a practical scenario to test our understanding of Basal Metabolic Rate. Imagine two women who share the exact same age, height, and overall body weight. However, their daily lives look very different: Woman A works a desk job, while Woman B is an avid weightlifter. If they both spend a Sunday completely resting on the couch, we have to ask ourselves: would they burn the same amount of calories?"
+        },
+        {
+            "slide_index": 17,
+            "slide_title": "The Role of Body Composition",
+            "transcript": "Even though both women weigh the exact same on a scale, their body composition is vastly different. Woman B has a much higher percentage of muscle mass due to her weightlifting, whereas Woman A likely has a higher percentage of body fat. This is the crucial missing variable. Muscle is highly metabolically active tissue, meaning it requires continuous energy just to exist, unlike fat which is primarily stored energy."
+        },
+        {
+            "slide_index": 18,
+            "slide_title": "Muscle Drives Baseline Energy",
+            "transcript": "Because of her greater muscle mass, Woman B inherently possesses a higher Basal Metabolic Rate. Therefore, even if neither woman lifts a finger all day, Woman B will automatically burn more calories. It is important not to confuse this with calories burned during a workout itself; this is simply the baseline energy her body demands to keep her extra muscle tissue alive while she rests."
+        }
+    ]
+}

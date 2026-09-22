@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Introduction to Financial Statements",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slide 10 and slide 13 contains at least one non-decorative graphic (illustrations, diagrams, comparison visuals) that depicts a concept referenced in the narration. However, slides 10 and 13 are text-only, and while slide 13 functions as a knowledge-check prompt, slide 10 lacks any visual despite covering a conceptual distinction that warranted one; reciprocity is partial because several images (e.g., the polaroid/camera photos on slide 6, the stock photo on slide 4) illustrate the analogy rather than requiring the visual to complete the verbal meaning."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen bullet text is consistently brief (short phrases of 5–10 words) and scannable within five seconds, satisfying criteria a and e. However, the narration frequently restates the same conceptual content as the bullets with minimal elaboration — for example, slide 3's bullets ('Income Statement: Measures profitability,' 'Balance Sheet: Snapshots financial position') are closely mirrored in the narration — partially violating the substantive-differentiation criterion; the graphics carry informational weight on slides 2, 12, and 14 but function more decoratively or redundantly on slides 4, 6, and 9."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex explanations (e.g., the snapshot-vs-video distinction, the asset/liability translation) are consistently delivered via narration while the visual channel carries diagrams and illustrations rather than extended prose. The slide deck is not fully self-sufficient as text alone on most slides, though on slides 3 and 5 the bullets plus captions largely replicate the narration's content, slightly reducing the narration's additive necessity."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Backgrounds are uniformly clean and white, fonts and color scheme (blue headings, dark body text) are consistent throughout, and narration is free of digressions or filler. Several images function as illustrative analogies rather than functional diagrams (e.g., the polaroid camera on slide 6, the businesswoman with a tablet on slide 4), which are borderline decorative rather than directly informational, warranting a partial score on criterion a."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy is present across all slides — blue bold titles, a horizontal rule, and uniform bullet structure clearly organize content. However, explicit visual cues such as arrows, highlights, or callouts pointing to specific graphic elements are absent on most slides; verbal signaling in the narration is sparse and inconsistent, with only occasional use of orienting phrases and no systematic use of emphasis markers like 'notice' or 'the key point is,' and the single most important takeaway is not distinctly highlighted or isolated on each slide."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed directly beneath their corresponding images across all illustrated slides, and related graphic-caption-bullet groupings are laid out as cohesive units without significant split attention. However, on multi-panel slides (3, 5, 8, 12) the captions below each image repeat the bullet text above without integrating labels directly into or adjacent to the internal graphic elements, and no leader lines or color-matching visually connects specific terms within the graphic to the corresponding on-screen labels."
+        }
+    ],
+    "raw_total": 47,
+    "unweighted_average": 7.83
+}

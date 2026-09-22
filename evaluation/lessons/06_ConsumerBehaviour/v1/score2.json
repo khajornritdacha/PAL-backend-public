@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Consumer Behavior & the Buyer Decision Process",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; all slides are purely text-based. The absence of any visual channel means reciprocity between verbal and visual content cannot be established, and the multimedia principle is essentially unmet across the entire deck."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "score": 1,
+            "evidence": "On-screen text consists of full paragraph sentences rather than keywords or short phrases, and the transcript narration reproduces the slide text with near-verbatim fidelity across all five slides. Because no graphic carries informational weight, the redundancy violation is structural: the learner reads and hears the same dense prose simultaneously."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "Complex descriptions are delivered as dense on-screen prose rather than through narration over a visual, violating the core modality prescription on every slide. The narration reads the on-screen text aloud verbatim, meaning the visual channel carries extended prose rather than graphics and the auditory channel adds no independent informational layer."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative clipart, stock imagery, or tangential anecdotes are present, and the content stays tightly focused on the stated objectives across all slides. Backgrounds appear clean and minimal, and the Oishi example is directly relevant to the buyer decision model being taught; however, consistent font and color styling cannot be fully confirmed from the text-only PDF rendering."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No visual cues such as arrows, highlights, bold text, or color contrast are observable on any slide to direct learner attention to key elements. The narration does not employ verbal signaling phrases to orient the learner, and no single most-important point per slide is visually or verbally distinguished from surrounding content."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No labels, captions, or callouts exist because no graphics are present, rendering the spatial contiguity principle largely inapplicable to this deck. The absence of any image-text pairing means split-attention cannot be assessed beyond noting that text blocks are not integrated with any visual referent."
+        }
+    ],
+    "raw_total": 10,
+    "unweighted_average": 1.67
+}

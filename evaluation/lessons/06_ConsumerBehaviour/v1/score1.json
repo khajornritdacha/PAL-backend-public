@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Consumer Behavior & the Buyer Decision Process",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; every slide consists exclusively of a title and full-sentence prose. The visual channel carries no informational content beyond text, rendering visual-verbal reciprocity impossible to achieve."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "On-screen text consists of full paragraphs rather than keywords or short phrases, and the transcript is near-verbatim to the on-screen text with no substantive elaboration or deviation across all five slides. The auditory and visual channels are functionally identical, producing maximal redundancy."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All complex descriptions are delivered as dense on-screen prose rather than via narration over a supporting graphic, with the narration simply reading the on-screen sentences aloud. The narration adds no information beyond what is already fully expressed in the slide text, making the slides entirely self-sufficient as text documents."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative imagery, tangential anecdotes, or filler content are present, and the narration stays on-topic throughout all five slides. Slide backgrounds appear clean, and while styling consistency cannot be fully confirmed from the extracted text, no distracting elements are evidenced."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "A basic visual hierarchy of slide title plus body text is present, but no visual cues such as arrows, highlights, bold, or color contrast are observable in any slide. The narration contains no verbal signaling language directing learner attention to key concepts or takeaways."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "There are no graphics, labels, captions, or callouts present, so spatial relationships between text and visuals cannot be evaluated; the absence of visuals means split-attention is not introduced but contiguity principles are also entirely unapplied. Text blocks are not paired with any visual referents across all five slides."
+        }
+    ],
+    "raw_total": 9,
+    "unweighted_average": 1.50
+}

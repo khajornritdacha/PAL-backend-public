@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Climate Change — Weather vs. Climate: Fundamental Differences",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or data figures are present in any of the five slides; all slides are text-only. The visual channel carries zero informational imagery, meaning verbal and visual content have no reciprocal relationship."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "score": 1,
+            "evidence": "On-screen text consists of full paragraph sentences across all slides, well exceeding a five-second scan threshold. The transcript is near-verbatim to the on-screen text with only minor wording differences, violating the requirement for substantive elaboration beyond what is displayed."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "Complex descriptions are delivered exclusively through dense on-screen prose rather than narration over a supporting graphic, and the narration largely reads the slide text aloud verbatim. The narration is written in relatively natural spoken language, but without any graphic to accompany it the modality principle cannot be meaningfully satisfied."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative clipart or extraneous imagery is present, and the narration is free of tangential digressions or off-topic content. Slide backgrounds appear clean and minimally styled, and font and color treatment is consistent across all five slides."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "score": 2,
+            "evidence": "Slide titles provide a rudimentary visual hierarchy, and the narration employs transitional verbal cues such as 'therefore' and 'conversely,' but no explicit visual cues — arrows, highlights, bold emphasis, or callouts — are used to direct attention to key elements. No single most-important point per slide is visually emphasized or foregrounded."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "The absence of any graphics eliminates the possibility of evaluating label placement, text-to-graphic integration, or visual connections between terms and referents. The layout does avoid split-attention in a trivial sense because there is only a single text column, but this reflects the absence of visuals rather than intentional contiguity design."
+        }
+    ],
+    "raw_total": 11,
+    "unweighted_average": 1.83
+}

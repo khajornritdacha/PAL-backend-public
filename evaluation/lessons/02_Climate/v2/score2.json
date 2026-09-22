@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Weather vs. Climate: Distinguishing Short-Term Events from Long-Term Trends",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The majority of slides contain non-decorative visuals including temperature anomaly maps, data charts, and illustrative photographs that directly depict concepts referenced in narration. Two slides (4 and 11, 16) are text-only despite their concepts being amenable to visual representation, and on analogy slides the visuals carry illustrative rather than reciprocal informational weight."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet points are short phrases but consistently mirror the core propositions of the narration rather than serving as distinct labels or keywords (e.g., slide 1 bullets and narration both state the 125,000-year proxy data claim). The graphic does not carry primary informational weight on most slides; the bullet text restates rather than defers to the visual, and on several slides the narration elaborates only minimally beyond the on-screen text."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex elaborations — such as the statistical reasoning about outliers not negating baselines and the timeline-test rule — are delivered via narration with only short keyword bullets on screen, appropriately offloading detail to the auditory channel. The narration is written in natural spoken register and adds contextual framing beyond what the slides alone convey, though on a few slides the narration closely paraphrases bullet content rather than substantively extending it."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                2,
+                2
+            ],
+            "score": 8,
+            "evidence": "Slide 3 uses AI-generated illustrative character images (angry person, painter) that function as analogical decoration rather than instructional diagrams, and the mood-vs-personality analogy is revisited across multiple slides (2, 3, 9, 10) without substantive extension, introducing mild redundancy relative to the learning objective. Background, typography, and color scheme are clean and consistent throughout; narration is free of overt digressions."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "Narration consistently employs verbal signaling phrases such as 'let's,' 'to break this down,' 'the fundamental rule,' and 'a crucial non-example,' directing learner attention effectively. Visual cues such as arrows, highlights, or callouts pointing to specific graphic elements are absent or minimal on most slides, and while the temperature chart on slide 12 has internal annotations, most images lack explicit markers connecting the visual to the stated key point."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are consistently placed directly beneath their respective images and the two-column layout keeps paired visuals and their labels grouped as unified units. On several slides, bullet text occupies the upper-left zone while graphics occupy the lower-center or right, creating a moderate spatial separation between verbal propositions and their visual referents; explicit leader lines or color-matched connections between bullet terms and graphic elements are absent."
+        }
+    ],
+    "raw_total": 45,
+    "unweighted_average": 7.50
+}

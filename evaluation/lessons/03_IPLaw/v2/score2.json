@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Intellectual Property Law — The Bundle of Rights Model",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The majority of slides include relevant illustrative images (bundle of sticks, painting purchase, apartment leasing) that directly correspond to concepts named in both the on-screen text and narration. Four slides (4, 8, 12, 16) are text-only, and while their concepts (licensing vs. selling, strategic IP, rule of thumb, maximizing value) are concrete enough to warrant diagrams or flowcharts, none are provided."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "The narration consistently elaborates beyond the on-screen bullet points, providing explanations and analogies not present in the slide text. However, on-screen bullets are full grammatical sentences rather than keywords or short labels, and on slides with four bullets the total word count exceeds a five-second scan threshold, with the graphic carrying secondary rather than primary informational weight on most slides."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex elaborations (the novel rights example, the painting non-example, the apartment/house analogy) are delivered exclusively through narration, with the visual channel reserved for images rather than dense prose. The four text-only slides rely entirely on the visual channel for prose delivery, partially violating the modality principle by rendering those slides self-sufficient as text without a corresponding auditory elaboration of a diagram or figure."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "All images are functionally mapped to the instructional concept of each slide (locked block, bundle of sticks, apartment leasing, house sale), with no decorative clipart or unrelated stock imagery observed. The narration is tightly scoped to the bundle-of-rights concept throughout, free of anecdotes or digressions, and slide styling is consistent across all 16 slides with a uniform blue title, horizontal rule, and white background."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A clear visual hierarchy is maintained across all slides via a bold blue title, horizontal rule separator, and body bullets, and paired-image slides consistently use bold captions to label the correct and incorrect cases. However, no in-image cues (arrows, circles, color highlights) direct attention to specific parts of the graphics, verbal signaling in the narration is sparse and inconsistent, and the single most important takeaway is not explicitly foregrounded as a highlighted or centered summary on most slides."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are consistently placed directly beneath their corresponding images with no intervening whitespace, and on paired-image slides each caption is positioned under its own image rather than in a remote legend. A visual connection between term and referent is established through physical proximity and matching label placement, though no leader lines, color coding, or pointer elements create an explicit graphical link between the on-screen bullet text and its associated image."
+        }
+    ],
+    "raw_total": 48,
+    "unweighted_average": 8.00
+}

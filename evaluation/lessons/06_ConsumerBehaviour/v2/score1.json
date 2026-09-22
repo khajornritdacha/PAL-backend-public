@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Consumer Behavior & the Buyer Decision Process",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slide 3 (the 5-stage framework list) and slide 12 (redefining consumer behavior text-only) includes at least one photograph or illustration directly depicting the narrated concept. Graphics on dual-image slides (e.g., slides 6, 7, 11, 14, 15) depict the specific stage being described, though the photos function primarily as contextual illustrations rather than instructional diagrams that require the narration to be fully decoded."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet text across the deck presents short phrases and labels that are substantively mirrored in the narration — for example, slide 6 lists 'Stage 1 (Need): Initiated by internal physiological stimuli' while the narration elaborates with the Bangkok heat scenario, representing partial rather than full elaboration. Image captions on multiple slides (e.g., slides 7, 10, 15) restate bullet content verbatim or near-verbatim, introducing redundancy between the on-screen text and caption channels."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The narration consistently elaborates beyond on-screen text with scenario-based detail (e.g., the Oishi heat scenario, the sneaker purchase sequence), making the visual channel non-self-sufficient and fulfilling the modality principle's intent. However, on several slides (notably slides 6, 7, and 14) the narration closely tracks the structure and terminology of the bullet points, approaching a read-aloud pattern for the labeled stage definitions."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The slide deck maintains a clean white background, consistent blue-title typography, and a uniform sans-serif body font throughout, with no decorative clipart or distracting patterns observed. The AI-generated photograph on slide 1 (man in futuristic atrium holding a receipt) is thematically approximate but not functionally instructional, representing the sole instance of borderline-decorative imagery."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy of blue bold title, horizontal rule, and bulleted body text organizes each slide clearly, and the narration employs verbal signaling phrases such as 'here is our anchor framework,' 'notice,' and 'the missing critical step is.' However, within-graphic cues (arrows, highlights, or callouts directing attention to a specific region of an image) are absent across all slides, and the image captions describe the whole visual rather than pointing to a specific element."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                2,
+                1
+            ],
+            "score": 7,
+            "evidence": "Dual-image slides (6, 7, 10, 11, 14, 15) place each caption directly beneath its corresponding image as a paired unit, satisfying proximity for caption-to-image grouping. The bullet text block and the image/caption zone occupy distinct halves of each slide layout with no visual connector (leader line, color coding, or bracket) linking a specific bullet to its corresponding image, creating a mild split-attention effect between the verbal and visual regions."
+        }
+    ],
+    "raw_total": 43,
+    "unweighted_average": 7.17
+}

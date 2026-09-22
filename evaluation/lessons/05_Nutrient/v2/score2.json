@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Basal Metabolic Rate (BMR) and Energy Expenditure",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Nearly every slide pairs a relevant visual with verbal content — illustrations of muscle/fat tissue, TDEE battery diagrams, and body comparison figures directly support narrated concepts. Slides 8, 12, 15, and 18 are text-only or render with missing/blank formula content, representing a partial failure of the multimedia principle for those frames."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet points frequently restate the same propositions delivered in narration with minimal elaboration (e.g., Slide 9: bullets list the three exclusions and the narration lists the same three exclusions in nearly identical terms). While the narration does add some analogical context not present on-screen, the degree of lexical overlap across the deck is high enough to constitute partial redundancy on most slides."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The narration consistently carries conceptual elaboration — analogies, worked examples, and causal explanations — that go beyond what the bullets alone convey, satisfying the modality principle for most slides. However, several slides (e.g., Slide 3, Slide 9) have narration that closely mirrors on-screen bullet structure and wording, reducing the distinctiveness of the auditory channel."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The deck maintains a clean white background, consistent blue-title typography, and uniform font styling throughout, with no distracting decorative patterns. The majority of images are functionally relevant; however, the photo of a nutritionist at a desk on Slide 13 is contextual stock imagery rather than an informational graphic, representing a minor coherence lapse."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "Visual hierarchy is consistently present via bold blue titles, a horizontal rule divider, and bullet structure that organizes each slide, and labeled diagrams on slides such as Slides 6 and 19 use arrows and callouts to direct attention to anatomical structures. Verbal signaling in the narration is inconsistent — explicit cue phrases such as 'notice' or 'the key point is' appear only occasionally, and captions beneath images do not always cross-reference the specific element being discussed in narration."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are placed directly beneath their paired images throughout the deck, and labeled diagrams (e.g., muscle tissue cross-section on Slide 6, TDEE battery on Slide 9) integrate text callouts with leader lines into the graphic itself, demonstrating strong spatial contiguity. The primary gap is on slides using symbolic/analogical imagery (e.g., Slide 13's nutritionist photo) where no visual connection exists between the image and the specific concept being signaled."
+        }
+    ],
+    "raw_total": 46,
+    "unweighted_average": 7.67
+}

@@ -1,0 +1,110 @@
+Goal
+
+Topic: Climate Change — Causes, Feedback Loops & Global Policy Responses
+Estimated Study Duration: 1 week (target 3-hour equivalent lesson block)
+
+SMART Goal 1 — Causes
+By the end of this module, I will be able to identify and explain the primary
+natural and anthropogenic drivers of climate change, including the greenhouse
+effect, CO2 and methane emissions, deforestation, and ocean heat absorption,
+well enough to explain each cause to a peer without referencing notes.
+
+SMART Goal 2 — Feedback Loops
+By the end of this module, I will be able to describe at least four major
+climate feedback mechanisms (ice-albedo, water vapor, permafrost methane,
+cloud feedbacks), correctly classifying each as positive or negative feedback,
+and draw a labeled feedback loop diagram for at least two of them from memory.
+
+SMART Goal 3 — Tipping Points & Systems Thinking
+By the end of this module, I will be able to define climate tipping points,
+name at least three examples (e.g., Amazon dieback, West Antarctic Ice Sheet,
+Atlantic circulation collapse), and explain how crossing a tipping point can
+trigger cascading effects across interconnected Earth systems.
+
+SMART Goal 4 — Global Policy Responses
+By the end of this module, I will be able to compare and contrast the major
+international climate policy frameworks — the Kyoto Protocol, the Paris
+Agreement, and the COP process — evaluating their mechanisms, commitments,
+and limitations, and articulate at least two market-based instruments (carbon
+tax, cap-and-trade) in plain language.
+
+SMART Goal 5 — Mitigation vs. Adaptation
+By the end of this module, I will be able to distinguish mitigation strategies
+(reducing emissions: renewables, electrification, carbon capture) from
+adaptation strategies (responding to impact: flood defenses, drought-resistant
+crops, managed retreat) and apply this distinction to evaluate a real-world
+national policy example.
+
+Prior Knowledge: General high school science background; familiar with basic
+chemistry (greenhouse gases) but not with feedback systems or policy
+frameworks at any depth.
+
+Motivation: I want to engage confidently in climate policy debates, understand
+news reporting on climate negotiations (e.g., COP summits), and apply
+systems-thinking skills to other complex global problems.
+
+Discussion with mentor
+
+The student came in with strong motivation around real-world relevance —
+specifically wanting to understand climate news coverage and policy debates —
+but with limited background beyond high school science. The main gaps
+identified were: (1) no prior exposure to systems thinking or feedback loop
+diagrams, (2) confusion between weather and climate at the mechanistic level,
+and (3) no awareness of how international policy instruments actually work
+(e.g., the difference between a carbon tax and cap-and-trade).
+
+MENTOR GUIDANCE FOR CONTENT GENERATION:
+
+1. Sequencing: Start with a clear conceptual anchor — the difference between
+   weather and climate — before introducing the greenhouse effect. Many
+   students conflate the two, which undermines everything downstream.
+   Establish this distinction on the very first slide or section.
+
+2. Feedback Loops: This is the conceptually hardest section. The student
+   finds abstract systems notation confusing. Favor concrete, real-world
+   examples first (e.g., melting Arctic ice exposing darker ocean surface),
+   then introduce the diagram. Use the ice-albedo feedback as the teaching
+   example because it is the most visually intuitive. Avoid introducing more
+   than two feedback loops per slide.
+
+3. Tipping Points: Frame tipping points using a physical analogy first —
+   e.g., a ball balanced on a hill — before applying it to climate. This
+   scaffolds the abstraction. Include a world map showing approximate
+   locations of major tipping elements; the spatial dimension significantly
+   aids retention here.
+
+4. Policy Section: The student has no economics background. Avoid jargon-
+   heavy finance language. Explain carbon pricing with a simple supply-
+   demand intuition before comparing Kyoto vs. Paris. A comparison table
+   (Kyoto vs. Paris: scope, enforcement, temperature targets, participation)
+   is strongly recommended. Highlight the NDC (Nationally Determined
+   Contributions) mechanism as the key structural innovation of Paris.
+
+5. Mitigation vs. Adaptation: Treat this as the synthesis section. The
+   student specifically asked to understand "what countries are actually
+   doing." Use real country examples — Germany (Energiewende), Bangladesh
+   (adaptation planning), Netherlands (coastal management) — to make policy
+   concrete. Avoid generic lists; anchor every strategy to a real case.
+
+6. Tone and Register: The student engages well with narrative framing.
+   Where possible, open each section with a question or a striking data
+   point (e.g., "2023 was the hottest year in 125,000 years of recorded
+   proxy data") rather than a definition. This keeps the lesson from feeling
+   like a textbook.
+
+7. Visual Priority: This topic is inherently visual. Every section should
+   include at least one diagram or data visualization. Recommended visuals:
+   - Keeling Curve (atmospheric CO2 since 1958)
+   - Diagram of the greenhouse effect with labeled energy flows
+   - Feedback loop diagrams (ice-albedo, water vapor)
+   - Map of climate tipping elements
+   - Temperature anomaly graph (IPCC AR6 baseline)
+   - Comparison infographic: mitigation vs. adaptation strategies
+
+KEY LEARNING OUTCOME (for course outline generation):
+   By the end of this module, the student should be able to explain why the
+   climate system responds non-linearly to emissions, describe the main
+   feedback mechanisms that amplify warming, and critically evaluate the
+   architecture and limitations of the Paris Agreement — well enough to
+   participate in an informed discussion of climate policy.
+

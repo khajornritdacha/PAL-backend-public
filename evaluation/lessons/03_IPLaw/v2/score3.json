@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Intellectual Property Law — The Bundle of Rights Model",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The majority of slides include illustrative images (lock-and-block, bundled sticks, painting purchase, apartment leasing) that directly depict the concepts referenced in both the on-screen text and narration. Slides 4, 8, 12, and 16 are text-only, representing missed opportunities for visual reinforcement of concepts such as licensing strategy and the tangible/intangible distinction; reciprocity between verbal and visual channels is partial, as several images are scenario photographs rather than diagrams that require the narration to decode."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "On-screen bullets are short phrases rather than paragraphs on most slides, yet several slides (e.g., slides 5, 9, 10) carry four bullets that partially mirror the narration's language, exceeding a comfortable five-second scan threshold. The narration consistently elaborates with scenarios and analogies not present verbatim on screen, though the visual images rather than infographics or diagrams carry limited independent informational weight, causing text to bear more load than CTML prescribes."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "Complex elaborations—such as the novel rights distribution scenario, the painting reproduction non-example, and the software licensing knowledge check—are delivered exclusively through narration while the visual channel displays corresponding illustrative images. The narration is composed in natural spoken language with full sentences and conversational transitions, and there are no instances of the narrator reading dense on-screen text aloud while a complex diagram is displayed."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "All images serve the instructional narrative without decorative stock filler, though several photographic illustrations (e.g., the startup team on slide 13, the campfire scene on slide 14) are loosely analogical rather than functionally informative. Fonts, colors, and layout are consistent across all slides, backgrounds are clean white, and the narration is free of tangential anecdotes or filler content."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A clear visual hierarchy is present on every slide via blue bold titles, a horizontal rule separator, and bullet-point structure. However, explicit visual cues such as arrows, highlights, or color contrast marking the single most important element within images are absent across the deck, and the narration uses minimal explicit verbal signaling phrases to direct learner attention to specific visual elements."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are consistently placed directly below their corresponding images and grouped as single units, satisfying proximity requirements for caption-to-figure pairing. However, on multi-image slides (e.g., slides 3, 6, 7, 10, 11, 14, 15) the bullet text list sits in a separate upper zone from the images below, creating mild split-attention between the labeled concepts and their visual referents, with no leader lines or color-matching linking specific bullets to specific images."
+        }
+    ],
+    "raw_total": 47,
+    "unweighted_average": 7.83
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Basal Metabolic Rate (BMR) and Energy Balance",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Every slide except slides 8, 12, 15, and 18 contains at least one non-decorative graphic (anatomical diagrams, metabolic charts, scenario illustrations) that directly depicts the concept narrated. Slides 8, 12, 15, and 18 are text-only or formula-only, representing concepts (misconception rebuttal, TDEE formula, calculation result, body composition shift) that could have been supported with a visual."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet text consistently mirrors the conceptual content of the narration with substantial semantic overlap — for example, slide 9 lists the three BMR exclusions in bullets that the narration then recites in near-identical order and phrasing. Bullet points are phrase-length and scannable, satisfying the word-count criterion, but the narration rarely elaborates beyond what the bullets already state, reducing the informational asymmetry between channels."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Complex explanations such as muscle metabolic activity and TDEE composition are delivered primarily through narration rather than dense on-screen text, and the visual channel is dominated by diagrams and illustrative images rather than prose. However, on several slides (e.g., slides 9 and 10) the narration closely parallels the on-screen bullet sequence while a relevant visual is present, constituting partial instances of narration reading bullets alongside a visual rather than adding substantively new information."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The background is clean and white throughout, fonts and blue-title styling are consistent, and narration is free of digressions or off-topic content across all 19 slides. Several images — notably the glowing neon split-figure on slide 1 and the decorative leaf/geometric elements on the older-woman illustration on slide 7 — carry aesthetic rather than strictly functional visual information, partially failing the decorative-filler criterion."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "A consistent visual hierarchy of bold blue titles, a horizontal rule, and body bullets is maintained across all slides, and several diagrams employ labeled arrows and color contrast (e.g., the TDEE battery chart, the muscle/fat cell comparison) to mark key elements. Verbal signaling in the narration is present but inconsistent — explicit cues such as 'the key idea is' or 'notice' appear on only a minority of slides — and captions beneath images restate the slide topic rather than directing attention to a specific part of the graphic being discussed."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are consistently placed directly beneath their corresponding images, and labeled arrows within anatomical diagrams (slides 6, 7, 14, 19) connect terms to their visual referents with high proximity. On slides using the three-column image layout (slides 3, 10, 14), the visual connection between a column's caption and its image is clear through immediate vertical proximity, though no color matching or leader lines bridge columns to the corresponding on-screen bullet above."
+        }
+    ],
+    "raw_total": 47,
+    "unweighted_average": 7.83
+}

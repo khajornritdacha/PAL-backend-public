@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Weather vs. Climate: Distinguishing Short-Term Events from Long-Term Trends",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "The majority of slides include non-decorative graphics — temperature anomaly maps, line charts, data visualizations, and contextual photographs — that directly correspond to concepts referenced in the narration and on-screen text. Slides 4, 11, and 16 are text-only, representing missed visual opportunities for concepts (baseline statistics, non-example snowstorm, extreme events) that warranted diagrams or data figures."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet points frequently mirror the narration at the sentence level rather than serving as minimal keyword anchors — for example, slide 11 lists four complete declarative sentences that are substantially restated in the transcript. On slides with dual-panel graphics (e.g., slides 2, 8, 10, 14), the graphic carries meaningful informational weight, but on text-only slides the on-screen text becomes the sole channel and exceeds a five-second scan threshold."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "The narration is consistently written in fluent spoken prose and meaningfully extends beyond on-screen text — for instance, slide 6 elaborates the Sahara rainfall statistic and the weather-within-climate qualifier not fully present in the bullets. However, on text-only slides (4, 11, 16) the visual channel carries no graphic load, causing the narration to compensate by restating rather than elaborating, reducing the modality advantage."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                2,
+                2
+            ],
+            "score": 8,
+            "evidence": "Slide styling is consistent throughout — uniform blue title font, clean white background, and a single horizontal rule divider — with no distracting patterns or extraneous decorative elements. The AI-illustrated images on slide 3 (mood/personality cartoon figures) are thematically appropriate but functionally illustrative rather than informational, and the globe-with-data-beam image on slide 14's climate panel is a loose metaphor that does not directly depict the 30-year baseline concept being taught."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "The narration employs consistent verbal signaling throughout — phrases such as 'let's formally separate,' 'the fundamental rule,' 'a strict non-example,' and 'let's apply this concept' reliably cue attention to key distinctions. Visual cueing is present via labeled callouts on the slide 1 anomaly map and annotated trend lines on slides 2 and 12, but captions on most slides function as restatements rather than directional pointers to specific graphic elements, and explicit highlights or arrows within graphics are sparse across the deck."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are consistently placed directly beneath their corresponding graphic panels, and dual-panel layouts (slides 2, 3, 8, 10, 13, 14, 15) pair each image with its own dedicated caption, maintaining clear figure-caption grouping throughout. On slides where a legend or data annotation appears inside the chart (e.g., slides 2 and 12), labels are integrated within the graphic rather than isolated, though the right-panel chart on slide 10 uses a generic 'Continuous and Steady Progress' title that lacks a direct lexical link to the climate concept described in the adjacent caption."
+        }
+    ],
+    "raw_total": 43,
+    "unweighted_average": 7.17
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Basal Metabolic Rate (BMR) and Energy Balance",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Nearly every slide pairs on-screen text with a relevant visual — diagrams, anatomical illustrations, infographics, or analogical images — and the visuals directly depict the concepts named in text and narration. Slides 4, 8, 12, 15, and 18 are text-only or near-text-only despite containing conceptually visual content (e.g., the Mifflin-St Jeor formula presentation and BMR misconception slide), and several photographic images (slides 1, 11, 13, 17) are illustrative stock rather than functional diagrams, partially limiting reciprocity."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "On-screen bullet text is consistently short and phrase-level, but the narration frequently elaborates on the same propositional content with near-identical wording rather than substantively diverging (e.g., slide 9 narration mirrors the three bullet exclusions almost verbatim). On slides where a strong infographic is present (slides 5, 9, 19), the graphic carries substantial informational weight, but on image-only or photo slides the text bears primary load, making the redundancy pattern inconsistent across the deck."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Across most slides the visual channel is occupied by images or diagrams rather than dense prose, and the narration is composed in natural spoken cadence with concrete analogies (smartphone standby, running engine) that extend beyond on-screen text. However, on several slides the narration restates bullet content closely enough to constitute near-verbatim reading (slides 9, 11, 16), and text-only slides (4, 8, 12, 15, 18) render the slide self-sufficient without narration, undermining the modality advantage."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Backgrounds are uniformly clean and white, typography is consistent in a sans-serif face with a single blue-title/dark-body color scheme, and narration is free of filler or tangential content throughout all 19 transcripts. Several images are illustrative-analogical rather than strictly functional (the food bowl on slide 1, the glowing runner, the sleeping woman on slide 11), which partially qualifies as decorative stock, though they remain thematically coherent with the lesson concept."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "Visual hierarchy is well-maintained via bold blue titles, a consistent horizontal rule divider, and uniform bullet indentation that organizes each slide's content clearly. Explicit verbal signaling cues in the narration are sparse and inconsistent — phrases like 'let us look at' and 'to bring it all together' appear on a minority of slides — and while some infographic images use internal labels and arrows (slides 5, 6, 14, 19), callouts pointing the learner to the specific part of the graphic being discussed in narration are largely absent."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed immediately beneath their corresponding images on all multi-image slides, and the two-column image layout maintains clear grouping of figure and label as a unit throughout the deck. However, on slides where infographic diagrams contain internal labels (slides 5, 6, 14, 19), those labels are embedded within the imported image rather than integrated into the slide layout, and there is no consistent use of leader lines or matching color to link on-slide bullet text to a specific region of the adjacent graphic."
+        }
+    ],
+    "raw_total": 44,
+    "unweighted_average": 7.33
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Financial Statements & Ratio Analysis — Introductory Module: Translating Business Activities",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; every slide is composed exclusively of a title and full-paragraph prose text. The absence of any visual channel means verbal and visual content cannot exhibit reciprocity, and the only scorable criterion is legibility of the text itself."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide presents full expository paragraphs on screen, and the transcript is verbatim or near-verbatim identical to the on-screen text across all five slides. No graphic carries informational weight, and on-screen word count far exceeds a five-second scan threshold on every slide."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All complex descriptive content is delivered via dense on-screen prose rather than narration over visuals; the visual channel contains no graphics and functions solely as extended text. The narration is written in relatively natural spoken phrasing (score 1 for criterion e), but it mirrors the on-screen text directly rather than adding distinct auditory information."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative clipart, stock imagery, or tangential anecdotes are present, and the narration remains focused on the stated topic without observable digressions. Slide backgrounds appear clean and minimal, and typographic styling is consistent across all slides, though the heavy prose density itself represents a structural concern beyond the scope of these criteria."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "A consistent title-plus-body hierarchy provides a basic visual structure on each slide (criterion b partially met), but no arrows, highlights, bold text, callouts, or color contrast are used to mark key elements within the body text. The narration contains no explicit verbal signaling phrases directing learner attention to specific concepts or takeaways."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No graphics, labels, or captions are present, making the majority of spatial contiguity criteria unevaluable from the available evidence; criterion c (absence of split attention) scores 1 by default because there are no separate text-image pairings to separate. The principle cannot be meaningfully applied to a text-only artifact."
+        }
+    ],
+    "raw_total": 9,
+    "unweighted_average": 1.50
+}

@@ -1,0 +1,235 @@
+Evaluate the slide deck and transcript below using the rubric.
+Reply with ONLY the raw JSON object. Do not write any explanation,
+markdown, code blocks, or visualization. Do not call any tools or APIs.
+This is a direct text evaluation task. Output only JSON. No tools. No code. No visualizations.
+
+CRITICAL OUTPUT CONSTRAINT: Your entire response must be a single raw JSON object and nothing else. Do not call show_widget, visualize, image_search, or any other tool. Do not produce HTML, SVG, markdown, or prose. If you feel the urge to visualize — suppress it. The only permitted output is the JSON object defined in OUTPUT FORMAT.
+
+SYSTEM ROLE
+You are a Senior Psychometrician and Instructional Design Evaluator. You perform objective, blind audits of narrated instructional slides using a fixed criteria-based rubric grounded in Mayer's Cognitive Theory of Multimedia Learning (CTML).
+
+TASK
+Audit ONE narrated slide artifact. You are given two separate channels:
+  [SLIDES]     — the rendered slide deck (visual channel: layout, graphics, on-screen text).
+  [TRANSCRIPT] — the per-slide narration script (auditory channel: what the learner hears).
+Evaluate the two channels jointly. The transcript is spoken narration, NOT a copy of the on-screen text; judge them as distinct channels. Apply identical standards regardless of how the artifact was produced.
+
+SCORING PROTOCOL
+For each of the 6 principles, evaluate its 5 criteria. Score each criterion:
+  2 = Yes, clearly met
+  1 = Partially met / met for only some slides
+  0 = No, not met
+Sum the 5 criteria into a total out of 10 for that principle. Do not invent criteria; use exactly the five listed.
+
+CRITERIA RUBRIC
+
+1. Multimedia Principle (d = 1.35) — words + pictures beat words alone
+   a. Is at least one non-decorative graphic (diagram, chart, illustration, data figure) present?
+   b. Does each graphic directly depict a concept referenced in the slide text or narration?
+   c. Is the deck free of text-only slides where the concept warranted a visual?
+   d. Do visual and verbal content require each other to fully convey the concept (reciprocity)?
+   e. Are graphics high-quality and legible (no pixelation, distortion, garbled artifacts, or watermarks)?
+
+2. Redundancy Principle (d = 0.72) — graphics + narration beat graphics + narration + on-screen text
+   a. Is on-screen text limited to keywords, short phrases, or labels (not full paragraphs)?
+   b. Is the transcript substantively different from the on-screen text (elaborates, not verbatim)?
+   c. Does the graphic — not the on-screen text — carry the primary informational weight?
+   d. Does on-screen text avoid repeating what the graphic or narration already makes clear?
+   e. Is total on-screen word count low enough to scan in roughly five seconds?
+
+3. Modality Principle (d = 1.00) — graphics + narration beat graphics + on-screen text
+   a. Are complex or detailed descriptions delivered via narration rather than dense on-screen text?
+   b. Is the visual channel used primarily for graphics/diagrams rather than extended prose?
+   c. Does the narration add information needed to fully understand the slide (slide is not self-sufficient as text alone)?
+   d. Are there zero instances of the narration merely reading complex on-screen text aloud while a complex visual is shown?
+   e. Is the narration written as natural, listenable spoken language (not transcribed bullet points)?
+
+4. Coherence Principle (d = 0.86) — exclude the extraneous
+   a. Are all images functional and relevant (no decorative clipart or stock filler)?
+   b. Is the content free of tangential "fun facts," anecdotes, or details not serving the objective?
+   c. Is the background clean and professional (no distracting patterns or busy backgrounds)?
+   d. Is the narration free of filler, digressions, and off-topic content?
+   e. Are fonts, colors, and styling consistent and non-distracting across slides?
+
+5. Signaling Principle (d = 0.70) — cues emphasize key information
+   a. Are there explicit visual cues (arrows, circles, highlights, color contrast, bold) marking key elements?
+   b. Is there a clear visual hierarchy (titles, headers, sizing) organizing each slide?
+   c. Does the narration use verbal signaling ("first," "notice," "the key idea is...") to direct attention?
+   d. Do captions or callouts point the learner to the specific part of a visual being discussed?
+   e. Is the single most important point of each slide clearly emphasized (centered, highlighted, or stated as the takeaway)?
+
+6. Spatial Contiguity Principle (d = 1.10) — place related words and visuals near each other
+   a. Are labels/captions placed physically near the part of the graphic they describe?
+   b. Is text integrated into or adjacent to the graphic rather than isolated in a separate legend/key?
+   c. Does the layout avoid split attention (related text not far from its image)?
+   d. Are related items (caption + figure, term + diagram) grouped as a single unit?
+   e. Is there a clear visual connection (proximity, leader line, matching color) between a term and its visual referent?
+
+CONSTRAINTS
+- Evidence per principle: at most two professional, clinical sentences. State what is present, not what should change.
+- Do NOT give feedback, recommendations, or suggestions for improvement.
+- Do NOT compare to other systems or speculate about which tool produced the artifact.
+- Score only from the [SLIDES] and [TRANSCRIPT] provided. If a property cannot be observed, score it from the available evidence and note the limitation in the evidence field.
+- Output ONLY the JSON object below — no preamble, no markdown fences, no trailing commentary, NO HTML, JUST PLAIN JSON JUST SIMPLY EVALUATE IT BY YOURSELF.
+
+OUTPUT FORMAT (strict JSON)
+{
+  "lesson_topic": "<string>",
+  "principles": [
+    {
+      "principle": "Multimedia",
+      "d_weight": 1.35,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    },
+    {
+      "principle": "Redundancy",
+      "d_weight": 0.72,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    },
+    {
+      "principle": "Modality",
+      "d_weight": 1.00,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    },
+    {
+      "principle": "Coherence",
+      "d_weight": 0.86,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    },
+    {
+      "principle": "Signaling",
+      "d_weight": 0.70,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    },
+    {
+      "principle": "Spatial Contiguity",
+      "d_weight": 1.10,
+      "criteria_scores": [<a>, <b>, <c>, <d>, <e>],
+      "score": <0-10>,
+      "evidence": "<<=2 clinical sentences>"
+    }
+  ],
+  "raw_total": <sum of the 6 scores, 0-60>,
+  "unweighted_average": <mean of the 6 scores, 0-10, two decimals>
+}
+
+INPUT
+Lesson topic: Climate Change — Causes, Feedback Loops & Global Policy Responses
+Learning Goal: SMART Goal 1 — Causes
+By the end of this module, I will be able to identify and explain the primary
+natural and anthropogenic drivers of climate change, including the greenhouse
+effect, CO2 and methane emissions, deforestation, and ocean heat absorption,
+well enough to explain each cause to a peer without referencing notes.
+
+SMART Goal 2 — Feedback Loops
+By the end of this module, I will be able to describe at least four major
+climate feedback mechanisms (ice-albedo, water vapor, permafrost methane,
+cloud feedbacks), correctly classifying each as positive or negative feedback,
+and draw a labeled feedback loop diagram for at least two of them from memory.
+
+SMART Goal 3 — Tipping Points & Systems Thinking
+By the end of this module, I will be able to define climate tipping points,
+name at least three examples (e.g., Amazon dieback, West Antarctic Ice Sheet,
+Atlantic circulation collapse), and explain how crossing a tipping point can
+trigger cascading effects across interconnected Earth systems.
+
+SMART Goal 4 — Global Policy Responses
+By the end of this module, I will be able to compare and contrast the major
+international climate policy frameworks — the Kyoto Protocol, the Paris
+Agreement, and the COP process — evaluating their mechanisms, commitments,
+and limitations, and articulate at least two market-based instruments (carbon
+tax, cap-and-trade) in plain language.
+
+SMART Goal 5 — Mitigation vs. Adaptation
+By the end of this module, I will be able to distinguish mitigation strategies
+(reducing emissions: renewables, electrification, carbon capture) from
+adaptation strategies (responding to impact: flood defenses, drought-resistant
+crops, managed retreat) and apply this distinction to evaluate a real-world
+national policy example.
+
+Prior Knowledge: General high school science background; familiar with basic
+chemistry (greenhouse gases) but not with feedback systems or policy
+frameworks at any depth.
+
+Motivation: I want to engage confidently in climate policy debates, understand
+news reporting on climate negotiations (e.g., COP summits), and apply
+systems-thinking skills to other complex global problems.
+
+Mentor discussion: The student came in with strong motivation around real-world relevance —
+specifically wanting to understand climate news coverage and policy debates —
+but with limited background beyond high school science. The main gaps
+identified were: (1) no prior exposure to systems thinking or feedback loop
+diagrams, (2) confusion between weather and climate at the mechanistic level,
+and (3) no awareness of how international policy instruments actually work
+(e.g., the difference between a carbon tax and cap-and-trade).
+
+MENTOR GUIDANCE FOR CONTENT GENERATION:
+
+1. Sequencing: Start with a clear conceptual anchor — the difference between
+   weather and climate — before introducing the greenhouse effect. Many
+   students conflate the two, which undermines everything downstream.
+   Establish this distinction on the very first slide or section.
+
+2. Feedback Loops: This is the conceptually hardest section. The student
+   finds abstract systems notation confusing. Favor concrete, real-world
+   examples first (e.g., melting Arctic ice exposing darker ocean surface),
+   then introduce the diagram. Use the ice-albedo feedback as the teaching
+   example because it is the most visually intuitive. Avoid introducing more
+   than two feedback loops per slide.
+
+3. Tipping Points: Frame tipping points using a physical analogy first —
+   e.g., a ball balanced on a hill — before applying it to climate. This
+   scaffolds the abstraction. Include a world map showing approximate
+   locations of major tipping elements; the spatial dimension significantly
+   aids retention here.
+
+4. Policy Section: The student has no economics background. Avoid jargon-
+   heavy finance language. Explain carbon pricing with a simple supply-
+   demand intuition before comparing Kyoto vs. Paris. A comparison table
+   (Kyoto vs. Paris: scope, enforcement, temperature targets, participation)
+   is strongly recommended. Highlight the NDC (Nationally Determined
+   Contributions) mechanism as the key structural innovation of Paris.
+
+5. Mitigation vs. Adaptation: Treat this as the synthesis section. The
+   student specifically asked to understand "what countries are actually
+   doing." Use real country examples — Germany (Energiewende), Bangladesh
+   (adaptation planning), Netherlands (coastal management) — to make policy
+   concrete. Avoid generic lists; anchor every strategy to a real case.
+
+6. Tone and Register: The student engages well with narrative framing.
+   Where possible, open each section with a question or a striking data
+   point (e.g., "2023 was the hottest year in 125,000 years of recorded
+   proxy data") rather than a definition. This keeps the lesson from feeling
+   like a textbook.
+
+7. Visual Priority: This topic is inherently visual. Every section should
+   include at least one diagram or data visualization. Recommended visuals:
+   - Keeling Curve (atmospheric CO2 since 1958)
+   - Diagram of the greenhouse effect with labeled energy flows
+   - Feedback loop diagrams (ice-albedo, water vapor)
+   - Map of climate tipping elements
+   - Temperature anomaly graph (IPCC AR6 baseline)
+   - Comparison infographic: mitigation vs. adaptation strategies
+
+KEY LEARNING OUTCOME (for course outline generation):
+   By the end of this module, the student should be able to explain why the
+   climate system responds non-linearly to emissions, describe the main
+   feedback mechanisms that amplify warming, and critically evaluate the
+   architecture and limitations of the Paris Agreement — well enough to
+   participate in an informed discussion of climate policy.
+
+[SLIDES]
+<attach the slide PDF or paste page images here>
+
+[TRANSCRIPT]
+<paste the per-slide narration script here>

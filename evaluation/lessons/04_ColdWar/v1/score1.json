@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "The Cold War — Origins: Capitalism vs. Communism Ideological Foundations",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                2
+            ],
+            "score": 2,
+            "evidence": "All four slides are purely text-based; no diagrams, charts, maps, illustrations, or data figures are present in any slide. The absence of any visual channel means verbal and visual content cannot achieve reciprocity, and no graphics exist to assess for quality or legibility beyond the text itself."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "Every slide displays full paragraph-length sentences that are reproduced verbatim in the narration transcript, constituting complete redundancy between the auditory and visual text channels. On-screen word counts per slide range approximately 50–65 words, far exceeding a five-second scan threshold, and the transcript adds no elaboration beyond repeating the slide text word-for-word."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All complex descriptions are delivered as dense on-screen prose paragraphs rather than via narration over supporting visuals, inverting the modality principle on every slide. The narration is written in grammatically complete sentences with reasonable spoken cadence, partially satisfying criterion (e), but it functions solely as an audio read-aloud of the on-screen text rather than as an independent auditory channel."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "No decorative clipart, tangential anecdotes, or extraneous content are present; all text is topically relevant to the stated lesson objective. Slide backgrounds appear clean and uncluttered based on the rendered PDF, though font and color consistency cannot be fully confirmed due to the text-only rendering of the source document."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No visual cues such as arrows, highlights, bold text, color contrast, or callouts are present to mark key elements on any slide. Each slide has a clear title functioning as a header, providing a minimal visual hierarchy, but no verbal signaling phrases (e.g., 'the key point here is') appear in the narration to direct learner attention."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                2,
+                0,
+                0
+            ],
+            "score": 2,
+            "evidence": "Because no graphics are present, criteria requiring label-to-graphic proximity, integrated captions, and visual connections between terms and referents are entirely inapplicable and scored zero. The layout does avoid split attention in a trivial sense — text is contiguous with itself — but the principle's core requirement of pairing verbal and visual elements is unmet across all four slides."
+        }
+    ],
+    "raw_total": 14,
+    "unweighted_average": 2.33
+}

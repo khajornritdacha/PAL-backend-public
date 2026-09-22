@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "The Cold War — Origins: Ideological Divide between Democratic Capitalism and Authoritarian Communism",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The majority of slides contain non-decorative illustrative graphics (split-world diagrams, comparative infographics, command-economy flowcharts) that directly depict concepts named in both on-screen text and narration. Four slides (4, 7, 11, 12, 14, 17) are text-only, which marginally penalizes criterion c, though most concept-warranting slides do carry visuals."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "On-screen bullets are short phrases rather than full paragraphs and the narration consistently elaborates beyond them with causal reasoning and contextual framing not present verbatim on slides. However, several slides carry four full-sentence bullets (e.g., slides 1, 2, 6) that push word count above a five-second scan threshold, and caption text on visuals occasionally restates bullet content."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "Detailed explanations of systemic incompatibility, the marriage-of-convenience metaphor, and cause-effect logic are delivered exclusively through narration while the visual channel displays illustrative graphics rather than dense prose. Narration is written in natural spoken register throughout, with no instances of complex on-screen text being read verbatim while a competing graphic is displayed."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                1,
+                2
+            ],
+            "score": 9,
+            "evidence": "All graphics are functionally tied to the ideological contrast being taught and the background is uniformly clean white with consistent blue titling across all slides. The narration on slides 11–13 revisits the WWII-alliance-as-convenience point across three consecutive slides with near-redundant content, introducing a mild degree of digressive repetition."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy is established via bold blue titles and bulleted sub-points across all slides, and some graphics embed labeled callouts (e.g., the command-economy flowchart on slide 15, the split-world diagrams). Verbal signaling in the narration is inconsistent — orienting phrases appear on some slides but are absent on others — and captions below paired images describe the images generically rather than directing the learner to a specific element being discussed."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are placed directly beneath their corresponding images on every illustrated slide, and paired images are consistently grouped with their respective labels as unified units. On infographic-heavy slides (slides 5, 10, 15), internal labels are embedded within the graphic rather than in an external legend; however, on slide 10 the three-column image layout places captions slightly far from their visual referents at smaller display sizes, marginally weakening the visual connection criterion."
+        }
+    ],
+    "raw_total": 50,
+    "unweighted_average": 8.33
+}

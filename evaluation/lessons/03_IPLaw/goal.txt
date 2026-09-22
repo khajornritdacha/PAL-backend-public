@@ -1,0 +1,94 @@
+Topic: Intellectual Property Law — Copyright, Patents & Trademarks
+Estimated Study Duration: 1 week (target 3-hour equivalent lesson block)
+
+SMART Goal 1 — Foundational Concepts
+By the end of this module, I will be able to define intellectual property,
+distinguish between copyright, patents, trademarks, and trade secrets, and
+correctly identify which category applies to a given real-world example
+without referencing notes.
+
+SMART Goal 2 — Copyright
+By the end of this module, I will be able to explain what copyright protects,
+how it arises automatically, its duration under the Berne Convention, the
+scope of fair use, and identify two landmark copyright cases and their
+significance.
+
+SMART Goal 3 — Patents
+By the end of this module, I will be able to describe patentability
+requirements (novelty, inventive step, industrial applicability), outline the
+application process from filing to grant, and articulate the core patent
+bargain — disclosure in exchange for time-limited exclusivity.
+
+SMART Goal 4 — Trademarks
+By the end of this module, I will be able to define what trademarks protect,
+explain the registration process, and illustrate trademark dilution and
+genericide with real-world examples.
+
+SMART Goal 5 — Enforcement & International Framework
+By the end of this module, I will be able to identify infringement elements
+for each IP type, describe key enforcement mechanisms, and outline the major
+international agreements (Berne, TRIPS, Paris Convention, WIPO) and their
+role in setting minimum protection standards across member states.
+
+Prior Knowledge: No formal legal background. Familiar with IP concepts at a
+lay level but has no understanding of legal mechanisms, duration, enforcement,
+or international frameworks.
+
+Motivation: Understand how IP law affects creators and businesses in practice;
+identify IP risks in a startup or creative project context.
+
+Student: [Name]
+Mentor Session Date: [Date]
+Module: Intellectual Property Law — Copyright, Patents & Trademarks
+
+--- SESSION SUMMARY ---
+
+Student has strong practical motivation but zero legal training. Key gaps:
+conflation of copyright and trademark, no understanding of patent procedure,
+and no awareness that IP protection is territorial.
+
+MENTOR GUIDANCE FOR CONTENT GENERATION:
+
+1. Anchor Concept: Open with the "bundle of rights" mental model before any
+   specific IP type. Use a concrete example — buying a book does not transfer
+   its copyright — to separate physical ownership from IP ownership.
+
+2. Copyright: Emphasize automatic protection as the key surprise for most
+   students. Use a flowchart covering creation → protection → expiry. Give
+   fair use its own slide with the four-factor test and one real case
+   (Campbell v. Acuff-Rose).
+
+3. Patents: Build a step-by-step procedural flowchart: invention → prior art
+   search → filing → examination → grant → expiry. Lead with the patent
+   bargain concept — it makes the procedure meaningful. Avoid claim-drafting
+   technicality.
+
+4. Trademarks: Open with instantly recognizable brand examples. Contrast
+   trademarks from copyright clearly — trademarks protect commercial origin
+   signals, not creative expression. Include genericide examples (Escalator,
+   Thermos) as a memorable teaching anchor.
+
+5. Comparison Table (Critical): A dedicated summary slide comparing all three
+   IP types across: what is protected, how it arises, duration, registration
+   required, and renewal. This is likely the single most useful takeaway.
+
+6. Enforcement: Use a decision-tree flowchart: detect infringement → cease
+   and desist → negotiation → litigation → remedies. Include DMCA takedowns
+   as a contemporary, relevant example.
+
+7. International Framework: Frame as "why your protection stops at the
+   border" then introduce Berne, Paris Convention, TRIPS, and WIPO. Close
+   with the pharmaceutical patents vs. generic medicines tension as a
+   compelling real-world stakes example.
+
+8. Visual Priority: Flowcharts for copyright lifecycle and patent process;
+   decision tree for enforcement; comparison table for all three IP types;
+   world map of treaty membership; landmark case timeline.
+
+KEY LEARNING OUTCOME (for course outline generation):
+   By the end of this module, the student should be able to identify which
+   IP protection applies to a given work, invention, or brand asset; explain
+   key requirements and duration for each type; describe main enforcement
+   options; and assess basic IP risk in a startup or creative project scenario.
+
+Mentor Signature: _______________

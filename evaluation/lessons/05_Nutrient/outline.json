@@ -1,0 +1,121 @@
+{
+  "_id": {
+    "$oid": "6a1db3f2807566adcec85179"
+  },
+  "courseId": "54a9a419-d30c-4037-b39f-0da93f70d411",
+  "status": "IN_PROGRESS",
+  "goal": "By the end of this one-week course, I will be able to identify and distinguish the three macronutrients (carbohydrates, proteins, and fats), explain how each is metabolized for energy, interpret standard dietary guidelines including daily intake recommendations, and evaluate a real meal plan against those guidelines — demonstrating this through a written nutritional audit of a three-day personal diet log.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "The student has casual interest in health and fitness but no formal biology or nutrition background. We agreed the course should start with what macronutrients are and why they matter, then move into metabolism at a conceptual level — no biochemical pathway detail, but enough to understand why different foods affect energy and body composition differently. Key concepts to cover: caloric density, glycemic index, nitrogen balance, basal metabolic rate, and the role of micronutrients as supporting context. I emphasized that dietary guidelines vary by organization and country, so the student should learn to read and compare sources critically rather than treating any single guideline as absolute truth. Visual aids should include food composition tables, metabolic flow diagrams, and the Thai RDNA alongside WHO guidelines for local relevance. The student's end goal is practical — understanding how to evaluate what they eat — so each lesson should close with a real-world application or example. Avoid diet culture framing; keep the tone neutral and evidence-based.",
+  "outline": {
+    "summary": "This one-week curriculum scaffolds foundational nutrition science to practical dietary evaluation. It begins with basic energy concepts and macronutrient identification, progresses through conceptual metabolism, analyzes global and local dietary guidelines, and culminates in a neutral, evidence-based nutritional audit of a personal diet log.",
+    "total_lessons": 18,
+    "lessons": [
+      {
+        "title": "1.1 Introduction to Energy and Basal Metabolic Rate (BMR)",
+        "main_content": "Introduce the fundamental concept of human energy balance. Explain Basal Metabolic Rate (BMR) as the baseline energy required to keep the body functioning at rest. Discuss how age, sex, and body composition influence BMR. Conclude with a real-world example of calculating BMR using standard formulas to anchor the concept.",
+        "objective": "Students will be able to define Basal Metabolic Rate and calculate their own estimated baseline energy requirements."
+      },
+      {
+        "title": "1.2 Understanding Caloric Density",
+        "main_content": "Explore the concept of caloric density: the number of calories in a given weight or volume of food. Contrast high-caloric-density foods with low-caloric-density foods using visual comparisons (e.g., a handful of nuts vs. a large bowl of spinach). Discuss how water and fiber content affect density and satiety.",
+        "objective": "Students will be able to compare different foods based on their caloric density and explain how it impacts overall energy intake."
+      },
+      {
+        "title": "1.3 The Supporting Role of Micronutrients",
+        "main_content": "Briefly introduce vitamins and minerals as vital co-factors in energy production and general health. Clarify that while micronutrients do not provide calories, macronutrients cannot be properly utilized without them. Provide examples of micronutrient-dense foods.",
+        "objective": "Students will be able to explain the supportive role of micronutrients in the body's ability to process and utilize macronutrients."
+      },
+      {
+        "title": "2.1 Carbohydrates and the Glycemic Index",
+        "main_content": "Define carbohydrates and their primary role as the body's preferred rapid energy source. Distinguish between simple and complex carbohydrates. Introduce the Glycemic Index (GI) to explain how different carbohydrates affect blood sugar levels over time, using visual charts.",
+        "objective": "Students will be able to classify carbohydrate sources and explain their impact on blood sugar using the Glycemic Index."
+      },
+      {
+        "title": "2.2 Proteins and Nitrogen Balance",
+        "main_content": "Examine proteins as the structural building blocks of the body, composed of amino acids. Introduce the concept of nitrogen balance to explain tissue synthesis and breakdown. Discuss what it means to be in positive, negative, or neutral nitrogen balance in real-world contexts.",
+        "objective": "Students will be able to define nitrogen balance and identify scenarios that result in positive, negative, and neutral balance."
+      },
+      {
+        "title": "2.3 Dietary Fats and Their Functions",
+        "main_content": "Break down dietary fats into categories (saturated, unsaturated, trans fats). Explain their vital roles in hormone production, cell membrane structure, and nutrient absorption. Dispel common diet culture myths by emphasizing fat as an essential, healthy component of a balanced diet.",
+        "objective": "Students will be able to distinguish between different types of dietary fats and describe their structural and hormonal roles."
+      },
+      {
+        "title": "3.1 Introduction to Metabolism: A Conceptual Flow",
+        "main_content": "Provide a high-level overview of digestion and metabolism without complex biochemical pathways. Use metabolic flow diagrams to illustrate the conceptual path food takes from ingestion to becoming usable cellular energy or stored reserves.",
+        "objective": "Students will be able to trace the general conceptual path of food turning into usable energy or bodily storage."
+      },
+      {
+        "title": "3.2 Carbohydrate Metabolism: Spikes and Storage",
+        "main_content": "Detail how carbohydrates are broken down into glucose. Explain the role of insulin in shuttling glucose into cells for immediate energy, and how excess glucose is stored as glycogen in the liver and muscles, or converted to fat when glycogen stores are full.",
+        "objective": "Students will be able to describe how carbohydrates are metabolized for immediate energy or stored as glycogen."
+      },
+      {
+        "title": "3.3 Protein Metabolism: Building vs. Fuel",
+        "main_content": "Explain how proteins are broken down into amino acids. Discuss how the body prioritizes these amino acids for tissue repair and enzyme creation. Explain the conditions under which the body will resort to converting protein into energy (gluconeogenesis).",
+        "objective": "Students will be able to explain why the body prioritizes protein for tissue repair over energy production."
+      },
+      {
+        "title": "3.4 Fat Metabolism: Sustained Energy",
+        "main_content": "Describe how dietary fats are broken down into fatty acids and glycerol. Explain how the body utilizes fat for slow, sustained energy during low-intensity activities and fasting states, and how excess dietary fat is stored in adipose tissue.",
+        "objective": "Students will be able to describe the process of metabolizing dietary fat for sustained energy and storage."
+      },
+      {
+        "title": "4.1 Navigating Dietary Guidelines: WHO vs. Thai RDNA",
+        "main_content": "Introduce dietary guidelines as dynamic, evolving recommendations rather than absolute truths. Compare the World Health Organization (WHO) guidelines with the Thai Recommended Daily Nutrient Intakes (Thai RDNA) to highlight cultural and regional adaptations in nutrition science.",
+        "objective": "Students will be able to critically compare two different organizational dietary guidelines to identify overlapping principles and regional differences."
+      },
+      {
+        "title": "4.2 Daily Intake Recommendations: Carbohydrates and Fats",
+        "main_content": "Review the accepted daily intake ranges for carbohydrates and fats based on the previously discussed guidelines. Discuss how these ranges can shift based on an individual's lifestyle, physical activity, and overall health goals.",
+        "objective": "Students will be able to determine appropriate recommended daily intake ranges for carbohydrates and fats based on established guidelines."
+      },
+      {
+        "title": "4.3 Daily Intake Recommendations: Protein",
+        "main_content": "Focus on protein intake recommendations, exploring how the standard baseline (e.g., 0.8g per kg of body weight) scales up depending on activity level, age, and tissue repair needs. Practice calculating targets using diverse hypothetical scenarios.",
+        "objective": "Students will be able to calculate individual daily protein requirements using weight and activity level parameters."
+      },
+      {
+        "title": "4.4 Utilizing Food Composition Tables",
+        "main_content": "Introduce standard food composition tables and databases. Teach students how to read these tables to extract accurate macronutrient profiles and caloric values for raw and cooked ingredients. Provide a practical exercise matching a local meal to table values.",
+        "objective": "Students will be able to accurately extract and interpret macronutrient data from standard food composition tables."
+      },
+      {
+        "title": "5.1 The Principles of Neutral Diet Logging",
+        "main_content": "Introduce the methodology of diet logging. Emphasize a neutral, non-judgmental approach to tracking food, avoiding 'good/bad' food labels (anti-diet culture). Discuss portion estimation and the importance of logging typical eating days accurately.",
+        "objective": "Students will be able to record a neutral, accurate personal diet log without altering their natural eating habits."
+      },
+      {
+        "title": "5.2 Auditing Macronutrient Ratios",
+        "main_content": "Guide students through analyzing a sample day of eating. Demonstrate how to calculate the total grams of carbs, proteins, and fats, and how to convert these grams into total calories and percentage-based macronutrient ratios.",
+        "objective": "Students will be able to calculate the daily macronutrient breakdown and total caloric yield of a logged meal plan."
+      },
+      {
+        "title": "5.3 Evaluating Energy Balance and Metabolic Impact",
+        "main_content": "Apply earlier concepts (BMR, Caloric Density, Glycemic Index) to evaluate the sample day of eating. Discuss how the timing and composition of meals might affect energy levels, satiety, and nitrogen balance throughout the day.",
+        "objective": "Students will be able to evaluate a daily diet log's alignment with energy needs and predict its general metabolic impact."
+      },
+      {
+        "title": "5.4 Final Project: 3-Day Diet Log Nutritional Audit",
+        "main_content": "Synthesize the course material. Students will compile their personal 3-day diet log, utilize food composition tables to find macronutrient values, compare their averages against WHO/Thai RDNA guidelines, and write a neutral, evidence-based reflection on their findings.",
+        "objective": "Students will be able to produce a comprehensive written nutritional audit of a 3-day diet log, critically evaluating it against established global and local dietary guidelines."
+      }
+    ]
+  },
+  "lessonIds": [
+    "5a1e72c6-c30c-4f7f-8f21-12249532309e"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval 1: Nutrition Science — Macronutrients, Metabolism & Dietary Guidelines",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 18,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "2026-06-01T16:31:45.815Z",
+  "updatedAt": "Mon Jun 01 2026 16:36:23 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Energy Balance and Basal Metabolic Rate",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; all content is delivered exclusively through text blocks. Without any visual channel depicting concepts such as energy balance dynamics, BMR proportion of TDEE, or the Mifflin-St Jeor formula variables, the reciprocity and depiction criteria cannot be met."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                0
+            ],
+            "score": 1,
+            "evidence": "On-screen text consists of full paragraph-length sentences that mirror the narration script with near-verbatim correspondence across all slides, violating the redundancy principle directly. Word counts per slide substantially exceed a five-second scan threshold, and the narration does not elaborate beyond or diverge from the on-screen prose."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "All complex descriptions — including BMR's proportional contribution to TDEE, the multi-variable Mifflin-St Jeor equations, and the physiological mechanisms underlying BMR variables — are delivered as dense on-screen text rather than through narration paired with supporting visuals. The narration reads the full on-screen paragraphs aloud verbatim, exemplifying the exact pattern the modality principle is designed to prevent."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "The deck is free of decorative imagery, tangential anecdotes, and off-topic filler content, with narration remaining tightly scoped to the stated lesson objectives throughout all five slides. Typography and slide backgrounds appear clean and consistent, though the absence of any graphics limits the surface area on which coherence violations could occur."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                0,
+                0,
+                1
+            ],
+            "score": 2,
+            "evidence": "Slide titles provide a minimal visual hierarchy, but no arrows, highlights, color contrast, callouts, or bold emphasis are used to mark key elements such as the BMR percentage range or the equation variables. The narration lacks explicit verbal signaling language (e.g., 'the key point here is,' 'notice that') to direct learner attention to priority information."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                1,
+                0
+            ],
+            "score": 2,
+            "evidence": "No graphics are present, so label-to-graphic proximity, integrated captions, and visual leader lines cannot be evaluated; criteria a, b, and e are unmet by absence. The text-only layout does avoid split-attention between disparate elements, and related textual items are grouped under their respective slide titles, satisfying criteria c and d within the constraints of a text-only format."
+        }
+    ],
+    "raw_total": 12,
+    "unweighted_average": 2.00
+}

@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Financial Statements & Ratio Analysis — Introduction to the Three Core Financial Statements",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                1,
+                2
+            ],
+            "score": 8,
+            "evidence": "Every slide except slides 10 and 13 includes at least one non-decorative graphic (funnel diagram, icon triptychs, split-screen comparisons, balance-sheet scale illustration) that directly depicts the concept named in the bullet text and narration. Slide 10 and slide 13 are text-only despite covering concepts (summary boundary of financial statements; knowledge-check prompt) where a reinforcing visual was feasible, partially violating criterion c; visual-verbal reciprocity is present on most slides but the analogical stock photos (slides 4, 6, 9) carry limited instructional load beyond decoration."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen text is consistently limited to short keyword phrases and captions scannable in under five seconds, satisfying criteria a and e. However, the narration for slides 3/4 and 2/1 substantially repeats the same verbal content across paired slides (e.g., the three-statement definitions are scripted almost identically on slides 3 and 4, and the medical-chart framing recurs verbatim on slides 1 and 3), reducing the elaborative differentiation required by criterion b; the icon-based graphics on slides 3 and 5 share informational weight roughly equally with the on-screen text labels rather than clearly dominating it."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "Complex explanations — the chaos-to-clarity translation process, the photograph-vs-video timeframe distinction, the asset/liability balance-sheet mechanics — are delivered exclusively through narration while the visual channel shows corresponding diagrams, satisfying all five criteria. The narration is composed in natural spoken register throughout (conversational phrasing, complete sentences, rhetorical questions on slide 12), and no slide requires the learner to read dense prose to comprehend the concept."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                2,
+                2
+            ],
+            "score": 8,
+            "evidence": "Backgrounds are uniformly clean white with a consistent blue-on-white color scheme and no distracting patterns; narration is free of tangential anecdotes and off-topic filler across all 14 slides. Several photographic images (the businesswoman with a tablet on slide 4; the doctor/patient pair on slide 1) function primarily as atmospheric illustrations rather than carrying unique instructional content, partially failing criterion a; the redundant repetition of the three-statement overview across slides 2–5 introduces mild content duplication that slightly exceeds the coherence ideal."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                1,
+                1
+            ],
+            "score": 7,
+            "evidence": "A consistent visual hierarchy (bold blue title, horizontal rule, bullet list, graphic, italic caption) organizes every slide and the narration employs verbal signaling cues throughout ('first,' 'finally,' 'the correct answer is,' 'let's focus specifically on'). Explicit visual cues such as arrows, circles, or highlights marking key elements within graphics are largely absent — the balance-sheet scale on slide 14 uses color zones (blue/orange) to distinguish asset from liability, but most other slides lack intra-graphic annotation; the single most important takeaway per slide is not distinctly emphasized visually beyond position in the bullet list."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Captions are placed immediately below their corresponding graphic on every slide that contains one, and triptych layouts (slides 3, 5, 8, 12) keep each icon directly above its label, satisfying proximity criteria a, c, and d. Text is not integrated into or overlaid on most graphics — it sits below as standalone captions — so criterion b is only partially met; similarly, no leader lines or color-matching connect bullet-list terms to specific regions within the graphics, leaving criterion e partially unmet on slides where the graphic contains internal sub-elements (e.g., the funnel diagram on slide 2, the assets-vs-liabilities diagram on slide 14)."
+        }
+    ],
+    "raw_total": 48,
+    "unweighted_average": 8.00
+}

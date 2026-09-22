@@ -1,0 +1,475 @@
+{
+    "_id": {
+        "$oid": "6a1db01f807566adcec8516e"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# What is Intellectual Property?\n\n* Protects creations of the human mind\n* Goal: Encourage societal innovation\n* Focuses on intangible assets\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/1.png\" alt=\"Intellectual Property protects the intangible creations of the mind, just like physical property protects tangible objects.\" />\n  </div>\n  <p class=\"hero-caption\">Intellectual Property protects the intangible creations of the mind, just like physical property protects tangible objects.</p>\n</div>\n\n---\n# The 'Bundle of Rights' Model\n\n* IP is not a single, indivisible block\n* Think of it as a 'bundle of sticks'\n* Rights can be separated and managed\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/2.png\" alt=\"Flawed Mental Model: Treating IP as a single, all-or-nothing unbreakable right.\" />\n    </div>\n    <span><strong>Flawed Mental Model: Treating IP as a single, all-or-nothing unbreakable right.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/3.png\" alt=\"Accurate Mental Model: IP is a 'bundle of sticks' where individual rights can be separated and handed out.\" />\n    </div>\n    <span><strong>Accurate Mental Model: IP is a 'bundle of sticks' where individual rights can be separated and handed out.</strong></span>\n  </div>\n</div>\n\n---\n# Breaking Down the Bundle\n\n* Right to Reproduce (Copy)\n* Right to Commercialize (Sell)\n* Right to Authorize (License)\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/4.png\" alt=\"The right to copy or reproduce the original work.\" />\n    </div>\n    <span><strong>The right to copy or reproduce the original work.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/5.png\" alt=\"The right to sell or commercially distribute the work.\" />\n    </div>\n    <span><strong>The right to sell or commercially distribute the work.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/6.png\" alt=\"The right to license or permit others to use the work under specific terms.\" />\n    </div>\n    <span><strong>The right to license or permit others to use the work under specific terms.</strong></span>\n  </div>\n</div>\n\n---\n# Licensing vs. Selling\n\n* Licensing is NOT transferring ownership\n* You keep the bundle, others borrow a stick\n* Allows creators to maximize asset value\n\n---\n# The IP Bundle in Action\n\n* IP is not a single, indivisible legal right.\n* It functions as a 'bundle of sticks'.\n* Each 'stick' represents a distinct, controllable right.\n* Creators start with ownership of the entire bundle.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/7.png\" alt=\"A tied bundle of sticks represents the total original intellectual property rights of a creator.\" />\n  </div>\n  <p class=\"hero-caption\">A tied bundle of sticks represents the total original intellectual property rights of a creator.</p>\n</div>\n\n---\n# Separating Rights: The Novel Example\n\n* Keep: The right to publish physical books.\n* Lease: The audio rights to a narrator.\n* Sell: The adaptation rights to a film studio.\n* Rights can act completely independently.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/8.png\" alt=\"Keeping the 'stick' for publishing physical copies.\" />\n    </div>\n    <span><strong>Keeping the 'stick' for publishing physical copies.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/9.png\" alt=\"Leasing the 'stick' for audiobook narration.\" />\n    </div>\n    <span><strong>Leasing the 'stick' for audiobook narration.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/10.png\" alt=\"Selling the 'stick' for cinematic film adaptation.\" />\n    </div>\n    <span><strong>Selling the 'stick' for cinematic film adaptation.</strong></span>\n  </div>\n</div>\n\n---\n# What Separating the Bundle is NOT\n\n* Selling one right does not transfer all rights.\n* You retain full ownership of the remaining sticks.\n* A movie deal does not equal losing book ownership.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/11.png\" alt=\"Correct: Transferring only a specific right while keeping the rest.\" />\n    </div>\n    <span><strong>Correct: Transferring only a specific right while keeping the rest.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/12.png\" alt=\"Incorrect: Believing you must surrender the entire IP to make a deal.\" />\n    </div>\n    <span><strong>Incorrect: Believing you must surrender the entire IP to make a deal.</strong></span>\n  </div>\n</div>\n\n---\n# Strategic IP Application\n\n* Identify every distinct right your asset holds.\n* Strategically decide which to hold, lease, or sell.\n* Maximize revenue by treating rights individually.\n* Protect the core bundle while expanding access.\n\n---\n# What the Bundle of Rights is NOT\n\n* IP ownership is NOT tied to physical objects.\n* Physical assets and IP are entirely separate concepts.\n* Possession does not equal IP ownership.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/13.png\" alt=\"The intellectual rights to an artwork hover separately from the physical canvas itself.\" />\n  </div>\n  <p class=\"hero-caption\">The intellectual rights to an artwork hover separately from the physical canvas itself.</p>\n</div>\n\n---\n# Owning the Physical Asset\n\n* Physical purchase transfers tangible property.\n* You own the canvas, wood, and paint.\n* You can hang it, sell it, or destroy it.\n* You do NOT own the creative expression.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/14.png\" alt=\"Purchasing the physical object transfers ownership of the materials.\" />\n    </div>\n    <span><strong>Purchasing the physical object transfers ownership of the materials.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/15.png\" alt=\"You own the canvas, wood, and paint, but nothing more.\" />\n    </div>\n    <span><strong>You own the canvas, wood, and paint, but nothing more.</strong></span>\n  </div>\n</div>\n\n---\n# The Intangible Rights (A Non-Example)\n\n* Reproduction rights remain with the creator.\n* Buying the painting gives no right to copy.\n* Printing the art on merchandise is infringement.\n* The 'reproduction stick' was never sold.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/16.png\" alt=\"Owning the painting does not grant the right to manufacture merchandise.\" />\n    </div>\n    <span><strong>Owning the painting does not grant the right to manufacture merchandise.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/17.png\" alt=\"The artist retains the 'stick' representing the right to reproduce the work.\" />\n    </div>\n    <span><strong>The artist retains the 'stick' representing the right to reproduce the work.</strong></span>\n  </div>\n</div>\n\n---\n# Rule of Thumb: Tangible vs. Intangible\n\n* Tangible property = The physical medium.\n* Intangible IP = The bundle of rights.\n* Transferring one does NOT transfer the other.\n* Always verify if IP rights are explicitly licensed.\n\n---\n# Knowledge Check: The Software Scenario\n\n* You develop custom software for a startup.\n* You grant permission for internal company use.\n* You strictly prohibit them from reselling the code.\n* Question: Have you lost your IP rights?\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/18.png\" alt=\"Granting conditional access to a creation does not equal surrendering total ownership.\" />\n  </div>\n  <p class=\"hero-caption\">Granting conditional access to a creation does not equal surrendering total ownership.</p>\n</div>\n\n---\n# Licensing a Single 'Stick'\n\n* IP is a bundle of separable \"sticks\" (rights).\n* Given Away: The right to internal use.\n* Retained: The right to resell, modify, or copy.\n* Result: You remain the IP owner.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/19.png\" alt=\"Licensing: Handing over just one specific right from your bundle.\" />\n    </div>\n    <span><strong>Licensing: Handing over just one specific right from your bundle.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/20.png\" alt=\"Ownership: Securely retaining the remaining rights for yourself.\" />\n    </div>\n    <span><strong>Ownership: Securely retaining the remaining rights for yourself.</strong></span>\n  </div>\n</div>\n\n---\n# What Licensing is NOT\n\n* Example: Renting an apartment (Licensing).\n* Non-Example: Selling the house (Assignment).\n* Licensing is temporary and conditional.\n* Assignment permanently transfers all ownership.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/21.png\" alt=\"Licensing grants limited permission without transferring ultimate ownership.\" />\n    </div>\n    <span><strong>Licensing grants limited permission without transferring ultimate ownership.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/22.png\" alt=\"Assignment is the absolute, permanent transfer of the entire bundle of rights.\" />\n    </div>\n    <span><strong>Assignment is the absolute, permanent transfer of the entire bundle of rights.</strong></span>\n  </div>\n</div>\n\n---\n# Maximizing Value Through Separation\n\n* Distributing rights separately maximizes revenue.\n* The same code can be licensed to multiple clients.\n* Explicit contracts prevent accidental assignment.\n* Retaining core IP secures long-term business leverage.\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "What is Intellectual Property?",
+            "transcript": "Welcome to our first lesson on Intellectual Property law. When we talk about IP, we are talking about protecting the creations of the human mind, like inventions, art, and brand names. The overarching goal of these laws isn't just to reward creators, but to encourage innovation across society by ensuring people can benefit from their hard work. Think of it as the legal foundation that makes a modern knowledge economy possible.",
+            "thai_transcript": "ยินดีต้อนรับสู่บทเรียนแรกเรื่องกฎหมายทรัพย์สินทางปัญญาครับ เมื่อเราพูดถึงทรัพย์สินทางปัญญา เราหมายถึงการคุ้มครองผลงานที่เกิดจากความคิดสร้างสรรค์ของมนุษย์ เช่น สิ่งประดิษฐ์ งานศิลปะ หรือชื่อแบรนด์ เป้าหมายหลักของกฎหมายเหล่านี้ไม่ได้มีไว้เพื่อตอบแทนผู้สร้างสรรค์เท่านั้น แต่ยังเพื่อส่งเสริมนวัตกรรมในสังคมโดยทำให้มั่นใจว่าพวกเขาจะได้รับประโยชน์จากความทุ่มเทของตนเอง เปรียบเสมือนรากฐานทางกฎหมายที่ทำให้เศรษฐกิจฐานความรู้ในยุคปัจจุบันเป็นไปได้ครับ"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "The 'Bundle of Rights' Model",
+            "transcript": "Now, how should we conceptualize owning an idea? Most people incorrectly think of IP ownership as a single, solid block—you either own it all or you don't. Instead, legal experts use the 'bundle of sticks' mental model. Every piece of intellectual property is actually a collection of distinct, separable legal rights grouped together. This means you don't have to give up the entire bundle if you want to share your work.",
+            "thai_transcript": "แล้วเราควรคิดถึงการเป็นเจ้าของไอเดียอย่างไรดีครับ คนส่วนใหญ่มักเข้าใจผิดว่าการเป็นเจ้าของทรัพย์สินทางปัญญาเป็นเหมือนก้อนหินทึบๆ ก้อนเดียว คือถ้าไม่เป็นเจ้าของทั้งหมดก็คือไม่มีสิทธิ์เลย แต่ในทางกฎหมาย เราใช้แบบจำลองความคิดที่เรียกว่า 'มัดไม้พลอง' ครับ ทรัพย์สินทางปัญญาแต่ละชิ้นแท้จริงแล้วคือกลุ่มของสิทธิตามกฎหมายที่แยกออกจากกันได้ ซึ่งหมายความว่าคุณไม่จำเป็นต้องยกให้ทั้งมัดหากคุณต้องการแบ่งปันผลงานของคุณให้ผู้อื่น"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "Breaking Down the Bundle",
+            "transcript": "Let's look closely at some of the individual sticks within this bundle. One stick might represent the right to make copies of your work, while another represents the right to sell it. A completely different stick gives you the power to license your work, meaning you give someone else permission to use it under specific conditions. Because these rights are separable, you can rent out one stick while keeping all the others firmly in your hands.",
+            "thai_transcript": "ลองมาดูไม้แต่ละอันในมัดนี้ให้ชัดเจนขึ้นกันครับ ไม้อันหนึ่งอาจหมายถึงสิทธิในการทำซ้ำผลงานของคุณ ในขณะที่อีกอันคือสิทธิในการขาย ส่วนไม้อีกอันก็ให้สิทธิคุณในการอนุญาตให้ผู้อื่นใช้งาน หรือที่เรียกว่าการให้ไลเซนส์ ภายใต้เงื่อนไขที่กำหนด เนื่องจากสิทธิเหล่านี้แยกออกจากกันได้ คุณจึงสามารถปล่อยเช่าไม้เพียงอันเดียว โดยที่ยังคงเก็บไม้อันอื่นๆ ไว้กับตัวคุณเองได้อย่างครบถ้วนครับ"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Licensing vs. Selling",
+            "transcript": "A common pitfall for new creators is believing that allowing a company to use their IP means they have sold it entirely. This is a non-example of ownership transfer. When you sign a licensing agreement, you are simply letting someone borrow one stick from your bundle for a limited time or specific purpose. You still own the bundle itself. Understanding this separable nature is critical to protecting your assets while generating revenue.",
+            "thai_transcript": "ข้อผิดพลาดที่พบบ่อยสำหรับนักสร้างสรรค์มือใหม่คือ การเชื่อว่าการอนุญาตให้บริษัทใดบริษัทหนึ่งใช้ทรัพย์สินทางปัญญาของตน หมายความว่าพวกเขาได้ขายสิทธินั้นไปทั้งหมดแล้ว นั่นไม่ใช่การโอนกรรมสิทธิ์ครับ เมื่อคุณเซ็นสัญญาอนุญาตให้ใช้สิทธิ คุณเพียงแค่ให้ใครบางคนยืมไม้หนึ่งอันจากมัดของคุณไปใช้ในเวลาหรือวัตถุประสงค์ที่จำกัดเท่านั้น คุณยังคงเป็นเจ้าของไม้มัดนั้นอยู่ การเข้าใจถึงธรรมชาติของสิทธิที่แยกส่วนได้นี้ เป็นสิ่งสำคัญมากในการปกป้องทรัพย์สินของคุณพร้อมๆ กับการสร้างรายได้ครับ"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "The IP Bundle in Action",
+            "transcript": "Imagine you just finished writing your first novel. At that moment, you hold an entire 'bundle' of legal rights to that work. Intellectual Property is rarely a single, indivisible thing that you simply keep or give away entirely. Instead, think of it as a bundle of individual sticks tied together. As the creator, you own every single stick in that bundle until you decide to do something with them.",
+            "thai_transcript": "ลองจินตนาการว่าคุณเพิ่งเขียนนิยายเรื่องแรกจบ ในช่วงเวลานั้นคุณถือ 'มัด' ของสิทธิ์ทางกฎหมายทั้งหมดสำหรับผลงานนั้น ทรัพย์สินทางปัญญานั้นแทบจะไม่ได้เป็นสิ่งเดียวที่แบ่งแยกไม่ได้ซึ่งคุณต้องเก็บไว้หรือยกให้คนอื่นไปทั้งหมด ให้คิดว่ามันเหมือนกับมัดของกิ่งไม้ที่มัดรวมกัน ในฐานะผู้สร้าง คุณเป็นเจ้าของไม้ทุกกิ่งในมัดนั้นจนกว่าคุณจะตัดสินใจทำอะไรกับมัน"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Separating Rights: The Novel Example",
+            "transcript": "Let's look at how you can separate this bundle practically using a novel as an example. You might choose to keep the publishing rights so you can print and sell physical books yourself. At the same time, you can lease or license the audio rights to a voice actor to create an audiobook for a set period. Finally, you might completely sell the film adaptation rights to a Hollywood studio. Each of these actions involves distributing a separate 'stick' from your bundle while maximizing your reach.",
+            "thai_transcript": "มาดูกันว่าคุณจะแยกมัดสิทธิ์นี้ในทางปฏิบัติได้อย่างไรโดยใช้นิยายเป็นตัวอย่าง คุณอาจเลือกที่จะเก็บสิทธิ์ในการตีพิมพ์ไว้เพื่อพิมพ์และขายหนังสือเล่มด้วยตัวเอง ในขณะเดียวกัน คุณสามารถให้เช่าหรืออนุญาตสิทธิ์ด้านเสียงแก่นักพากย์เพื่อสร้างหนังสือเสียงในช่วงเวลาที่กำหนดได้ และท้ายที่สุด คุณอาจขายสิทธิ์ในการดัดแปลงเป็นภาพยนตร์ให้กับสตูดิโอฮอลลีวูดไปเลย การกระทำแต่ละอย่างนี้เกี่ยวข้องกับการกระจาย 'กิ่งไม้' แต่ละกิ่งออกจากมัดของคุณในขณะที่เพิ่มโอกาสการเข้าถึงผลงานให้มากที่สุด"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "What Separating the Bundle is NOT",
+            "transcript": "A common misconception among early creators is that selling the movie rights means you have sold your book entirely. This is a crucial non-example of how IP works. Giving away one stick does not mean you drop the whole bundle. When you transfer the film rights to a studio, you still retain total ownership over the remaining sticks, meaning you alone control the sequels, merchandise, or translated versions.",
+            "thai_transcript": "ความเข้าใจผิดที่พบบ่อยในหมู่ผู้สร้างสรรค์ผลงานหน้าใหม่คือ การขายสิทธิ์ในการสร้างภาพยนตร์เท่ากับว่าคุณได้ขายหนังสือของคุณไปทั้งหมด นี่คือตัวอย่างที่ผิดที่สำคัญมากเกี่ยวกับการทำงานของทรัพย์สินทางปัญญา การมอบไม้กิ่งหนึ่งไม่ได้หมายความว่าคุณต้องทิ้งไม้ทั้งมัด เมื่อคุณโอนสิทธิ์ในการสร้างภาพยนตร์ให้กับสตูดิโอ คุณยังคงเป็นเจ้าของโดยสมบูรณ์ในกิ่งไม้ที่เหลือ ซึ่งหมายความว่าคุณคนเดียวมีสิทธิ์ควบคุมภาคต่อ สินค้า หรือฉบับแปล"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Strategic IP Application",
+            "transcript": "Understanding this concept allows you to be highly strategic as an entrepreneur or creator. Instead of selling your entire intellectual property for a lump sum, you can piecemeal the rights to maximize revenue streams over time. Identify every potential market for your work, from physical goods to digital media or international distribution. By managing each right individually, you protect your core asset while still participating safely in various global industries.",
+            "thai_transcript": "การเข้าใจแนวคิดนี้จะช่วยให้คุณสามารถวางกลยุทธ์ได้อย่างชาญฉลาดในฐานะผู้ประกอบการหรือผู้สร้างสรรค์ผลงาน แทนที่จะขายทรัพย์สินทางปัญญาทั้งหมดของคุณไปในคราวเดียว คุณสามารถแบ่งขายสิทธิ์ทีละส่วนเพื่อเพิ่มช่องทางรายได้ในระยะยาว ค้นหาตลาดที่เป็นไปได้ทั้งหมดสำหรับผลงานของคุณ ตั้งแต่สินค้าที่จับต้องได้ไปจนถึงสื่อดิจิทัลหรือการจัดจำหน่ายในต่างประเทศ การจัดการสิทธิ์แต่ละอย่างแยกกันจะช่วยปกป้องทรัพย์สินหลักของคุณในขณะที่ยังสามารถเข้าไปมีส่วนร่วมในอุตสาหกรรมระดับโลกต่างๆ ได้อย่างปลอดภัย"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "What the Bundle of Rights is NOT",
+            "transcript": "Let's address a massive misconception right away. When you hold a physical creation in your hands, it feels like you own everything about it. However, the intellectual property 'bundle of rights' is not an all-or-nothing package tied to that physical object. Simply possessing an item does not mean you own the underlying ideas, expressions, or rights to reproduce it. We must strictly separate the tangible asset from the intangible rights.",
+            "thai_transcript": "เรามาจัดการกับความเข้าใจผิดครั้งใหญ่กันก่อนเลยครับ เมื่อคุณถือผลงานทางกายภาพไว้ในมือ คุณอาจรู้สึกว่าคุณเป็นเจ้าของทุกสิ่งทุกอย่างที่เกี่ยวกับมัน อย่างไรก็ตาม 'กลุ่มของสิทธิ' ในทรัพย์สินทางปัญญาไม่ได้ผูกติดอยู่กับวัตถุทางกายภาพนั้นเสมอไป การครอบครองสิ่งของไม่ได้หมายความว่าคุณเป็นเจ้าของแนวคิด การแสดงออก หรือสิทธิในการทำซ้ำสิ่งนั้น เราต้องแยกทรัพย์สินที่มีรูปร่างออกจากสิทธิที่ไม่มีรูปร่างอย่างชัดเจนครับ"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "Owning the Physical Asset",
+            "transcript": "To make this concrete, imagine you buy an original painting from a local gallery. What did you actually buy? Legally speaking, you purchased the physical materials: the canvas, the wooden stretcher, and the dried paint. Because you own this physical asset, you can hang it in your living room, sell it to a friend, or even throw it in the trash. However, this transaction strictly ends at the physical boundary of the object.",
+            "thai_transcript": "เพื่อให้เห็นภาพชัดเจน ลองจินตนาการว่าคุณซื้อภาพวาดต้นฉบับจากแกลเลอรีในพื้นที่ สิ่งที่คุณซื้อมาจริงๆ คืออะไร ในทางกฎหมาย คุณซื้อวัสดุทางกายภาพครับ ซึ่งก็คือผ้าใบ กรอบไม้ และสีที่แห้งแล้ว เนื่องจากคุณเป็นเจ้าของทรัพย์สินทางกายภาพนี้ คุณจึงสามารถแขวนไว้ในห้องนั่งเล่น ขายต่อให้เพื่อน หรือแม้แต่ทิ้งมันไปก็ได้ อย่างไรก็ตาม ธุรกรรมนี้สิ้นสุดลงที่ขอบเขตทางกายภาพของวัตถุเท่านั้นครับ"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "The Intangible Rights (A Non-Example)",
+            "transcript": "This brings us to a critical non-example. Let's say you take that painting you bought, scan it, and print it onto a hundred T-shirts to sell online. This is illegal. Why? Because when you bought the painting, the artist did not hand over the specific 'stick' in their bundle of rights that allows for reproduction. The right to copy and distribute the image remains entirely with the creator, proving that physical ownership and IP ownership are completely separate.",
+            "thai_transcript": "นี่นำเราไปสู่ตัวอย่างสิ่งที่ไม่ใช่สิทธิของคุณครับ สมมติว่าคุณนำภาพวาดที่คุณซื้อมาสแกน แล้วพิมพ์ลงบนเสื้อยืดร้อยตัวเพื่อขายออนไลน์ นี่เป็นสิ่งที่ผิดกฎหมาย ทำไมล่ะครับ เพราะตอนที่คุณซื้อภาพวาด ศิลปินไม่ได้มอบ 'ไม้' เฉพาะในกลุ่มสิทธิของเขาที่อนุญาตให้ทำซ้ำได้ สิทธิในการคัดลอกและแจกจ่ายภาพยังคงเป็นของผู้สร้างสรรค์ทั้งหมด ซึ่งพิสูจน์ให้เห็นว่าความเป็นเจ้าของทางกายภาพและทรัพย์สินทางปัญญานั้นแยกออกจากกันอย่างสิ้นเชิงครับ"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Rule of Thumb: Tangible vs. Intangible",
+            "transcript": "To summarize this foundational rule: always divide your thinking into the tangible medium and the intangible intellectual property. Transferring a physical object never automatically transfers the intellectual property attached to it. Unless a creator explicitly signs a contract transferring or licensing their specific bundle of rights to you, you only own the physical atoms you purchased. This separation is the bedrock of avoiding accidental IP infringement.",
+            "thai_transcript": "เพื่อสรุปกฎพื้นฐานนี้ ขอให้คุณแบ่งความคิดออกเป็นสื่อที่มีรูปร่างและทรัพย์สินทางปัญญาที่ไม่มีรูปร่างเสมอครับ การโอนวัตถุทางกายภาพไม่ได้เป็นการโอนทรัพย์สินทางปัญญาที่ติดอยู่กับวัตถุนั้นโดยอัตโนมัติ เว้นแต่ผู้สร้างสรรค์จะเซ็นสัญญาเพื่อโอนหรือให้สิทธิในกลุ่มสิทธิเฉพาะนั้นแก่คุณอย่างชัดเจน คุณจะเป็นเจ้าของเพียงแค่สสารทางกายภาพที่คุณซื้อมาเท่านั้น การแยกแยะสิ่งเหล่านี้ออกจากกันเป็นรากฐานสำคัญในการหลีกเลี่ยงการละเมิดทรัพย์สินทางปัญญาโดยไม่ตั้งใจครับ"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Knowledge Check: The Software Scenario",
+            "transcript": "Let's test our understanding of the 'bundle of rights' with a real-world scenario. Imagine you create a piece of custom software for a new startup. You give them a license to use this software internally for their daily operations. However, your agreement explicitly states they cannot resell your code to anyone else. The big question here is: by letting them use it, have you lost your intellectual property rights?",
+            "thai_transcript": "มาทดสอบความเข้าใจเรื่อง 'กลุ่มสิทธิ' ด้วยสถานการณ์จำลองกันครับ ลองนึกภาพว่าคุณเขียนซอฟต์แวร์ให้สตาร์ทอัพแห่งหนึ่ง คุณอนุญาตให้พวกเขาใช้งานเป็นการภายในได้ แต่ในสัญญาระบุชัดเจนว่าห้ามนำไปขายต่อ คำถามสำคัญคือ การยอมให้พวกเขาใช้งานแบบนี้ แปลว่าคุณสูญเสียสิทธิในทรัพย์สินทางปัญญาไปแล้วหรือเปล่า?"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Licensing a Single 'Stick'",
+            "transcript": "The answer is no, you have not lost your IP rights. Remember that intellectual property is a bundle of distinct rights, or 'sticks'. In this scenario, you simply licensed one specific stick—the right to use the software internally. You securely retained the rest of the bundle, including the valuable rights to sell, distribute, or modify the core code.",
+            "thai_transcript": "คำตอบคือ ไม่ครับ คุณยังไม่ได้สูญเสียสิทธิไป จำไว้ว่าทรัพย์สินทางปัญญาเปรียบเสมือนกลุ่มของสิทธิหรือ 'กิ่งไม้' หลายๆ อันรวมกัน ในสถานการณ์นี้ คุณเพียงแค่อนุญาตให้ใช้กิ่งไม้เพียงอันเดียว นั่นคือสิทธิในการใช้งานภายใน คุณยังคงเก็บรักษากิ่งไม้ที่เหลือในมัดไว้อย่างปลอดภัย เช่น สิทธิในการขาย แจกจ่าย หรือดัดแปลงโค้ด"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "What Licensing is NOT",
+            "transcript": "To build a strong mental model, let's look at a clear non-example. What you did NOT do in the software scenario was 'assign' your IP. Assignment is the complete transfer of ownership—like selling a house outright and giving away the deed. Licensing, which you did, is more like renting out an apartment. You allow someone to use the space under strict conditions, but you ultimately still own the building.",
+            "thai_transcript": "เพื่อให้เห็นภาพชัดเจนขึ้น ลองมาดูตัวอย่างตรงข้ามกันครับ สิ่งที่คุณ 'ไม่ได้ทำ' ในสถานการณ์ซอฟต์แวร์คือการโอนสิทธิโดยเด็ดขาด (Assignment) การโอนสิทธิคือการยกความเป็นเจ้าของให้ทั้งหมด เหมือนกับการขายขาดบ้านและมอบโฉนดให้ไปเลย แต่การอนุญาตให้ใช้สิทธิ (Licensing) ที่คุณทำนั้น คล้ายกับการปล่อยเช่าอพาร์ตเมนต์มากกว่า คุณยอมให้คนอื่นเข้ามาใช้พื้นที่ภายใต้เงื่อนไขที่กำหนด แต่คุณก็ยังเป็นเจ้าของตึกอยู่ดี"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Maximizing Value Through Separation",
+            "transcript": "Understanding this separation of rights is crucial in business strategy. Because you only licensed the internal use right, you can legally take that exact same software and license it to ten other startups, multiplying your revenue. This is why explicit contracts are essential; they ensure you don't accidentally assign your entire bundle of rights when you only meant to lease out a single stick.",
+            "thai_transcript": "การเข้าใจเรื่องการแยกสิทธิเหล่านี้มีความสำคัญมากในกลยุทธ์ทางธุรกิจครับ เพราะคุณอนุญาตให้ใช้งานภายในเท่านั้น คุณจึงสามารถนำซอฟต์แวร์ตัวเดียวกันนี้ไปทำสัญญาให้สตาร์ทอัพอื่นใช้งานได้อีกเป็นสิบแห่ง ซึ่งช่วยเพิ่มรายได้ของคุณ นี่คือเหตุผลว่าทำไมสัญญาที่ชัดเจนจึงจำเป็นมาก มันช่วยป้องกันไม่ให้คุณเผลอยกสิทธิทั้งหมดไปให้คนอื่น ทั้งที่คุณตั้งใจจะให้แค่สิทธิเดียว"
+        }
+    ],
+    "sections": [
+        {
+            "title": "The Bundle of Rights Mental Model",
+            "slides": [
+                {
+                    "title": "What is Intellectual Property?",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Protects creations of the human mind",
+                        "Goal: Encourage societal innovation",
+                        "Focuses on intangible assets"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/1.png",
+                            "caption": "Intellectual Property protects the intangible creations of the mind, just like physical property protects tangible objects.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to our first lesson on Intellectual Property law. When we talk about IP, we are talking about protecting the creations of the human mind, like inventions, art, and brand names. The overarching goal of these laws isn't just to reward creators, but to encourage innovation across society by ensuring people can benefit from their hard work. Think of it as the legal foundation that makes a modern knowledge economy possible.",
+                    "thai_transcript": "ยินดีต้อนรับสู่บทเรียนแรกเรื่องกฎหมายทรัพย์สินทางปัญญาครับ เมื่อเราพูดถึงทรัพย์สินทางปัญญา เราหมายถึงการคุ้มครองผลงานที่เกิดจากความคิดสร้างสรรค์ของมนุษย์ เช่น สิ่งประดิษฐ์ งานศิลปะ หรือชื่อแบรนด์ เป้าหมายหลักของกฎหมายเหล่านี้ไม่ได้มีไว้เพื่อตอบแทนผู้สร้างสรรค์เท่านั้น แต่ยังเพื่อส่งเสริมนวัตกรรมในสังคมโดยทำให้มั่นใจว่าพวกเขาจะได้รับประโยชน์จากความทุ่มเทของตนเอง เปรียบเสมือนรากฐานทางกฎหมายที่ทำให้เศรษฐกิจฐานความรู้ในยุคปัจจุบันเป็นไปได้ครับ"
+                },
+                {
+                    "title": "The 'Bundle of Rights' Model",
+                    "layout": "two_column",
+                    "key_points": [
+                        "IP is not a single, indivisible block",
+                        "Think of it as a 'bundle of sticks'",
+                        "Rights can be separated and managed"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/2.png",
+                            "caption": "Flawed Mental Model: Treating IP as a single, all-or-nothing unbreakable right.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/3.png",
+                            "caption": "Accurate Mental Model: IP is a 'bundle of sticks' where individual rights can be separated and handed out.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Now, how should we conceptualize owning an idea? Most people incorrectly think of IP ownership as a single, solid block—you either own it all or you don't. Instead, legal experts use the 'bundle of sticks' mental model. Every piece of intellectual property is actually a collection of distinct, separable legal rights grouped together. This means you don't have to give up the entire bundle if you want to share your work.",
+                    "thai_transcript": "แล้วเราควรคิดถึงการเป็นเจ้าของไอเดียอย่างไรดีครับ คนส่วนใหญ่มักเข้าใจผิดว่าการเป็นเจ้าของทรัพย์สินทางปัญญาเป็นเหมือนก้อนหินทึบๆ ก้อนเดียว คือถ้าไม่เป็นเจ้าของทั้งหมดก็คือไม่มีสิทธิ์เลย แต่ในทางกฎหมาย เราใช้แบบจำลองความคิดที่เรียกว่า 'มัดไม้พลอง' ครับ ทรัพย์สินทางปัญญาแต่ละชิ้นแท้จริงแล้วคือกลุ่มของสิทธิตามกฎหมายที่แยกออกจากกันได้ ซึ่งหมายความว่าคุณไม่จำเป็นต้องยกให้ทั้งมัดหากคุณต้องการแบ่งปันผลงานของคุณให้ผู้อื่น"
+                },
+                {
+                    "title": "Breaking Down the Bundle",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Right to Reproduce (Copy)",
+                        "Right to Commercialize (Sell)",
+                        "Right to Authorize (License)"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/4.png",
+                            "caption": "The right to copy or reproduce the original work.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/5.png",
+                            "caption": "The right to sell or commercially distribute the work.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/6.png",
+                            "caption": "The right to license or permit others to use the work under specific terms.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "Let's look closely at some of the individual sticks within this bundle. One stick might represent the right to make copies of your work, while another represents the right to sell it. A completely different stick gives you the power to license your work, meaning you give someone else permission to use it under specific conditions. Because these rights are separable, you can rent out one stick while keeping all the others firmly in your hands.",
+                    "thai_transcript": "ลองมาดูไม้แต่ละอันในมัดนี้ให้ชัดเจนขึ้นกันครับ ไม้อันหนึ่งอาจหมายถึงสิทธิในการทำซ้ำผลงานของคุณ ในขณะที่อีกอันคือสิทธิในการขาย ส่วนไม้อีกอันก็ให้สิทธิคุณในการอนุญาตให้ผู้อื่นใช้งาน หรือที่เรียกว่าการให้ไลเซนส์ ภายใต้เงื่อนไขที่กำหนด เนื่องจากสิทธิเหล่านี้แยกออกจากกันได้ คุณจึงสามารถปล่อยเช่าไม้เพียงอันเดียว โดยที่ยังคงเก็บไม้อันอื่นๆ ไว้กับตัวคุณเองได้อย่างครบถ้วนครับ"
+                },
+                {
+                    "title": "Licensing vs. Selling",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Licensing is NOT transferring ownership",
+                        "You keep the bundle, others borrow a stick",
+                        "Allows creators to maximize asset value"
+                    ],
+                    "images": null,
+                    "transcript": "A common pitfall for new creators is believing that allowing a company to use their IP means they have sold it entirely. This is a non-example of ownership transfer. When you sign a licensing agreement, you are simply letting someone borrow one stick from your bundle for a limited time or specific purpose. You still own the bundle itself. Understanding this separable nature is critical to protecting your assets while generating revenue.",
+                    "thai_transcript": "ข้อผิดพลาดที่พบบ่อยสำหรับนักสร้างสรรค์มือใหม่คือ การเชื่อว่าการอนุญาตให้บริษัทใดบริษัทหนึ่งใช้ทรัพย์สินทางปัญญาของตน หมายความว่าพวกเขาได้ขายสิทธินั้นไปทั้งหมดแล้ว นั่นไม่ใช่การโอนกรรมสิทธิ์ครับ เมื่อคุณเซ็นสัญญาอนุญาตให้ใช้สิทธิ คุณเพียงแค่ให้ใครบางคนยืมไม้หนึ่งอันจากมัดของคุณไปใช้ในเวลาหรือวัตถุประสงค์ที่จำกัดเท่านั้น คุณยังคงเป็นเจ้าของไม้มัดนั้นอยู่ การเข้าใจถึงธรรมชาติของสิทธิที่แยกส่วนได้นี้ เป็นสิ่งสำคัญมากในการปกป้องทรัพย์สินของคุณพร้อมๆ กับการสร้างรายได้ครับ"
+                }
+            ]
+        },
+        {
+            "title": "Examples of Separating the Bundle",
+            "slides": [
+                {
+                    "title": "The IP Bundle in Action",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "IP is not a single, indivisible legal right.",
+                        "It functions as a 'bundle of sticks'.",
+                        "Each 'stick' represents a distinct, controllable right.",
+                        "Creators start with ownership of the entire bundle."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/7.png",
+                            "caption": "A tied bundle of sticks represents the total original intellectual property rights of a creator.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Imagine you just finished writing your first novel. At that moment, you hold an entire 'bundle' of legal rights to that work. Intellectual Property is rarely a single, indivisible thing that you simply keep or give away entirely. Instead, think of it as a bundle of individual sticks tied together. As the creator, you own every single stick in that bundle until you decide to do something with them.",
+                    "thai_transcript": "ลองจินตนาการว่าคุณเพิ่งเขียนนิยายเรื่องแรกจบ ในช่วงเวลานั้นคุณถือ 'มัด' ของสิทธิ์ทางกฎหมายทั้งหมดสำหรับผลงานนั้น ทรัพย์สินทางปัญญานั้นแทบจะไม่ได้เป็นสิ่งเดียวที่แบ่งแยกไม่ได้ซึ่งคุณต้องเก็บไว้หรือยกให้คนอื่นไปทั้งหมด ให้คิดว่ามันเหมือนกับมัดของกิ่งไม้ที่มัดรวมกัน ในฐานะผู้สร้าง คุณเป็นเจ้าของไม้ทุกกิ่งในมัดนั้นจนกว่าคุณจะตัดสินใจทำอะไรกับมัน"
+                },
+                {
+                    "title": "Separating Rights: The Novel Example",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Keep: The right to publish physical books.",
+                        "Lease: The audio rights to a narrator.",
+                        "Sell: The adaptation rights to a film studio.",
+                        "Rights can act completely independently."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/8.png",
+                            "caption": "Keeping the 'stick' for publishing physical copies.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/9.png",
+                            "caption": "Leasing the 'stick' for audiobook narration.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/10.png",
+                            "caption": "Selling the 'stick' for cinematic film adaptation.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "Let's look at how you can separate this bundle practically using a novel as an example. You might choose to keep the publishing rights so you can print and sell physical books yourself. At the same time, you can lease or license the audio rights to a voice actor to create an audiobook for a set period. Finally, you might completely sell the film adaptation rights to a Hollywood studio. Each of these actions involves distributing a separate 'stick' from your bundle while maximizing your reach.",
+                    "thai_transcript": "มาดูกันว่าคุณจะแยกมัดสิทธิ์นี้ในทางปฏิบัติได้อย่างไรโดยใช้นิยายเป็นตัวอย่าง คุณอาจเลือกที่จะเก็บสิทธิ์ในการตีพิมพ์ไว้เพื่อพิมพ์และขายหนังสือเล่มด้วยตัวเอง ในขณะเดียวกัน คุณสามารถให้เช่าหรืออนุญาตสิทธิ์ด้านเสียงแก่นักพากย์เพื่อสร้างหนังสือเสียงในช่วงเวลาที่กำหนดได้ และท้ายที่สุด คุณอาจขายสิทธิ์ในการดัดแปลงเป็นภาพยนตร์ให้กับสตูดิโอฮอลลีวูดไปเลย การกระทำแต่ละอย่างนี้เกี่ยวข้องกับการกระจาย 'กิ่งไม้' แต่ละกิ่งออกจากมัดของคุณในขณะที่เพิ่มโอกาสการเข้าถึงผลงานให้มากที่สุด"
+                },
+                {
+                    "title": "What Separating the Bundle is NOT",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Selling one right does not transfer all rights.",
+                        "You retain full ownership of the remaining sticks.",
+                        "A movie deal does not equal losing book ownership."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/11.png",
+                            "caption": "Correct: Transferring only a specific right while keeping the rest.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/12.png",
+                            "caption": "Incorrect: Believing you must surrender the entire IP to make a deal.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "A common misconception among early creators is that selling the movie rights means you have sold your book entirely. This is a crucial non-example of how IP works. Giving away one stick does not mean you drop the whole bundle. When you transfer the film rights to a studio, you still retain total ownership over the remaining sticks, meaning you alone control the sequels, merchandise, or translated versions.",
+                    "thai_transcript": "ความเข้าใจผิดที่พบบ่อยในหมู่ผู้สร้างสรรค์ผลงานหน้าใหม่คือ การขายสิทธิ์ในการสร้างภาพยนตร์เท่ากับว่าคุณได้ขายหนังสือของคุณไปทั้งหมด นี่คือตัวอย่างที่ผิดที่สำคัญมากเกี่ยวกับการทำงานของทรัพย์สินทางปัญญา การมอบไม้กิ่งหนึ่งไม่ได้หมายความว่าคุณต้องทิ้งไม้ทั้งมัด เมื่อคุณโอนสิทธิ์ในการสร้างภาพยนตร์ให้กับสตูดิโอ คุณยังคงเป็นเจ้าของโดยสมบูรณ์ในกิ่งไม้ที่เหลือ ซึ่งหมายความว่าคุณคนเดียวมีสิทธิ์ควบคุมภาคต่อ สินค้า หรือฉบับแปล"
+                },
+                {
+                    "title": "Strategic IP Application",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Identify every distinct right your asset holds.",
+                        "Strategically decide which to hold, lease, or sell.",
+                        "Maximize revenue by treating rights individually.",
+                        "Protect the core bundle while expanding access."
+                    ],
+                    "images": null,
+                    "transcript": "Understanding this concept allows you to be highly strategic as an entrepreneur or creator. Instead of selling your entire intellectual property for a lump sum, you can piecemeal the rights to maximize revenue streams over time. Identify every potential market for your work, from physical goods to digital media or international distribution. By managing each right individually, you protect your core asset while still participating safely in various global industries.",
+                    "thai_transcript": "การเข้าใจแนวคิดนี้จะช่วยให้คุณสามารถวางกลยุทธ์ได้อย่างชาญฉลาดในฐานะผู้ประกอบการหรือผู้สร้างสรรค์ผลงาน แทนที่จะขายทรัพย์สินทางปัญญาทั้งหมดของคุณไปในคราวเดียว คุณสามารถแบ่งขายสิทธิ์ทีละส่วนเพื่อเพิ่มช่องทางรายได้ในระยะยาว ค้นหาตลาดที่เป็นไปได้ทั้งหมดสำหรับผลงานของคุณ ตั้งแต่สินค้าที่จับต้องได้ไปจนถึงสื่อดิจิทัลหรือการจัดจำหน่ายในต่างประเทศ การจัดการสิทธิ์แต่ละอย่างแยกกันจะช่วยปกป้องทรัพย์สินหลักของคุณในขณะที่ยังสามารถเข้าไปมีส่วนร่วมในอุตสาหกรรมระดับโลกต่างๆ ได้อย่างปลอดภัย"
+                }
+            ]
+        },
+        {
+            "title": "What the Bundle of Rights is NOT",
+            "slides": [
+                {
+                    "title": "What the Bundle of Rights is NOT",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "IP ownership is NOT tied to physical objects.",
+                        "Physical assets and IP are entirely separate concepts.",
+                        "Possession does not equal IP ownership."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/13.png",
+                            "caption": "The intellectual rights to an artwork hover separately from the physical canvas itself.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's address a massive misconception right away. When you hold a physical creation in your hands, it feels like you own everything about it. However, the intellectual property 'bundle of rights' is not an all-or-nothing package tied to that physical object. Simply possessing an item does not mean you own the underlying ideas, expressions, or rights to reproduce it. We must strictly separate the tangible asset from the intangible rights.",
+                    "thai_transcript": "เรามาจัดการกับความเข้าใจผิดครั้งใหญ่กันก่อนเลยครับ เมื่อคุณถือผลงานทางกายภาพไว้ในมือ คุณอาจรู้สึกว่าคุณเป็นเจ้าของทุกสิ่งทุกอย่างที่เกี่ยวกับมัน อย่างไรก็ตาม 'กลุ่มของสิทธิ' ในทรัพย์สินทางปัญญาไม่ได้ผูกติดอยู่กับวัตถุทางกายภาพนั้นเสมอไป การครอบครองสิ่งของไม่ได้หมายความว่าคุณเป็นเจ้าของแนวคิด การแสดงออก หรือสิทธิในการทำซ้ำสิ่งนั้น เราต้องแยกทรัพย์สินที่มีรูปร่างออกจากสิทธิที่ไม่มีรูปร่างอย่างชัดเจนครับ"
+                },
+                {
+                    "title": "Owning the Physical Asset",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Physical purchase transfers tangible property.",
+                        "You own the canvas, wood, and paint.",
+                        "You can hang it, sell it, or destroy it.",
+                        "You do NOT own the creative expression."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/14.png",
+                            "caption": "Purchasing the physical object transfers ownership of the materials.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/15.png",
+                            "caption": "You own the canvas, wood, and paint, but nothing more.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "To make this concrete, imagine you buy an original painting from a local gallery. What did you actually buy? Legally speaking, you purchased the physical materials: the canvas, the wooden stretcher, and the dried paint. Because you own this physical asset, you can hang it in your living room, sell it to a friend, or even throw it in the trash. However, this transaction strictly ends at the physical boundary of the object.",
+                    "thai_transcript": "เพื่อให้เห็นภาพชัดเจน ลองจินตนาการว่าคุณซื้อภาพวาดต้นฉบับจากแกลเลอรีในพื้นที่ สิ่งที่คุณซื้อมาจริงๆ คืออะไร ในทางกฎหมาย คุณซื้อวัสดุทางกายภาพครับ ซึ่งก็คือผ้าใบ กรอบไม้ และสีที่แห้งแล้ว เนื่องจากคุณเป็นเจ้าของทรัพย์สินทางกายภาพนี้ คุณจึงสามารถแขวนไว้ในห้องนั่งเล่น ขายต่อให้เพื่อน หรือแม้แต่ทิ้งมันไปก็ได้ อย่างไรก็ตาม ธุรกรรมนี้สิ้นสุดลงที่ขอบเขตทางกายภาพของวัตถุเท่านั้นครับ"
+                },
+                {
+                    "title": "The Intangible Rights (A Non-Example)",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Reproduction rights remain with the creator.",
+                        "Buying the painting gives no right to copy.",
+                        "Printing the art on merchandise is infringement.",
+                        "The 'reproduction stick' was never sold."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/16.png",
+                            "caption": "Owning the painting does not grant the right to manufacture merchandise.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/17.png",
+                            "caption": "The artist retains the 'stick' representing the right to reproduce the work.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "This brings us to a critical non-example. Let's say you take that painting you bought, scan it, and print it onto a hundred T-shirts to sell online. This is illegal. Why? Because when you bought the painting, the artist did not hand over the specific 'stick' in their bundle of rights that allows for reproduction. The right to copy and distribute the image remains entirely with the creator, proving that physical ownership and IP ownership are completely separate.",
+                    "thai_transcript": "นี่นำเราไปสู่ตัวอย่างสิ่งที่ไม่ใช่สิทธิของคุณครับ สมมติว่าคุณนำภาพวาดที่คุณซื้อมาสแกน แล้วพิมพ์ลงบนเสื้อยืดร้อยตัวเพื่อขายออนไลน์ นี่เป็นสิ่งที่ผิดกฎหมาย ทำไมล่ะครับ เพราะตอนที่คุณซื้อภาพวาด ศิลปินไม่ได้มอบ 'ไม้' เฉพาะในกลุ่มสิทธิของเขาที่อนุญาตให้ทำซ้ำได้ สิทธิในการคัดลอกและแจกจ่ายภาพยังคงเป็นของผู้สร้างสรรค์ทั้งหมด ซึ่งพิสูจน์ให้เห็นว่าความเป็นเจ้าของทางกายภาพและทรัพย์สินทางปัญญานั้นแยกออกจากกันอย่างสิ้นเชิงครับ"
+                },
+                {
+                    "title": "Rule of Thumb: Tangible vs. Intangible",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Tangible property = The physical medium.",
+                        "Intangible IP = The bundle of rights.",
+                        "Transferring one does NOT transfer the other.",
+                        "Always verify if IP rights are explicitly licensed."
+                    ],
+                    "images": null,
+                    "transcript": "To summarize this foundational rule: always divide your thinking into the tangible medium and the intangible intellectual property. Transferring a physical object never automatically transfers the intellectual property attached to it. Unless a creator explicitly signs a contract transferring or licensing their specific bundle of rights to you, you only own the physical atoms you purchased. This separation is the bedrock of avoiding accidental IP infringement.",
+                    "thai_transcript": "เพื่อสรุปกฎพื้นฐานนี้ ขอให้คุณแบ่งความคิดออกเป็นสื่อที่มีรูปร่างและทรัพย์สินทางปัญญาที่ไม่มีรูปร่างเสมอครับ การโอนวัตถุทางกายภาพไม่ได้เป็นการโอนทรัพย์สินทางปัญญาที่ติดอยู่กับวัตถุนั้นโดยอัตโนมัติ เว้นแต่ผู้สร้างสรรค์จะเซ็นสัญญาเพื่อโอนหรือให้สิทธิในกลุ่มสิทธิเฉพาะนั้นแก่คุณอย่างชัดเจน คุณจะเป็นเจ้าของเพียงแค่สสารทางกายภาพที่คุณซื้อมาเท่านั้น การแยกแยะสิ่งเหล่านี้ออกจากกันเป็นรากฐานสำคัญในการหลีกเลี่ยงการละเมิดทรัพย์สินทางปัญญาโดยไม่ตั้งใจครับ"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Check: Distributing Rights",
+            "slides": [
+                {
+                    "title": "Knowledge Check: The Software Scenario",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "You develop custom software for a startup.",
+                        "You grant permission for internal company use.",
+                        "You strictly prohibit them from reselling the code.",
+                        "Question: Have you lost your IP rights?"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/18.png",
+                            "caption": "Granting conditional access to a creation does not equal surrendering total ownership.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's test our understanding of the 'bundle of rights' with a real-world scenario. Imagine you create a piece of custom software for a new startup. You give them a license to use this software internally for their daily operations. However, your agreement explicitly states they cannot resell your code to anyone else. The big question here is: by letting them use it, have you lost your intellectual property rights?",
+                    "thai_transcript": "มาทดสอบความเข้าใจเรื่อง 'กลุ่มสิทธิ' ด้วยสถานการณ์จำลองกันครับ ลองนึกภาพว่าคุณเขียนซอฟต์แวร์ให้สตาร์ทอัพแห่งหนึ่ง คุณอนุญาตให้พวกเขาใช้งานเป็นการภายในได้ แต่ในสัญญาระบุชัดเจนว่าห้ามนำไปขายต่อ คำถามสำคัญคือ การยอมให้พวกเขาใช้งานแบบนี้ แปลว่าคุณสูญเสียสิทธิในทรัพย์สินทางปัญญาไปแล้วหรือเปล่า?"
+                },
+                {
+                    "title": "Licensing a Single 'Stick'",
+                    "layout": "two_column",
+                    "key_points": [
+                        "IP is a bundle of separable \"sticks\" (rights).",
+                        "Given Away: The right to internal use.",
+                        "Retained: The right to resell, modify, or copy.",
+                        "Result: You remain the IP owner."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/19.png",
+                            "caption": "Licensing: Handing over just one specific right from your bundle.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/20.png",
+                            "caption": "Ownership: Securely retaining the remaining rights for yourself.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "The answer is no, you have not lost your IP rights. Remember that intellectual property is a bundle of distinct rights, or 'sticks'. In this scenario, you simply licensed one specific stick—the right to use the software internally. You securely retained the rest of the bundle, including the valuable rights to sell, distribute, or modify the core code.",
+                    "thai_transcript": "คำตอบคือ ไม่ครับ คุณยังไม่ได้สูญเสียสิทธิไป จำไว้ว่าทรัพย์สินทางปัญญาเปรียบเสมือนกลุ่มของสิทธิหรือ 'กิ่งไม้' หลายๆ อันรวมกัน ในสถานการณ์นี้ คุณเพียงแค่อนุญาตให้ใช้กิ่งไม้เพียงอันเดียว นั่นคือสิทธิในการใช้งานภายใน คุณยังคงเก็บรักษากิ่งไม้ที่เหลือในมัดไว้อย่างปลอดภัย เช่น สิทธิในการขาย แจกจ่าย หรือดัดแปลงโค้ด"
+                },
+                {
+                    "title": "What Licensing is NOT",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Example: Renting an apartment (Licensing).",
+                        "Non-Example: Selling the house (Assignment).",
+                        "Licensing is temporary and conditional.",
+                        "Assignment permanently transfers all ownership."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/21.png",
+                            "caption": "Licensing grants limited permission without transferring ultimate ownership.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/323a21a2-fc6b-4c77-82b7-b20d95898325/slides_images/22.png",
+                            "caption": "Assignment is the absolute, permanent transfer of the entire bundle of rights.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "To build a strong mental model, let's look at a clear non-example. What you did NOT do in the software scenario was 'assign' your IP. Assignment is the complete transfer of ownership—like selling a house outright and giving away the deed. Licensing, which you did, is more like renting out an apartment. You allow someone to use the space under strict conditions, but you ultimately still own the building.",
+                    "thai_transcript": "เพื่อให้เห็นภาพชัดเจนขึ้น ลองมาดูตัวอย่างตรงข้ามกันครับ สิ่งที่คุณ 'ไม่ได้ทำ' ในสถานการณ์ซอฟต์แวร์คือการโอนสิทธิโดยเด็ดขาด (Assignment) การโอนสิทธิคือการยกความเป็นเจ้าของให้ทั้งหมด เหมือนกับการขายขาดบ้านและมอบโฉนดให้ไปเลย แต่การอนุญาตให้ใช้สิทธิ (Licensing) ที่คุณทำนั้น คล้ายกับการปล่อยเช่าอพาร์ตเมนต์มากกว่า คุณยอมให้คนอื่นเข้ามาใช้พื้นที่ภายใต้เงื่อนไขที่กำหนด แต่คุณก็ยังเป็นเจ้าของตึกอยู่ดี"
+                },
+                {
+                    "title": "Maximizing Value Through Separation",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Distributing rights separately maximizes revenue.",
+                        "The same code can be licensed to multiple clients.",
+                        "Explicit contracts prevent accidental assignment.",
+                        "Retaining core IP secures long-term business leverage."
+                    ],
+                    "images": null,
+                    "transcript": "Understanding this separation of rights is crucial in business strategy. Because you only licensed the internal use right, you can legally take that exact same software and license it to ten other startups, multiplying your revenue. This is why explicit contracts are essential; they ensure you don't accidentally assign your entire bundle of rights when you only meant to lease out a single stick.",
+                    "thai_transcript": "การเข้าใจเรื่องการแยกสิทธิเหล่านี้มีความสำคัญมากในกลยุทธ์ทางธุรกิจครับ เพราะคุณอนุญาตให้ใช้งานภายในเท่านั้น คุณจึงสามารถนำซอฟต์แวร์ตัวเดียวกันนี้ไปทำสัญญาให้สตาร์ทอัพอื่นใช้งานได้อีกเป็นสิบแห่ง ซึ่งช่วยเพิ่มรายได้ของคุณ นี่คือเหตุผลว่าทำไมสัญญาที่ชัดเจนจึงจำเป็นมาก มันช่วยป้องกันไม่ให้คุณเผลอยกสิทธิทั้งหมดไปให้คนอื่น ทั้งที่คุณตั้งใจจะให้แค่สิทธิเดียว"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "323a21a2-fc6b-4c77-82b7-b20d95898325",
+    "course_id": "318e6ff4-1a01-46ce-babc-37d5add23f6e"
+}

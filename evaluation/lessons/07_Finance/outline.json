@@ -1,0 +1,121 @@
+{
+  "_id": {
+    "$oid": "6a1db8d3807566adcec85183"
+  },
+  "courseId": "fdd6b94c-c243-403e-b90d-b43b1aa4ab62",
+  "status": "IN_PROGRESS",
+  "goal": "By the end of this one-week course, I will be able to read and interpret the three core financial statements (income statement, balance sheet, and cash flow statement), calculate and explain at least eight key financial ratios across liquidity, profitability, and solvency categories, and use those ratios to assess the financial health of a real company — demonstrating this through a written ratio analysis report based on a publicly available annual report.",
+  "mentorId": "REDACTED",
+  "notes_from_mentor": "The student has basic accounting awareness but has never formally worked with financial statements. We agreed the course must first build intuition for what each statement is measuring and why it exists before introducing any numbers — students who jump straight to ratios without understanding the underlying statements make systematic interpretation errors. The income statement should come first, then the balance sheet, then cash flow, with one lesson dedicated to how the three link together. Ratio analysis should be taught in clusters by category, not as an undifferentiated list. Key ratios to cover: current ratio, quick ratio, gross and net profit margin, ROE, ROA, debt-to-equity, and interest coverage. I stressed that ratios are only meaningful in context — the student must learn to compare against industry benchmarks and prior periods, not evaluate numbers in isolation. Visual aids should include annotated statement layouts and ratio formula cards with worked examples. Use a Thai-listed company's financials if possible to keep sourcing accessible. Avoid deep accounting theory; the goal is financial literacy for decision-making, not preparation for an accounting exam.",
+  "outline": {
+    "summary": "This one-week course is designed to build foundational financial literacy, starting with an intuitive understanding of core financial statements before introducing quantitative analysis. Students will learn to read the income statement, balance sheet, and cash flow statement, understand how they connect, and apply eight key financial ratios across profitability, liquidity, and solvency. Using real-world data from a Thai-listed company, students will practice benchmarking against historical periods and industry averages, culminating in a written financial health report.",
+    "total_lessons": 18,
+    "lessons": [
+      {
+        "title": "1.1 The Purpose of Financial Statements",
+        "main_content": "An intuitive introduction to why financial statements exist. Focus on the concept of business translation: how everyday business activities are translated into a standardized language to evaluate health and make decisions. Introduce the three main statements conceptually without numbers.",
+        "objective": "Identify the primary purpose of financial statements in business decision-making and list the three core statements."
+      },
+      {
+        "title": "1.2 The Income Statement: Measuring Financial Performance",
+        "main_content": "Detailed breakdown of the Income Statement. Uses an annotated visual layout to explain the journey from top-line revenue to bottom-line net income, including costs and expenses. Emphasizes that this statement measures performance over a specific period.",
+        "objective": "Explain the structure of an income statement and identify top-line revenue, expenses, and bottom-line net income."
+      },
+      {
+        "title": "1.3 The Balance Sheet: Assessing Financial Position",
+        "main_content": "Introduction to the fundamental accounting equation: Assets = Liabilities + Equity. Uses an annotated balance sheet layout to explain how it acts as a snapshot of a company's financial position at a single point in time.",
+        "objective": "Categorize business accounts into assets, liabilities, and equity using the fundamental accounting equation."
+      },
+      {
+        "title": "1.4 The Cash Flow Statement: Tracking the Money",
+        "main_content": "Explores the Cash Flow Statement and why 'profit does not equal cash'. Breaks down cash flows into three categories: Operating, Investing, and Financing activities, using simple real-world scenarios.",
+        "objective": "Differentiate between operating, investing, and financing cash flows and explain why net income differs from cash on hand."
+      },
+      {
+        "title": "1.5 Linking the Three Statements",
+        "main_content": "A crucial lesson demonstrating how the three statements connect. Uses visual flowcharts to show how Net Income from the Income Statement flows into Retained Earnings on the Balance Sheet and serves as the starting point for the Cash Flow Statement.",
+        "objective": "Trace how a single financial event flows through and connects the income statement, balance sheet, and cash flow statement."
+      },
+      {
+        "title": "2.1 Why Use Ratios? Context, Benchmarking, and Trend Analysis",
+        "main_content": "Addresses common interpretation errors by teaching that numbers in isolation are meaningless. Introduces the concepts of time-series analysis (comparing to prior periods) and cross-sectional analysis (comparing to industry benchmarks).",
+        "objective": "Explain why financial ratios must be compared against industry benchmarks and historical data to provide meaningful insights."
+      },
+      {
+        "title": "2.2 Navigating Real-World Financial Data",
+        "main_content": "Practical guide on locating and navigating a publicly available annual report from a Thai-listed company. Shows students how to find the core statements and management discussion sections without getting lost in deep accounting theory.",
+        "objective": "Extract the three core financial statements and relevant industry data from a publicly available annual report of a Thai-listed company."
+      },
+      {
+        "title": "3.1 Profitability Ratios: Gross Profit Margin",
+        "main_content": "Introduces the Profitability cluster. Uses a ratio formula card with a worked example to calculate Gross Profit Margin (Gross Profit / Revenue). Discusses what this ratio reveals about production efficiency and pricing power.",
+        "objective": "Calculate and interpret the Gross Profit Margin to evaluate a company's production efficiency."
+      },
+      {
+        "title": "3.2 Profitability Ratios: Net Profit Margin",
+        "main_content": "Uses a ratio formula card and worked example to calculate Net Profit Margin (Net Income / Revenue). Compares it to Gross Margin to show the impact of operating expenses, taxes, and interest.",
+        "objective": "Calculate and interpret the Net Profit Margin to evaluate a company's overall bottom-line profitability."
+      },
+      {
+        "title": "3.3 Profitability Ratios: Return on Assets (ROA)",
+        "main_content": "Uses a ratio formula card to calculate ROA (Net Income / Total Assets). Explains how this metric measures management's efficiency in using the company's assets to generate profit.",
+        "objective": "Calculate and evaluate ROA to determine how efficiently a company uses its assets to generate profit."
+      },
+      {
+        "title": "3.4 Profitability Ratios: Return on Equity (ROE)",
+        "main_content": "Uses a ratio formula card to calculate ROE (Net Income / Shareholder's Equity). Discusses why this metric is crucial for owners and investors in assessing return on their invested capital.",
+        "objective": "Calculate and evaluate ROE to assess the profitability of shareholder investments."
+      },
+      {
+        "title": "4.1 Liquidity Ratios: The Current Ratio",
+        "main_content": "Introduces the Liquidity cluster (short-term survival). Uses a formula card to calculate the Current Ratio (Current Assets / Current Liabilities). Discusses what constitutes a 'healthy' ratio versus potential cash crunches.",
+        "objective": "Calculate the current ratio to evaluate a company's ability to cover its short-term financial obligations."
+      },
+      {
+        "title": "4.2 Liquidity Ratios: The Quick Ratio",
+        "main_content": "Uses a formula card to calculate the Quick Ratio ((Current Assets - Inventory) / Current Liabilities). Explains the 'acid test' concept and why removing inventory provides a stricter measure of immediate liquidity.",
+        "objective": "Calculate the quick ratio and explain how it provides a more conservative assessment of liquidity than the current ratio."
+      },
+      {
+        "title": "5.1 Solvency Ratios: Debt-to-Equity",
+        "main_content": "Introduces the Solvency cluster (long-term risk). Uses a formula card to calculate the Debt-to-Equity ratio (Total Debt / Total Equity). Discusses capital structure and the risks of high financial leverage.",
+        "objective": "Calculate the debt-to-equity ratio to assess a company's financial leverage and long-term structural risk."
+      },
+      {
+        "title": "5.2 Solvency Ratios: Interest Coverage Ratio",
+        "main_content": "Uses a formula card to calculate the Interest Coverage Ratio (EBIT / Interest Expense). Explains how this ratio acts as a margin of safety indicating how easily a company can pay interest on its outstanding debt.",
+        "objective": "Calculate the interest coverage ratio to determine a company's capacity to meet its debt interest obligations."
+      },
+      {
+        "title": "6.1 Synthesis: Analyzing Profitability and Liquidity Trends",
+        "main_content": "First applied analysis session. Students use a Thai-listed company's financials to calculate profitability and liquidity ratios over a two-year period, comparing them against provided industry benchmarks.",
+        "objective": "Analyze historical trends in a company's profitability and liquidity ratios to draw evidence-based conclusions about operational efficiency."
+      },
+      {
+        "title": "6.2 Synthesis: Analyzing Solvency and Overall Health",
+        "main_content": "Students add solvency ratios to their ongoing case study analysis. Focuses on identifying potential red flags or areas of financial strength by looking at the interplay between debt levels, liquidity, and profit margins.",
+        "objective": "Integrate solvency ratio calculations with existing metrics to form a comprehensive view of a company's financial stability."
+      },
+      {
+        "title": "6.3 Crafting the Final Ratio Analysis Report",
+        "main_content": "Guides students on structuring a professional, easy-to-read financial health report. Covers formatting the executive summary, grouping findings by category, providing context, and concluding on the company's overall financial health.",
+        "objective": "Draft a written ratio analysis report that evaluates a real company's financial health using calculated ratios, historical trends, and industry benchmarks."
+      }
+    ]
+  },
+  "lessonIds": [
+    "199c8531-a1ee-44f6-ad82-61cd182c4f69"
+  ],
+  "userId": "REDACTED",
+  "username": "Unknown",
+  "courseName": "Eval 1: Financial Statements & Ratio Analysis",
+  "totalLessonsCompleted": 0,
+  "totalLessons": 18,
+  "avgScore": 0,
+  "scores": [
+    0
+  ],
+  "createdAt": "2026-06-01T16:52:34.690Z",
+  "updatedAt": "Mon Jun 01 2026 16:54:03 GMT+0000 (Coordinated Universal Time)",
+  "audioLanguage": "ENGLISH"
+}

@@ -1,0 +1,553 @@
+{
+    "_id": {
+        "$oid": "6a1db617807566adcec8517e"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# The Core of Energy Balance\n\n* Balance between calories consumed and calories expended.\n* Positive balance means surplus energy is stored.\n* Negative balance means drawing from stored energy.\n* Energy balance is NOT determined solely by exercise.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/1.png\" alt=\"Energy In: Calories consumed through food and drink.\" />\n    </div>\n    <span><strong>Energy In: Calories consumed through food and drink.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/2.png\" alt=\"Energy Out: Calories burned through resting biological functions and physical activity.\" />\n    </div>\n    <span><strong>Energy Out: Calories burned through resting biological functions and physical activity.</strong></span>\n  </div>\n</div>\n\n---\n# Basal Metabolic Rate (BMR)\n\n* Absolute minimum energy required at complete rest.\n* Powers vital organs, breathing, and circulation.\n* Analogy: A smartphone draining battery on standby mode.\n* Does NOT include energy for digestion or physical movement.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/3.png\" alt=\"Like a phone on standby, BMR is the background energy required to keep your body's 'operating system' running.\" />\n  </div>\n  <p class=\"hero-caption\">Like a phone on standby, BMR is the background energy required to keep your body's 'operating system' running.</p>\n</div>\n\n---\n# What Influences BMR?\n\n* Age: Metabolism naturally slows as cellular processes age.\n* Sex: Biological factors alter baseline hormonal needs.\n* Composition: Muscle requires more resting energy than fat.\n* BMR is highly individualized, not a fixed universal number.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/4.png\" alt=\"Age: BMR naturally decreases as cellular processes slow down over time.\" />\n    </div>\n    <span><strong>Age: BMR naturally decreases as cellular processes slow down over time.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/5.png\" alt=\"Sex: Biological and hormonal differences affect baseline caloric requirements.\" />\n    </div>\n    <span><strong>Sex: Biological and hormonal differences affect baseline caloric requirements.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/6.png\" alt=\"Body Composition: Muscle tissue is highly metabolically active compared to fat.\" />\n    </div>\n    <span><strong>Body Composition: Muscle tissue is highly metabolically active compared to fat.</strong></span>\n  </div>\n</div>\n\n---\n# Calculating Your BMR\n\n* Standard formulas provide a reliable baseline estimation.\n* The Mifflin-St Jeor equation is the current clinical standard.\n* For Men: $BMR = 10m + 6.25h - 5a + 5$\n* For Women: $BMR = 10m + 6.25h - 5a - 161$\n\n---\n# Factors Influencing BMR\n\n* BMR is highly individualized\n* Modeled conceptually as $BMR = f(Age, Sex, Composition)$\n* Baseline energy needs are dynamic, not static\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/7.png\" alt=\"Age, sex, and body composition are the primary drivers that determine your Basal Metabolic Rate.\" />\n  </div>\n  <p class=\"hero-caption\">Age, sex, and body composition are the primary drivers that determine your Basal Metabolic Rate.</p>\n</div>\n\n---\n# Body Composition: Muscle vs. Fat\n\n* Muscle is a metabolically active tissue\n* Fat requires significantly less baseline energy\n* Relationship: $Muscle Mass \\propto BMR$\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/8.png\" alt=\"Muscle tissue actively burns calories even when the body is completely at rest.\" />\n    </div>\n    <span><strong>Muscle tissue actively burns calories even when the body is completely at rest.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/9.png\" alt=\"Adipose tissue acts primarily as storage and requires very little energy to maintain.\" />\n    </div>\n    <span><strong>Adipose tissue acts primarily as storage and requires very little energy to maintain.</strong></span>\n  </div>\n</div>\n\n---\n# Comparing BMR Profiles\n\n* Age naturally decreases metabolic rate\n* Biological sex impacts baseline muscle density\n* Example: 25-year-old male vs. 65-year-old female\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/10.png\" alt=\"Youth and naturally higher muscle density result in a significantly higher BMR.\" />\n    </div>\n    <span><strong>Youth and naturally higher muscle density result in a significantly higher BMR.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/11.png\" alt=\"Older age and naturally lower muscle mass result in a lower baseline energy requirement.\" />\n    </div>\n    <span><strong>Older age and naturally lower muscle mass result in a lower baseline energy requirement.</strong></span>\n  </div>\n</div>\n\n---\n# Misconception: BMR is Fixed\n\n* Myth: You are born with an unchangeable metabolism\n* Truth: BMR adapts to your physical state\n* Resistance training increases BMR over time\n* BMR is a dynamic biological baseline\n\n---\n# What BMR is NOT\n\n* BMR is strictly your body's baseline survival energy.\n* It excludes any physical movement or physical activity.\n* It excludes the energy used to digest food.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/12.png\" alt=\"BMR only makes up the foundational portion of your total daily energy expenditure.\" />\n  </div>\n  <p class=\"hero-caption\">BMR only makes up the foundational portion of your total daily energy expenditure.</p>\n</div>\n\n---\n# Three Things Excluded from BMR\n\n* Digesting and processing food.\n* Daily tasks like walking or doing chores.\n* Dedicated workouts and sports.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/13.png\" alt=\"Digesting food requires energy, but this is NOT part of BMR.\" />\n    </div>\n    <span><strong>Digesting food requires energy, but this is NOT part of BMR.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/14.png\" alt=\"Incidental daily movements are active calories, NOT BMR.\" />\n    </div>\n    <span><strong>Incidental daily movements are active calories, NOT BMR.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/15.png\" alt=\"Structured exercise is an active caloric burn added on top of BMR.\" />\n    </div>\n    <span><strong>Structured exercise is an active caloric burn added on top of BMR.</strong></span>\n  </div>\n</div>\n\n---\n# Baseline vs. Active Energy\n\n* BMR happens even if you sleep all day.\n* Active energy requires muscular effort.\n* Example: Burning 400 calories jogging is active energy.\n* Active calories are added on top of BMR.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/16.png\" alt=\"BMR: Energy burned while completely at rest.\" />\n    </div>\n    <span><strong>BMR: Energy burned while completely at rest.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/17.png\" alt=\"Active Energy: Additional calories burned during physical exertion.\" />\n    </div>\n    <span><strong>Active Energy: Additional calories burned during physical exertion.</strong></span>\n  </div>\n</div>\n\n---\n# Calculating Total Energy Expenditure\n\n* Total Daily Energy Expenditure (TDEE) is the complete picture.\n* Formula: $TDEE = BMR + Active Energy + Digestion$\n* Do not conflate the baseline with the total.\n\n---\n# Standard Formulas for Estimating $BMR$\n\n* Nutritionists use standard equations to estimate baseline energy.\n* The Mifflin-St Jeor equation is the primary industry standard.\n* Calculations provide a starting point for personalized nutrition plans.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/18.png\" alt=\"Nutritionists use standardized equations to estimate metabolic baselines without needing laboratory equipment.\" />\n  </div>\n  <p class=\"hero-caption\">Nutritionists use standardized equations to estimate metabolic baselines without needing laboratory equipment.</p>\n</div>\n\n---\n# Variables of the Mifflin-St Jeor Equation\n\n* Weight: Total body mass drives overall energy demand.\n* Height: Determines total body surface area.\n* Age and Sex: Accounts for biological shifts in muscle mass.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/19.png\" alt=\"Weight indicates total mass that requires energy to maintain.\" />\n    </div>\n    <span><strong>Weight indicates total mass that requires energy to maintain.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/20.png\" alt=\"Height helps determine the body's overall surface area.\" />\n    </div>\n    <span><strong>Height helps determine the body's overall surface area.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/21.png\" alt=\"Age and sex account for natural metabolic and hormonal shifts.\" />\n    </div>\n    <span><strong>Age and sex account for natural metabolic and hormonal shifts.</strong></span>\n  </div>\n</div>\n\n---\n# A Real-World Calculation\n\n* Subject Profile: 30-year-old male, $70 \\text{ kg}$ weight, $170 \\text{ cm}$ height.\n* Applying the variables to the Mifflin-St Jeor equation yields total resting energy.\n* Calculated baseline: $BMR \\approx 1650 \\text{ kcal/day}$.\n\n---\n# Visualizing the Baseline\n\n* Represents energy solely for vital internal organ function.\n* Equivalent to 24 hours of complete, motionless bed rest.\n* Non-example: Does NOT include energy for walking, digesting, or talking.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/22.png\" alt=\"BMR only accounts for the energy required to keep your vital organs functioning at complete rest.\" />\n  </div>\n  <p class=\"hero-caption\">BMR only accounts for the energy required to keep your vital organs functioning at complete rest.</p>\n</div>\n\n---\n# Scenario: Identical Stats, Different Lifestyles\n\n* Same age, height, and overall weight.\n* Woman A: Sedentary office worker.\n* Woman B: Active weightlifter.\n* Question: Who burns more calories at rest?\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/23.png\" alt=\"Woman A: Sedentary lifestyle with lower muscle mass.\" />\n    </div>\n    <span><strong>Woman A: Sedentary lifestyle with lower muscle mass.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/24.png\" alt=\"Woman B: Active lifestyle with higher muscle mass.\" />\n    </div>\n    <span><strong>Woman B: Active lifestyle with higher muscle mass.</strong></span>\n  </div>\n</div>\n\n---\n# The Role of Body Composition\n\n* Weight alone does not dictate $BMR$.\n* Muscle tissue is highly metabolically active.\n* Fat tissue requires significantly less energy.\n* Body composition shifts the energy equation.\n\n---\n# Muscle Drives Baseline Energy\n\n* Woman B has a definitively higher $BMR$.\n* More muscle means higher daily baseline energy needs.\n* More calories are burned automatically while resting.\n* Note: This is baseline energy, not active workout burn.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/25.png\" alt=\"Muscle tissue constantly demands baseline energy to survive, directly increasing BMR.\" />\n  </div>\n  <p class=\"hero-caption\">Muscle tissue constantly demands baseline energy to survive, directly increasing BMR.</p>\n</div>\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "The Core of Energy Balance",
+            "transcript": "Welcome to our first lesson on human energy balance. Simply put, this balance is the dynamic relationship between the calories you take in from food and the calories your body uses. It is important to realize that energy balance is not just about how much you exercise. In fact, most of the energy you burn happens when you are completely at rest, a concept we will explore next.",
+            "thai_transcript": "ยินดีต้อนรับสู่บทเรียนแรกเรื่องสมดุลพลังงานของมนุษย์ พูดง่ายๆ ก็คือความสัมพันธ์ที่มีพลวัตระหว่างแคลอรีที่คุณได้รับจากอาหารและแคลอรีที่ร่างกายใช้ไป สิ่งสำคัญคือต้องตระหนักว่าสมดุลพลังงานไม่ใช่แค่เรื่องของการออกกำลังกายเท่านั้น ในความเป็นจริง พลังงานส่วนใหญ่ที่คุณเผาผลาญเกิดขึ้นเมื่อคุณพักผ่อนอย่างเต็มที่ ซึ่งเป็นแนวคิดที่เราจะไปสำรวจกันต่อไป"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Basal Metabolic Rate (BMR)",
+            "transcript": "Your Basal Metabolic Rate, or BMR, is the absolute minimum amount of energy your body needs to survive while completely at rest. Think of it like a smartphone left on a desk. Even when you aren't actively opening apps, the battery still drains just to keep the internal operating system running. BMR accounts for baseline functions like breathing and circulating blood, but it completely excludes the energy used for digesting food or moving around.",
+            "thai_transcript": "อัตราการเผาผลาญพื้นฐาน หรือ BMR คือปริมาณพลังงานขั้นต่ำสุดที่ร่างกายต้องการเพื่อความอยู่รอดในขณะที่พักผ่อนอย่างเต็มที่ ลองนึกภาพเหมือนสมาร์ทโฟนที่วางทิ้งไว้บนโต๊ะ แม้ว่าคุณจะไม่ได้เปิดใช้งานแอปพลิเคชันใดๆ แบตเตอรี่ก็ยังคงลดลงเพียงเพื่อรักษาระบบปฏิบัติการภายในให้ทำงานต่อไป BMR ครอบคลุมถึงการทำงานพื้นฐาน เช่น การหายใจและการไหลเวียนของเลือด แต่ไม่รวมถึงพลังงานที่ใช้ในการย่อยอาหารหรือการเคลื่อนไหวร่างกายเลย"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "What Influences BMR?",
+            "transcript": "BMR is not a one-size-fits-all number; it fluctuates based on several core personal factors. As we age, our cellular processes naturally slow down, which gradually decreases our BMR over the decades. Biological sex also plays a crucial role due to differing hormonal profiles and baseline muscle mass. Speaking of muscle, body composition is arguably the most controllable driver: muscle tissue is metabolically expensive, meaning it requires significantly more calories to maintain at rest compared to fat tissue.",
+            "thai_transcript": "BMR ไม่ใช่ตัวเลขที่เท่ากันสำหรับทุกคน แต่มันจะแปรผันตามปัจจัยส่วนบุคคลที่สำคัญหลายประการ เมื่อเราอายุมากขึ้น กระบวนการทำงานของเซลล์จะช้าลงตามธรรมชาติ ซึ่งส่งผลให้ BMR ค่อยๆ ลดลงเมื่อเวลาผ่านไป เพศทางชีววิทยาก็มีบทบาทสำคัญเนื่องจากความแตกต่างของฮอร์โมนและมวลกล้ามเนื้อพื้นฐาน เมื่อพูดถึงกล้ามเนื้อ องค์ประกอบของร่างกายเป็นปัจจัยที่ควบคุมได้มากที่สุด เนื้อเยื่อกล้ามเนื้อใช้พลังงานมาก ซึ่งหมายความว่ามันต้องการแคลอรีเพื่อรักษาสภาพในขณะพักผ่อนมากกว่าเนื้อเยื่อไขมันอย่างมีนัยสำคัญ"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Calculating Your BMR",
+            "transcript": "To bring this concept out of theory and into application, we can estimate our BMR using standardized mathematical formulas. The Mifflin-St Jeor equation is currently considered one of the most accurate baseline methods in nutrition science. In these equations, the variable '$m$' stands for mass in kilograms, '$h$' is height in centimeters, and '$a$' represents age in years. By plugging in your personal metrics, you can discover the estimated number of calories your body needs simply to exist for 24 hours.",
+            "thai_transcript": "เพื่อนำแนวคิดนี้จากทฤษฎีไปสู่การปฏิบัติ เราสามารถประมาณค่า BMR ของเราได้โดยใช้สูตรทางคณิตศาสตร์ที่เป็นมาตรฐาน ปัจจุบันสมการ Mifflin-St Jeor ถือเป็นหนึ่งในวิธีประเมินพื้นฐานที่แม่นยำที่สุดในวิทยาศาสตร์โภชนาการ ในสมการเหล่านี้ ตัวแปร '$m$' หมายถึงน้ำหนักเป็นกิโลกรัม '$h$' คือส่วนสูงเป็นเซนติเมตร และ '$a$' หมายถึงอายุเป็นปี เมื่อคุณแทนค่าข้อมูลส่วนตัวของคุณลงไป คุณจะพบปริมาณแคลอรีโดยประมาณที่ร่างกายต้องการเพียงเพื่อดำรงชีวิตใน 24 ชั่วโมง"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "Factors Influencing BMR",
+            "transcript": "Your Basal Metabolic Rate is not a single, universal number that applies to everyone. Instead, it is highly personalized and influenced by who you are biologically. We can think of BMR as a function of three main variables: your age, your biological sex, and your body composition. Because these factors differ vastly from person to person, your baseline energy needs are entirely unique.",
+            "thai_transcript": "BMR ไม่ใช่ตัวเลขสากลที่คงที่สำหรับทุกคน แต่จะมีความเฉพาะตัวและเปลี่ยนแปลงไปตามลักษณะทางชีวภาพของคุณ เราสามารถมอง BMR ว่าเป็นผลลัพธ์จากตัวแปรหลัก 3 อย่าง ได้แก่ อายุ เพศทางชีวภาพ และองค์ประกอบของร่างกาย เนื่องจากปัจจัยเหล่านี้แตกต่างกันไปในแต่ละบุคคล ความต้องการพลังงานพื้นฐานของคุณจึงไม่เหมือนใครเลย"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Body Composition: Muscle vs. Fat",
+            "transcript": "Body composition is the most significant factor you can control when it comes to your BMR. Muscle is a highly metabolically active tissue, which means it acts like a running engine, constantly burning calories just to exist. In contrast, fat tissue is primarily for storage and requires very little baseline energy to maintain. Therefore, having a higher proportion of muscle mass directly increases your resting energy expenditure.",
+            "thai_transcript": "องค์ประกอบของร่างกายเป็นปัจจัยสำคัญที่สุดที่คุณสามารถควบคุมได้เพื่อให้ส่งผลต่อ BMR กล้ามเนื้อเป็นเนื้อเยื่อที่มีการเผาผลาญพลังงานสูง เปรียบเสมือนเครื่องยนต์ที่ติดเครื่องไว้และเผาผลาญแคลอรี่อยู่ตลอดเวลาแม้ขณะพักผ่อน ในทางตรงกันข้าม เนื้อเยื่อไขมันทำหน้าที่เป็นแหล่งกักเก็บและต้องการพลังงานน้อยมากในการรักษาสภาพ ดังนั้น การมีสัดส่วนมวลกล้ามเนื้อที่มากขึ้นจึงช่วยเพิ่มการเผาผลาญพลังงานขณะพักของคุณได้โดยตรง"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Comparing BMR Profiles",
+            "transcript": "Let us look at a real-world comparison to understand how these variables compound. A 25-year-old male typically has naturally higher muscle density due to hormone profiles, resulting in a high BMR. Compare this to a 65-year-old female; as we age, we naturally lose muscle mass, which slows down the metabolic rate. These biological differences explain why two people can eat the exact same amount of food but experience totally different weight outcomes.",
+            "thai_transcript": "ลองมาดูการเปรียบเทียบในชีวิตจริงเพื่อให้เข้าใจว่าตัวแปรเหล่านี้ทำงานร่วมกันอย่างไร ผู้ชายอายุ 25 ปีมักจะมีความหนาแน่นของกล้ามเนื้อตามธรรมชาติที่สูงกว่าเนื่องจากอิทธิพลของฮอร์โมน ทำให้มี BMR สูง ลองเปรียบเทียบกับผู้หญิงอายุ 65 ปี เมื่อเราอายุมากขึ้น ร่างกายจะสูญเสียมวลกล้ามเนื้อตามธรรมชาติ ซึ่งทำให้ระบบเผาผลาญทำงานช้าลง ความแตกต่างทางชีวภาพเหล่านี้อธิบายว่าทำไมคนสองคนที่กินอาหารในปริมาณเท่ากันเป๊ะ ถึงมีผลลัพธ์ของน้ำหนักตัวที่แตกต่างกันอย่างสิ้นเชิง"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Misconception: BMR is Fixed",
+            "transcript": "A very common non-example in nutrition is the belief that you are born with a 'fast' or 'slow' metabolism and are stuck with it for life. This is fundamentally untrue. While you cannot change your age or biological sex, your body composition is highly adaptable. By engaging in resistance training and building muscle, you can actively shift your body's energy demands and permanently raise your basal metabolic rate.",
+            "thai_transcript": "ความเข้าใจผิดที่พบบ่อยมากในเรื่องโภชนาการคือ ความเชื่อที่ว่าเราเกิดมาพร้อมกับระบบเผาผลาญที่ 'เร็ว' หรือ 'ช้า' และไม่สามารถเปลี่ยนแปลงได้ตลอดชีวิต ซึ่งไม่เป็นความจริงเลย แม้ว่าคุณจะไม่สามารถเปลี่ยนอายุหรือเพศทางชีวภาพได้ แต่องค์ประกอบของร่างกายสามารถปรับเปลี่ยนได้เสมอ การออกกำลังกายแบบมีแรงต้านเพื่อสร้างกล้ามเนื้อ จะช่วยให้คุณปรับเปลี่ยนความต้องการพลังงานของร่างกายและเพิ่มอัตราการเผาผลาญพื้นฐานได้อย่างยั่งยืน"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "What BMR is NOT",
+            "transcript": "Let's clarify a very common misconception about metabolism. Basal Metabolic Rate is strictly the baseline energy your body needs just to stay alive at complete rest. It is absolutely critical to separate BMR from your total daily energy expenditure. Any extra calories burned from moving, eating, or exercising are not part of this baseline number.",
+            "thai_transcript": "มาทำความเข้าใจความเข้าใจผิดที่พบบ่อยเกี่ยวกับระบบเผาผลาญกันครับ อัตราการเผาผลาญพลังงานพื้นฐาน (BMR) คือพลังงานพื้นฐานที่ร่างกายต้องการเพื่อความอยู่รอดขณะพักผ่อนเท่านั้น สิ่งสำคัญคือต้องแยก BMR ออกจากการเผาผลาญพลังงานทั้งหมดในแต่ละวัน แคลอรี่ส่วนเกินที่เผาผลาญจากการเคลื่อนไหว การกิน หรือการออกกำลังกาย จะไม่เป็นส่วนหนึ่งของตัวเลขพื้นฐานนี้ครับ"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "Three Things Excluded from BMR",
+            "transcript": "To build a strong mental model, let's look at three clear non-examples of BMR. First, the energy your body uses to digest that sandwich you just ate is separate. Second, incidental daily movements like walking to your car or washing dishes are not included. Finally, intentional workouts, such as a thirty-minute jog, are entirely active calories and fall completely outside your baseline BMR.",
+            "thai_transcript": "เพื่อสร้างความเข้าใจที่ชัดเจน เรามาดูสามสิ่งที่ไม่ใช่ BMR กันครับ อย่างแรก พลังงานที่ร่างกายใช้ในการย่อยอาหารที่คุณเพิ่งกินเข้าไปนั้นแยกต่างหาก อย่างที่สอง การเคลื่อนไหวในชีวิตประจำวัน เช่น การเดินไปที่รถหรือการล้างจาน ก็ไม่รวมอยู่ด้วย สุดท้าย การออกกำลังกายอย่างตั้งใจ เช่น การวิ่งจ๊อกกิ้ง 30 นาที เป็นแคลอรี่ที่เกิดจากกิจกรรมและอยู่นอกเหนือจาก BMR พื้นฐานของคุณอย่างสิ้นเชิงครับ"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "Baseline vs. Active Energy",
+            "transcript": "Let's compare these two states directly. If you were to stay in bed and sleep all day, your body would still burn its BMR just to keep your heart beating and lungs breathing. However, if you step on a treadmill and burn 400 calories, that represents active energy expenditure. Those 400 active calories do not change your BMR; they are simply added on top of your daily baseline.",
+            "thai_transcript": "ลองเปรียบเทียบทั้งสองสภาวะนี้โดยตรงนะครับ หากคุณนอนอยู่บนเตียงทั้งวัน ร่างกายของคุณก็ยังคงเผาผลาญ BMR เพียงเพื่อให้หัวใจเต้นและปอดทำงาน แต่ถ้าคุณขึ้นไปวิ่งบนลู่วิ่งและเผาผลาญไป 400 แคลอรี่ นั่นคือการใช้พลังงานจากกิจกรรม แคลอรี่จากกิจกรรม 400 แคลอรี่นั้นไม่ได้เปลี่ยน BMR ของคุณ แต่มันแค่บวกเพิ่มเข้าไปในระดับพื้นฐานรายวันของคุณครับ"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Calculating Total Energy Expenditure",
+            "transcript": "To bring it all together, we use the concept of Total Daily Energy Expenditure, or TDEE. Your total energy is a simple equation: $TDEE = BMR + Active Energy + Digestion$. By keeping these concepts mathematically and conceptually separate, you avoid the common pitfall of overestimating your baseline metabolic needs.",
+            "thai_transcript": "เพื่อรวบรวมข้อมูลทั้งหมด เราจะใช้แนวคิดของการใช้พลังงานรวมในแต่ละวัน หรือ TDEE ครับ พลังงานทั้งหมดของคุณคือสมการง่ายๆ: $TDEE = BMR + Active Energy + Digestion$ (พลังงานจากการทำกิจกรรม + พลังงานจากการย่อยอาหาร) การแยกแนวคิดเหล่านี้ออกจากกันทั้งในทางคณิตศาสตร์และทางทฤษฎี จะช่วยให้คุณหลีกเลี่ยงข้อผิดพลาดทั่วไปในการประเมินความต้องการพลังงานพื้นฐานของคุณสูงเกินไปครับ"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Standard Formulas for Estimating $BMR$",
+            "transcript": "To calculate Basal Metabolic Rate in the real world, nutritionists cannot always use complex laboratory equipment. Instead, they rely on standard mathematical formulas. The most widely used tool is the Mifflin-St Jeor equation. This formula allows us to estimate the absolute minimum energy your body needs to survive based on your unique physical traits.",
+            "thai_transcript": "ในการคำนวณอัตราการเผาผลาญพลังงานพื้นฐานในโลกแห่งความเป็นจริง นักโภชนาการไม่สามารถใช้อุปกรณ์ในห้องปฏิบัติการที่ซับซ้อนได้เสมอไป พวกเขาจึงอาศัยสูตรทางคณิตศาสตร์มาตรฐานแทน เครื่องมือที่นิยมใช้มากที่สุดคือสมการ Mifflin-St Jeor สูตรนี้ช่วยให้เราสามารถประเมินพลังงานขั้นต่ำสุดที่ร่างกายต้องการเพื่อความอยู่รอด โดยอิงจากลักษณะทางกายภาพเฉพาะบุคคลของคุณ"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Variables of the Mifflin-St Jeor Equation",
+            "transcript": "The Mifflin-St Jeor equation relies on four main variables to predict energy needs. Your weight and height determine your overall body mass and surface area, which heavily dictate your baseline energy demand. Furthermore, age and sex are included to account for natural biological shifts, such as changes in muscle mass and hormone profiles over time.",
+            "thai_transcript": "สมการ Mifflin-St Jeor อาศัยตัวแปรหลักสี่ตัวในการทำนายความต้องการพลังงาน น้ำหนักและส่วนสูงของคุณเป็นตัวกำหนดมวลร่างกายและพื้นที่ผิวโดยรวม ซึ่งมีผลอย่างมากต่อความต้องการพลังงานพื้นฐาน นอกจากนี้ อายุและเพศยังถูกนำมาคำนวณเพื่อพิจารณาการเปลี่ยนแปลงทางชีววิทยาตามธรรมชาติ เช่น การเปลี่ยนแปลงของมวลกล้ามเนื้อและระดับฮอร์โมนเมื่อเวลาผ่านไป"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "A Real-World Calculation",
+            "transcript": "Let us look at a specific example using these variables. Consider a 30-year-old male who weighs 70 kilograms and is 170 centimeters tall. When we plug these exact physical parameters into the standard Mifflin-St Jeor equation, the math yields a very specific result. We discover that his estimated Basal Metabolic Rate is approximately 1,650 calories per day.",
+            "thai_transcript": "ลองดูตัวอย่างเฉพาะโดยใช้ตัวแปรเหล่านี้ พิจารณาผู้ชายอายุ 30 ปีที่มีน้ำหนัก 70 กิโลกรัมและสูง 170 เซนติเมตร เมื่อเราแทนค่าพารามิเตอร์ทางกายภาพเหล่านี้ลงในสมการ Mifflin-St Jeor มาตรฐาน การคำนวณจะให้ผลลัพธ์ที่เฉพาะเจาะจงมาก เราจะพบว่าอัตราการเผาผลาญพลังงานพื้นฐานโดยประมาณของเขาคือ 1,650 แคลอรีต่อวัน"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "Visualizing the Baseline",
+            "transcript": "What does that 1,650 calories actually represent in reality? Imagine our subject lying completely still in bed for a full 24 hours. He is not walking, talking, or even digesting a meal. Those 1,650 calories are burned strictly by his brain, heart, lungs, and other organs simply to keep him alive.",
+            "thai_transcript": "1,650 แคลอรีนี้แสดงถึงอะไรในความเป็นจริง? ลองจินตนาการถึงชายคนนี้นอนนิ่งๆ บนเตียงตลอด 24 ชั่วโมง เขาไม่ได้เดิน พูดคุย หรือแม้แต่ย่อยอาหาร พลังงาน 1,650 แคลอรีเหล่านั้นถูกเผาผลาญโดยสมอง หัวใจ ปอด และอวัยวะอื่นๆ ของเขาเพียงเพื่อให้เขามีชีวิตอยู่เท่านั้น"
+        },
+        {
+            "slide_index": 16,
+            "slide_title": "Scenario: Identical Stats, Different Lifestyles",
+            "transcript": "Let's look at a practical scenario to test our understanding of Basal Metabolic Rate. Imagine two women who share the exact same age, height, and overall body weight. However, their daily lives look very different: Woman A works a desk job, while Woman B is an avid weightlifter. If they both spend a Sunday completely resting on the couch, we have to ask ourselves: would they burn the same amount of calories?",
+            "thai_transcript": "มาดูสถานการณ์จำลองเพื่อทดสอบความเข้าใจเรื่องอัตราการเผาผลาญพื้นฐานกันครับ ลองจินตนาการถึงผู้หญิงสองคนที่มีอายุ ส่วนสูง และน้ำหนักตัวเท่ากันทุกประการ แต่วิถีชีวิตของพวกเธอต่างกันมาก ผู้หญิงคนแรกทำงานนั่งโต๊ะ ส่วนคนที่สองเป็นนักยกน้ำหนัก หากทั้งคู่ใช้เวลาวันอาทิตย์พักผ่อนบนโซฟาทั้งวัน คำถามคือ พวกเธอจะเผาผลาญแคลอรีเท่ากันหรือไม่"
+        },
+        {
+            "slide_index": 17,
+            "slide_title": "The Role of Body Composition",
+            "transcript": "Even though both women weigh the exact same on a scale, their body composition is vastly different. Woman B has a much higher percentage of muscle mass due to her weightlifting, whereas Woman A likely has a higher percentage of body fat. This is the crucial missing variable. Muscle is highly metabolically active tissue, meaning it requires continuous energy just to exist, unlike fat which is primarily stored energy.",
+            "thai_transcript": "แม้ว่าผู้หญิงทั้งสองคนจะมีน้ำหนักตัวบนตาชั่งเท่ากันเป๊ะ แต่องค์ประกอบของร่างกายพวกเธอต่างกันมาก ผู้หญิงคนที่สองมีมวลกล้ามเนื้อมากกว่าจากการยกน้ำหนัก ในขณะที่คนแรกน่าจะมีสัดส่วนไขมันมากกว่า นี่คือตัวแปรสำคัญที่เราต้องพิจารณา กล้ามเนื้อเป็นเนื้อเยื่อที่มีการเผาผลาญสูง ซึ่งหมายความว่ามันต้องการพลังงานอย่างต่อเนื่องเพื่อรักษาสภาพไว้ ต่างจากไขมันที่เป็นเพียงพลังงานสะสม"
+        },
+        {
+            "slide_index": 18,
+            "slide_title": "Muscle Drives Baseline Energy",
+            "transcript": "Because of her greater muscle mass, Woman B inherently possesses a higher Basal Metabolic Rate. Therefore, even if neither woman lifts a finger all day, Woman B will automatically burn more calories. It is important not to confuse this with calories burned during a workout itself; this is simply the baseline energy her body demands to keep her extra muscle tissue alive while she rests.",
+            "thai_transcript": "เนื่องจากมีมวลกล้ามเนื้อมากกว่า ผู้หญิงคนที่สองจึงมีอัตราการเผาผลาญพื้นฐานที่สูงกว่าโดยธรรมชาติ ดังนั้น แม้ว่าทั้งคู่จะไม่ได้ทำกิจกรรมใดๆ เลยตลอดทั้งวัน เธอก็จะเผาผลาญแคลอรีได้มากกว่าโดยอัตโนมัติ สิ่งสำคัญคืออย่าสับสนกับแคลอรีที่เผาผลาญระหว่างการออกกำลังกายนะครับ เพราะนี่คือพลังงานพื้นฐานที่ร่างกายของเธอต้องการเพื่อรักษากล้ามเนื้อเอาไว้ในขณะพักผ่อนเท่านั้น"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Introduction to Energy Balance and BMR",
+            "slides": [
+                {
+                    "title": "The Core of Energy Balance",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Balance between calories consumed and calories expended.",
+                        "Positive balance means surplus energy is stored.",
+                        "Negative balance means drawing from stored energy.",
+                        "Energy balance is NOT determined solely by exercise."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/1.png",
+                            "caption": "Energy In: Calories consumed through food and drink.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/2.png",
+                            "caption": "Energy Out: Calories burned through resting biological functions and physical activity.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Welcome to our first lesson on human energy balance. Simply put, this balance is the dynamic relationship between the calories you take in from food and the calories your body uses. It is important to realize that energy balance is not just about how much you exercise. In fact, most of the energy you burn happens when you are completely at rest, a concept we will explore next.",
+                    "thai_transcript": "ยินดีต้อนรับสู่บทเรียนแรกเรื่องสมดุลพลังงานของมนุษย์ พูดง่ายๆ ก็คือความสัมพันธ์ที่มีพลวัตระหว่างแคลอรีที่คุณได้รับจากอาหารและแคลอรีที่ร่างกายใช้ไป สิ่งสำคัญคือต้องตระหนักว่าสมดุลพลังงานไม่ใช่แค่เรื่องของการออกกำลังกายเท่านั้น ในความเป็นจริง พลังงานส่วนใหญ่ที่คุณเผาผลาญเกิดขึ้นเมื่อคุณพักผ่อนอย่างเต็มที่ ซึ่งเป็นแนวคิดที่เราจะไปสำรวจกันต่อไป"
+                },
+                {
+                    "title": "Basal Metabolic Rate (BMR)",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Absolute minimum energy required at complete rest.",
+                        "Powers vital organs, breathing, and circulation.",
+                        "Analogy: A smartphone draining battery on standby mode.",
+                        "Does NOT include energy for digestion or physical movement."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/3.png",
+                            "caption": "Like a phone on standby, BMR is the background energy required to keep your body's 'operating system' running.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Your Basal Metabolic Rate, or BMR, is the absolute minimum amount of energy your body needs to survive while completely at rest. Think of it like a smartphone left on a desk. Even when you aren't actively opening apps, the battery still drains just to keep the internal operating system running. BMR accounts for baseline functions like breathing and circulating blood, but it completely excludes the energy used for digesting food or moving around.",
+                    "thai_transcript": "อัตราการเผาผลาญพื้นฐาน หรือ BMR คือปริมาณพลังงานขั้นต่ำสุดที่ร่างกายต้องการเพื่อความอยู่รอดในขณะที่พักผ่อนอย่างเต็มที่ ลองนึกภาพเหมือนสมาร์ทโฟนที่วางทิ้งไว้บนโต๊ะ แม้ว่าคุณจะไม่ได้เปิดใช้งานแอปพลิเคชันใดๆ แบตเตอรี่ก็ยังคงลดลงเพียงเพื่อรักษาระบบปฏิบัติการภายในให้ทำงานต่อไป BMR ครอบคลุมถึงการทำงานพื้นฐาน เช่น การหายใจและการไหลเวียนของเลือด แต่ไม่รวมถึงพลังงานที่ใช้ในการย่อยอาหารหรือการเคลื่อนไหวร่างกายเลย"
+                },
+                {
+                    "title": "What Influences BMR?",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Age: Metabolism naturally slows as cellular processes age.",
+                        "Sex: Biological factors alter baseline hormonal needs.",
+                        "Composition: Muscle requires more resting energy than fat.",
+                        "BMR is highly individualized, not a fixed universal number."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/4.png",
+                            "caption": "Age: BMR naturally decreases as cellular processes slow down over time.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/5.png",
+                            "caption": "Sex: Biological and hormonal differences affect baseline caloric requirements.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/6.png",
+                            "caption": "Body Composition: Muscle tissue is highly metabolically active compared to fat.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "BMR is not a one-size-fits-all number; it fluctuates based on several core personal factors. As we age, our cellular processes naturally slow down, which gradually decreases our BMR over the decades. Biological sex also plays a crucial role due to differing hormonal profiles and baseline muscle mass. Speaking of muscle, body composition is arguably the most controllable driver: muscle tissue is metabolically expensive, meaning it requires significantly more calories to maintain at rest compared to fat tissue.",
+                    "thai_transcript": "BMR ไม่ใช่ตัวเลขที่เท่ากันสำหรับทุกคน แต่มันจะแปรผันตามปัจจัยส่วนบุคคลที่สำคัญหลายประการ เมื่อเราอายุมากขึ้น กระบวนการทำงานของเซลล์จะช้าลงตามธรรมชาติ ซึ่งส่งผลให้ BMR ค่อยๆ ลดลงเมื่อเวลาผ่านไป เพศทางชีววิทยาก็มีบทบาทสำคัญเนื่องจากความแตกต่างของฮอร์โมนและมวลกล้ามเนื้อพื้นฐาน เมื่อพูดถึงกล้ามเนื้อ องค์ประกอบของร่างกายเป็นปัจจัยที่ควบคุมได้มากที่สุด เนื้อเยื่อกล้ามเนื้อใช้พลังงานมาก ซึ่งหมายความว่ามันต้องการแคลอรีเพื่อรักษาสภาพในขณะพักผ่อนมากกว่าเนื้อเยื่อไขมันอย่างมีนัยสำคัญ"
+                },
+                {
+                    "title": "Calculating Your BMR",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Standard formulas provide a reliable baseline estimation.",
+                        "The Mifflin-St Jeor equation is the current clinical standard.",
+                        "For Men: $BMR = 10m + 6.25h - 5a + 5$",
+                        "For Women: $BMR = 10m + 6.25h - 5a - 161$"
+                    ],
+                    "images": null,
+                    "transcript": "To bring this concept out of theory and into application, we can estimate our BMR using standardized mathematical formulas. The Mifflin-St Jeor equation is currently considered one of the most accurate baseline methods in nutrition science. In these equations, the variable '$m$' stands for mass in kilograms, '$h$' is height in centimeters, and '$a$' represents age in years. By plugging in your personal metrics, you can discover the estimated number of calories your body needs simply to exist for 24 hours.",
+                    "thai_transcript": "เพื่อนำแนวคิดนี้จากทฤษฎีไปสู่การปฏิบัติ เราสามารถประมาณค่า BMR ของเราได้โดยใช้สูตรทางคณิตศาสตร์ที่เป็นมาตรฐาน ปัจจุบันสมการ Mifflin-St Jeor ถือเป็นหนึ่งในวิธีประเมินพื้นฐานที่แม่นยำที่สุดในวิทยาศาสตร์โภชนาการ ในสมการเหล่านี้ ตัวแปร '$m$' หมายถึงน้ำหนักเป็นกิโลกรัม '$h$' คือส่วนสูงเป็นเซนติเมตร และ '$a$' หมายถึงอายุเป็นปี เมื่อคุณแทนค่าข้อมูลส่วนตัวของคุณลงไป คุณจะพบปริมาณแคลอรีโดยประมาณที่ร่างกายต้องการเพียงเพื่อดำรงชีวิตใน 24 ชั่วโมง"
+                }
+            ]
+        },
+        {
+            "title": "Factors Influencing Your BMR",
+            "slides": [
+                {
+                    "title": "Factors Influencing BMR",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "BMR is highly individualized",
+                        "Modeled conceptually as $BMR = f(Age, Sex, Composition)$",
+                        "Baseline energy needs are dynamic, not static"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/7.png",
+                            "caption": "Age, sex, and body composition are the primary drivers that determine your Basal Metabolic Rate.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Your Basal Metabolic Rate is not a single, universal number that applies to everyone. Instead, it is highly personalized and influenced by who you are biologically. We can think of BMR as a function of three main variables: your age, your biological sex, and your body composition. Because these factors differ vastly from person to person, your baseline energy needs are entirely unique.",
+                    "thai_transcript": "BMR ไม่ใช่ตัวเลขสากลที่คงที่สำหรับทุกคน แต่จะมีความเฉพาะตัวและเปลี่ยนแปลงไปตามลักษณะทางชีวภาพของคุณ เราสามารถมอง BMR ว่าเป็นผลลัพธ์จากตัวแปรหลัก 3 อย่าง ได้แก่ อายุ เพศทางชีวภาพ และองค์ประกอบของร่างกาย เนื่องจากปัจจัยเหล่านี้แตกต่างกันไปในแต่ละบุคคล ความต้องการพลังงานพื้นฐานของคุณจึงไม่เหมือนใครเลย"
+                },
+                {
+                    "title": "Body Composition: Muscle vs. Fat",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Muscle is a metabolically active tissue",
+                        "Fat requires significantly less baseline energy",
+                        "Relationship: $Muscle Mass \\propto BMR$"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/8.png",
+                            "caption": "Muscle tissue actively burns calories even when the body is completely at rest.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/9.png",
+                            "caption": "Adipose tissue acts primarily as storage and requires very little energy to maintain.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Body composition is the most significant factor you can control when it comes to your BMR. Muscle is a highly metabolically active tissue, which means it acts like a running engine, constantly burning calories just to exist. In contrast, fat tissue is primarily for storage and requires very little baseline energy to maintain. Therefore, having a higher proportion of muscle mass directly increases your resting energy expenditure.",
+                    "thai_transcript": "องค์ประกอบของร่างกายเป็นปัจจัยสำคัญที่สุดที่คุณสามารถควบคุมได้เพื่อให้ส่งผลต่อ BMR กล้ามเนื้อเป็นเนื้อเยื่อที่มีการเผาผลาญพลังงานสูง เปรียบเสมือนเครื่องยนต์ที่ติดเครื่องไว้และเผาผลาญแคลอรี่อยู่ตลอดเวลาแม้ขณะพักผ่อน ในทางตรงกันข้าม เนื้อเยื่อไขมันทำหน้าที่เป็นแหล่งกักเก็บและต้องการพลังงานน้อยมากในการรักษาสภาพ ดังนั้น การมีสัดส่วนมวลกล้ามเนื้อที่มากขึ้นจึงช่วยเพิ่มการเผาผลาญพลังงานขณะพักของคุณได้โดยตรง"
+                },
+                {
+                    "title": "Comparing BMR Profiles",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Age naturally decreases metabolic rate",
+                        "Biological sex impacts baseline muscle density",
+                        "Example: 25-year-old male vs. 65-year-old female"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/10.png",
+                            "caption": "Youth and naturally higher muscle density result in a significantly higher BMR.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/11.png",
+                            "caption": "Older age and naturally lower muscle mass result in a lower baseline energy requirement.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let us look at a real-world comparison to understand how these variables compound. A 25-year-old male typically has naturally higher muscle density due to hormone profiles, resulting in a high BMR. Compare this to a 65-year-old female; as we age, we naturally lose muscle mass, which slows down the metabolic rate. These biological differences explain why two people can eat the exact same amount of food but experience totally different weight outcomes.",
+                    "thai_transcript": "ลองมาดูการเปรียบเทียบในชีวิตจริงเพื่อให้เข้าใจว่าตัวแปรเหล่านี้ทำงานร่วมกันอย่างไร ผู้ชายอายุ 25 ปีมักจะมีความหนาแน่นของกล้ามเนื้อตามธรรมชาติที่สูงกว่าเนื่องจากอิทธิพลของฮอร์โมน ทำให้มี BMR สูง ลองเปรียบเทียบกับผู้หญิงอายุ 65 ปี เมื่อเราอายุมากขึ้น ร่างกายจะสูญเสียมวลกล้ามเนื้อตามธรรมชาติ ซึ่งทำให้ระบบเผาผลาญทำงานช้าลง ความแตกต่างทางชีวภาพเหล่านี้อธิบายว่าทำไมคนสองคนที่กินอาหารในปริมาณเท่ากันเป๊ะ ถึงมีผลลัพธ์ของน้ำหนักตัวที่แตกต่างกันอย่างสิ้นเชิง"
+                },
+                {
+                    "title": "Misconception: BMR is Fixed",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Myth: You are born with an unchangeable metabolism",
+                        "Truth: BMR adapts to your physical state",
+                        "Resistance training increases BMR over time",
+                        "BMR is a dynamic biological baseline"
+                    ],
+                    "images": null,
+                    "transcript": "A very common non-example in nutrition is the belief that you are born with a 'fast' or 'slow' metabolism and are stuck with it for life. This is fundamentally untrue. While you cannot change your age or biological sex, your body composition is highly adaptable. By engaging in resistance training and building muscle, you can actively shift your body's energy demands and permanently raise your basal metabolic rate.",
+                    "thai_transcript": "ความเข้าใจผิดที่พบบ่อยมากในเรื่องโภชนาการคือ ความเชื่อที่ว่าเราเกิดมาพร้อมกับระบบเผาผลาญที่ 'เร็ว' หรือ 'ช้า' และไม่สามารถเปลี่ยนแปลงได้ตลอดชีวิต ซึ่งไม่เป็นความจริงเลย แม้ว่าคุณจะไม่สามารถเปลี่ยนอายุหรือเพศทางชีวภาพได้ แต่องค์ประกอบของร่างกายสามารถปรับเปลี่ยนได้เสมอ การออกกำลังกายแบบมีแรงต้านเพื่อสร้างกล้ามเนื้อ จะช่วยให้คุณปรับเปลี่ยนความต้องการพลังงานของร่างกายและเพิ่มอัตราการเผาผลาญพื้นฐานได้อย่างยั่งยืน"
+                }
+            ]
+        },
+        {
+            "title": "What BMR is NOT (Non-Examples)",
+            "slides": [
+                {
+                    "title": "What BMR is NOT",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "BMR is strictly your body's baseline survival energy.",
+                        "It excludes any physical movement or physical activity.",
+                        "It excludes the energy used to digest food."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/12.png",
+                            "caption": "BMR only makes up the foundational portion of your total daily energy expenditure.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Let's clarify a very common misconception about metabolism. Basal Metabolic Rate is strictly the baseline energy your body needs just to stay alive at complete rest. It is absolutely critical to separate BMR from your total daily energy expenditure. Any extra calories burned from moving, eating, or exercising are not part of this baseline number.",
+                    "thai_transcript": "มาทำความเข้าใจความเข้าใจผิดที่พบบ่อยเกี่ยวกับระบบเผาผลาญกันครับ อัตราการเผาผลาญพลังงานพื้นฐาน (BMR) คือพลังงานพื้นฐานที่ร่างกายต้องการเพื่อความอยู่รอดขณะพักผ่อนเท่านั้น สิ่งสำคัญคือต้องแยก BMR ออกจากการเผาผลาญพลังงานทั้งหมดในแต่ละวัน แคลอรี่ส่วนเกินที่เผาผลาญจากการเคลื่อนไหว การกิน หรือการออกกำลังกาย จะไม่เป็นส่วนหนึ่งของตัวเลขพื้นฐานนี้ครับ"
+                },
+                {
+                    "title": "Three Things Excluded from BMR",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Digesting and processing food.",
+                        "Daily tasks like walking or doing chores.",
+                        "Dedicated workouts and sports."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/13.png",
+                            "caption": "Digesting food requires energy, but this is NOT part of BMR.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/14.png",
+                            "caption": "Incidental daily movements are active calories, NOT BMR.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/15.png",
+                            "caption": "Structured exercise is an active caloric burn added on top of BMR.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "To build a strong mental model, let's look at three clear non-examples of BMR. First, the energy your body uses to digest that sandwich you just ate is separate. Second, incidental daily movements like walking to your car or washing dishes are not included. Finally, intentional workouts, such as a thirty-minute jog, are entirely active calories and fall completely outside your baseline BMR.",
+                    "thai_transcript": "เพื่อสร้างความเข้าใจที่ชัดเจน เรามาดูสามสิ่งที่ไม่ใช่ BMR กันครับ อย่างแรก พลังงานที่ร่างกายใช้ในการย่อยอาหารที่คุณเพิ่งกินเข้าไปนั้นแยกต่างหาก อย่างที่สอง การเคลื่อนไหวในชีวิตประจำวัน เช่น การเดินไปที่รถหรือการล้างจาน ก็ไม่รวมอยู่ด้วย สุดท้าย การออกกำลังกายอย่างตั้งใจ เช่น การวิ่งจ๊อกกิ้ง 30 นาที เป็นแคลอรี่ที่เกิดจากกิจกรรมและอยู่นอกเหนือจาก BMR พื้นฐานของคุณอย่างสิ้นเชิงครับ"
+                },
+                {
+                    "title": "Baseline vs. Active Energy",
+                    "layout": "two_column",
+                    "key_points": [
+                        "BMR happens even if you sleep all day.",
+                        "Active energy requires muscular effort.",
+                        "Example: Burning 400 calories jogging is active energy.",
+                        "Active calories are added on top of BMR."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/16.png",
+                            "caption": "BMR: Energy burned while completely at rest.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/17.png",
+                            "caption": "Active Energy: Additional calories burned during physical exertion.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's compare these two states directly. If you were to stay in bed and sleep all day, your body would still burn its BMR just to keep your heart beating and lungs breathing. However, if you step on a treadmill and burn 400 calories, that represents active energy expenditure. Those 400 active calories do not change your BMR; they are simply added on top of your daily baseline.",
+                    "thai_transcript": "ลองเปรียบเทียบทั้งสองสภาวะนี้โดยตรงนะครับ หากคุณนอนอยู่บนเตียงทั้งวัน ร่างกายของคุณก็ยังคงเผาผลาญ BMR เพียงเพื่อให้หัวใจเต้นและปอดทำงาน แต่ถ้าคุณขึ้นไปวิ่งบนลู่วิ่งและเผาผลาญไป 400 แคลอรี่ นั่นคือการใช้พลังงานจากกิจกรรม แคลอรี่จากกิจกรรม 400 แคลอรี่นั้นไม่ได้เปลี่ยน BMR ของคุณ แต่มันแค่บวกเพิ่มเข้าไปในระดับพื้นฐานรายวันของคุณครับ"
+                },
+                {
+                    "title": "Calculating Total Energy Expenditure",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Total Daily Energy Expenditure (TDEE) is the complete picture.",
+                        "Formula: $TDEE = BMR + Active Energy + Digestion$",
+                        "Do not conflate the baseline with the total."
+                    ],
+                    "images": null,
+                    "transcript": "To bring it all together, we use the concept of Total Daily Energy Expenditure, or TDEE. Your total energy is a simple equation: $TDEE = BMR + Active Energy + Digestion$. By keeping these concepts mathematically and conceptually separate, you avoid the common pitfall of overestimating your baseline metabolic needs.",
+                    "thai_transcript": "เพื่อรวบรวมข้อมูลทั้งหมด เราจะใช้แนวคิดของการใช้พลังงานรวมในแต่ละวัน หรือ TDEE ครับ พลังงานทั้งหมดของคุณคือสมการง่ายๆ: $TDEE = BMR + Active Energy + Digestion$ (พลังงานจากการทำกิจกรรม + พลังงานจากการย่อยอาหาร) การแยกแนวคิดเหล่านี้ออกจากกันทั้งในทางคณิตศาสตร์และทางทฤษฎี จะช่วยให้คุณหลีกเลี่ยงข้อผิดพลาดทั่วไปในการประเมินความต้องการพลังงานพื้นฐานของคุณสูงเกินไปครับ"
+                }
+            ]
+        },
+        {
+            "title": "Calculating BMR in the Real World",
+            "slides": [
+                {
+                    "title": "Standard Formulas for Estimating $BMR$",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Nutritionists use standard equations to estimate baseline energy.",
+                        "The Mifflin-St Jeor equation is the primary industry standard.",
+                        "Calculations provide a starting point for personalized nutrition plans."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/18.png",
+                            "caption": "Nutritionists use standardized equations to estimate metabolic baselines without needing laboratory equipment.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "To calculate Basal Metabolic Rate in the real world, nutritionists cannot always use complex laboratory equipment. Instead, they rely on standard mathematical formulas. The most widely used tool is the Mifflin-St Jeor equation. This formula allows us to estimate the absolute minimum energy your body needs to survive based on your unique physical traits.",
+                    "thai_transcript": "ในการคำนวณอัตราการเผาผลาญพลังงานพื้นฐานในโลกแห่งความเป็นจริง นักโภชนาการไม่สามารถใช้อุปกรณ์ในห้องปฏิบัติการที่ซับซ้อนได้เสมอไป พวกเขาจึงอาศัยสูตรทางคณิตศาสตร์มาตรฐานแทน เครื่องมือที่นิยมใช้มากที่สุดคือสมการ Mifflin-St Jeor สูตรนี้ช่วยให้เราสามารถประเมินพลังงานขั้นต่ำสุดที่ร่างกายต้องการเพื่อความอยู่รอด โดยอิงจากลักษณะทางกายภาพเฉพาะบุคคลของคุณ"
+                },
+                {
+                    "title": "Variables of the Mifflin-St Jeor Equation",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Weight: Total body mass drives overall energy demand.",
+                        "Height: Determines total body surface area.",
+                        "Age and Sex: Accounts for biological shifts in muscle mass."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/19.png",
+                            "caption": "Weight indicates total mass that requires energy to maintain.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/20.png",
+                            "caption": "Height helps determine the body's overall surface area.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/21.png",
+                            "caption": "Age and sex account for natural metabolic and hormonal shifts.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "The Mifflin-St Jeor equation relies on four main variables to predict energy needs. Your weight and height determine your overall body mass and surface area, which heavily dictate your baseline energy demand. Furthermore, age and sex are included to account for natural biological shifts, such as changes in muscle mass and hormone profiles over time.",
+                    "thai_transcript": "สมการ Mifflin-St Jeor อาศัยตัวแปรหลักสี่ตัวในการทำนายความต้องการพลังงาน น้ำหนักและส่วนสูงของคุณเป็นตัวกำหนดมวลร่างกายและพื้นที่ผิวโดยรวม ซึ่งมีผลอย่างมากต่อความต้องการพลังงานพื้นฐาน นอกจากนี้ อายุและเพศยังถูกนำมาคำนวณเพื่อพิจารณาการเปลี่ยนแปลงทางชีววิทยาตามธรรมชาติ เช่น การเปลี่ยนแปลงของมวลกล้ามเนื้อและระดับฮอร์โมนเมื่อเวลาผ่านไป"
+                },
+                {
+                    "title": "A Real-World Calculation",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Subject Profile: 30-year-old male, $70 \\text{ kg}$ weight, $170 \\text{ cm}$ height.",
+                        "Applying the variables to the Mifflin-St Jeor equation yields total resting energy.",
+                        "Calculated baseline: $BMR \\approx 1650 \\text{ kcal/day}$."
+                    ],
+                    "images": null,
+                    "transcript": "Let us look at a specific example using these variables. Consider a 30-year-old male who weighs 70 kilograms and is 170 centimeters tall. When we plug these exact physical parameters into the standard Mifflin-St Jeor equation, the math yields a very specific result. We discover that his estimated Basal Metabolic Rate is approximately 1,650 calories per day.",
+                    "thai_transcript": "ลองดูตัวอย่างเฉพาะโดยใช้ตัวแปรเหล่านี้ พิจารณาผู้ชายอายุ 30 ปีที่มีน้ำหนัก 70 กิโลกรัมและสูง 170 เซนติเมตร เมื่อเราแทนค่าพารามิเตอร์ทางกายภาพเหล่านี้ลงในสมการ Mifflin-St Jeor มาตรฐาน การคำนวณจะให้ผลลัพธ์ที่เฉพาะเจาะจงมาก เราจะพบว่าอัตราการเผาผลาญพลังงานพื้นฐานโดยประมาณของเขาคือ 1,650 แคลอรีต่อวัน"
+                },
+                {
+                    "title": "Visualizing the Baseline",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Represents energy solely for vital internal organ function.",
+                        "Equivalent to 24 hours of complete, motionless bed rest.",
+                        "Non-example: Does NOT include energy for walking, digesting, or talking."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/22.png",
+                            "caption": "BMR only accounts for the energy required to keep your vital organs functioning at complete rest.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "What does that 1,650 calories actually represent in reality? Imagine our subject lying completely still in bed for a full 24 hours. He is not walking, talking, or even digesting a meal. Those 1,650 calories are burned strictly by his brain, heart, lungs, and other organs simply to keep him alive.",
+                    "thai_transcript": "1,650 แคลอรีนี้แสดงถึงอะไรในความเป็นจริง? ลองจินตนาการถึงชายคนนี้นอนนิ่งๆ บนเตียงตลอด 24 ชั่วโมง เขาไม่ได้เดิน พูดคุย หรือแม้แต่ย่อยอาหาร พลังงาน 1,650 แคลอรีเหล่านั้นถูกเผาผลาญโดยสมอง หัวใจ ปอด และอวัยวะอื่นๆ ของเขาเพียงเพื่อให้เขามีชีวิตอยู่เท่านั้น"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Check: Applying BMR Concepts",
+            "slides": [
+                {
+                    "title": "Scenario: Identical Stats, Different Lifestyles",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Same age, height, and overall weight.",
+                        "Woman A: Sedentary office worker.",
+                        "Woman B: Active weightlifter.",
+                        "Question: Who burns more calories at rest?"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/23.png",
+                            "caption": "Woman A: Sedentary lifestyle with lower muscle mass.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/24.png",
+                            "caption": "Woman B: Active lifestyle with higher muscle mass.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's look at a practical scenario to test our understanding of Basal Metabolic Rate. Imagine two women who share the exact same age, height, and overall body weight. However, their daily lives look very different: Woman A works a desk job, while Woman B is an avid weightlifter. If they both spend a Sunday completely resting on the couch, we have to ask ourselves: would they burn the same amount of calories?",
+                    "thai_transcript": "มาดูสถานการณ์จำลองเพื่อทดสอบความเข้าใจเรื่องอัตราการเผาผลาญพื้นฐานกันครับ ลองจินตนาการถึงผู้หญิงสองคนที่มีอายุ ส่วนสูง และน้ำหนักตัวเท่ากันทุกประการ แต่วิถีชีวิตของพวกเธอต่างกันมาก ผู้หญิงคนแรกทำงานนั่งโต๊ะ ส่วนคนที่สองเป็นนักยกน้ำหนัก หากทั้งคู่ใช้เวลาวันอาทิตย์พักผ่อนบนโซฟาทั้งวัน คำถามคือ พวกเธอจะเผาผลาญแคลอรีเท่ากันหรือไม่"
+                },
+                {
+                    "title": "The Role of Body Composition",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Weight alone does not dictate $BMR$.",
+                        "Muscle tissue is highly metabolically active.",
+                        "Fat tissue requires significantly less energy.",
+                        "Body composition shifts the energy equation."
+                    ],
+                    "images": null,
+                    "transcript": "Even though both women weigh the exact same on a scale, their body composition is vastly different. Woman B has a much higher percentage of muscle mass due to her weightlifting, whereas Woman A likely has a higher percentage of body fat. This is the crucial missing variable. Muscle is highly metabolically active tissue, meaning it requires continuous energy just to exist, unlike fat which is primarily stored energy.",
+                    "thai_transcript": "แม้ว่าผู้หญิงทั้งสองคนจะมีน้ำหนักตัวบนตาชั่งเท่ากันเป๊ะ แต่องค์ประกอบของร่างกายพวกเธอต่างกันมาก ผู้หญิงคนที่สองมีมวลกล้ามเนื้อมากกว่าจากการยกน้ำหนัก ในขณะที่คนแรกน่าจะมีสัดส่วนไขมันมากกว่า นี่คือตัวแปรสำคัญที่เราต้องพิจารณา กล้ามเนื้อเป็นเนื้อเยื่อที่มีการเผาผลาญสูง ซึ่งหมายความว่ามันต้องการพลังงานอย่างต่อเนื่องเพื่อรักษาสภาพไว้ ต่างจากไขมันที่เป็นเพียงพลังงานสะสม"
+                },
+                {
+                    "title": "Muscle Drives Baseline Energy",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Woman B has a definitively higher $BMR$.",
+                        "More muscle means higher daily baseline energy needs.",
+                        "More calories are burned automatically while resting.",
+                        "Note: This is baseline energy, not active workout burn."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/5a1e72c6-c30c-4f7f-8f21-12249532309e/slides_images/25.png",
+                            "caption": "Muscle tissue constantly demands baseline energy to survive, directly increasing BMR.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Because of her greater muscle mass, Woman B inherently possesses a higher Basal Metabolic Rate. Therefore, even if neither woman lifts a finger all day, Woman B will automatically burn more calories. It is important not to confuse this with calories burned during a workout itself; this is simply the baseline energy her body demands to keep her extra muscle tissue alive while she rests.",
+                    "thai_transcript": "เนื่องจากมีมวลกล้ามเนื้อมากกว่า ผู้หญิงคนที่สองจึงมีอัตราการเผาผลาญพื้นฐานที่สูงกว่าโดยธรรมชาติ ดังนั้น แม้ว่าทั้งคู่จะไม่ได้ทำกิจกรรมใดๆ เลยตลอดทั้งวัน เธอก็จะเผาผลาญแคลอรีได้มากกว่าโดยอัตโนมัติ สิ่งสำคัญคืออย่าสับสนกับแคลอรีที่เผาผลาญระหว่างการออกกำลังกายนะครับ เพราะนี่คือพลังงานพื้นฐานที่ร่างกายของเธอต้องการเพื่อรักษากล้ามเนื้อเอาไว้ในขณะพักผ่อนเท่านั้น"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "5a1e72c6-c30c-4f7f-8f21-12249532309e",
+    "course_id": "54a9a419-d30c-4037-b39f-0da93f70d411"
+}

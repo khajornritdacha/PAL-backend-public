@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Intellectual Property Law — The Bundle of Rights Model (Foundational Concepts)",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Nearly every slide pairs on-screen text with a directly relevant illustrative image (e.g., locked block vs. bundle of sticks on slide 2, painting purchase on slide 10, T-shirt infringement on slide 11). Slides 4, 8, 12, and 16 are text-only, representing a minority of the deck where a visual was plausibly warranted given the conceptual content."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                2,
+                1,
+                1,
+                1,
+                2
+            ],
+            "score": 7,
+            "evidence": "On-screen text is consistently limited to short bullet phrases scannable in under five seconds, and the narration expands meaningfully with analogies and scenario detail not present on the slides. However, on several slides (e.g., slides 5, 9, 11) the image captions closely restate the bullet text, and the images rather than functioning as primary information carriers serve an illustrative/reinforcing role alongside text that carries comparable informational weight."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "Complex explanations—such as the novel rights-separation scenario, the painting reproduction non-example, and the licensing-vs-assignment distinction—are delivered entirely through narration while slides display only brief keyword bullets, correctly offloading elaboration to the auditory channel. Narration is written in natural spoken prose throughout, with no instances of dense on-screen text being read aloud verbatim."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Backgrounds are clean and white, typography is consistent in blue/gray throughout, and narration remains tightly focused on the bundle-of-rights concept without digressions or filler. A subset of images (e.g., the scroll-and-manuscript photo on slide 5, the glowing lockpad on slide 9, the holographic cube on slide 13) function as atmospheric illustrations rather than diagrams encoding instructional information, partially compromising the all-images-functional criterion."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                2,
+                1
+            ],
+            "score": 7,
+            "evidence": "Clear visual hierarchy is present on every slide via a bold blue title, a horizontal rule, and subordinate bullet text, and image captions consistently label the depicted concept (e.g., 'Licensing: Handing over just one specific right'). Explicit visual cues such as arrows, highlights, or color contrast within the images are largely absent, and narration uses transitional phrases ('let's look at,' 'remember that') but rarely employs strong signaling language ('the key idea is,' 'notice') to direct attention to the single most important takeaway per slide."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                1
+            ],
+            "score": 9,
+            "evidence": "Captions are consistently placed directly beneath their corresponding images throughout the deck, and on multi-image slides (e.g., slides 3, 6, 7, 10, 11, 14, 15) each image and its caption are grouped as a unified column unit with no split-attention layout. An explicit visual connector (leader line, matching color, or arrow) between the caption text and the specific part of the image it describes is absent across all slides, leaving proximity as the sole spatial linkage mechanism."
+        }
+    ],
+    "raw_total": 51,
+    "unweighted_average": 8.50
+}

@@ -1,0 +1,489 @@
+{
+    "_id": {
+        "$oid": "6a1d4ad0807566adcec85131"
+    },
+    "log_type": "GENERATED_SLIDE",
+    "markdown": "---\nmarp: true\ntheme: default\nmath: mathjax\npaginate: true\nbackgroundColor: #f8f9fa\nsize: 16:9\nstyle: |\n  section {\n    font-family: 'Segoe UI', system-ui, sans-serif;\n    font-size: 24px;\n    padding: 50px 70px;\n    display: flex;\n    flex-direction: column;\n    box-sizing: border-box;\n  }\n  h1 {\n    font-size: 38px;\n    color: #1a73e8;\n    margin: 0 0 16px 0;\n    border-bottom: 2px solid #e8eaed;\n    padding-bottom: 10px;\n  }\n  ul {\n    margin: 0 0 20px 0;\n    color: #3c4043;\n    padding-left: 1.5em;\n  }\n  li {\n    margin-bottom: 8px;\n  }\n  /* Fixed bounds to prevent overflow */\n  .hero-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: auto;\n    margin-bottom: auto;\n  }\n  .hero-container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 310px; /* Reduced to leave room for caption */\n  }\n  .hero-container img {\n    max-width: 100%;\n    max-height: 100%;\n    object-fit: contain;\n    border-radius: 8px;\n  }\n  .hero-caption {\n    font-size: 16px;\n    color: #5f6368;\n    text-align: center;\n    margin-top: 8px;\n    font-style: italic;\n  }\n  .grid-2 {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 40px;\n    margin-top: 10px;\n  }\n  .grid-3 {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 30px;\n    margin-top: 10px;\n  }\n  .card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n  .card-img-2 {\n    width: 100%;\n    height: 280px; /* Fixed 2-col image height */\n    margin-bottom: 12px;\n  }\n  .card-img-3 {\n    width: 100%;\n    height: 200px; /* Fixed 3-col image height */\n    margin-bottom: 12px;\n  }\n  .card img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border-radius: 8px;\n  }\n  .card strong {\n    font-size: 18px;\n    color: #5f6368;\n    font-weight: 600;\n  }\n\n---\n# Learning Theories: The Toolkit Analogy\n\n* Theories are not mutually exclusive paradigms.\n* Act as complementary lenses for instructional design.\n* Each theory serves specific educational goals.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/1.png\" alt=\"A toolkit containing varied tools illustrates how different learning theories serve unique, complementary instructional purposes.\" />\n  </div>\n  <p class=\"hero-caption\">A toolkit containing varied tools illustrates how different learning theories serve unique, complementary instructional purposes.</p>\n</div>\n\n---\n# Paradigm vs. Toolkit\n\n* Non-Example: Theories as competing dogmas.\n* Concept: Theories as strategic design tools.\n* Focus shifts from 'which is right?' to 'which is useful?'\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/2.png\" alt=\"Competing paradigms create unnecessary friction and limit design potential.\" />\n    </div>\n    <span><strong>Competing paradigms create unnecessary friction and limit design potential.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/3.png\" alt=\"Selecting the right theoretical tool for the task ensures targeted and effective instructional design.\" />\n    </div>\n    <span><strong>Selecting the right theoretical tool for the task ensures targeted and effective instructional design.</strong></span>\n  </div>\n</div>\n\n---\n# The Foundations of Instructional Design\n\n* Behaviorism: Shapes observable responses.\n* Cognitivism: Processes internal information.\n* Constructivism: Actively constructs meaning.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/4.png\" alt=\"Behaviorism focuses on shaping observable behaviors through external stimuli and reinforcement.\" />\n    </div>\n    <span><strong>Behaviorism focuses on shaping observable behaviors through external stimuli and reinforcement.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/5.png\" alt=\"Cognitivism treats the mind as an active computer, focusing on how internal information is processed and stored.\" />\n    </div>\n    <span><strong>Cognitivism treats the mind as an active computer, focusing on how internal information is processed and stored.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/6.png\" alt=\"Constructivism emphasizes learners actively building their own knowledge through context and experiences.\" />\n    </div>\n    <span><strong>Constructivism emphasizes learners actively building their own knowledge through context and experiences.</strong></span>\n  </div>\n</div>\n\n---\n# Selecting the Right Lens\n\n* Analyze the specific instructional goal first.\n* Match the learning theory to the task complexity.\n* Blend approaches for holistic AI-driven design.\n* Evaluate effectiveness through learner outcomes.\n\n---\n# Selecting the Right Lens\n\n* Theories act as complementary tools, not competitors.\n* The instructional goal dictates the theoretical lens.\n* Avoid forcing a single framework onto every learning problem.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/7.png\" alt=\"Different learning theories act as interchangeable lenses, each clarifying a specific type of instructional goal.\" />\n  </div>\n  <p class=\"hero-caption\">Different learning theories act as interchangeable lenses, each clarifying a specific type of instructional goal.</p>\n</div>\n\n---\n# Behaviorism: The Lens for Rapid Recall\n\n* Optimal for foundational, automated recall.\n* Requires immediate feedback and repetition.\n* Ineffective for critical thinking or abstract creation.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/8.png\" alt=\"Effective Example: Drilling basic vocabulary for automated recall.\" />\n    </div>\n    <span><strong>Effective Example: Drilling basic vocabulary for automated recall.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/9.png\" alt=\"Non-Example: Using simple rewards for complex, creative tasks.\" />\n    </div>\n    <span><strong>Non-Example: Using simple rewards for complex, creative tasks.</strong></span>\n  </div>\n</div>\n\n---\n# Cognitivism: The Lens for Mental Models\n\n* Optimal for teaching complex concepts and rules.\n* Focuses on scaffolding and working memory limits.\n* Ineffective if learners lack foundational guidance.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/10.png\" alt=\"Effective Example: Scaffolding complex information processing step-by-step.\" />\n    </div>\n    <span><strong>Effective Example: Scaffolding complex information processing step-by-step.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/11.png\" alt=\"Non-Example: Expecting learners to process complex systems through trial and error.\" />\n    </div>\n    <span><strong>Non-Example: Expecting learners to process complex systems through trial and error.</strong></span>\n  </div>\n</div>\n\n---\n# Constructivism: The Lens for Collaboration\n\n* Optimal for novel, open-ended problem solving.\n* Requires active meaning-making and social negotiation.\n* Ineffective via passive, one-way information delivery.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/12.png\" alt=\"Effective Example: Actively constructing knowledge through shared problem-solving.\" />\n    </div>\n    <span><strong>Effective Example: Actively constructing knowledge through shared problem-solving.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/13.png\" alt=\"Non-Example: Passive reception of information for complex application tasks.\" />\n    </div>\n    <span><strong>Non-Example: Passive reception of information for complex application tasks.</strong></span>\n  </div>\n</div>\n\n---\n# Aligning Goals Across the Spectrum\n\n* Behaviorism: Best for automated recall.\n* Cognitivism: Best for processing complex rules.\n* Constructivism: Best for collaborative creation.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/14.png\" alt=\"Behaviorism: Rapid Recall\" />\n    </div>\n    <span><strong>Behaviorism: Rapid Recall</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/15.png\" alt=\"Cognitivism: Complex Processing\" />\n    </div>\n    <span><strong>Cognitivism: Complex Processing</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/16.png\" alt=\"Constructivism: Collaborative Creation\" />\n    </div>\n    <span><strong>Constructivism: Collaborative Creation</strong></span>\n  </div>\n</div>\n\n---\n# The Obsolescence Myth\n\n* Theories are not a timeline of obsolescence.\n* New paradigms do not replace older ones.\n* All learning theories remain relevant today.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/17.png\" alt=\"Learning theories are overlapping puzzle pieces, not a discarded timeline.\" />\n  </div>\n  <p class=\"hero-caption\">Learning theories are overlapping puzzle pieces, not a discarded timeline.</p>\n</div>\n\n---\n# The Toolkit Analogy\n\n* One theory cannot solve every problem.\n* Avoid the \"only a hammer\" approach.\n* Use multiple theories as complementary tools.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/18.png\" alt=\"Using only one theory is like trying to build a house with just a hammer.\" />\n    </div>\n    <span><strong>Using only one theory is like trying to build a house with just a hammer.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/19.png\" alt=\"Good instructional design uses a complete toolkit of complementary theories.\" />\n    </div>\n    <span><strong>Good instructional design uses a complete toolkit of complementary theories.</strong></span>\n  </div>\n</div>\n\n---\n# Applying Complementary Lenses\n\n* Non-Example: Abandoning Behaviorism completely.\n* Example: Blending drill-practice with problem-solving.\n* Goal: Match the theory to the learning objective.\n\n---\n# Designing the AI Tutor\n\n* Effective design integrates multiple learning theories.\n* Theories act as complementary lenses, not competing dogmas.\n* Each lens serves a specific instructional goal.\n* AI systems combine these to optimize learning.\n\n<div class=\"hero-wrapper\">\n  <div class=\"hero-container\">\n    <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/20.png\" alt=\"An AI tutor interface representing a unified toolkit of different educational theories.\" />\n  </div>\n  <p class=\"hero-caption\">An AI tutor interface representing a unified toolkit of different educational theories.</p>\n</div>\n\n---\n# Applying the Three Lenses\n\n* Behaviorist: Immediate reward points and streaks.\n* Cognitivist: Chunking and sequencing content.\n* Constructivist: Socratic, open-ended questioning.\n* Select the right lens for the cognitive task.\n\n<div class=\"grid-3\">\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/21.png\" alt=\"Behaviorism: Gamification points reinforce observable habits.\" />\n    </div>\n    <span><strong>Behaviorism: Gamification points reinforce observable habits.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/22.png\" alt=\"Cognitivism: Step-by-step chunking prevents cognitive overload.\" />\n    </div>\n    <span><strong>Cognitivism: Step-by-step chunking prevents cognitive overload.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-3\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/23.png\" alt=\"Constructivism: Socratic prompts guide active meaning-making.\" />\n    </div>\n    <span><strong>Constructivism: Socratic prompts guide active meaning-making.</strong></span>\n  </div>\n</div>\n\n---\n# Integration vs. Isolation\n\n* Effective: Seamlessly blending theories to support the user.\n* Ineffective (Non-Example): Dogmatically forcing one theory.\n* Example: Points alone ignore deep comprehension.\n* Example: Pure exploration overwhelms novices.\n\n<div class=\"grid-2\">\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/24.png\" alt=\"Effective: Integrating multiple theories creates a robust learning experience.\" />\n    </div>\n    <span><strong>Effective: Integrating multiple theories creates a robust learning experience.</strong></span>\n  </div>\n  <div class=\"card\">\n    <div class=\"card-img-2\">\n      <img src=\"https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/25.png\" alt=\"Non-Example: Forcing a single theory onto every learning task causes friction.\" />\n    </div>\n    <span><strong>Non-Example: Forcing a single theory onto every learning task causes friction.</strong></span>\n  </div>\n</div>\n\n---\n# The Seamless AI Experience\n\n* Start with behaviorist mechanisms to build initial engagement.\n* Apply cognitivist principles to deliver core content efficiently.\n* Transition to constructivist tasks for mastery and application.\n* Ultimate goal: An adaptive system responding to learner state.\n",
+    "transcripts": [
+        {
+            "slide_index": 0,
+            "slide_title": "Learning Theories: The Toolkit Analogy",
+            "transcript": "Welcome to the foundational map of instructional design. A common misconception is that one learning theory is universally superior to the others and replaces them. Instead, we should view Behaviorism, Cognitivism, and Constructivism as an instructional toolkit. Just as you wouldn't use a hammer to turn a screw, you must select a learning theory based on the specific instructional problem you need to solve.",
+            "thai_transcript": "ยินดีต้อนรับสู่แผนที่พื้นฐานของการออกแบบการจัดการเรียนรู้ ความเข้าใจผิดที่พบบ่อยคือการคิดว่ามีทฤษฎีการเรียนรู้หนึ่งที่ดีที่สุดในทุกสถานการณ์และสามารถทดแทนทฤษฎีอื่นได้ ในทางกลับกัน เราควรมองทฤษฎีพฤติกรรมนิยม พุทธิปัญญานิยม และสร้างสรรค์นิยมเป็นเหมือนกล่องเครื่องมือทางการศึกษา เช่นเดียวกับที่คุณจะไม่ใช้ค้อนไปไขสกรู คุณต้องเลือกทฤษฎีการเรียนรู้ตามปัญหาการสอนเฉพาะหน้าคุณที่ต้องการแก้ไข"
+        },
+        {
+            "slide_index": 1,
+            "slide_title": "Paradigm vs. Toolkit",
+            "transcript": "Let's clarify what learning theories are not. They are not competing dogmas where one must 'win' and the others must be discarded as false. If you view them as mutually exclusive paradigms, you severely limit your design capabilities. The reality is that they are complementary frameworks. The best instructional designers shift their mindset from asking 'which theory is correct' to asking 'which theory is most useful for this specific learning objective'.",
+            "thai_transcript": "ลองมาทำความเข้าใจให้ชัดเจนว่าทฤษฎีการเรียนรู้ไม่ใช่สิ่งใด พวกมันไม่ใช่หลักการที่ต้องมาแข่งขันกันเพื่อหาผู้ชนะและทิ้งสิ่งอื่นไป หากคุณมองว่ามันเป็นขั้วตรงข้ามที่ขัดแย้งกัน คุณจะจำกัดขีดความสามารถในการออกแบบของคุณอย่างมาก ความจริงคือมันเป็นกรอบแนวคิดที่ส่งเสริมซึ่งกันและกัน นักออกแบบการสอนที่ดีที่สุดจะเปลี่ยนมุมมองจากการถามว่า 'ทฤษฎีไหนถูกต้อง' ไปเป็นการถามว่า 'ทฤษฎีไหนมีประโยชน์ที่สุดสำหรับวัตถุประสงค์การเรียนรู้นี้'"
+        },
+        {
+            "slide_index": 2,
+            "slide_title": "The Foundations of Instructional Design",
+            "transcript": "Here are the three main tools in our instructional design toolkit. First, Behaviorism treats learning as a change in observable behavior, which is perfect for foundational drill-and-practice tasks. Second, Cognitivism opens the 'black box' of the mind, focusing deeply on how we mentally process, sequence, and store information. Third, Constructivism views the learner as an active creator of knowledge, making it ideal for complex, collaborative problem-solving. Each angle gives us distinct strategies for different cognitive challenges.",
+            "thai_transcript": "นี่คือเครื่องมือหลักสามชิ้นในกล่องเครื่องมือการออกแบบการจัดการเรียนรู้ของเรา ประการแรก พฤติกรรมนิยมมองการเรียนรู้ว่าเป็นการเปลี่ยนแปลงพฤติกรรมที่สังเกตได้ ซึ่งเหมาะสำหรับการฝึกฝนพื้นฐานซ้ำๆ ประการที่สอง พุทธิปัญญานิยมเปิด 'กล่องดำ' ของสมอง โดยเน้นเจาะลึกว่าเราประมวลผล จัดลำดับ และจัดเก็บข้อมูลในใจอย่างไร ประการที่สาม สร้างสรรค์นิยมมองผู้เรียนเป็นผู้สร้างความรู้เชิงรุก ซึ่งเหมาะอย่างยิ่งสำหรับการแก้ปัญหาที่ซับซ้อนและต้องร่วมมือกัน แต่ละมุมมองให้กลยุทธ์ที่แตกต่างกันสำหรับความท้าทายทางปัญญาที่หลากหลาย"
+        },
+        {
+            "slide_index": 3,
+            "slide_title": "Selecting the Right Lens",
+            "transcript": "How do we apply this toolkit in practice? You must always begin by analyzing your specific instructional goal before blindly selecting a theory. For instance, if you are building an AI app for rote vocabulary memorization, Behaviorist principles like immediate corrective feedback work best. However, if you are designing a complex, open-ended business simulation, Constructivist principles will guide your design far better. The ultimate key is to blend these approaches logically to create a holistic, highly effective learning environment.",
+            "thai_transcript": "เราจะนำกล่องเครื่องมือนี้ไปประยุกต์ใช้ในทางปฏิบัติได้อย่างไร คุณต้องเริ่มต้นด้วยการวิเคราะห์เป้าหมายการสอนเฉพาะของคุณก่อนที่จะเลือกใช้ทฤษฎีเสมอ ตัวอย่างเช่น หากคุณกำลังสร้างแอป AI สำหรับการท่องจำคำศัพท์ หลักการพฤติกรรมนิยมเช่นการให้ผลลัพธ์ย้อนกลับเพื่อแก้ไขทันทีจะทำงานได้ดีที่สุด อย่างไรก็ตาม หากคุณกำลังออกแบบสถานการณ์จำลองทางธุรกิจที่ซับซ้อนและปลายเปิด หลักการสร้างสรรค์นิยมจะเป็นแนวทางในการออกแบบของคุณได้ดีกว่ามาก กุญแจสำคัญที่สุดคือการผสมผสานแนวทางเหล่านี้อย่างสมเหตุสมผลเพื่อสร้างสภาพแวดล้อมการเรียนรู้แบบองค์รวมที่มีประสิทธิภาพสูง"
+        },
+        {
+            "slide_index": 4,
+            "slide_title": "Selecting the Right Lens",
+            "transcript": "Welcome to the practical application of learning theories. A common mistake instructional designers make is treating these theories as competing religions. Instead, think of them as complementary lenses in a camera bag. You wouldn't use a macro lens to shoot a landscape; similarly, you shouldn't use Constructivism to teach basic multiplication tables. The instructional goal always dictates which theoretical lens we apply.",
+            "thai_transcript": "ยินดีต้อนรับสู่การประยุกต์ใช้ทฤษฎีการเรียนรู้ในทางปฏิบัติ ข้อผิดพลาดที่พบบ่อยคือนักออกแบบการเรียนการสอนมักมองว่าทฤษฎีเหล่านี้แข่งขันกันเอง ให้คิดว่ามันเป็นเลนส์เสริมในกระเป๋ากล้องแทน คุณคงไม่ใช้เลนส์มาโครถ่ายภาพวิวทิวทัศน์ ในทำนองเดียวกัน คุณก็ไม่ควรใช้ทฤษฎีคอนสตรัคติวิสต์ในการสอนสูตรคูณพื้นฐาน เป้าหมายการสอนจะเป็นตัวกำหนดเสมอว่าเราควรใช้เลนส์ทฤษฎีใด"
+        },
+        {
+            "slide_index": 5,
+            "slide_title": "Behaviorism: The Lens for Rapid Recall",
+            "transcript": "When your goal is rapid rote memorization or habit-building, Behaviorism is your best tool. Think about learning a new language: you need automated recall of vocabulary before you can write poetry. Drill-and-practice with immediate feedback works perfectly here. However, Behaviorism is a strict non-example for teaching deep, critical thinking; rewarding a student simply for writing an essay doesn't help them structure complex arguments.",
+            "thai_transcript": "เมื่อเป้าหมายของคุณคือการท่องจำอย่างรวดเร็วหรือการสร้างนิสัย พฤติกรรมนิยมคือเครื่องมือที่ดีที่สุดของคุณ ลองนึกถึงการเรียนภาษาใหม่ คุณต้องจำคำศัพท์ให้ได้โดยอัตโนมัติก่อนที่จะแต่งกลอนได้ การฝึกทำซ้ำๆ พร้อมรับผลตอบกลับทันทีจะทำงานได้ดีที่สุดที่นี่ อย่างไรก็ตาม พฤติกรรมนิยมไม่ใช่เครื่องมือที่เหมาะสมสำหรับการสอนการคิดเชิงวิพากษ์เชิงลึก การให้รางวัลนักเรียนเพียงเพราะเขียนเรียงความไม่ได้ช่วยให้พวกเขาสร้างโครงสร้างการโต้แย้งที่ซับซ้อนได้"
+        },
+        {
+            "slide_index": 6,
+            "slide_title": "Cognitivism: The Lens for Mental Models",
+            "transcript": "If the learning goal requires processing complex new concepts, we switch to the Cognitivist lens. This is where we manage working memory and help learners build internal mental models. A great example is providing a step-by-step worked solution for an advanced algebra problem. A clear non-example would be throwing learners into a complex simulation without any guidance, expecting them to figure out the underlying rules just by clicking around.",
+            "thai_transcript": "หากเป้าหมายการเรียนรู้ต้องอาศัยการประมวลผลแนวคิดใหม่ที่ซับซ้อน เราจะเปลี่ยนมาใช้เลนส์ของพุทธิปัญญานิยม นี่คือจุดที่เราจัดการกับหน่วยความจำขณะทำงานและช่วยให้ผู้เรียนสร้างแบบจำลองทางความคิดภายใน ตัวอย่างที่ดีคือการให้คำตอบทีละขั้นตอนสำหรับโจทย์พีชคณิตขั้นสูง สิ่งที่ไม่ควรทำอย่างยิ่งคือการปล่อยให้ผู้เรียนอยู่ในสถานการณ์จำลองที่ซับซ้อนโดยไม่มีคำแนะนำใดๆ แล้วหวังว่าพวกเขาจะเข้าใจกฎเกณฑ์พื้นฐานได้เองจากการลองผิดลองถูก"
+        },
+        {
+            "slide_index": 7,
+            "slide_title": "Constructivism: The Lens for Collaboration",
+            "transcript": "Finally, when the instructional goal is to have learners synthesize knowledge to solve novel, open-ended problems, we use Constructivism. This theory shines when students collaborate to build a unique project or debate ethical dilemmas. It requires active meaning-making. Conversely, a non-example of Constructivism is having students passively watch a two-hour lecture to learn how to design a building; true constructivist learning requires active, hands-on creation.",
+            "thai_transcript": "สุดท้าย เมื่อเป้าหมายการสอนคือการให้ผู้เรียนสังเคราะห์ความรู้เพื่อแก้ปัญหาใหม่ๆ ที่เป็นปลายเปิด เราจะใช้คอนสตรัคติวิสต์ ทฤษฎีนี้จะโดดเด่นมากเมื่อนักเรียนร่วมมือกันสร้างโปรเจกต์ที่เป็นเอกลักษณ์หรือถกเถียงปัญหาทางจริยธรรม มันต้องการการสร้างความหมายอย่างตื่นตัว ในทางกลับกัน สิ่งที่ไม่ใช่คอนสตรัคติวิสต์เลยคือการให้นักเรียนนั่งดูการบรรยายยาวสองชั่วโมงเพื่อเรียนรู้วิธีออกแบบอาคาร การเรียนรู้แบบคอนสตรัคติวิสต์ที่แท้จริงต้องอาศัยการลงมือทำจริง"
+        },
+        {
+            "slide_index": 8,
+            "slide_title": "Aligning Goals Across the Spectrum",
+            "transcript": "To summarize, effective instructional design requires explicitly aligning your pedagogical lens to the specific task. Use Behaviorism for foundational memorization. Upgrade to Cognitivism when managing working memory for complex problem-solving. Deploy Constructivism when learners must collaborate to create something entirely new. By mastering all three, you can intentionally design learning experiences that perfectly match human cognitive architecture.",
+            "thai_transcript": "โดยสรุป การออกแบบการเรียนการสอนที่มีประสิทธิภาพนั้นต้องการการจัดวางเลนส์ทางครุศาสตร์ให้ตรงกับงานเฉพาะอย่างชัดเจน ใช้พฤติกรรมนิยมสำหรับการท่องจำพื้นฐาน ยกระดับสู่พุทธิปัญญานิยมเมื่อต้องจัดการหน่วยความจำขณะทำงานสำหรับการแก้ปัญหาที่ซับซ้อน และใช้คอนสตรัคติวิสต์เมื่อผู้เรียนต้องร่วมมือกันสร้างสรรค์สิ่งใหม่ทั้งหมด การเชี่ยวชาญทั้งสามทฤษฎีนี้จะช่วยให้คุณสามารถออกแบบประสบการณ์การเรียนรู้ที่สอดคล้องกับสถาปัตยกรรมทางปัญญาของมนุษย์ได้อย่างสมบูรณ์แบบ"
+        },
+        {
+            "slide_index": 9,
+            "slide_title": "The Obsolescence Myth",
+            "transcript": "Welcome to our first major concept. A very common misconception in instructional design is treating learning theories as a historical timeline where newer theories render older ones obsolete. You might hear people say Behaviorism is dead because Constructivism is newer, but this is fundamentally false. These paradigms do not compete; rather, they coexist and apply to different types of learning challenges.",
+            "thai_transcript": "ยินดีต้อนรับสู่แนวคิดหลักแรกของเราครับ ความเข้าใจผิดที่พบบ่อยมากในการออกแบบการจัดการเรียนการสอนคือการมองทฤษฎีการเรียนรู้เป็นเส้นเวลาทางประวัติศาสตร์ที่ทฤษฎีใหม่จะทำให้ทฤษฎีเก่าล้าสมัย คุณอาจได้ยินคนพูดว่าพฤติกรรมนิยมตายไปแล้วเพราะคอนสตรัคติวิซึมเป็นสิ่งใหม่กว่า แต่นี่เป็นความเข้าใจที่ผิดโดยสิ้นเชิง กระบวนทัศน์เหล่านี้ไม่ได้แข่งขันกัน แต่มีอยู่ร่วมกันและนำไปประยุกต์ใช้กับความท้าทายในการเรียนรู้ที่แตกต่างกัน"
+        },
+        {
+            "slide_index": 10,
+            "slide_title": "The Toolkit Analogy",
+            "transcript": "Let's use an analogy to understand this better. Relying exclusively on one theory for all your training needs is exactly like trying to build an entire house using nothing but a hammer. It might work for pounding nails, but it will fail miserably when you need to cut wood or turn a screw. Instead, view these learning theories as a diverse toolkit. Your job as an instructional designer is to know exactly which tool to pull out based on the specific cognitive task your learners face.",
+            "thai_transcript": "ลองใช้การเปรียบเทียบเพื่อให้เข้าใจเรื่องนี้ได้ดีขึ้นครับ การพึ่งพาทฤษฎีเพียงทฤษฎีเดียวสำหรับการฝึกอบรมทั้งหมดก็เหมือนกับการพยายามสร้างบ้านทั้งหลังโดยใช้แค่ค้อนเพียงอย่างเดียว มันอาจจะใช้ได้ดีกับการตอกตะปู แต่มันจะล้มเหลวอย่างสิ้นเชิงเมื่อคุณต้องการตัดไม้หรือไขสกรู ดังนั้น จงมองทฤษฎีการเรียนรู้เหล่านี้เป็นชุดเครื่องมือที่หลากหลาย หน้าที่ของคุณในฐานะนักออกแบบการจัดการเรียนการสอนคือการรู้ว่าควรหยิบเครื่องมือชิ้นไหนออกมาใช้ให้เหมาะกับงานทางปัญญาที่ผู้เรียนต้องเผชิญ"
+        },
+        {
+            "slide_index": 11,
+            "slide_title": "Applying Complementary Lenses",
+            "transcript": "To solidify this, let's look at a concrete non-example of good instructional design. A poor practice would be entirely abandoning Behaviorism just because Constructivism aligns better with your personal philosophy. If you need learners to memorize emergency safety codes, a behaviorist drill-and-practice approach is highly effective. You would then switch to a Constructivist approach when asking those same learners to collaboratively solve a complex safety crisis. The key is matching the theoretical lens to your immediate instructional goal.",
+            "thai_transcript": "เพื่อให้เข้าใจเรื่องนี้อย่างหนักแน่น เรามาดูตัวอย่างที่ไม่ดีของการออกแบบการเรียนการสอนกันครับ แนวปฏิบัติที่แย่คือการละทิ้งพฤติกรรมนิยมไปโดยสิ้นเชิงเพียงเพราะคอนสตรัคติวิซึมสอดคล้องกับปรัชญาส่วนตัวของคุณมากกว่า หากคุณต้องการให้ผู้เรียนจดจำรหัสความปลอดภัยฉุกเฉิน วิธีการฝึกฝนแบบพฤติกรรมนิยมนั้นมีประสิทธิภาพสูงมาก จากนั้นคุณจึงสามารถสลับไปใช้วิธีการแบบคอนสตรัคติวิซึมเมื่อให้ผู้เรียนกลุ่มเดียวกันร่วมมือกันแก้ไขวิกฤตความปลอดภัยที่ซับซ้อน กุญแจสำคัญคือการจับคู่มุมมองทางทฤษฎีให้ตรงกับเป้าหมายการสอนในขณะนั้น"
+        },
+        {
+            "slide_index": 12,
+            "slide_title": "Designing the AI Tutor",
+            "transcript": "Welcome to the practical application of our learning theories. Imagine you are tasked with designing an AI tutor. To create a truly effective system, you must remember that Behaviorism, Cognitivism, and Constructivism are complementary lenses. You don't pick just one; you use them together like tools in a toolkit to solve different instructional challenges.",
+            "thai_transcript": "ยินดีต้อนรับสู่การประยุกต์ใช้ทฤษฎีการเรียนรู้ในภาคปฏิบัติ ลองจินตนาการว่าคุณได้รับมอบหมายให้ออกแบบระบบ AI ติวเตอร์ เพื่อสร้างระบบที่มีประสิทธิภาพอย่างแท้จริง คุณต้องจำไว้ว่าพฤติกรรมนิยม พุทธิปัญญานิยม และคอนสตรัคติวิซึมเป็นมุมมองที่เสริมซึ่งกันและกัน คุณไม่ได้เลือกแค่อย่างใดอย่างหนึ่ง แต่คุณใช้มันร่วมกันเหมือนเครื่องมือในกล่องเครื่องมือเพื่อแก้ปัญหาการจัดการเรียนการสอนที่แตกต่างกัน"
+        },
+        {
+            "slide_index": 13,
+            "slide_title": "Applying the Three Lenses",
+            "transcript": "Let's break down how these lenses apply to specific AI features. First, a Behaviorist lens is used when the AI gives immediate reward points for a correct answer, shaping rapid, observable habits. Next, a Cognitivist lens informs how the AI chunks and sequences that information, managing working memory to prevent overload. Finally, a Constructivist lens is applied when the AI stops giving direct answers and instead asks Socratic, open-ended questions to help the learner build their own understanding.",
+            "thai_transcript": "มาดูกันว่ามุมมองเหล่านี้ประยุกต์ใช้กับฟีเจอร์เฉพาะของ AI อย่างไรบ้าง อย่างแรก มุมมองด้านพฤติกรรมนิยมถูกนำมาใช้เมื่อ AI ให้คะแนนรางวัลทันทีสำหรับคำตอบที่ถูกต้อง เพื่อสร้างนิสัยที่สังเกตได้ ต่อมา มุมมองด้านพุทธิปัญญานิยมจะเป็นตัวกำหนดว่า AI จะแบ่งย่อยและจัดลำดับข้อมูลอย่างไร เพื่อจัดการความจำขณะทำงานไม่ให้เกิดภาระหนักเกินไป ท้ายที่สุด มุมมองด้านคอนสตรัคติวิซึมจะถูกนำมาใช้เมื่อ AI หยุดให้คำตอบโดยตรง แต่เปลี่ยนไปตั้งคำถามแบบปลายเปิดเพื่อช่วยให้ผู้เรียนสร้างความเข้าใจด้วยตนเอง"
+        },
+        {
+            "slide_index": 14,
+            "slide_title": "Integration vs. Isolation",
+            "transcript": "A strong mental model requires knowing what effective design is NOT. A common trap is dogmatic design, where an instructional designer forces one theory onto every task. For example, relying strictly on behaviorist points will fail to build deep comprehension, while forcing pure constructivist exploration on novices will overwhelm their working memory. Effective design seamlessly weaves these lenses together based on the learner's immediate cognitive needs.",
+            "thai_transcript": "แบบจำลองทางความคิดที่แข็งแกร่งต้องอาศัยการรู้ว่าการออกแบบที่ดี 'ไม่ใช่' อะไร ข้อผิดพลาดที่พบบ่อยคือการยึดติดกับทฤษฎีเดียว โดยผู้ออกแบบพยายามบังคับใช้ทฤษฎีเดียวกับทุกงาน ตัวอย่างเช่น การพึ่งพาแค่คะแนนแบบพฤติกรรมนิยมจะไม่สามารถสร้างความเข้าใจที่ลึกซึ้งได้ ในขณะที่การบังคับให้ผู้เริ่มต้นสำรวจเนื้อหาอย่างอิสระแบบคอนสตรัคติวิซึมล้วนๆ จะทำให้พวกเขาเกิดภาวะรับรู้เกินพิกัด การออกแบบที่มีประสิทธิภาพคือการผสมผสานมุมมองเหล่านี้เข้าด้วยกันอย่างราบรื่นตามความต้องการทางสติปัญญาของผู้เรียนในขณะนั้น"
+        },
+        {
+            "slide_index": 15,
+            "slide_title": "The Seamless AI Experience",
+            "transcript": "Ultimately, the best AI learning experiences sequence these theories naturally. You might hook the learner initially with behaviorist gamification to build momentum. As they dive into the material, you rely on cognitivist structures to efficiently deliver the core concepts without overwhelming them. Finally, once foundational schemas are built, the AI shifts to a constructivist mode, challenging the user with open-ended scenarios. This adaptability is the hallmark of expert instructional design.",
+            "thai_transcript": "ท้ายที่สุดแล้ว ประสบการณ์การเรียนรู้ผ่าน AI ที่ดีที่สุดจะจัดลำดับทฤษฎีเหล่านี้อย่างเป็นธรรมชาติ คุณอาจดึงดูดผู้เรียนในตอนแรกด้วยกลไกเกมแบบพฤติกรรมนิยมเพื่อสร้างแรงจูงใจ เมื่อพวกเขาเริ่มเรียนรู้เนื้อหา คุณก็พึ่งพาโครงสร้างทางพุทธิปัญญานิยมเพื่อนำเสนอแนวคิดหลักอย่างมีประสิทธิภาพโดยไม่ทำให้พวกเขารู้สึกหนักเกินไป และสุดท้าย เมื่อสร้างโครงสร้างความรู้พื้นฐานได้แล้ว AI จะเปลี่ยนไปสู่โหมดคอนสตรัคติวิซึม โดยท้าทายผู้ใช้ด้วยสถานการณ์จำลองแบบปลายเปิด ความสามารถในการปรับตัวนี้คือจุดเด่นของการออกแบบการจัดการเรียนการสอนระดับผู้เชี่ยวชาญ"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Learning Theories: The Toolkit Analogy",
+            "slides": [
+                {
+                    "title": "Learning Theories: The Toolkit Analogy",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Theories are not mutually exclusive paradigms.",
+                        "Act as complementary lenses for instructional design.",
+                        "Each theory serves specific educational goals."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/1.png",
+                            "caption": "A toolkit containing varied tools illustrates how different learning theories serve unique, complementary instructional purposes.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to the foundational map of instructional design. A common misconception is that one learning theory is universally superior to the others and replaces them. Instead, we should view Behaviorism, Cognitivism, and Constructivism as an instructional toolkit. Just as you wouldn't use a hammer to turn a screw, you must select a learning theory based on the specific instructional problem you need to solve.",
+                    "thai_transcript": "ยินดีต้อนรับสู่แผนที่พื้นฐานของการออกแบบการจัดการเรียนรู้ ความเข้าใจผิดที่พบบ่อยคือการคิดว่ามีทฤษฎีการเรียนรู้หนึ่งที่ดีที่สุดในทุกสถานการณ์และสามารถทดแทนทฤษฎีอื่นได้ ในทางกลับกัน เราควรมองทฤษฎีพฤติกรรมนิยม พุทธิปัญญานิยม และสร้างสรรค์นิยมเป็นเหมือนกล่องเครื่องมือทางการศึกษา เช่นเดียวกับที่คุณจะไม่ใช้ค้อนไปไขสกรู คุณต้องเลือกทฤษฎีการเรียนรู้ตามปัญหาการสอนเฉพาะหน้าคุณที่ต้องการแก้ไข"
+                },
+                {
+                    "title": "Paradigm vs. Toolkit",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Non-Example: Theories as competing dogmas.",
+                        "Concept: Theories as strategic design tools.",
+                        "Focus shifts from 'which is right?' to 'which is useful?'"
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/2.png",
+                            "caption": "Competing paradigms create unnecessary friction and limit design potential.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/3.png",
+                            "caption": "Selecting the right theoretical tool for the task ensures targeted and effective instructional design.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's clarify what learning theories are not. They are not competing dogmas where one must 'win' and the others must be discarded as false. If you view them as mutually exclusive paradigms, you severely limit your design capabilities. The reality is that they are complementary frameworks. The best instructional designers shift their mindset from asking 'which theory is correct' to asking 'which theory is most useful for this specific learning objective'.",
+                    "thai_transcript": "ลองมาทำความเข้าใจให้ชัดเจนว่าทฤษฎีการเรียนรู้ไม่ใช่สิ่งใด พวกมันไม่ใช่หลักการที่ต้องมาแข่งขันกันเพื่อหาผู้ชนะและทิ้งสิ่งอื่นไป หากคุณมองว่ามันเป็นขั้วตรงข้ามที่ขัดแย้งกัน คุณจะจำกัดขีดความสามารถในการออกแบบของคุณอย่างมาก ความจริงคือมันเป็นกรอบแนวคิดที่ส่งเสริมซึ่งกันและกัน นักออกแบบการสอนที่ดีที่สุดจะเปลี่ยนมุมมองจากการถามว่า 'ทฤษฎีไหนถูกต้อง' ไปเป็นการถามว่า 'ทฤษฎีไหนมีประโยชน์ที่สุดสำหรับวัตถุประสงค์การเรียนรู้นี้'"
+                },
+                {
+                    "title": "The Foundations of Instructional Design",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Behaviorism: Shapes observable responses.",
+                        "Cognitivism: Processes internal information.",
+                        "Constructivism: Actively constructs meaning."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/4.png",
+                            "caption": "Behaviorism focuses on shaping observable behaviors through external stimuli and reinforcement.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/5.png",
+                            "caption": "Cognitivism treats the mind as an active computer, focusing on how internal information is processed and stored.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/6.png",
+                            "caption": "Constructivism emphasizes learners actively building their own knowledge through context and experiences.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "Here are the three main tools in our instructional design toolkit. First, Behaviorism treats learning as a change in observable behavior, which is perfect for foundational drill-and-practice tasks. Second, Cognitivism opens the 'black box' of the mind, focusing deeply on how we mentally process, sequence, and store information. Third, Constructivism views the learner as an active creator of knowledge, making it ideal for complex, collaborative problem-solving. Each angle gives us distinct strategies for different cognitive challenges.",
+                    "thai_transcript": "นี่คือเครื่องมือหลักสามชิ้นในกล่องเครื่องมือการออกแบบการจัดการเรียนรู้ของเรา ประการแรก พฤติกรรมนิยมมองการเรียนรู้ว่าเป็นการเปลี่ยนแปลงพฤติกรรมที่สังเกตได้ ซึ่งเหมาะสำหรับการฝึกฝนพื้นฐานซ้ำๆ ประการที่สอง พุทธิปัญญานิยมเปิด 'กล่องดำ' ของสมอง โดยเน้นเจาะลึกว่าเราประมวลผล จัดลำดับ และจัดเก็บข้อมูลในใจอย่างไร ประการที่สาม สร้างสรรค์นิยมมองผู้เรียนเป็นผู้สร้างความรู้เชิงรุก ซึ่งเหมาะอย่างยิ่งสำหรับการแก้ปัญหาที่ซับซ้อนและต้องร่วมมือกัน แต่ละมุมมองให้กลยุทธ์ที่แตกต่างกันสำหรับความท้าทายทางปัญญาที่หลากหลาย"
+                },
+                {
+                    "title": "Selecting the Right Lens",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Analyze the specific instructional goal first.",
+                        "Match the learning theory to the task complexity.",
+                        "Blend approaches for holistic AI-driven design.",
+                        "Evaluate effectiveness through learner outcomes."
+                    ],
+                    "images": null,
+                    "transcript": "How do we apply this toolkit in practice? You must always begin by analyzing your specific instructional goal before blindly selecting a theory. For instance, if you are building an AI app for rote vocabulary memorization, Behaviorist principles like immediate corrective feedback work best. However, if you are designing a complex, open-ended business simulation, Constructivist principles will guide your design far better. The ultimate key is to blend these approaches logically to create a holistic, highly effective learning environment.",
+                    "thai_transcript": "เราจะนำกล่องเครื่องมือนี้ไปประยุกต์ใช้ในทางปฏิบัติได้อย่างไร คุณต้องเริ่มต้นด้วยการวิเคราะห์เป้าหมายการสอนเฉพาะของคุณก่อนที่จะเลือกใช้ทฤษฎีเสมอ ตัวอย่างเช่น หากคุณกำลังสร้างแอป AI สำหรับการท่องจำคำศัพท์ หลักการพฤติกรรมนิยมเช่นการให้ผลลัพธ์ย้อนกลับเพื่อแก้ไขทันทีจะทำงานได้ดีที่สุด อย่างไรก็ตาม หากคุณกำลังออกแบบสถานการณ์จำลองทางธุรกิจที่ซับซ้อนและปลายเปิด หลักการสร้างสรรค์นิยมจะเป็นแนวทางในการออกแบบของคุณได้ดีกว่ามาก กุญแจสำคัญที่สุดคือการผสมผสานแนวทางเหล่านี้อย่างสมเหตุสมผลเพื่อสร้างสภาพแวดล้อมการเรียนรู้แบบองค์รวมที่มีประสิทธิภาพสูง"
+                }
+            ]
+        },
+        {
+            "title": "Using the Right Lens for the Goal",
+            "slides": [
+                {
+                    "title": "Selecting the Right Lens",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Theories act as complementary tools, not competitors.",
+                        "The instructional goal dictates the theoretical lens.",
+                        "Avoid forcing a single framework onto every learning problem."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/7.png",
+                            "caption": "Different learning theories act as interchangeable lenses, each clarifying a specific type of instructional goal.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to the practical application of learning theories. A common mistake instructional designers make is treating these theories as competing religions. Instead, think of them as complementary lenses in a camera bag. You wouldn't use a macro lens to shoot a landscape; similarly, you shouldn't use Constructivism to teach basic multiplication tables. The instructional goal always dictates which theoretical lens we apply.",
+                    "thai_transcript": "ยินดีต้อนรับสู่การประยุกต์ใช้ทฤษฎีการเรียนรู้ในทางปฏิบัติ ข้อผิดพลาดที่พบบ่อยคือนักออกแบบการเรียนการสอนมักมองว่าทฤษฎีเหล่านี้แข่งขันกันเอง ให้คิดว่ามันเป็นเลนส์เสริมในกระเป๋ากล้องแทน คุณคงไม่ใช้เลนส์มาโครถ่ายภาพวิวทิวทัศน์ ในทำนองเดียวกัน คุณก็ไม่ควรใช้ทฤษฎีคอนสตรัคติวิสต์ในการสอนสูตรคูณพื้นฐาน เป้าหมายการสอนจะเป็นตัวกำหนดเสมอว่าเราควรใช้เลนส์ทฤษฎีใด"
+                },
+                {
+                    "title": "Behaviorism: The Lens for Rapid Recall",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Optimal for foundational, automated recall.",
+                        "Requires immediate feedback and repetition.",
+                        "Ineffective for critical thinking or abstract creation."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/8.png",
+                            "caption": "Effective Example: Drilling basic vocabulary for automated recall.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/9.png",
+                            "caption": "Non-Example: Using simple rewards for complex, creative tasks.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "When your goal is rapid rote memorization or habit-building, Behaviorism is your best tool. Think about learning a new language: you need automated recall of vocabulary before you can write poetry. Drill-and-practice with immediate feedback works perfectly here. However, Behaviorism is a strict non-example for teaching deep, critical thinking; rewarding a student simply for writing an essay doesn't help them structure complex arguments.",
+                    "thai_transcript": "เมื่อเป้าหมายของคุณคือการท่องจำอย่างรวดเร็วหรือการสร้างนิสัย พฤติกรรมนิยมคือเครื่องมือที่ดีที่สุดของคุณ ลองนึกถึงการเรียนภาษาใหม่ คุณต้องจำคำศัพท์ให้ได้โดยอัตโนมัติก่อนที่จะแต่งกลอนได้ การฝึกทำซ้ำๆ พร้อมรับผลตอบกลับทันทีจะทำงานได้ดีที่สุดที่นี่ อย่างไรก็ตาม พฤติกรรมนิยมไม่ใช่เครื่องมือที่เหมาะสมสำหรับการสอนการคิดเชิงวิพากษ์เชิงลึก การให้รางวัลนักเรียนเพียงเพราะเขียนเรียงความไม่ได้ช่วยให้พวกเขาสร้างโครงสร้างการโต้แย้งที่ซับซ้อนได้"
+                },
+                {
+                    "title": "Cognitivism: The Lens for Mental Models",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Optimal for teaching complex concepts and rules.",
+                        "Focuses on scaffolding and working memory limits.",
+                        "Ineffective if learners lack foundational guidance."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/10.png",
+                            "caption": "Effective Example: Scaffolding complex information processing step-by-step.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/11.png",
+                            "caption": "Non-Example: Expecting learners to process complex systems through trial and error.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "If the learning goal requires processing complex new concepts, we switch to the Cognitivist lens. This is where we manage working memory and help learners build internal mental models. A great example is providing a step-by-step worked solution for an advanced algebra problem. A clear non-example would be throwing learners into a complex simulation without any guidance, expecting them to figure out the underlying rules just by clicking around.",
+                    "thai_transcript": "หากเป้าหมายการเรียนรู้ต้องอาศัยการประมวลผลแนวคิดใหม่ที่ซับซ้อน เราจะเปลี่ยนมาใช้เลนส์ของพุทธิปัญญานิยม นี่คือจุดที่เราจัดการกับหน่วยความจำขณะทำงานและช่วยให้ผู้เรียนสร้างแบบจำลองทางความคิดภายใน ตัวอย่างที่ดีคือการให้คำตอบทีละขั้นตอนสำหรับโจทย์พีชคณิตขั้นสูง สิ่งที่ไม่ควรทำอย่างยิ่งคือการปล่อยให้ผู้เรียนอยู่ในสถานการณ์จำลองที่ซับซ้อนโดยไม่มีคำแนะนำใดๆ แล้วหวังว่าพวกเขาจะเข้าใจกฎเกณฑ์พื้นฐานได้เองจากการลองผิดลองถูก"
+                },
+                {
+                    "title": "Constructivism: The Lens for Collaboration",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Optimal for novel, open-ended problem solving.",
+                        "Requires active meaning-making and social negotiation.",
+                        "Ineffective via passive, one-way information delivery."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/12.png",
+                            "caption": "Effective Example: Actively constructing knowledge through shared problem-solving.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/13.png",
+                            "caption": "Non-Example: Passive reception of information for complex application tasks.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Finally, when the instructional goal is to have learners synthesize knowledge to solve novel, open-ended problems, we use Constructivism. This theory shines when students collaborate to build a unique project or debate ethical dilemmas. It requires active meaning-making. Conversely, a non-example of Constructivism is having students passively watch a two-hour lecture to learn how to design a building; true constructivist learning requires active, hands-on creation.",
+                    "thai_transcript": "สุดท้าย เมื่อเป้าหมายการสอนคือการให้ผู้เรียนสังเคราะห์ความรู้เพื่อแก้ปัญหาใหม่ๆ ที่เป็นปลายเปิด เราจะใช้คอนสตรัคติวิสต์ ทฤษฎีนี้จะโดดเด่นมากเมื่อนักเรียนร่วมมือกันสร้างโปรเจกต์ที่เป็นเอกลักษณ์หรือถกเถียงปัญหาทางจริยธรรม มันต้องการการสร้างความหมายอย่างตื่นตัว ในทางกลับกัน สิ่งที่ไม่ใช่คอนสตรัคติวิสต์เลยคือการให้นักเรียนนั่งดูการบรรยายยาวสองชั่วโมงเพื่อเรียนรู้วิธีออกแบบอาคาร การเรียนรู้แบบคอนสตรัคติวิสต์ที่แท้จริงต้องอาศัยการลงมือทำจริง"
+                },
+                {
+                    "title": "Aligning Goals Across the Spectrum",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Behaviorism: Best for automated recall.",
+                        "Cognitivism: Best for processing complex rules.",
+                        "Constructivism: Best for collaborative creation."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/14.png",
+                            "caption": "Behaviorism: Rapid Recall",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/15.png",
+                            "caption": "Cognitivism: Complex Processing",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/16.png",
+                            "caption": "Constructivism: Collaborative Creation",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "To summarize, effective instructional design requires explicitly aligning your pedagogical lens to the specific task. Use Behaviorism for foundational memorization. Upgrade to Cognitivism when managing working memory for complex problem-solving. Deploy Constructivism when learners must collaborate to create something entirely new. By mastering all three, you can intentionally design learning experiences that perfectly match human cognitive architecture.",
+                    "thai_transcript": "โดยสรุป การออกแบบการเรียนการสอนที่มีประสิทธิภาพนั้นต้องการการจัดวางเลนส์ทางครุศาสตร์ให้ตรงกับงานเฉพาะอย่างชัดเจน ใช้พฤติกรรมนิยมสำหรับการท่องจำพื้นฐาน ยกระดับสู่พุทธิปัญญานิยมเมื่อต้องจัดการหน่วยความจำขณะทำงานสำหรับการแก้ปัญหาที่ซับซ้อน และใช้คอนสตรัคติวิสต์เมื่อผู้เรียนต้องร่วมมือกันสร้างสรรค์สิ่งใหม่ทั้งหมด การเชี่ยวชาญทั้งสามทฤษฎีนี้จะช่วยให้คุณสามารถออกแบบประสบการณ์การเรียนรู้ที่สอดคล้องกับสถาปัตยกรรมทางปัญญาของมนุษย์ได้อย่างสมบูรณ์แบบ"
+                }
+            ]
+        },
+        {
+            "title": "What Learning Theories Are NOT",
+            "slides": [
+                {
+                    "title": "The Obsolescence Myth",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Theories are not a timeline of obsolescence.",
+                        "New paradigms do not replace older ones.",
+                        "All learning theories remain relevant today."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/17.png",
+                            "caption": "Learning theories are overlapping puzzle pieces, not a discarded timeline.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to our first major concept. A very common misconception in instructional design is treating learning theories as a historical timeline where newer theories render older ones obsolete. You might hear people say Behaviorism is dead because Constructivism is newer, but this is fundamentally false. These paradigms do not compete; rather, they coexist and apply to different types of learning challenges.",
+                    "thai_transcript": "ยินดีต้อนรับสู่แนวคิดหลักแรกของเราครับ ความเข้าใจผิดที่พบบ่อยมากในการออกแบบการจัดการเรียนการสอนคือการมองทฤษฎีการเรียนรู้เป็นเส้นเวลาทางประวัติศาสตร์ที่ทฤษฎีใหม่จะทำให้ทฤษฎีเก่าล้าสมัย คุณอาจได้ยินคนพูดว่าพฤติกรรมนิยมตายไปแล้วเพราะคอนสตรัคติวิซึมเป็นสิ่งใหม่กว่า แต่นี่เป็นความเข้าใจที่ผิดโดยสิ้นเชิง กระบวนทัศน์เหล่านี้ไม่ได้แข่งขันกัน แต่มีอยู่ร่วมกันและนำไปประยุกต์ใช้กับความท้าทายในการเรียนรู้ที่แตกต่างกัน"
+                },
+                {
+                    "title": "The Toolkit Analogy",
+                    "layout": "two_column",
+                    "key_points": [
+                        "One theory cannot solve every problem.",
+                        "Avoid the \"only a hammer\" approach.",
+                        "Use multiple theories as complementary tools."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/18.png",
+                            "caption": "Using only one theory is like trying to build a house with just a hammer.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/19.png",
+                            "caption": "Good instructional design uses a complete toolkit of complementary theories.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "Let's use an analogy to understand this better. Relying exclusively on one theory for all your training needs is exactly like trying to build an entire house using nothing but a hammer. It might work for pounding nails, but it will fail miserably when you need to cut wood or turn a screw. Instead, view these learning theories as a diverse toolkit. Your job as an instructional designer is to know exactly which tool to pull out based on the specific cognitive task your learners face.",
+                    "thai_transcript": "ลองใช้การเปรียบเทียบเพื่อให้เข้าใจเรื่องนี้ได้ดีขึ้นครับ การพึ่งพาทฤษฎีเพียงทฤษฎีเดียวสำหรับการฝึกอบรมทั้งหมดก็เหมือนกับการพยายามสร้างบ้านทั้งหลังโดยใช้แค่ค้อนเพียงอย่างเดียว มันอาจจะใช้ได้ดีกับการตอกตะปู แต่มันจะล้มเหลวอย่างสิ้นเชิงเมื่อคุณต้องการตัดไม้หรือไขสกรู ดังนั้น จงมองทฤษฎีการเรียนรู้เหล่านี้เป็นชุดเครื่องมือที่หลากหลาย หน้าที่ของคุณในฐานะนักออกแบบการจัดการเรียนการสอนคือการรู้ว่าควรหยิบเครื่องมือชิ้นไหนออกมาใช้ให้เหมาะกับงานทางปัญญาที่ผู้เรียนต้องเผชิญ"
+                },
+                {
+                    "title": "Applying Complementary Lenses",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Non-Example: Abandoning Behaviorism completely.",
+                        "Example: Blending drill-practice with problem-solving.",
+                        "Goal: Match the theory to the learning objective."
+                    ],
+                    "images": null,
+                    "transcript": "To solidify this, let's look at a concrete non-example of good instructional design. A poor practice would be entirely abandoning Behaviorism just because Constructivism aligns better with your personal philosophy. If you need learners to memorize emergency safety codes, a behaviorist drill-and-practice approach is highly effective. You would then switch to a Constructivist approach when asking those same learners to collaboratively solve a complex safety crisis. The key is matching the theoretical lens to your immediate instructional goal.",
+                    "thai_transcript": "เพื่อให้เข้าใจเรื่องนี้อย่างหนักแน่น เรามาดูตัวอย่างที่ไม่ดีของการออกแบบการเรียนการสอนกันครับ แนวปฏิบัติที่แย่คือการละทิ้งพฤติกรรมนิยมไปโดยสิ้นเชิงเพียงเพราะคอนสตรัคติวิซึมสอดคล้องกับปรัชญาส่วนตัวของคุณมากกว่า หากคุณต้องการให้ผู้เรียนจดจำรหัสความปลอดภัยฉุกเฉิน วิธีการฝึกฝนแบบพฤติกรรมนิยมนั้นมีประสิทธิภาพสูงมาก จากนั้นคุณจึงสามารถสลับไปใช้วิธีการแบบคอนสตรัคติวิซึมเมื่อให้ผู้เรียนกลุ่มเดียวกันร่วมมือกันแก้ไขวิกฤตความปลอดภัยที่ซับซ้อน กุญแจสำคัญคือการจับคู่มุมมองทางทฤษฎีให้ตรงกับเป้าหมายการสอนในขณะนั้น"
+                }
+            ]
+        },
+        {
+            "title": "Application: AI-Driven Instructional Design",
+            "slides": [
+                {
+                    "title": "Designing the AI Tutor",
+                    "layout": "hero_image",
+                    "key_points": [
+                        "Effective design integrates multiple learning theories.",
+                        "Theories act as complementary lenses, not competing dogmas.",
+                        "Each lens serves a specific instructional goal.",
+                        "AI systems combine these to optimize learning."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/20.png",
+                            "caption": "An AI tutor interface representing a unified toolkit of different educational theories.",
+                            "width": 800,
+                            "height": 400
+                        }
+                    ],
+                    "transcript": "Welcome to the practical application of our learning theories. Imagine you are tasked with designing an AI tutor. To create a truly effective system, you must remember that Behaviorism, Cognitivism, and Constructivism are complementary lenses. You don't pick just one; you use them together like tools in a toolkit to solve different instructional challenges.",
+                    "thai_transcript": "ยินดีต้อนรับสู่การประยุกต์ใช้ทฤษฎีการเรียนรู้ในภาคปฏิบัติ ลองจินตนาการว่าคุณได้รับมอบหมายให้ออกแบบระบบ AI ติวเตอร์ เพื่อสร้างระบบที่มีประสิทธิภาพอย่างแท้จริง คุณต้องจำไว้ว่าพฤติกรรมนิยม พุทธิปัญญานิยม และคอนสตรัคติวิซึมเป็นมุมมองที่เสริมซึ่งกันและกัน คุณไม่ได้เลือกแค่อย่างใดอย่างหนึ่ง แต่คุณใช้มันร่วมกันเหมือนเครื่องมือในกล่องเครื่องมือเพื่อแก้ปัญหาการจัดการเรียนการสอนที่แตกต่างกัน"
+                },
+                {
+                    "title": "Applying the Three Lenses",
+                    "layout": "three_column",
+                    "key_points": [
+                        "Behaviorist: Immediate reward points and streaks.",
+                        "Cognitivist: Chunking and sequencing content.",
+                        "Constructivist: Socratic, open-ended questioning.",
+                        "Select the right lens for the cognitive task."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/21.png",
+                            "caption": "Behaviorism: Gamification points reinforce observable habits.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/22.png",
+                            "caption": "Cognitivism: Step-by-step chunking prevents cognitive overload.",
+                            "width": 300,
+                            "height": 200
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/23.png",
+                            "caption": "Constructivism: Socratic prompts guide active meaning-making.",
+                            "width": 300,
+                            "height": 200
+                        }
+                    ],
+                    "transcript": "Let's break down how these lenses apply to specific AI features. First, a Behaviorist lens is used when the AI gives immediate reward points for a correct answer, shaping rapid, observable habits. Next, a Cognitivist lens informs how the AI chunks and sequences that information, managing working memory to prevent overload. Finally, a Constructivist lens is applied when the AI stops giving direct answers and instead asks Socratic, open-ended questions to help the learner build their own understanding.",
+                    "thai_transcript": "มาดูกันว่ามุมมองเหล่านี้ประยุกต์ใช้กับฟีเจอร์เฉพาะของ AI อย่างไรบ้าง อย่างแรก มุมมองด้านพฤติกรรมนิยมถูกนำมาใช้เมื่อ AI ให้คะแนนรางวัลทันทีสำหรับคำตอบที่ถูกต้อง เพื่อสร้างนิสัยที่สังเกตได้ ต่อมา มุมมองด้านพุทธิปัญญานิยมจะเป็นตัวกำหนดว่า AI จะแบ่งย่อยและจัดลำดับข้อมูลอย่างไร เพื่อจัดการความจำขณะทำงานไม่ให้เกิดภาระหนักเกินไป ท้ายที่สุด มุมมองด้านคอนสตรัคติวิซึมจะถูกนำมาใช้เมื่อ AI หยุดให้คำตอบโดยตรง แต่เปลี่ยนไปตั้งคำถามแบบปลายเปิดเพื่อช่วยให้ผู้เรียนสร้างความเข้าใจด้วยตนเอง"
+                },
+                {
+                    "title": "Integration vs. Isolation",
+                    "layout": "two_column",
+                    "key_points": [
+                        "Effective: Seamlessly blending theories to support the user.",
+                        "Ineffective (Non-Example): Dogmatically forcing one theory.",
+                        "Example: Points alone ignore deep comprehension.",
+                        "Example: Pure exploration overwhelms novices."
+                    ],
+                    "images": [
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/24.png",
+                            "caption": "Effective: Integrating multiple theories creates a robust learning experience.",
+                            "width": 450,
+                            "height": 300
+                        },
+                        {
+                            "url": "https://capstone-ai-education.s3.us-east-1.amazonaws.com/744fe741-22fd-4208-b755-634ba8ddba20/slides_images/25.png",
+                            "caption": "Non-Example: Forcing a single theory onto every learning task causes friction.",
+                            "width": 450,
+                            "height": 300
+                        }
+                    ],
+                    "transcript": "A strong mental model requires knowing what effective design is NOT. A common trap is dogmatic design, where an instructional designer forces one theory onto every task. For example, relying strictly on behaviorist points will fail to build deep comprehension, while forcing pure constructivist exploration on novices will overwhelm their working memory. Effective design seamlessly weaves these lenses together based on the learner's immediate cognitive needs.",
+                    "thai_transcript": "แบบจำลองทางความคิดที่แข็งแกร่งต้องอาศัยการรู้ว่าการออกแบบที่ดี 'ไม่ใช่' อะไร ข้อผิดพลาดที่พบบ่อยคือการยึดติดกับทฤษฎีเดียว โดยผู้ออกแบบพยายามบังคับใช้ทฤษฎีเดียวกับทุกงาน ตัวอย่างเช่น การพึ่งพาแค่คะแนนแบบพฤติกรรมนิยมจะไม่สามารถสร้างความเข้าใจที่ลึกซึ้งได้ ในขณะที่การบังคับให้ผู้เริ่มต้นสำรวจเนื้อหาอย่างอิสระแบบคอนสตรัคติวิซึมล้วนๆ จะทำให้พวกเขาเกิดภาวะรับรู้เกินพิกัด การออกแบบที่มีประสิทธิภาพคือการผสมผสานมุมมองเหล่านี้เข้าด้วยกันอย่างราบรื่นตามความต้องการทางสติปัญญาของผู้เรียนในขณะนั้น"
+                },
+                {
+                    "title": "The Seamless AI Experience",
+                    "layout": "text_only",
+                    "key_points": [
+                        "Start with behaviorist mechanisms to build initial engagement.",
+                        "Apply cognitivist principles to deliver core content efficiently.",
+                        "Transition to constructivist tasks for mastery and application.",
+                        "Ultimate goal: An adaptive system responding to learner state."
+                    ],
+                    "images": null,
+                    "transcript": "Ultimately, the best AI learning experiences sequence these theories naturally. You might hook the learner initially with behaviorist gamification to build momentum. As they dive into the material, you rely on cognitivist structures to efficiently deliver the core concepts without overwhelming them. Finally, once foundational schemas are built, the AI shifts to a constructivist mode, challenging the user with open-ended scenarios. This adaptability is the hallmark of expert instructional design.",
+                    "thai_transcript": "ท้ายที่สุดแล้ว ประสบการณ์การเรียนรู้ผ่าน AI ที่ดีที่สุดจะจัดลำดับทฤษฎีเหล่านี้อย่างเป็นธรรมชาติ คุณอาจดึงดูดผู้เรียนในตอนแรกด้วยกลไกเกมแบบพฤติกรรมนิยมเพื่อสร้างแรงจูงใจ เมื่อพวกเขาเริ่มเรียนรู้เนื้อหา คุณก็พึ่งพาโครงสร้างทางพุทธิปัญญานิยมเพื่อนำเสนอแนวคิดหลักอย่างมีประสิทธิภาพโดยไม่ทำให้พวกเขารู้สึกหนักเกินไป และสุดท้าย เมื่อสร้างโครงสร้างความรู้พื้นฐานได้แล้ว AI จะเปลี่ยนไปสู่โหมดคอนสตรัคติวิซึม โดยท้าทายผู้ใช้ด้วยสถานการณ์จำลองแบบปลายเปิด ความสามารถในการปรับตัวนี้คือจุดเด่นของการออกแบบการจัดการเรียนการสอนระดับผู้เชี่ยวชาญ"
+                }
+            ]
+        }
+    ],
+    "lesson_id": "744fe741-22fd-4208-b755-634ba8ddba20",
+    "course_id": "fcf9cafe-5c9e-4149-b6fa-7da471108d59"
+}

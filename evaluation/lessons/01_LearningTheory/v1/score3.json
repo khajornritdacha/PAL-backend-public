@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "Learning Theories: Unifying Behaviorism, Cognitivism, and Constructivism",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "score": 1,
+            "evidence": "No non-decorative graphics, diagrams, charts, or illustrations are present in any of the five slides; all slides consist exclusively of text and a slide number. The absence of any visual channel means there is no reciprocal relationship between visual and verbal content."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "score": 0,
+            "evidence": "On-screen text consists of full paragraph-length sentences across all slides, far exceeding the keyword or short-phrase standard. The transcript is verbatim or near-verbatim with the on-screen text, providing no elaboration or substantive differentiation between the two channels."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                0,
+                0,
+                0,
+                1,
+                1
+            ],
+            "score": 2,
+            "evidence": "Complex descriptions are delivered entirely via dense on-screen prose rather than narration paired with visuals; the visual channel carries no graphics at all. The narration is written in relatively natural spoken language and does not read from a diagram, but this is immaterial given the complete absence of a visual channel."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "score": 5,
+            "evidence": "No decorative images, tangential anecdotes, or off-topic filler are present in either the slides or the narration; all content is functionally aligned with the stated lesson topic. Typography and layout appear consistent across slides, though the all-text format provides limited surface area for styling inconsistencies to emerge."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                0,
+                1,
+                1,
+                0,
+                0
+            ],
+            "score": 2,
+            "evidence": "No visual cues such as arrows, highlights, color contrast, or callouts are present on any slide; the only structural hierarchy is the slide title in a larger font above body text. The narration employs some implicit verbal framing (e.g., analogy-based transitions) but lacks explicit signaling phrases directing learner attention to key takeaways."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                0,
+                0,
+                1,
+                0,
+                0
+            ],
+            "score": 1,
+            "evidence": "No labels, captions, or graphics are present, rendering all spatial contiguity criteria inapplicable by observation; text and any referent are never spatially paired because no visual referents exist. The only partially applicable criterion is that text is not split across separate legend or key areas, as the layout is uniformly prose-only."
+        }
+    ],
+    "raw_total": 11,
+    "unweighted_average": 1.83
+}

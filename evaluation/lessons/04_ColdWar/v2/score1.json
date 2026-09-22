@@ -1,0 +1,85 @@
+{
+    "lesson_topic": "The Cold War — Origins: Capitalism vs. Communism (Ideological Divide)",
+    "principles": [
+        {
+            "principle": "Multimedia",
+            "d_weight": 1.35,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "The majority of slides feature non-decorative comparative illustrations (split-world diagrams, command economy infographics, classroom analogy scenes) that directly depict concepts named in both bullets and narration. Four slides (4, 7, 11, 12, 14, 17) are text-only, representing a meaningful minority where concepts such as the WWII alliance collapse and the zero-sum divide warranted visual support."
+        },
+        {
+            "principle": "Redundancy",
+            "d_weight": 0.72,
+            "criteria_scores": [
+                1,
+                1,
+                2,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "On-screen bullets are short keyword phrases on most slides, but several slides (e.g., slides 2, 6, 10, 13, 16) include caption text beneath images that closely mirrors or fully restates the bullet content, adding a third redundant channel. The narration does elaborate beyond the on-screen text in most cases, but on slides like 5 and 13 the narration tracks the bullet structure closely enough to constitute partial verbatim redundancy."
+        },
+        {
+            "principle": "Modality",
+            "d_weight": 1.00,
+            "criteria_scores": [
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            "score": 9,
+            "evidence": "Complex elaborations—such as the mechanisms of ideological incompatibility, the group-project analogy, and the significance of the 1945 pivot—are consistently delivered through narration while the visual channel carries illustrative graphics rather than extended prose. On text-only slides (4, 7, 11, 12, 14, 17), the slide is largely self-sufficient without narration, marginally reducing modality compliance for those frames."
+        },
+        {
+            "principle": "Coherence",
+            "d_weight": 0.86,
+            "criteria_scores": [
+                2,
+                2,
+                2,
+                2,
+                2
+            ],
+            "score": 10,
+            "evidence": "All graphics are functionally tied to the instructional objective—no decorative clipart or tangential stock imagery is present across the 17 slides. Slide backgrounds are uniformly clean white with consistent blue-title typography, and the narration contains no digressions, anecdotes, or filler content unrelated to the ideological comparison being taught."
+        },
+        {
+            "principle": "Signaling",
+            "d_weight": 0.70,
+            "criteria_scores": [
+                1,
+                2,
+                1,
+                1,
+                1
+            ],
+            "score": 6,
+            "evidence": "A consistent visual hierarchy is present on every slide via bold blue titles and a subtitle rule, but explicit cues such as arrows, highlights, or circles directing attention to specific graphic elements are largely absent—the labeled infographics on slides 10 and 15 are exceptions. Verbal signaling in the narration is inconsistent: some scripts use orienting phrases ('let's break down,' 'to truly understand'), but many slides lack a stated single-sentence takeaway or a closing emphasis cue."
+        },
+        {
+            "principle": "Spatial Contiguity",
+            "d_weight": 1.10,
+            "criteria_scores": [
+                2,
+                1,
+                2,
+                2,
+                1
+            ],
+            "score": 8,
+            "evidence": "Image captions are placed directly beneath their respective graphics on all illustrated slides, and dual-image layouts keep each caption physically contiguous with its paired visual. However, on several slides (e.g., slides 2, 6, 13) the bullet text block and the graphics it describes are separated by substantial vertical whitespace, and no leader lines or color-matching establish an explicit visual link between a specific bullet and its corresponding image."
+        }
+    ],
+    "raw_total": 48,
+    "unweighted_average": 8.00
+}
