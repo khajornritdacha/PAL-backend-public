@@ -1,0 +1,255 @@
+{
+  "updatedAt": "2026-04-22T18:56:49.704Z",
+  "createdAt": "2026-03-27T05:37:16.541Z",
+  "id": "emJ8fnzE9W5I6qml",
+  "name": "outline-generator",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "generate-outline",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        32,
+        96
+      ],
+      "id": "b9a31d9f-ddc4-4f9b-bad9-b741cb0ccadb",
+      "name": "Webhook",
+      "webhookId": "545bbbef-0c01-4813-a97a-e5d780cb2cea"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"outline\": {{ $json.output }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        928,
+        96
+      ],
+      "id": "c140eb37-e05d-4ba7-b4bf-8b8683e307a7",
+      "name": "Change field name"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "92f82b09-6d2b-4beb-857a-eabca9e35526",
+              "leftValue": "={{ $binary.materials }}",
+              "rightValue": "",
+              "operator": {
+                "type": "object",
+                "operation": "exists",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        256,
+        96
+      ],
+      "id": "22d3c1a7-2b5c-4607-b9da-8376ee1df4a5",
+      "name": "Check Materials"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/chat",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "messages",
+              "value": "={{ JSON.stringify([\n{\n  \"role\": \"user\",\n  \"content\": `You are an expert curriculum designer and instructional strategist.\n\nYour goal is to sequence learning logically to manage Intrinsic Cognitive Load. Scaffold the curriculum so that foundational concepts are taught before complex applications. Ensure each lesson's objective focuses on a specific, measurable student outcome.\n\nIMPORTANT LANGUAGE CONSTRAINT:\n- ALWAYS generate the output in English.\n- This applies even if the Student Goal or Notes From Mentor are written in another language.\n\nStudent Goal:\n${$json.body.goal}\n\nNotes From Mentor:\n${$json.body.notes_from_mentor}\n\n\nYour task is to generate lessons grouped by topic and numbered hierarchically.\n\nIMPORTANT CONSTRAINT:\n- The total number of lessons MUST be between 15 and 20.\n- Prioritize essential concepts and merge or omit less critical topics if necessary to stay within this range.\n- Do NOT exceed 20 lessons.\n\nConvert the generated slide outline into the following JSON format.\nReturn only valid JSON and no markdown.\n\n{\n  \"summary\": \"...\",\n  \"total_lessons\": 18,\n  \"lessons\": [\n    {\n      \"title\": \"1.1) ...\",\n      \"main_content\": \"...\",\n      \"objective\": \"...\"\n    }\n  ]\n}\n\nFORMAT RULES:\n\n1. Group lessons by their major section/topic from the slide outline.\n\n2. Use hierarchical numbering in the lesson titles:\n   - The first number represents the SECTION.\n   - The second number represents the LESSON within that section.\n\nExample numbering:\n\n1.1 Introduction to Addition  \n1.2 How Addition Works  \n1.3 Examples of Addition  \n\n2.1 Introduction to Subtraction  \n2.2 Understanding Negative Numbers  \n2.3 Subtraction Examples  \n\n3.1 Review of Math Operations\n\n3. Each lesson title MUST start with its number.\n\nExample lesson object:\n\n{\n  \"title\": \"2.2 Understanding Negative Numbers\",\n  \"main_content\": \"...\",\n  \"objective\": \"Students can apply negative numbers to real-world subtraction scenarios\"\n}\n\n4. Ensure:\n- Lessons belonging to the same topic share the same first number.\n- Numbering increases sequentially.\n- The numbering is included inside the title string.\n- Titles are concise and instructional.\n\n5. total_lessons must equal the total number of lesson objects and must be between 15 and 20.\n\nReturn ONLY the JSON.\n`\n}\n]) }}\n"
+            },
+            {
+              "name": "cunet_id",
+              "value": "={{ $json.body.cunet_id }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        480,
+        192
+      ],
+      "id": "231b3163-c033-4d36-bd26-28845516d74d",
+      "name": "LLM Service (without materials)"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/chat",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "messages",
+              "value": "={{ JSON.stringify([\n{\n  \"role\": \"user\",\n  \"content\": `You are an expert curriculum designer and instructional strategist.\\n\\nYour goal is to sequence learning logically to manage Intrinsic Cognitive Load. Scaffold the curriculum so that foundational concepts are taught before complex applications. Ensure each lesson's objective focuses on a specific, measurable student outcome.\\n\\nStudent Goal:\\n${$json.body.goal}\\n\\nNotes From Mentor:\\n${$json.body.notes_from_mentor}\\n\\nReference Material: See the attached files.\\n\\nYour task is to generate lessons grouped by topic and numbered hierarchically.\\n\\nIMPORTANT CONSTRAINT:\\n- The total number of lessons MUST be between 15 and 20.\\n- Prioritize essential concepts and merge or omit less critical topics if necessary to stay within this range.\\n- Do NOT exceed 20 lessons.\\n\\nConvert the generated slide outline into the following JSON format.\\nReturn only valid JSON and no markdown.\\n\\n{\\n  \\\"summary\\\": \\\"...\\\",\\n  \\\"total_lessons\\\": 18,\\n  \\\"lessons\\\": [\\n    {\\n      \\\"title\\\": \\\"1.1) ...\\\",\\n      \\\"main_content\\\": \\\"...\\\",\\n      \\\"objective\\\": \\\"...\\\"\\n    }\\n  ]\\n}\\n\\nFORMAT RULES:\\n\\n1. Group lessons by their major section/topic from the slide outline.\\n\\n2. Use hierarchical numbering in the lesson titles:\\n   - The first number represents the SECTION.\\n   - The second number represents the LESSON within that section.\\n\\nExample numbering:\\n\\n1.1 Introduction to Addition  \\n1.2 How Addition Works  \\n1.3 Examples of Addition  \\n\\n2.1 Introduction to Subtraction  \\n2.2 Understanding Negative Numbers  \\n2.3 Subtraction Examples  \\n\\n3.1 Review of Math Operations\\n\\n3. Each lesson title MUST start with its number.\\n\\nExample lesson object:\\n\\n{\\n  \\\"title\\\": \\\"2.2 Understanding Negative Numbers\\\",\\n  \\\"main_content\\\": \\\"...\\\",\\n  \\\"objective\\\": \\\"Students can apply negative numbers to real-world subtraction scenarios\\\"\\n}\\n\\n4. Ensure:\\n- Lessons belonging to the same topic share the same first number.\\n- Numbering increases sequentially.\\n- The numbering is included inside the title string.\\n- Titles are concise and instructional.\\n\\n5. total_lessons must equal the total number of lesson objects and must be between 15 and 20.\\n\\nReturn ONLY the JSON.`\n}\n]) }}\n"
+            },
+            {
+              "name": "cunet_id",
+              "value": "={{ $json.body.cunet_id }}"
+            },
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "materials"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        480,
+        0
+      ],
+      "id": "4e6db160-7972-4e96-b02f-a0bd49071d87",
+      "name": "LLM Service (with materials)"
+    },
+    {
+      "parameters": {
+        "jsCode": "let raw = $input.first().json.data\n\n// remove surrounding quotes if present\nif (raw.startsWith('\"') && raw.endsWith('\"')) {\n  raw = JSON.parse(raw);\n}\n\n// remove markdown code blocks\nraw = raw.replace(/```json/g, '').replace(/```/g, '').trim();\n\nconst parsed = JSON.parse(raw);\n\nreturn [{ output: parsed }]\n// return [{ json: parsed }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        704,
+        96
+      ],
+      "id": "d6776b1a-f59d-472d-89e6-e9e63f4790ad",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Check Materials",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check Materials": {
+      "main": [
+        [
+          {
+            "node": "LLM Service (with materials)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "LLM Service (without materials)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM Service (without materials)": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM Service (with materials)": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Change field name",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "7359c0c217c2f2526bf0a6c46f4839c44f96a0005dca2af79edc19e6ed7703f7"
+  },
+  "pinData": {},
+  "versionId": "a3cb8faa-fdeb-40cd-8175-2b501501c8d2",
+  "activeVersionId": "a3cb8faa-fdeb-40cd-8175-2b501501c8d2",
+  "versionCounter": 60,
+  "triggerCount": 1,
+  "tags": [],
+  "versionMetadata": {
+    "name": "Version 02ee312c",
+    "description": ""
+  }
+}

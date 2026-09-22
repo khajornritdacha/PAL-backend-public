@@ -1,0 +1,327 @@
+{
+  "updatedAt": "2026-04-03T06:50:06.776Z",
+  "createdAt": "2026-04-01T11:44:35.915Z",
+  "id": "CUGO5Bmfoifl8QEX",
+  "name": "RAG",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "content": "### 📚 Load Data Flow",
+        "height": 460,
+        "width": 860,
+        "color": 7
+      },
+      "id": "25e12ffa-711f-49af-8935-5113b128b3e2",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        64,
+        -80
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "jsonMode": "expressionData",
+        "jsonData": "={{ $json.data }}",
+        "options": {
+          "metadata": {
+            "metadataValues": [
+              {
+                "name": "courseId",
+                "value": "={{$('Upload').item.json.body.courseId }}"
+              }
+            ]
+          }
+        }
+      },
+      "id": "876ff98d-c407-4e61-a932-0b52cc2f82f3",
+      "name": "Default Data Loader1",
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "position": [
+        752,
+        192
+      ],
+      "typeVersion": 1.1
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-embedding-001"
+      },
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        704,
+        480
+      ],
+      "id": "b21bd306-59dd-48a5-a42f-0703376f40c9",
+      "name": "Embeddings Google Gemini",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "nkjyjxzIkBKuhyZh",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "mongoCollection": {
+          "__rl": true,
+          "value": "rag",
+          "mode": "list",
+          "cachedResultName": "rag"
+        },
+        "vectorIndexName": "vector_index",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMongoDBAtlas",
+      "typeVersion": 1.3,
+      "position": [
+        544,
+        -16
+      ],
+      "id": "cdbe5e02-3ab7-45e2-bedd-5ad3343129c2",
+      "name": "MongoDB Atlas Vector Store1",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "load",
+        "mongoCollection": {
+          "__rl": true,
+          "value": "rag",
+          "mode": "list",
+          "cachedResultName": "rag"
+        },
+        "vectorIndexName": "vector_index",
+        "prompt": "={{ $json.body.query }}",
+        "options": {
+          "preFilter": "={\"courseId\": \"{{ $json.body.courseId}}\" }"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreMongoDBAtlas",
+      "typeVersion": 1.3,
+      "position": [
+        1232,
+        -16
+      ],
+      "id": "82dba72f-a89a-4e3a-a53f-f035cdce8391",
+      "name": "MongoDB Atlas Vector Store2",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "courses/upload",
+        "options": {
+          "binaryPropertyName": "data"
+        }
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        112,
+        -16
+      ],
+      "id": "58d7c618-6e70-4218-ac3a-907786f3a5a6",
+      "name": "Upload",
+      "webhookId": "316fdbe5-c36d-4fb4-a158-6c770474c3fe"
+    },
+    {
+      "parameters": {
+        "content": "### 🐕 2. Retriever Flow",
+        "height": 460,
+        "width": 840,
+        "color": 7
+      },
+      "id": "2487c336-5abb-455e-9cfe-0bac83a42f47",
+      "name": "Query",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        960,
+        -80
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "courses/query",
+        "responseMode": "lastNode",
+        "responseData": "allEntries",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        1008,
+        -16
+      ],
+      "id": "c3793679-0e46-49be-844e-244d4d88746e",
+      "name": "Query1",
+      "webhookId": "92735671-0418-4b93-b968-5de2cd180702"
+    },
+    {
+      "parameters": {
+        "jsCode": "let out = [];\nfor (const item of $input.all()) {\n  out.push({data: item.json.document.pageContent, score: item.json.score});\n}\n\nreturn {rag_data: out};\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1568,
+        -16
+      ],
+      "id": "ae7db819-5a50-4638-ab6e-c5c263379f8e",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/chat",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "multipart/form-data"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "messages",
+              "value": "={{ JSON.stringify([{\n  role: \"user\",\n  content: `You are a professional document digitization expert specializing in high-fidelity OCR and structural preservation.\n\nTask: Transcribe the attached document into clean Markdown text.\n\nGuidelines:\n\nFidelity: Transcribe every piece of text exactly as written. Do not summarize, do not paraphrase, and do not skip any sections.\n\nStructural Formatting: >    - Use Markdown headers (#, ##) for titles and sections.\n\nUse Markdown tables for any tabular data found.\n\nUse bullet points for lists.\n\nImage Description: For any non-text elements (charts, diagrams, or photos), provide a brief, objective description in brackets, e.g., [Diagram showing the flow of water through a turbine].\n\nNo Meta-Talk: Do not begin your response with \"Here is the transcription\" or \"I have processed the document.\" Provide only the transcribed content.\n\nHandling Artifacts: If a word is illegible, mark it as [illegible]. Ignore watermarks or page numbers if they interrupt the flow of a sentence.\n\nOutput: Raw Markdown text only.`\n}])\n}}"
+            },
+            {
+              "name": "cunet_id",
+              "value": "={{ $json.body.cunet_id }}"
+            },
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "=data0"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        336,
+        -16
+      ],
+      "id": "72d69a8f-f72c-464d-b5b8-6a8ad82667de",
+      "name": "LLM Service"
+    }
+  ],
+  "connections": {
+    "Default Data Loader1": {
+      "ai_document": [
+        [
+          {
+            "node": "MongoDB Atlas Vector Store1",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini": {
+      "ai_embedding": [
+        [
+          {
+            "node": "MongoDB Atlas Vector Store1",
+            "type": "ai_embedding",
+            "index": 0
+          },
+          {
+            "node": "MongoDB Atlas Vector Store2",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload": {
+      "main": [
+        [
+          {
+            "node": "LLM Service",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Query1": {
+      "main": [
+        [
+          {
+            "node": "MongoDB Atlas Vector Store2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MongoDB Atlas Vector Store2": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM Service": {
+      "main": [
+        [
+          {
+            "node": "MongoDB Atlas Vector Store1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "f6b22257-da94-418e-87ea-f91ca944b5d5",
+  "activeVersionId": "f6b22257-da94-418e-87ea-f91ca944b5d5",
+  "versionCounter": 85,
+  "triggerCount": 2,
+  "tags": [],
+  "versionMetadata": {
+    "name": "Version f6b22257",
+    "description": ""
+  }
+}

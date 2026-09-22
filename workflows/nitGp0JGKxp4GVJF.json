@@ -1,0 +1,929 @@
+{
+  "updatedAt": "2026-04-21T01:42:37.349Z",
+  "createdAt": "2026-04-01T11:19:56.621Z",
+  "id": "nitGp0JGKxp4GVJF",
+  "name": "async-generate-slide-v2",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://slide-generator:5000/generate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "markdown",
+              "value": "={{ $json.markdown }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -720,
+        592
+      ],
+      "id": "20b0590f-94f7-4617-b977-b25b5b8838fb",
+      "name": "GenerateSlide"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "transcripts",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -880,
+        992
+      ],
+      "id": "7a8748b7-5516-4b36-86c6-a59281c33568",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://voice-generator:8000/generate",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.data }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -80,
+        1008
+      ],
+      "id": "ceab7295-2867-4c26-a66d-4f1c9124875c",
+      "name": "GenerateVoice",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "v2/async-generate-slides",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -2960,
+        336
+      ],
+      "id": "c14b9f4a-d8a1-4926-ba71-69170be74562",
+      "name": "Webhook",
+      "webhookId": "5403afe2-3068-4775-a1dc-b556ba931fe3"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "lessons",
+        "updateKey": "=lessonId",
+        "fields": "=status,slideURL,slideStatus",
+        "upsert": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        -48,
+        496
+      ],
+      "id": "58be8365-6cca-4fee-8a21-aa1331d1ac1d",
+      "name": "Update documents",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "bucketName": "capstone-ai-education",
+        "fileName": "={{ $('prepare').item.json._id }}/audio/audio_{{ $runIndex + 1}}.wav",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.awsS3",
+      "typeVersion": 2,
+      "position": [
+        128,
+        1008
+      ],
+      "id": "b26f15d6-fdc6-4a78-a478-5f0901db5508",
+      "name": "Audio Upload",
+      "credentials": {
+        "aws": {
+          "id": "dxBCP5LgruhUqTMg",
+          "name": "AWS (IAM) account"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "bucketName": "capstone-ai-education",
+        "fileName": "={{ $('prepare').item.json._id }}/slide.pdf",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.awsS3",
+      "typeVersion": 2,
+      "position": [
+        -496,
+        496
+      ],
+      "id": "15e06d16-cbaa-4b59-9548-6ec3b60d6718",
+      "name": "Slide Upload",
+      "credentials": {
+        "aws": {
+          "id": "dxBCP5LgruhUqTMg",
+          "name": "AWS (IAM) account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "lessons",
+        "updateKey": "=lessonId",
+        "fields": "=audioURLs,audioStatus",
+        "upsert": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        -208,
+        800
+      ],
+      "id": "898bc999-6597-4ecc-b8ae-8a476e1b63e0",
+      "name": "Update documents1",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "let audioURLs = []\nconst lesson_id = $('prepare').first().json._id\n\nfor (let i = 0; i < $('SlideContentGenerator').first().json.transcripts.length; i++) {\n  const url =`https://capstone-ai-education.s3.amazonaws.com/${lesson_id}/audio/audio_${i + 1}.wav`\n  audioURLs.push(url)\n}\n\nreturn { \n  audioURLs, \n  \"lessonId\": lesson_id,\n  audioStatus: \"GENERATED\"\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -416,
+        800
+      ],
+      "id": "024cf9f7-2525-4c1c-82d4-dafbe5081a10",
+      "name": "Code in JavaScript2"
+    },
+    {
+      "parameters": {
+        "jsCode": "const lesson_id = $('prepare').first().json._id\n\nreturn { \n  slideURL: `https://capstone-ai-education.s3.amazonaws.com/${lesson_id}/slide.pdf`,\n  \"lessonId\": lesson_id,\n  \"status\": \"IN_PROGRESS\",\n  \"slideStatus\": \"GENERATED\"\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -272,
+        496
+      ],
+      "id": "b8dda499-259e-4af7-926b-541c8ac37e04",
+      "name": "PrepareUpdateLessonSlide"
+    },
+    {
+      "parameters": {
+        "options": {
+          "responseCode": 201
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        -2064,
+        336
+      ],
+      "id": "16f3b7d9-889b-4f0c-96fb-230b5a5b7e06",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://slide-generator:5000/v2/generate",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "sections",
+              "value": "={{ $json.sections }}"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -944,
+        400
+      ],
+      "id": "8fd75111-3c87-4377-b4fb-9403ad0770b1",
+      "name": "GenerateSlidePPTX",
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "operation": "upload",
+        "bucketName": "capstone-ai-education",
+        "fileName": "={{ $('prepare').item.json._id }}/slide.pptx",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.awsS3",
+      "typeVersion": 2,
+      "position": [
+        -720,
+        304
+      ],
+      "id": "93dc4ec9-7e25-429d-85f9-e250de77f7d1",
+      "name": "PPTXUpload",
+      "credentials": {
+        "aws": {
+          "id": "dxBCP5LgruhUqTMg",
+          "name": "AWS (IAM) account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const lesson_id = $('prepare').first().json._id\n\nreturn { \n  pptxSlideURL: `https://capstone-ai-education.s3.amazonaws.com/${lesson_id}/slide.pptx`,\n  \"lessonId\": lesson_id\n};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -496,
+        304
+      ],
+      "id": "2e0c375d-75ff-461c-95b9-240eb0d2d433",
+      "name": "PrepareUpdateLessonSlide1"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "lessons",
+        "updateKey": "=lessonId",
+        "fields": "=pptxSlideURL",
+        "upsert": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        -272,
+        304
+      ],
+      "id": "c374da11-2550-40d9-8227-e5905b4c0541",
+      "name": "Update documents2",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:5678/webhook/courses/query",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "courseId",
+              "value": "={{$json.body.courseId}}"
+            },
+            {
+              "name": "query",
+              "value": "={{ $json.body.outline.lessons[$json.body.nextLessonNum].main_content }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -2736,
+        400
+      ],
+      "id": "6a182d1d-84fe-448a-aa3f-cfcc1dd8e0e0",
+      "name": "GetDataFromRAG"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -2512,
+        336
+      ],
+      "id": "7e3c9b53-133c-4e59-8c30-0363845324e8",
+      "name": "Merge",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c73f8e8e-dbb8-463f-b0b5-939b62a7a737",
+              "name": "_id",
+              "value": "={{ $json.body.lessonId }}",
+              "type": "string"
+            },
+            {
+              "id": "258a3f64-eb3e-4fb8-af01-b8cb69fab70f",
+              "name": "courseId",
+              "value": "={{ $json.body.courseId }}",
+              "type": "string"
+            },
+            {
+              "id": "46283a0c-770d-428e-a863-1fd37e85f23c",
+              "name": "outline",
+              "value": "={{ $json.body.outline }}",
+              "type": "object"
+            },
+            {
+              "id": "12929382-7fd8-4f99-ad3b-41021f7d39fc",
+              "name": "toGenerateLessonIndex",
+              "value": "={{ $json.body.nextLessonNum }}",
+              "type": "number"
+            },
+            {
+              "id": "f2cc9f72-1735-4937-9bff-e0192ebaa625",
+              "name": "lesson",
+              "value": "={{ $json.body.outline.lessons[$json.body.nextLessonNum] }}",
+              "type": "object"
+            },
+            {
+              "id": "9aaaad2f-9074-4884-82f5-f985eadd44c5",
+              "name": "rag_data",
+              "value": "={{ $json.rag_data[0].data }}",
+              "type": "string"
+            },
+            {
+              "id": "0620d50f-306c-4b79-8d0d-c3f3bdacc407",
+              "name": "lessonId",
+              "value": "={{ $json.body.lessonId }}",
+              "type": "string"
+            },
+            {
+              "id": "a2349993-5222-4118-8e18-23853dc1d684",
+              "name": "audioLanguage",
+              "value": "={{ $json.body.audioLanguage }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -2288,
+        336
+      ],
+      "id": "ad8de093-adb1-49da-a1e1-e32328ba6a79",
+      "name": "prepare"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"lessonId\": {{ $('prepare').item.json._id }},\n  \"content\": {{ $json.sections }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -1168,
+        208
+      ],
+      "id": "f7749f14-5ad3-4666-b59b-e181f03b1d2d",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "operation": "findOneAndUpdate",
+        "collection": "lessons",
+        "updateKey": "lessonId",
+        "fields": "content",
+        "upsert": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        -944,
+        208
+      ],
+      "id": "97a53a55-68b4-4e78-81b8-ebac2aec743d",
+      "name": "Update content",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// 1. Get the raw string from the previous node\nlet rawString = $input.item.json.data;\n\n// 2. Un-escape the first layer if n8n double-wrapped it in quotes\nif (typeof rawString === 'string' && rawString.startsWith('\"') && rawString.endsWith('\"')) {\n  try { \n    rawString = JSON.parse(rawString); \n  } catch (e) {\n    // silently continue if it fails\n  }\n}\n\n// 3. Strip out any Markdown backticks and 'json' labels\nlet cleanText = rawString.replace(/```json/gi, '').replace(/```/gi, '').trim();\n\nlet parsedData;\n\n// 4. Parse the clean text\ntry {\n  parsedData = JSON.parse(cleanText);\n  \n  // 5. The Magic Fix: If it is STILL a string after parsing, parse it one more time!\n  if (typeof parsedData === 'string') {\n    parsedData = JSON.parse(parsedData);\n  }\n} catch (error) {\n  return [{ json: { error: \"Failed to parse JSON completely\", raw: cleanText } }];\n}\n\n// 6. Return the actual array of objects in n8n's required format\nreturn {\n    sections: parsedData \n  };"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1648,
+        336
+      ],
+      "id": "2051145d-6b8b-4910-9066-3e04707ef432",
+      "name": "Parse Output"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/chat",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "response_mime_type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "cunet_id",
+              "value": "REPLACE_WITH_CUNET_ID"
+            },
+            {
+              "name": "messages",
+              "value": "={{ \n  JSON.stringify([{\n    \"role\": \"user\",\n    \"content\": `CRITICAL INSTRUCTION: You are an API endpoint acting as an expert instructional designer. You must output ONLY a raw, valid JSON array. Do not include markdown formatting, backticks, or any conversational text. ALWAYS OUTPUT IN ENGLISH.\n\nExpand the requested lesson into AT LEAST 3 parts and NO MORE THAN 5 parts. \nTo maximize Germane Cognitive Load, strictly follow this progression for your generated parts:\n- Part 1: Introduce the core concept and provide a simple mental model or analogy.\n- Part 2 & 3: Provide clear examples, and at least one \"non-example\" (what the concept is NOT).\n- Part 4 & 5 (Optional): Provide an application, knowledge check, or advanced edge-case.\n\nExample Input:\nMAIN OBJECTIVE: \"Teach basic math\"\nCOURSE OUTLINE: \"1. Addition\"\nDATA FROM RAG: \"1+1=2\"\n\nExample Output:\n[\n  {\n    \"slide_title\": \"the topic of the slide\",\n    \"main_content\": \"Addition is the process of bringing two or more numbers together to make a new total.\",\n    \"objective\": \"Understand the concept of addition.\"\n  }\n]\n\nThis is ONLY FOR CONTEXT:\nMAIN OBJECTIVE: ${JSON.stringify($json.slide)}\nCOURSE OUTLINE: ${JSON.stringify($json.outline)}\nDATA FROM RAG: ${JSON.stringify($json.rag_data)}\n\nExpand ONLY the following lesson to generate slides to teach users. Keep main_content concise to minimize extraneous load:  ${JSON.stringify($json.lesson)}`\n  }]) \n}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -1840,
+        336
+      ],
+      "id": "63fdb8b4-8f57-49f4-830e-725acd96e690",
+      "name": "SlideContentOrchestrator"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/generate-slides",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "cunet_id",
+              "value": "REPLACE_WITH_CUNET_ID"
+            },
+            {
+              "name": "sections",
+              "value": "={{ $json.sections }}"
+            },
+            {
+              "name": "outline",
+              "value": "={{ JSON.stringify($('prepare').item.json.outline) }}"
+            },
+            {
+              "name": "rag_data",
+              "value": "={{ JSON.stringify($('prepare').item.json.rag_data) }}"
+            },
+            {
+              "name": "lesson",
+              "value": "={{ $('prepare').item.json.lesson }}"
+            },
+            {
+              "name": "prompt",
+              "value": "={{ \n  JSON.stringify(`Act as an expert curriculum designer and instructional strategist. Your task is to take a lesson section and generate the final presentation slides based on the provided data.\n\nOptimize the content strictly using Cognitive Load Theory:\n\n1. Minimize Extraneous Load:\n   - Break complex ideas down. One core concept per slide.\n   - Brevity: Keep \"key_points\" punchy and strictly concise.\n\n2. Manage Intrinsic Load:\n   - Sequence logically: Hook -> Define Concept -> Analogy -> Examples -> Application.\n\n3. Maximize Germane Load:\n   - Provide clear, relatable examples and at least one \"non-example\" (what the concept is NOT) to build strong mental models.\n   - Ensure the image \"caption\" explicitly connects the visual to the core concept so students do not waste effort interpreting it.\n\nALWAYS OUTPUT ALL CONTENT IN ENGLISH (except for the 'thai_transcript' field), regardless of the language of the outline_context or rag_data.\n\nINPUT DATA:\nSECTION TO CONVERT: ${JSON.stringify($json.section)}\nOUTLINE CONTEXT: ${JSON.stringify($json.outline_context)}\nRAG DATA: ${JSON.stringify($json.rag_data)}`) \n}}"
+            },
+            {
+              "name": "lesson_id",
+              "value": "={{ $('prepare').item.json.lessonId }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -1360,
+        336
+      ],
+      "id": "81473171-49c3-4f00-bad6-1cb66b5b7ade",
+      "name": "SlideContentGenerator"
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "collection": "logs",
+        "fields": "=log_type,markdown,transcripts,sections,lesson_id,course_id",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        -944,
+        0
+      ],
+      "id": "c694c2d2-52af-4353-a09b-1ba608bdffd1",
+      "name": "Insert Log",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nfor (const item of $input.all()) {\n  item.json.myNewField = 1;\n    return {\n  \"log_type\": \"GENERATED_SLIDE\",\n  \"lesson_id\": $('prepare').first().json._id,\n  \"course_id\": $('prepare').first().json.courseId,\n  \"markdown\": item.json.markdown,\n  \"transcripts\": item.json.transcripts,\n  \"sections\": item.json.sections\n}\n}\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1168,
+        0
+      ],
+      "id": "97dc00ae-3080-40ed-b6ee-8dcda21d07c8",
+      "name": "EncodeLog"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -656,
+        992
+      ],
+      "id": "7a4f9290-19cf-43f6-ac9a-728442a45fda",
+      "name": "Loop",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "if ($('prepare').first().json.audioLanguage == 'THAI') {\n  return {\n    data: {\n      \"text\": $input.first().json.thai_transcript,\n      \"model\": \"gemini\",\n      \"voice\": \"default\"\n    }\n  }\n} \n\nreturn {\n  data: {\n    \"text\": $input.first().json.transcript,\n    \"model\": \"kokoro\",\n    \"voice\": \"default\",\n    \"speed\": 1.0,\n    \"language\": \"a\"\n  }\n}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -352,
+        1008
+      ],
+      "id": "0b7b53cc-bc42-4d47-88ac-d778d130a433",
+      "name": "Code in JavaScript"
+    }
+  ],
+  "connections": {
+    "GenerateSlide": {
+      "main": [
+        [
+          {
+            "node": "Slide Upload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GenerateVoice": {
+      "main": [
+        [
+          {
+            "node": "Audio Upload",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "GetDataFromRAG",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Audio Upload": {
+      "main": [
+        [
+          {
+            "node": "Loop",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Slide Upload": {
+      "main": [
+        [
+          {
+            "node": "PrepareUpdateLessonSlide",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript2": {
+      "main": [
+        [
+          {
+            "node": "Update documents1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PrepareUpdateLessonSlide": {
+      "main": [
+        [
+          {
+            "node": "Update documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Respond to Webhook": {
+      "main": [
+        [
+          {
+            "node": "SlideContentOrchestrator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GenerateSlidePPTX": {
+      "main": [
+        [
+          {
+            "node": "PPTXUpload",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "GenerateSlide",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PPTXUpload": {
+      "main": [
+        [
+          {
+            "node": "PrepareUpdateLessonSlide1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PrepareUpdateLessonSlide1": {
+      "main": [
+        [
+          {
+            "node": "Update documents2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GetDataFromRAG": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "prepare",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "prepare": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Update content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Output": {
+      "main": [
+        [
+          {
+            "node": "SlideContentGenerator",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SlideContentOrchestrator": {
+      "main": [
+        [
+          {
+            "node": "Parse Output",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SlideContentGenerator": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "EncodeLog",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "GenerateSlide",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "GenerateSlidePPTX",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "EncodeLog": {
+      "main": [
+        [
+          {
+            "node": "Insert Log",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript2",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "GenerateVoice",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "dacf661d18952437dcd120ba832369f336608e51c4a96e821e930948a4d1e07e"
+  },
+  "pinData": {},
+  "versionId": "a83ece46-f838-4574-9cd1-7cb783b959ac",
+  "activeVersionId": "a83ece46-f838-4574-9cd1-7cb783b959ac",
+  "versionCounter": 268,
+  "triggerCount": 1,
+  "tags": [],
+  "versionMetadata": {
+    "name": "Version 36758dae",
+    "description": ""
+  }
+}

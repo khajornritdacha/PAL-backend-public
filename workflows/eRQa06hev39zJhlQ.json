@@ -1,0 +1,190 @@
+{
+  "updatedAt": "2026-04-01T11:29:12.633Z",
+  "createdAt": "2026-03-27T05:37:16.496Z",
+  "id": "eRQa06hev39zJhlQ",
+  "name": "CRUDLesson",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "collection": "lessons",
+        "options": {},
+        "query": "={ \"lessonId\": \"{{ $json._id }}\" }"
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "0aa7e904-e20d-45bb-83a3-66f54f5ff906",
+      "name": "Find documents",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0ec37572-9abd-4d18-afdb-c2a8e55ae6cb",
+              "name": "_id",
+              "value": "={{ $json.params.lessonId }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "1a3b000e-1ff9-4e89-b05a-bf7a3fd259ad",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "collection": "lessons",
+        "updateKey": "lessonId",
+        "fields": "={{ Object.keys($json).filter(k => k !== 'lessonId').join(',') }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        432,
+        208
+      ],
+      "id": "48055573-8b93-4d73-b5d1-94fac19fb6a8",
+      "name": "Update documents",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "path": "lessons/:lessonId",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "ed8e0844-793a-4505-9e33-1f92a67023a6",
+      "name": "GetOneLesson",
+      "webhookId": "a7d64218-010b-4ff0-a255-3ea4f9d23c26"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nconst body = $input.first().json.body;\nconst params = $input.first().json.params;\n\nconst updateFields = {};\n\nupdateFields.lessonId = params.lessonId;\nif (body.status !== undefined) updateFields.status = body.status;\nif (body.slide_URL !== undefined) updateFields.slide_URL = body.slide_URL;\nif (body.audio_URLs !== undefined) updateFields.audio_URLs = body.audio_URLs;\n\nreturn [{ json: updateFields }];\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        224,
+        208
+      ],
+      "id": "15dc5a58-8b37-4efc-82fe-e848ce7d3e83",
+      "name": "Mapping"
+    },
+    {
+      "parameters": {
+        "httpMethod": "PATCH",
+        "path": "lessons/:lessonId",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        16,
+        208
+      ],
+      "id": "7a40ac89-333b-454b-a40c-9b847618b3d2",
+      "name": "PatchLesson",
+      "webhookId": "c2c79d4b-b56d-4fdc-8aba-96e34d5f2a13"
+    }
+  ],
+  "connections": {
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Find documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "GetOneLesson": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mapping": {
+      "main": [
+        [
+          {
+            "node": "Update documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PatchLesson": {
+      "main": [
+        [
+          {
+            "node": "Mapping",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "7359c0c217c2f2526bf0a6c46f4839c44f96a0005dca2af79edc19e6ed7703f7"
+  },
+  "pinData": {},
+  "versionId": "ed2e4f56-1985-4c9a-b3fa-271ffc64db24",
+  "activeVersionId": "ed2e4f56-1985-4c9a-b3fa-271ffc64db24",
+  "versionCounter": 24,
+  "triggerCount": 2,
+  "tags": [],
+  "versionMetadata": {
+    "name": "Version 0d293cd1",
+    "description": ""
+  }
+}

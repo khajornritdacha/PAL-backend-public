@@ -1,0 +1,11 @@
+.env
+.DS_Store
+n8n_data/
+.venv/
+**/__pycache__/
+capstone-llm-service
+capstone-llm-service.exe
+local
+
+#n8n credential
+/workflows/credentials

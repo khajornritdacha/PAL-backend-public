@@ -1,0 +1,206 @@
+{
+  "updatedAt": "2026-05-04T09:14:35.585Z",
+  "createdAt": "2026-03-27T05:37:16.533Z",
+  "id": "sy1hBLNjUQDjHcVm",
+  "name": "async-generate-exercise",
+  "description": null,
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "async-generate-exercise",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d0315c10-91e2-4b51-8f75-08f440941cb6",
+      "name": "Webhook",
+      "webhookId": "2371ee90-5f18-43e6-8521-50d21e6fa010"
+    },
+    {
+      "parameters": {
+        "collection": "lessons",
+        "options": {
+          "projection": "{\n  \"content\": true\n}"
+        },
+        "query": "={\n  \"lessonId\": \"{{ $json.body.lessonId }}\"\n}"
+      },
+      "type": "n8n-nodes-base.mongoDb",
+      "typeVersion": 1.2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "4fcc1ab8-f0e9-4511-beb5-28b603340a0c",
+      "name": "Find documents",
+      "credentials": {
+        "mongoDb": {
+          "id": "pWePL90dwTVGzXVd",
+          "name": "MongoDB account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "let raw = $input.first().json.data\n\n// remove surrounding quotes if present\nif (raw.startsWith('\"') && raw.endsWith('\"')) {\n  raw = JSON.parse(raw);\n}\n\n// remove markdown code blocks\nraw = raw.replace(/```json/g, '').replace(/```/g, '').trim();\n\nconst parsed = JSON.parse(raw);\n\nreturn [{ output: parsed }]\n// return [{ json: parsed }];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        672,
+        0
+      ],
+      "id": "96f31c80-2c97-483c-9781-72f28571c90f",
+      "name": "Remove json```"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://llm-service:8080/chat",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {}
+          ]
+        },
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "cunet_id",
+              "value": "REPLACE_WITH_CUNET_ID"
+            },
+            {
+              "name": "messages",
+              "value": "={{ JSON.stringify([\n  {\n    role: \"user\",\n    content: `Act as an expert instructional designer specializing in application-based learning.\n\nYou are given a list of slides in the following format:\n[\n  {\n    \"title\": string,\n    \"content\": [\n      {\n        \"bullet\": string,\n        \"sub_points\": string[]\n      }\n    ]\n  }\n]\n\nInterpretation rules:\n- Each slide represents a topic.\n- Each \"bullet\" is a key concept.\n- Each \"sub_points\" item is a supporting explanation or detail.\n- You MUST use BOTH bullet and sub_points when generating questions.\n\nYour task is to generate exercises that emphasize APPLYING knowledge, not memorizing it.\n\nRequirements:\n- Generate EXACTLY 10 questions (no more, no less).\n- Cover multiple slides.\n- At least 70% must be application-based (scenarios, reasoning, decision-making).\n\nAvoid:\n- Definition-only questions\n- Copying text directly from slides\n- Trivial or obvious questions\n\nQuestion format:\n- Multiple choice:\n  - Prefer 4 choices\n  - Use 2 choices ONLY for True/False when appropriate\n\nCHOICE FORMAT (STRICT):\n- Each choice MUST be prefixed in order:\n  - \"A) ...\"\n  - \"B) ...\"\n  - \"C) ...\"\n  - \"D) ...\"\n- For True/False:\n  - \"A) True\"\n  - \"B) False\"\n\nCRITICAL RULES:\n- Choices MUST be in correct alphabetical order.\n- Do NOT skip letters.\n- Prefix MUST be included in each choice string.\n- \"correctAnswer\" MUST be ONLY ONE LETTER: \"A\", \"B\", \"C\", or \"D\"\n- The letter MUST correspond to the correct choice.\n\nDifficulty distribution (for variation only, NOT scoring):\n- Easy (~20%)\n- Medium (~50%)\n- Hard (~30%)\n\nScoring rule:\n- EVERY question MUST have \"score\": 1\n\nOutput format (STRICT JSON, no explanation, no markdown):\n\n{\n  \"questions\": [\n    {\n      \"number\": 1,\n      \"question\": \"string\",\n      \"choices\": [\"A) ...\", \"B) ...\", \"C) ...\", \"D) ...\"],\n      \"correctAnswer\": \"A\",\n      \"score\": 1\n    }\n  ]\n}\n\nRules:\n- \"number\" starts from 1 and increments.\n- Ensure the correct letter matches the correct choice.\n- Ensure all distractors are plausible.\n- Return ONLY valid JSON.\n- Do NOT include explanations or extra text.\n\nNow generate application-focused exercises from this slide content:\n\\ \n\n${JSON.stringify($json.content)} \n\n`\n  },\n]) }}\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        448,
+        0
+      ],
+      "id": "33d831d3-4438-424b-be01-262842f7a1f2",
+      "name": "LLM exercise"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"output\": {{ $json.output }}\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        896,
+        0
+      ],
+      "id": "a20b068c-a758-404c-aad6-777775be7b62",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"questions\": {{ $json.output.questions }},\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1104,
+        0
+      ],
+      "id": "12313b74-4dc5-4e0d-bb3d-aee51c3d5962",
+      "name": "Select questions"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Find documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find documents": {
+      "main": [
+        [
+          {
+            "node": "LLM exercise",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Remove json```": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM exercise": {
+      "main": [
+        [
+          {
+            "node": "Remove json```",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Select questions",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "7359c0c217c2f2526bf0a6c46f4839c44f96a0005dca2af79edc19e6ed7703f7"
+  },
+  "pinData": {},
+  "versionId": "634b69e5-9754-40c4-b455-7ec7ffa85b4b",
+  "activeVersionId": "634b69e5-9754-40c4-b455-7ec7ffa85b4b",
+  "versionCounter": 45,
+  "triggerCount": 1,
+  "tags": [],
+  "versionMetadata": {
+    "name": "Version 634b69e5",
+    "description": ""
+  }
+}

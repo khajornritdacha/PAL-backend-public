@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-03-27T05:37:16.530Z",
+  "createdAt": "2026-03-27T05:37:16.530Z",
+  "id": "QvYhcP6RQoBt3XjThaE8e",
+  "name": "S3Read",
+  "description": null,
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "dfca828f-3ff7-46df-8223-20670f4ebaf4",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "bucketName": "capstone-ai-education",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.awsS3",
+      "typeVersion": 2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "3b0400cc-91fd-4730-8c4d-4b89c40929e9",
+      "name": "Get many files",
+      "credentials": {
+        "aws": {
+          "id": "dxBCP5LgruhUqTMg",
+          "name": "AWS (IAM) account"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get many files",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "2f455c3b076788e6fa0cc0b037936bc00f41f746465bd84b64312c4c01bcdf7d"
+  },
+  "pinData": {},
+  "versionId": "fe08b527-a6e0-4b8d-81ad-ec6fb27f0a8d",
+  "activeVersionId": null,
+  "versionCounter": 8,
+  "triggerCount": 0,
+  "tags": [],
+  "versionMetadata": {
+    "name": null,
+    "description": null
+  }
+}
